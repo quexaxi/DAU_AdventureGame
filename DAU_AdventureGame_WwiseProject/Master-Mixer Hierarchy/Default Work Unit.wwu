@@ -4,11 +4,108 @@
 		<WorkUnit Name="Default Work Unit" ID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{EDD43009-A86A-41B1-8ECE-104A89629D47}" WorkUnitID="{6E0E7DB0-316E-48AF-8E67-371BFD9D1851}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="AMB_Master" ID="{7DCBDAC6-5CAD-44AC-B54F-63D6860C775E}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="AMB_Beds" ID="{D714EE64-07CD-4826-917D-DF4D5FCAB905}"/>
+							</ChildrenList>
+						</Bus>
+						<AuxBus Name="Reverbs_AUX" ID="{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<AuxBus Name="Rev_Forest" ID="{4A07DD45-9B83-42D7-AFAC-9685B0647E61}"/>
+								<AuxBus Name="Rev_Temple" ID="{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}"/>
+							</ChildrenList>
+						</AuxBus>
+						<Bus Name="SFX_Master" ID="{7B709ABD-1B63-490D-940F-9BDCF7C5B00E}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="11"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="NPC_Master" ID="{B7DA418B-0B11-4E82-8034-D984FB5F70C6}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="12"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="NPC_Combat" ID="{8392C1FC-D5BE-4791-90D3-C2F8F221360A}">
+											<ChildrenList>
+												<Bus Name="NPC_Attack" ID="{778AD61D-0220-4B9C-93A6-1039EBF2F4EB}"/>
+												<Bus Name="NPC_Damage" ID="{A30EC164-527F-46C9-B9C3-A8D88EE41095}"/>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Player_Master" ID="{4CD7B20E-9F08-4083-BAE5-E74081E91E90}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="Player_Locomotion" ID="{62073232-C1FE-485D-8C4F-671DC960991D}">
+											<ChildrenList>
+												<Bus Name="Player_Jump" ID="{563DCF51-45B6-45FA-94B2-241A03C614A8}"/>
+												<Bus Name="Player_Land" ID="{CD78AC44-C36A-4302-B80F-097AFB92BE58}"/>
+												<Bus Name="Player_Roll" ID="{D6478FAF-D23A-40B6-A2D2-96AE35394903}"/>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Player_Footsteps" ID="{B358B667-7572-4333-9635-773C4319FE2A}"/>
+										<Bus Name="Player_Combat" ID="{503DA485-E6CF-4A1C-9F6D-C8107D71296E}">
+											<ChildrenList>
+												<Bus Name="Player_Attack" ID="{2BEC3150-4E03-413D-B181-7CAE4282B1AA}"/>
+												<Bus Name="Player_Damage" ID="{5F09CD2D-5565-4F2C-A547-497EB33A4C00}"/>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="World_Master" ID="{D2EE225A-FADF-43E8-BF84-CCB55DE740D9}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="World_Doors" ID="{A423B904-5F20-4887-A733-E4810CC7038A}"/>
+										<Bus Name="World_Stones" ID="{E9C4B0B2-D300-476B-9E1C-884245D9D26C}"/>
+										<Bus Name="World_Fish" ID="{FB873078-F8A1-4DAA-BEE2-E85229657272}"/>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="UI_Master" ID="{C2440AB2-DD4A-40C3-92C5-740D474F3A3E}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="23"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="UI_Click" ID="{9A4C02F3-36D7-42A2-80AE-3E607437C5FF}"/>
+										<Bus Name="UI_Confirm" ID="{2B3ED74C-9C14-48D3-BE82-3A2D26B82329}"/>
+										<Bus Name="UI_Back" ID="{45912553-E4D1-4CD4-B559-F4ED1001E2A2}"/>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Music_Master" ID="{0E86956F-7235-4FA4-A5C8-01B3F8C7D1D0}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="14"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

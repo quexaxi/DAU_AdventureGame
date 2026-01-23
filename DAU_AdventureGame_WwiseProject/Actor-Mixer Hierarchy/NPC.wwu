@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{126FAAC0-B189-4A1A-B91E-48E11E461549}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="NPC" ID="{126FAAC0-B189-4A1A-B91E-48E11E461549}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="NPC_Movement" ID="{7371999A-7336-465C-8478-B75BED282ABB}" ShortID="130941216">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="NPC_Footsteps" ID="{13DC46CA-CEEC-4611-9CD1-BE4FAA7E7DD3}" ShortID="13668">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="NPC_Footstep_Dirt" ID="{B04BA17B-7FD7-484D-8D28-30A39D2AA01A}" ShortID="414764422">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="NPC_Footstep_Dirt" ID="{B04BA17B-7FD7-484D-8D28-30A39D2AA01A}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="NPC_Combat" ID="{ADF3A278-7291-451F-875B-0F6D5FF5081D}" ShortID="976060806">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="NPC_Attack" ID="{473B209F-CFC4-4F6E-A6A9-3F4593DA703E}" ShortID="686525616">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="NPC_Damage" ID="{63D05331-3F05-4A24-A580-F3029268FD3F}" ShortID="853798536">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="NPC_Death" ID="{4D47DFB5-BDA5-4E4B-83D6-6D861058DB46}" ShortID="42266064">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FinalBoss_Attack" ID="{D5409DEC-7858-4DAB-A80D-120CFB650513}" ShortID="172184593">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
