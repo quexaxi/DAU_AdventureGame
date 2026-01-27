@@ -9,10 +9,6 @@ namespace Gamekit3D
     [RequireComponent(typeof(Animator))]
     public class PlayerController : MonoBehaviour, IMessageReceiver
     {
-        //Wwise
-        [SerializeField]
-        public AK.Wwise.Event ww_FootstepEvent;
-
         protected static PlayerController s_Instance;
         public static PlayerController instance { get { return s_Instance; } }
 
@@ -681,11 +677,6 @@ namespace Gamekit3D
             m_VerticalSpeed = 0f;
             m_Respawning = true;
             m_Damageable.isInvulnerable = true;
-        }
-
-        public void Ww_PlayFootstepSound()
-        {
-            ww_FootstepEvent.Post(gameObject);
         }
     }
 }
