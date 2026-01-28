@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A57EDC93-18A5-4E9C-83EB-3376599056FD}" SchemaVersion="123">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{A57EDC93-18A5-4E9C-83EB-3376599056FD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A57EDC93-18A5-4E9C-83EB-3376599056FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="GroundMaterialSwitch" ID="{19B5AF97-0961-4FBC-AFF9-BF06C60DA2A3}">
+					<ChildrenList>
+						<Switch Name="Dirt" ID="{62E18F48-F7FA-4801-A88A-7A1F968E2AEC}"/>
+						<Switch Name="Grass" ID="{83EA234F-A611-456E-94DB-B0740C5984F6}"/>
+						<Switch Name="Stone" ID="{DC02AB6B-9E51-41B8-BCCC-970DFA8DF552}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="PlayerSpeedSwitch" ID="{238DAA66-5B9C-4E88-9609-BF8F11C3C580}">
+					<ChildrenList>
+						<Switch Name="Walk" ID="{FCAD8291-A623-4EDC-BF44-40D5BFA8F801}"/>
+						<Switch Name="Run" ID="{56320CC3-0E05-4B7C-BBEA-5ACFE47FD4B4}"/>
+						<Switch Name="Jump" ID="{C1549CCB-4CBE-448E-BBD1-ECE8283874C4}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="PlayerHealth" ID="{46413291-4A9F-4F59-8C1D-6FCA0068AB77}">
+					<ChildrenList>
+						<Switch Name="FullHealth" ID="{0AAC2D28-E445-441C-9B80-C0156D02740E}"/>
+						<Switch Name="LowHealth" ID="{C0FB8B87-B573-4D1B-86FE-2CC098FEF1ED}"/>
+						<Switch Name="NearDeath" ID="{C044D646-13F2-459F-9E83-27DAAB0F2323}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

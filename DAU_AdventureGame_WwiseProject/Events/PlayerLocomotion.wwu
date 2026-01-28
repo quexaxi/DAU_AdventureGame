@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3B83AA82-84E3-4B7F-8604-CA85F7B68D8E}" SchemaVersion="123" RootDocumentID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}" ParentDocumentID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}">
+	<Events>
+		<WorkUnit Name="PlayerLocomotion" ID="{3B83AA82-84E3-4B7F-8604-CA85F7B68D8E}" OwnerID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Player_Footsteps" ID="{B1F7EC8D-A79A-4650-B7A6-2E9B58848145}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

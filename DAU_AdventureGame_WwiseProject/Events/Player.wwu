@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{50E83E40-87E1-4639-B60C-54FD51F94D02}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Player" ID="{50E83E40-87E1-4639-B60C-54FD51F94D02}" PersistMode="Standalone"/>
+		<WorkUnit Name="Player" ID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="PlayerLocomotion" ID="{3B83AA82-84E3-4B7F-8604-CA85F7B68D8E}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

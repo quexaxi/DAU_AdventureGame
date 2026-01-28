@@ -1,6 +1,372 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}" SchemaVersion="123">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Main_Music_Switch" ID="{632866C2-CB61-47CB-AF1E-361B88D857D1}" ShortID="795567712">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{9EBE3182-1F3A-41A5-9BC8-B343C6430019}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{51240F25-0E71-4D91-A645-7B2722BDD337}">
+											<PropertyList>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Music_Exploration" ID="{7B7B7014-9813-40E4-B320-4A594E7FC7F2}" ShortID="644468014">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{F8CA4D95-C163-414C-8CEA-C3D17BBD8F93}" ShortID="357037373"/>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{4C43E845-BE79-422A-AEFE-DC233699EEC4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{614B24EA-2A58-4272-916E-9DB77B8B080C}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Exploration_Loop" ID="{C9A25C13-6849-4B8E-B1D7-A0B98AE41BB4}" ShortID="720908548">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{ED407BA2-C2A1-4809-A5BE-75077B5C0C1B}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{57D5FCC7-FA77-41D8-9DA8-29C57184D4BD}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="MusicState" ID="{F714286F-C4F3-4B41-BED2-DDC496A95F31}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="FinalBoss" ID="{F1357C94-33B9-40C8-A519-FA2309A3E9BC}"/>
+										<CustomState Name="" ID="{96897524-769F-46EC-ADBD-74A0707E4038}" ShortID="599860537"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{4025E397-C4C3-4587-A10E-3AB9AA03E94A}"/>
+										<CustomState Name="" ID="{DB877A46-1595-460A-96E5-43A5F1258540}" ShortID="27879238"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Silence" ID="{B8DFB4D3-E289-47E4-91A3-44E60761A507}"/>
+										<CustomState Name="" ID="{D3C73C11-AE4A-47B0-8A57-C5D1927A0ABF}" ShortID="1029390490"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Exploration" ID="{0180C728-A311-4821-8CEB-A032B9BF122B}"/>
+										<CustomState Name="" ID="{23ED26E6-3390-4E2F-A674-E52955F876E7}" ShortID="434727664"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Temple" ID="{791E3DFA-B917-4A23-BA27-09DA2A45E68C}"/>
+										<CustomState Name="" ID="{23BC4918-B0EA-4A77-AF63-1F0D9ED771B9}" ShortID="429323310"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Music_Temple" ID="{03AFFFA9-3A5A-47BF-8896-9B4AA4A3E2D0}" ShortID="1071545595">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{D9686A66-AFB7-443B-BF13-D6988B1E441B}" ShortID="829462849"/>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{A46706F4-2DB7-4C38-9CFD-62DA16E9D782}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{8F25DF2D-7D64-4376-846E-E1DB71FB1581}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Temple_Loop" ID="{430031E9-42F0-48AB-BD9D-03AADCFDA23F}" ShortID="825609682">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{E4386248-729A-48F5-AC76-C9D9A5604033}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{1E17CCBE-666C-4EC9-A645-8526AE740A1A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="MusicState" ID="{F714286F-C4F3-4B41-BED2-DDC496A95F31}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="FinalBoss" ID="{F1357C94-33B9-40C8-A519-FA2309A3E9BC}"/>
+										<CustomState Name="" ID="{CDEC3A66-1A66-461F-8B1F-BBCD788B490C}" ShortID="1069942927"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{4025E397-C4C3-4587-A10E-3AB9AA03E94A}"/>
+										<CustomState Name="" ID="{C30BEB49-3EB8-4E5E-896B-63BBE665BAA4}" ShortID="1026675424"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Silence" ID="{B8DFB4D3-E289-47E4-91A3-44E60761A507}"/>
+										<CustomState Name="" ID="{EAC3D6C2-6741-47F3-B000-2801A0917840}" ShortID="1010375674"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Exploration" ID="{0180C728-A311-4821-8CEB-A032B9BF122B}"/>
+										<CustomState Name="" ID="{F5CDB1F4-4125-45B8-8A2F-7EC7157FD8A4}" ShortID="521953086"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Temple" ID="{791E3DFA-B917-4A23-BA27-09DA2A45E68C}"/>
+										<CustomState Name="" ID="{D2A1CC54-48B6-44E8-98B7-65BA50146AB9}" ShortID="245054136"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Music_Finalboss" ID="{3E641E47-796A-44D2-957D-B54E5C6DDCC5}" ShortID="144319027">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{5E50FFD9-12EC-43DA-8E21-9499C4035F7C}" ShortID="73210127"/>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{1DEA2156-BAA5-4B53-B480-6A5B8FD4F3D4}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{496D1313-7B9B-4A88-A1D6-AE1D25610E74}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Boss_Loop" ID="{A9F77D1A-929C-4600-BB1D-31B66F52C9DD}" ShortID="957346847">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{C4285034-FF15-4BCC-82D0-7FF2FD809984}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{69D90BA2-98B3-47F2-90BD-D61B78B050A2}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="MusicState" ID="{F714286F-C4F3-4B41-BED2-DDC496A95F31}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="FinalBoss" ID="{F1357C94-33B9-40C8-A519-FA2309A3E9BC}"/>
+										<CustomState Name="" ID="{4AE63921-8998-4FAF-8F3C-6867A671DB77}" ShortID="194060289"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{4025E397-C4C3-4587-A10E-3AB9AA03E94A}"/>
+										<CustomState Name="" ID="{6E62C0F9-7B6D-4CC3-B459-2D2B32B112C7}" ShortID="65877175"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Silence" ID="{B8DFB4D3-E289-47E4-91A3-44E60761A507}"/>
+										<CustomState Name="" ID="{44A05B0D-72F1-4B64-8DF8-C7273DDEE0DC}" ShortID="828276038"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Exploration" ID="{0180C728-A311-4821-8CEB-A032B9BF122B}"/>
+										<CustomState Name="" ID="{8EF90D87-2815-4937-84DB-2010C4D14B44}" ShortID="49619526"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Temple" ID="{791E3DFA-B917-4A23-BA27-09DA2A45E68C}"/>
+										<CustomState Name="" ID="{D98F3C88-D5A1-4494-B581-4FD21E3A7032}" ShortID="537153956"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Arguments">
+							<Reference>
+								<ObjectRef Name="MusicState" ID="{F714286F-C4F3-4B41-BED2-DDC496A95F31}" WorkUnitID="{0AF0D525-9F35-4515-A320-723C8569887E}"/>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="Entries">
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{DE298605-C1BF-477E-B1AF-88C4520AB9EA}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Exploration_Loop" ID="{C9A25C13-6849-4B8E-B1D7-A0B98AE41BB4}" WorkUnitID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Exploration" ID="{0180C728-A311-4821-8CEB-A032B9BF122B}" WorkUnitID="{0AF0D525-9F35-4515-A320-723C8569887E}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{0B17C670-486F-4DE3-A10F-CE0EED90430E}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Boss_Loop" ID="{A9F77D1A-929C-4600-BB1D-31B66F52C9DD}" WorkUnitID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="FinalBoss" ID="{F1357C94-33B9-40C8-A519-FA2309A3E9BC}" WorkUnitID="{0AF0D525-9F35-4515-A320-723C8569887E}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{18BB8462-CB8A-4B3F-97F2-4383F7F53B0F}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Temple_Loop" ID="{430031E9-42F0-48AB-BD9D-03AADCFDA23F}" WorkUnitID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="Temple" ID="{791E3DFA-B917-4A23-BA27-09DA2A45E68C}" WorkUnitID="{0AF0D525-9F35-4515-A320-723C8569887E}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
