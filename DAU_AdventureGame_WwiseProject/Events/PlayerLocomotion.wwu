@@ -3,7 +3,31 @@
 	<Events>
 		<WorkUnit Name="PlayerLocomotion" ID="{3B83AA82-84E3-4B7F-8604-CA85F7B68D8E}" OwnerID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Play_Player_Footsteps" ID="{B1F7EC8D-A79A-4650-B7A6-2E9B58848145}"/>
+				<Event Name="Play_Player_Footsteps" ID="{B1F7EC8D-A79A-4650-B7A6-2E9B58848145}">
+					<ChildrenList>
+						<Action Name="" ID="{37A42865-372F-4916-BD8A-A778A89F6EE0}" ShortID="577712824">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Footstep_Dirt" ID="{086F9588-8858-4D06-96CD-53DB7423270E}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C61A1D78-88E1-4783-96CB-F1905B75785D}" ShortID="570417426">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Footstep_Grass" ID="{DED0DE0F-5B42-461E-8DC4-A8A43CAFA67F}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{245F346C-F2FF-458B-8A08-937584FF90E2}" ShortID="963114895">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Footstep_Stone" ID="{A25C34C2-0173-40C6-9777-95EAEDB8241D}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
