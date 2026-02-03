@@ -420,6 +420,36 @@
       ]
      },
      {
+      "Id": "1681012287",
+      "Name": "PlayerFootsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps",
+      "GUID": "{B2642F3A-89A8-4FE6-BCC2-D730DA60276A}",
+      "Color": "4",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Stone",
+        "GUID": "{593E332C-64AD-484E-9DF1-1FCC27C66E73}",
+        "Color": "4"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Dirt",
+        "GUID": "{323A5A26-5B0D-4035-BAF7-001DD52DFD70}",
+        "Color": "4"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Grass",
+        "GUID": "{6E6FA05D-2E6B-437F-934F-B816327F7E08}",
+        "Color": "4"
+       }
+      ]
+     },
+     {
       "Id": "2051106367",
       "Name": "PlayerSpeedSwitch",
       "ObjectPath": "\\Switches\\Default Work Unit\\PlayerSpeedSwitch",
@@ -448,6 +478,6 @@
     ]
    }
   ],
-  "FileHash": "{E4D54078-4B8D-1E07-6762-5C5838DD4A64}"
+  "FileHash": "{6C90031D-EECD-4171-99DA-C8A17DD1C4C0}"
  }
 }

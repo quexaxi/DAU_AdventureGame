@@ -1,6 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
 	98439365	Play_Player_Footsteps			\Player\PlayerLocomotion\Play_Player_Footsteps	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1681012287	PlayerFootsteps			\Default Work Unit\PlayerFootsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	PlayerFootsteps			
+	2195636714	Dirt	PlayerFootsteps			
+	4248645337	Grass	PlayerFootsteps			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	19017698	SFX_Ellen_Footstep_Grass_02	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\A0\{A0D37CBC-F6C1-292E-6E33-E6C7842C30C3}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_02		95680
 	86784534	SFX_Ellen_Footstep_Stone_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\D7\{D7080846-551C-6E95-7DA2-80A00517888A}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_01		67888

@@ -24,6 +24,17 @@
 						<Switch Name="NearDeath" ID="{C044D646-13F2-459F-9E83-27DAAB0F2323}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="PlayerFootsteps" ID="{B2642F3A-89A8-4FE6-BCC2-D730DA60276A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Dirt" ID="{323A5A26-5B0D-4035-BAF7-001DD52DFD70}"/>
+						<Switch Name="Grass" ID="{6E6FA05D-2E6B-437F-934F-B816327F7E08}"/>
+						<Switch Name="Stone" ID="{593E332C-64AD-484E-9DF1-1FCC27C66E73}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
