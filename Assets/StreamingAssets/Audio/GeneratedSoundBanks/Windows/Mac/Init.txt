@@ -1,0 +1,52 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Default Work Unit\MusicState	
+	1045871717	GameStatus			\Default Work Unit\GameStatus	
+	2064552269	AreaState			\Default Work Unit\AreaState	
+	3285234865	PlayerState			\Default Work Unit\PlayerState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicState			
+	2147352708	FinalBoss	MusicState			
+	2323193050	Temple	MusicState			
+	2582085496	Exploration	MusicState			
+	3041563226	Silence	MusicState			
+	748895195	None	GameStatus			
+	984691642	InGame	GameStatus			
+	3374585465	InMenu	GameStatus			
+	748895195	None	AreaState			
+	782826392	Default	AreaState			
+	2323193050	Temple	AreaState			
+	655265632	Alive	PlayerState			
+	748895195	None	PlayerState			
+	2044049779	Dead	PlayerState			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	213475909	SFX_Bus			\Default Work Unit\Master_Audio_Bus\SFX_Bus	
+	968010305	Props			\Default Work Unit\Master_Audio_Bus\SFX_Bus\World_Bus\Props	
+	1138681361	Player_Bus			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Player_Bus	
+	1191351487	VO_Bus			\Default Work Unit\Master_Audio_Bus\VO_Bus	
+	1229948536	Environment			\Default Work Unit\Master_Audio_Bus\SFX_Bus\World_Bus\Environment	
+	1375983526	Player_Locomotion			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Player_Bus\Player_Locomotion	
+	1730208058	Player_Footsteps			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Player_Bus\Player_Footsteps	
+	1737722166	AMB_Beds			\Default Work Unit\Master_Audio_Bus\AMB_Bus\AMB_Beds	
+	1836527144	World_Bus			\Default Work Unit\Master_Audio_Bus\SFX_Bus\World_Bus	
+	2074073782	Player_Damage			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Player_Bus\Player_Combat\Player_Damage	
+	2392784291	Master_Audio_Bus			\Default Work Unit\Master_Audio_Bus	
+	2411464625	NPC_Combat			\Default Work Unit\Master_Audio_Bus\SFX_Bus\NPC_Bus\NPC_Combat	
+	2665470225	Player_Combat			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Player_Bus\Player_Combat	
+	2680856269	Music_Bus			\Default Work Unit\Master_Audio_Bus\Music_Bus	
+	2824512041	Player_Attack			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Player_Bus\Player_Combat\Player_Attack	
+	3247222208	UI_Bus			\Default Work Unit\Master_Audio_Bus\UI_Bus	
+	3319158528	AMB_Bus			\Default Work Unit\Master_Audio_Bus\AMB_Bus	
+	3319244337	NPC_Bus			\Default Work Unit\Master_Audio_Bus\SFX_Bus\NPC_Bus	
+	4015094827	Mechanisms			\Default Work Unit\Master_Audio_Bus\SFX_Bus\World_Bus\Mechanisms	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	472728108	Rev_Temple			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_Temple	
+	3910197480	Rev_Forest			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_Forest	
+	4148005607	Reverbs_AUX			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

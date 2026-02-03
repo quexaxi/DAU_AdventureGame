@@ -1,0 +1,686 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "RootPaths": {
+   "ProjectRoot": "../../../../../../DAU_AdventureGame_WwiseProject",
+   "SourceFilesRoot": "../../../../../../DAU_AdventureGame_WwiseProject/.cache",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "../../../../../../DAU_AdventureGame_WwiseProject/GeneratedSoundBanks/Windows"
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "152968626",
+    "Type": "User",
+    "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
+    "Language": "SFX",
+    "Hash": "{5FAFA0C9-82B0-30C4-F8AD-4CADAF41C2CF}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
+    "ShortName": "SB_Main",
+    "Path": "SB_Main.bnk",
+    "Events": [
+     {
+      "Id": "1724675634",
+      "Name": "Play_Player_Footstep",
+      "ObjectPath": "\\Events\\Player\\PlayerLocomotion\\Play_Player_Footstep",
+      "GUID": "{B1F7EC8D-A79A-4650-B7A6-2E9B58848145}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1681012287",
+      "Name": "PlayerFootsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps",
+      "GUID": "{B2642F3A-89A8-4FE6-BCC2-D730DA60276A}",
+      "Color": "4",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Stone",
+        "GUID": "{593E332C-64AD-484E-9DF1-1FCC27C66E73}",
+        "Color": "4"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Dirt",
+        "GUID": "{323A5A26-5B0D-4035-BAF7-001DD52DFD70}",
+        "Color": "4"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Grass",
+        "GUID": "{6E6FA05D-2E6B-437F-934F-B816327F7E08}",
+        "Color": "4"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "472728108",
+    "Type": "Bus",
+    "GUID": "{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}",
+    "Language": "SFX",
+    "Hash": "{A93E090C-3DF8-AD40-C350-035F8AFABFE4}",
+    "ObjectPath": "Rev_Temple",
+    "ShortName": "Rev_Temple",
+    "Path": "Bus/47/Rev_Temple.bnk",
+    "AuxBusses": [
+     {
+      "Id": "472728108",
+      "Name": "Rev_Temple",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Temple",
+      "GUID": "{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}",
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "4148005607",
+        "Name": "Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+        "Color": "2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{CB16D87A-1033-7CC0-F438-1943A1E37B5E}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{588376CB-F273-4F0C-8BCE-35053022050B}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{EDD43009-A86A-41B1-8ECE-104A89629D47}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "213475909",
+      "Name": "SFX_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus",
+      "GUID": "{7B709ABD-1B63-490D-940F-9BDCF7C5B00E}",
+      "Color": "11"
+     },
+     {
+      "Id": "968010305",
+      "Name": "Props",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\World_Bus\\Props",
+      "GUID": "{A423B904-5F20-4887-A733-E4810CC7038A}",
+      "Color": "21"
+     },
+     {
+      "Id": "1138681361",
+      "Name": "Player_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus",
+      "GUID": "{4CD7B20E-9F08-4083-BAE5-E74081E91E90}",
+      "Color": "24"
+     },
+     {
+      "Id": "1191351487",
+      "Name": "VO_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\VO_Bus",
+      "GUID": "{83644DF5-0837-49BA-94D7-DC7B29280A63}",
+      "Color": "18"
+     },
+     {
+      "Id": "1229948536",
+      "Name": "Environment",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\World_Bus\\Environment",
+      "GUID": "{E9C4B0B2-D300-476B-9E1C-884245D9D26C}",
+      "Color": "21"
+     },
+     {
+      "Id": "1375983526",
+      "Name": "Player_Locomotion",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Locomotion",
+      "GUID": "{62073232-C1FE-485D-8C4F-671DC960991D}",
+      "Color": "24"
+     },
+     {
+      "Id": "1730208058",
+      "Name": "Player_Footsteps",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Footsteps",
+      "GUID": "{B358B667-7572-4333-9635-773C4319FE2A}",
+      "Color": "24"
+     },
+     {
+      "Id": "1737722166",
+      "Name": "AMB_Beds",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\AMB_Bus\\AMB_Beds",
+      "GUID": "{D714EE64-07CD-4826-917D-DF4D5FCAB905}",
+      "Color": "4"
+     },
+     {
+      "Id": "1836527144",
+      "Name": "World_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\World_Bus",
+      "GUID": "{D2EE225A-FADF-43E8-BF84-CCB55DE740D9}",
+      "Color": "21"
+     },
+     {
+      "Id": "2074073782",
+      "Name": "Player_Damage",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Combat\\Player_Damage",
+      "GUID": "{5F09CD2D-5565-4F2C-A547-497EB33A4C00}",
+      "Color": "24"
+     },
+     {
+      "Id": "2392784291",
+      "Name": "Master_Audio_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
+      "Color": "10"
+     },
+     {
+      "Id": "2411464625",
+      "Name": "NPC_Combat",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\NPC_Bus\\NPC_Combat",
+      "GUID": "{8392C1FC-D5BE-4791-90D3-C2F8F221360A}",
+      "Color": "12"
+     },
+     {
+      "Id": "2665470225",
+      "Name": "Player_Combat",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Combat",
+      "GUID": "{503DA485-E6CF-4A1C-9F6D-C8107D71296E}",
+      "Color": "24"
+     },
+     {
+      "Id": "2680856269",
+      "Name": "Music_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Music_Bus",
+      "GUID": "{0E86956F-7235-4FA4-A5C8-01B3F8C7D1D0}",
+      "Color": "14"
+     },
+     {
+      "Id": "2824512041",
+      "Name": "Player_Attack",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Combat\\Player_Attack",
+      "GUID": "{2BEC3150-4E03-413D-B181-7CAE4282B1AA}",
+      "Color": "24"
+     },
+     {
+      "Id": "3247222208",
+      "Name": "UI_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\UI_Bus",
+      "GUID": "{C2440AB2-DD4A-40C3-92C5-740D474F3A3E}",
+      "Color": "23"
+     },
+     {
+      "Id": "3319158528",
+      "Name": "AMB_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\AMB_Bus",
+      "GUID": "{7DCBDAC6-5CAD-44AC-B54F-63D6860C775E}",
+      "Color": "4"
+     },
+     {
+      "Id": "3319244337",
+      "Name": "NPC_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\NPC_Bus",
+      "GUID": "{B7DA418B-0B11-4E82-8034-D984FB5F70C6}",
+      "Color": "12"
+     },
+     {
+      "Id": "4015094827",
+      "Name": "Mechanisms",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\World_Bus\\Mechanisms",
+      "GUID": "{FB873078-F8A1-4DAA-BEE2-E85229657272}",
+      "Color": "21"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "472728108",
+      "Name": "Rev_Temple",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Temple",
+      "GUID": "{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}",
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "4148005607",
+        "Name": "Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+        "Color": "2"
+       }
+      ]
+     },
+     {
+      "Id": "3910197480",
+      "Name": "Rev_Forest",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Forest",
+      "GUID": "{4A07DD45-9B83-42D7-AFAC-9685B0647E61}",
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "4148005607",
+        "Name": "Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+        "Color": "2"
+       }
+      ]
+     },
+     {
+      "Id": "4148005607",
+      "Name": "Reverbs_AUX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+      "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+      "Color": "2"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "262290038",
+      "Name": "RTPC_Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_Distance",
+      "GUID": "{30AB1DC2-EE39-4297-A37E-E6A50049A7D6}"
+     },
+     {
+      "Id": "2653406601",
+      "Name": "RTPC_PlayerSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_PlayerSpeed",
+      "GUID": "{8C0A9834-0157-4CBB-8EC6-FA70E2657EF5}"
+     },
+     {
+      "Id": "4085892778",
+      "Name": "RTPC_PuzzleProgress",
+      "ObjectPath": "\\Game Parameters\\RTPC_Puzzle\\RTPC_PuzzleProgress",
+      "GUID": "{D6D3AB7E-644B-43D4-A6A4-9FBAE32A4958}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1021618141",
+      "Name": "MusicState",
+      "ObjectPath": "\\States\\Default Work Unit\\MusicState",
+      "GUID": "{F714286F-C4F3-4B41-BED2-DDC496A95F31}",
+      "Color": "12",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\None",
+        "GUID": "{4025E397-C4C3-4587-A10E-3AB9AA03E94A}",
+        "Color": "12"
+       },
+       {
+        "Id": "2147352708",
+        "Name": "FinalBoss",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\FinalBoss",
+        "GUID": "{F1357C94-33B9-40C8-A519-FA2309A3E9BC}",
+        "Color": "12"
+       },
+       {
+        "Id": "2323193050",
+        "Name": "Temple",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Temple",
+        "GUID": "{791E3DFA-B917-4A23-BA27-09DA2A45E68C}",
+        "Color": "12"
+       },
+       {
+        "Id": "2582085496",
+        "Name": "Exploration",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Exploration",
+        "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
+        "Color": "12"
+       },
+       {
+        "Id": "3041563226",
+        "Name": "Silence",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Silence",
+        "GUID": "{B8DFB4D3-E289-47E4-91A3-44E60761A507}",
+        "Color": "12"
+       }
+      ]
+     },
+     {
+      "Id": "1045871717",
+      "Name": "GameStatus",
+      "ObjectPath": "\\States\\Default Work Unit\\GameStatus",
+      "GUID": "{830E284B-0B92-4381-B91F-204F58465E63}",
+      "Color": "1",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\None",
+        "GUID": "{2D6159F1-9568-4C21-B7D3-5C283FDC24B4}",
+        "Color": "1"
+       },
+       {
+        "Id": "984691642",
+        "Name": "InGame",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InGame",
+        "GUID": "{46EF84C3-6F12-4636-9C61-4FC5ACCD7A79}",
+        "Color": "1"
+       },
+       {
+        "Id": "3374585465",
+        "Name": "InMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InMenu",
+        "GUID": "{D4FA3304-E065-40D3-AB6F-41B25D58C068}",
+        "Color": "1"
+       }
+      ]
+     },
+     {
+      "Id": "2064552269",
+      "Name": "AreaState",
+      "ObjectPath": "\\States\\Default Work Unit\\AreaState",
+      "GUID": "{86D1661F-D151-441E-B989-812D5FCC9BC6}",
+      "Color": "4",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaState\\None",
+        "GUID": "{0549C7AB-CD66-4753-A7BB-9C79EF6BFDA0}",
+        "Color": "4"
+       },
+       {
+        "Id": "782826392",
+        "Name": "Default",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaState\\Default",
+        "GUID": "{5AADF98D-76BE-4672-A66C-7A5E198B77BA}",
+        "Color": "4"
+       },
+       {
+        "Id": "2323193050",
+        "Name": "Temple",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaState\\Temple",
+        "GUID": "{D7970516-A72F-461F-A6D7-5191CE8C21E4}",
+        "Color": "4"
+       }
+      ]
+     },
+     {
+      "Id": "3285234865",
+      "Name": "PlayerState",
+      "ObjectPath": "\\States\\Default Work Unit\\PlayerState",
+      "GUID": "{BE14EA33-01B6-489B-8F88-EB82671BD8EB}",
+      "Color": "19",
+      "States": [
+       {
+        "Id": "655265632",
+        "Name": "Alive",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerState\\Alive",
+        "GUID": "{27E908DC-B8D4-42D0-9726-41496AA97AA7}",
+        "Color": "19"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerState\\None",
+        "GUID": "{BE746DC0-0F60-4C41-AFAF-00578C70D4D7}",
+        "Color": "19"
+       },
+       {
+        "Id": "2044049779",
+        "Name": "Dead",
+        "ObjectPath": "\\States\\Default Work Unit\\PlayerState\\Dead",
+        "GUID": "{FD228A97-BF21-4284-96D9-83D53979C81F}",
+        "Color": "19"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "151362964",
+      "Name": "PlayerHealth",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PlayerHealth",
+      "GUID": "{46413291-4A9F-4F59-8C1D-6FCA0068AB77}",
+      "Switches": [
+       {
+        "Id": "898449699",
+        "Name": "NearDeath",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerHealth\\NearDeath",
+        "GUID": "{C044D646-13F2-459F-9E83-27DAAB0F2323}"
+       },
+       {
+        "Id": "1017222595",
+        "Name": "LowHealth",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerHealth\\LowHealth",
+        "GUID": "{C0FB8B87-B573-4D1B-86FE-2CC098FEF1ED}"
+       },
+       {
+        "Id": "2429688720",
+        "Name": "FullHealth",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerHealth\\FullHealth",
+        "GUID": "{0AAC2D28-E445-441C-9B80-C0156D02740E}"
+       }
+      ]
+     },
+     {
+      "Id": "1044534455",
+      "Name": "GroundMaterialSwitch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterialSwitch",
+      "GUID": "{19B5AF97-0961-4FBC-AFF9-BF06C60DA2A3}",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterialSwitch\\Stone",
+        "GUID": "{DC02AB6B-9E51-41B8-BCCC-970DFA8DF552}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterialSwitch\\Dirt",
+        "GUID": "{62E18F48-F7FA-4801-A88A-7A1F968E2AEC}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterialSwitch\\Grass",
+        "GUID": "{83EA234F-A611-456E-94DB-B0740C5984F6}"
+       }
+      ]
+     },
+     {
+      "Id": "1681012287",
+      "Name": "PlayerFootsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps",
+      "GUID": "{B2642F3A-89A8-4FE6-BCC2-D730DA60276A}",
+      "Color": "4",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Stone",
+        "GUID": "{593E332C-64AD-484E-9DF1-1FCC27C66E73}",
+        "Color": "4"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Dirt",
+        "GUID": "{323A5A26-5B0D-4035-BAF7-001DD52DFD70}",
+        "Color": "4"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Grass",
+        "GUID": "{6E6FA05D-2E6B-437F-934F-B816327F7E08}",
+        "Color": "4"
+       }
+      ]
+     },
+     {
+      "Id": "2051106367",
+      "Name": "PlayerSpeedSwitch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PlayerSpeedSwitch",
+      "GUID": "{238DAA66-5B9C-4E88-9609-BF8F11C3C580}",
+      "Switches": [
+       {
+        "Id": "712161704",
+        "Name": "Run",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerSpeedSwitch\\Run",
+        "GUID": "{56320CC3-0E05-4B7C-BBEA-5ACFE47FD4B4}"
+       },
+       {
+        "Id": "2108779966",
+        "Name": "Walk",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerSpeedSwitch\\Walk",
+        "GUID": "{FCAD8291-A623-4EDC-BF44-40D5BFA8F801}"
+       },
+       {
+        "Id": "3833651337",
+        "Name": "Jump",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerSpeedSwitch\\Jump",
+        "GUID": "{C1549CCB-4CBE-448E-BBD1-ECE8283874C4}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1378767680",
+    "Type": "Event",
+    "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
+    "Language": "SFX",
+    "Hash": "{285090D7-217C-C25B-C2FE-5407FC561570}",
+    "ObjectPath": "Play_Main_Music_Switch",
+    "ShortName": "Play_Main_Music_Switch",
+    "Path": "Event/13/Play_Main_Music_Switch.bnk",
+    "Events": [
+     {
+      "Id": "1378767680",
+      "Name": "Play_Main_Music_Switch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_Music_Switch",
+      "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
+      "DurationType": "Infinite",
+      "SwitchContainers": []
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1021618141",
+      "Name": "MusicState",
+      "ObjectPath": "\\States\\Default Work Unit\\MusicState",
+      "GUID": "{F714286F-C4F3-4B41-BED2-DDC496A95F31}",
+      "Color": "12",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\None",
+        "GUID": "{4025E397-C4C3-4587-A10E-3AB9AA03E94A}",
+        "Color": "12"
+       },
+       {
+        "Id": "2147352708",
+        "Name": "FinalBoss",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\FinalBoss",
+        "GUID": "{F1357C94-33B9-40C8-A519-FA2309A3E9BC}",
+        "Color": "12"
+       },
+       {
+        "Id": "2323193050",
+        "Name": "Temple",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Temple",
+        "GUID": "{791E3DFA-B917-4A23-BA27-09DA2A45E68C}",
+        "Color": "12"
+       },
+       {
+        "Id": "2582085496",
+        "Name": "Exploration",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Exploration",
+        "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
+        "Color": "12"
+       },
+       {
+        "Id": "3041563226",
+        "Name": "Silence",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Silence",
+        "GUID": "{B8DFB4D3-E289-47E4-91A3-44E60761A507}",
+        "Color": "12"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3910197480",
+    "Type": "Bus",
+    "GUID": "{4A07DD45-9B83-42D7-AFAC-9685B0647E61}",
+    "Language": "SFX",
+    "Hash": "{3BC6941D-FE81-418F-6221-DBCCBD2E4487}",
+    "ObjectPath": "Rev_Forest",
+    "ShortName": "Rev_Forest",
+    "Path": "Bus/39/Rev_Forest.bnk",
+    "AuxBusses": [
+     {
+      "Id": "3910197480",
+      "Name": "Rev_Forest",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Forest",
+      "GUID": "{4A07DD45-9B83-42D7-AFAC-9685B0647E61}",
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "4148005607",
+        "Name": "Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+        "Color": "2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "4148005607",
+    "Type": "Bus",
+    "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+    "Language": "SFX",
+    "Hash": "{C506DE3D-9CE6-A06D-A20D-D201F48FE74B}",
+    "ObjectPath": "Reverbs_AUX",
+    "ShortName": "Reverbs_AUX",
+    "Path": "Bus/41/Reverbs_AUX.bnk",
+    "AuxBusses": [
+     {
+      "Id": "4148005607",
+      "Name": "Reverbs_AUX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+      "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+      "Color": "2"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AAD8D6CE-F177-E2C9-6B9D-1B352AFA584F}"
+ }
+}

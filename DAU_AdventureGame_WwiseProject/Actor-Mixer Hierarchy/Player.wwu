@@ -23,6 +23,7 @@
 					<ChildrenList>
 						<SwitchContainer Name="Player_Footsteps" ID="{AB299425-E7FA-48D4-BED9-40D813319E1E}" ShortID="964691210">
 							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ModifierList>
 										<ModifierInfo>
@@ -44,7 +45,7 @@
 									<ObjectRef Name="Grass" ID="{6E6FA05D-2E6B-437F-934F-B816327F7E08}" WorkUnitID="{A57EDC93-18A5-4E9C-83EB-3376599056FD}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+									<ObjectRef Name="Player_Footsteps" ID="{B358B667-7572-4333-9635-773C4319FE2A}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
 									<ObjectRef Name="PlayerFootsteps" ID="{B2642F3A-89A8-4FE6-BCC2-D730DA60276A}" WorkUnitID="{A57EDC93-18A5-4E9C-83EB-3376599056FD}"/>
