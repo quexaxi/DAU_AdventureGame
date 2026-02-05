@@ -1,0 +1,3 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	4148005607	Reverbs_AUX			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX	
+

@@ -1,0 +1,37 @@
+Event	ID	Name			Wwise Object Path	Notes
+	98439365	Play_Player_Footsteps			\Player\PlayerLocomotion\Play_Player_Footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1681012287	PlayerFootsteps			\Default Work Unit\PlayerFootsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	PlayerFootsteps			
+	2195636714	Dirt	PlayerFootsteps			
+	4248645337	Grass	PlayerFootsteps			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	19017698	SFX_Ellen_Footstep_Grass_02	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\A0\{A0D37CBC-F6C1-292E-6E33-E6C7842C30C3}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_02		95680
+	86784534	SFX_Ellen_Footstep_Stone_01	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\D7\{D7080846-551C-6E95-7DA2-80A00517888A}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_01		67888
+	255903489	SFX_Ellen_Footstep_Grass_06	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\3D\{3D6C44A4-68A5-524A-20AC-E5D3020FBA44}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_06		96904
+	272667487	SFX_Ellen_Footstep_Stone_02	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\4B\{4B351DEF-7CA9-2369-34F3-DB346FDCF86C}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_02		78056
+	291244082	SFX_Ellen_Footstep_Dirt_06	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\8E\{8E6ECBFE-E46C-41C5-B3E5-1D8EA7844CF0}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Dirt\SFX_Ellen_Footstep_Dirt_06		92168
+	321299970	SFX_Ellen_Footstep_Grass_03	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\39\{398F7D17-98A3-78D5-99D9-FDF93A06C229}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_03		97884
+	374993025	SFX_Ellen_Footstep_Dirt_01	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\DF\{DFE9D73C-CC9B-6C89-D846-DBCD2B779611}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Dirt\SFX_Ellen_Footstep_Dirt_01		72016
+	404211316	SFX_Ellen_Footstep_Grass_07	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\B2\{B2B1FB80-3E99-E751-0F4F-710D3836C7E1}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_07		95720
+	423665199	SFX_Ellen_Footstep_Dirt_02	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\BF\{BFB79513-F007-2A3B-DC20-6A0143BD1EA3}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Dirt\SFX_Ellen_Footstep_Dirt_02		66428
+	424906995	SFX_Ellen_Footstep_Grass_09	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\9C\{9CB3E737-3461-98BB-1940-7B9BBDB3CDE6}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_09		96312
+	501566221	SFX_Ellen_Footstep_Dirt_04	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\87\{87EA38D1-1493-6F2D-65D2-085601423028}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Dirt\SFX_Ellen_Footstep_Dirt_04		75188
+	551571241	SFX_Ellen_Footstep_Stone_05	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\4F\{4F85B860-67C9-145F-9B6B-C5F98B09296B}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_05		83588
+	614234922	SFX_Ellen_Footstep_Grass_01	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\23\{23154D2C-3197-55E3-8688-DF647F29EFD3}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_01		95720
+	638728891	SFX_Ellen_Footstep_Grass_05	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\41\{412B0C94-B136-FC92-5DF2-554E7C925051}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_05		96904
+	647502671	SFX_Ellen_Footstep_Grass_08	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\B2\{B28BF71A-AD7B-E5BC-6D2F-C871A27AAD4D}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_08		96904
+	652120000	SFX_Ellen_Footstep_Stone_06	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\CB\{CBB12FDA-B391-5EB9-98B6-E63E1C9D2F89}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_06		78928
+	704766683	SFX_Ellen_Footstep_Dirt_03	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\66\{6669FDB7-7A77-8B8E-534F-B635CBC7F728}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Dirt\SFX_Ellen_Footstep_Dirt_03		65636
+	793851530	SFX_Ellen_Footstep_Dirt_07	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\5C\{5C92683E-EAA5-CDD2-72C5-54EF63A671C5}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Dirt\SFX_Ellen_Footstep_Dirt_07		90120
+	827380283	SFX_Ellen_Footstep_Grass_04	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\C8\{C8297BA8-6A4E-A621-B0BF-075386ACB83B}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_04		96312
+	873452055	SFX_Ellen_Footstep_Grass_10	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\BE\{BEF346DD-E176-C24C-090A-D386EA57BFE0}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_10		95132
+	952032992	SFX_Ellen_Footstep_Stone_07	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\35\{35F2455C-528B-441A-A6BD-CC3905CDDC66}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_07		69180
+	995122761	SFX_Ellen_Footstep_Stone_04	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\1D\{1DAEA103-DB0B-1836-2679-648B6DFCDACF}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_04		76540
+	1043168548	SFX_Ellen_Footstep_Dirt_05	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\B0\{B0BF1DEA-03C2-7922-ACCC-D5956D334099}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Dirt\SFX_Ellen_Footstep_Dirt_05		86132
+	1054101459	SFX_Ellen_Footstep_Stone_03	C:\Projects\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\07\{07B843DE-89C1-5EE5-7625-98D50210EC70}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_03		78044
+
