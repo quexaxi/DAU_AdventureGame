@@ -1,0 +1,30 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4148005607",
+    "Type": "Bus",
+    "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+    "Language": "SFX",
+    "Hash": "{C506DE3D-9CE6-A06D-A20D-D201F48FE74B}",
+    "ObjectPath": "Reverbs_AUX",
+    "ShortName": "Reverbs_AUX",
+    "Path": "Bus/41/Reverbs_AUX.bnk",
+    "AuxBusses": [
+     {
+      "Id": "4148005607",
+      "Name": "Reverbs_AUX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+      "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+      "Color": "2"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FF5A16D0-0FB7-0921-36AD-40623A5659FC}"
+ }
+}
