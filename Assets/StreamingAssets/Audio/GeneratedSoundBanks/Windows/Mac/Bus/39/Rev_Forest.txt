@@ -1,3 +1,0 @@
-Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	3910197480	Rev_Forest			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_Forest	
-

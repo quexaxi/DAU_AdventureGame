@@ -22380,8 +22380,7 @@ MonoBehaviour:
   wwPlayerFootstepEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 1c9e760ea54065849bce6f2b393e08e0,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   footstepSource: {fileID: 1063099897946804}
 --- !u!1 &1991646998098166
 GameObject:

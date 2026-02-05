@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="SB_Main" ID="{E2002279-5ED8-4767-BD14-FAC2C1015F05}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Player_Footstep" ID="{B1F7EC8D-A79A-4650-B7A6-2E9B58848145}" WorkUnitID="{3B83AA82-84E3-4B7F-8604-CA85F7B68D8E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Footsteps" ID="{B1F7EC8D-A79A-4650-B7A6-2E9B58848145}" WorkUnitID="{3B83AA82-84E3-4B7F-8604-CA85F7B68D8E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

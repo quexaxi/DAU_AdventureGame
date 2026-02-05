@@ -1,3 +1,0 @@
-Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	472728108	Rev_Temple			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_Temple	
-

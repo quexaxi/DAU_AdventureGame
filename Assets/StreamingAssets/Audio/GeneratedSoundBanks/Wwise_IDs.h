@@ -14,7 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_MAIN_MUSIC_SWITCH = 1378767680U;
-        static const AkUniqueID PLAY_PLAYER_FOOTSTEP = 1724675634U;
+        static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
     } // namespace EVENTS
 
     namespace STATES
