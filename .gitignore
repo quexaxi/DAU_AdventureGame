@@ -97,3 +97,20 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# --- Wwise (Unity integration) ---
+# Project data cache (churns per machine; do not version)
+Assets/Wwise/Editor/ProjectData/AkWwiseProjectData*.asset*
+
+# --- Wwise (Authoring project) ---
+# Replace "WwiseProject" if your folder is named differently
+WwiseProject/.backup*
+WwiseProject/.cache*
+WwiseProject/*.akd
+WwiseProject/*.prof
+WwiseProject/*.validationcache
+WwiseProject/*.wsettings
+WwiseProject/IncrementalSoundBankData.xml
+
+# Optional: Similar Sound Search model (large) if you don't use it
+WwiseProject/Authoring/Data/Models/sfxclap.dat
