@@ -1,7 +1,7 @@
 {
  "SoundBanksInfo": {
-  "Platform": "Windows",
-  "BasePlatform": "Windows",
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
   "SchemaVersion": "16",
   "SoundBankVersion": "154",
   "RootPaths": {
@@ -9,7 +9,7 @@
    "SourceFilesRoot": "../../../../../DAU_AdventureGame_WwiseProject/.cache",
    "SoundBanksRoot": ".",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "../../../../../DAU_AdventureGame_WwiseProject/GeneratedSoundBanks/Windows"
+   "ExternalSourcesOutputRoot": "../../../../../DAU_AdventureGame_WwiseProject/GeneratedSoundBanks/Mac"
   },
   "DialogueEvents": [],
   "SoundBanks": [
@@ -413,7 +413,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{57436A36-16CE-2ABF-0046-422011272022}",
+    "Hash": "{2B1BAF09-001B-C022-0ECE-F9FAEA548347}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -1018,6 +1018,6 @@
     ]
    }
   ],
-  "FileHash": "{28C3D78C-E567-7A8F-114C-A090620801AE}"
+  "FileHash": "{58C7B4E5-B034-4551-7B5C-0EF2A3093345}"
  }
 }

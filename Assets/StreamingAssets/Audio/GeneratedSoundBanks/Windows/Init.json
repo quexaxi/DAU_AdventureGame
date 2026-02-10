@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{CB16D87A-1033-7CC0-F438-1943A1E37B5E}",
+    "Hash": "{57436A36-16CE-2ABF-0046-422011272022}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -218,10 +218,34 @@
       "GUID": "{30AB1DC2-EE39-4297-A37E-E6A50049A7D6}"
      },
      {
+      "Id": "1080360991",
+      "Name": "RTPC_Amb_Temple",
+      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_Temple",
+      "GUID": "{A972BBE8-6DAD-46FB-8C1F-0201189BA392}"
+     },
+     {
+      "Id": "1263047490",
+      "Name": "RTPC_Amb_Fantasy",
+      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_Fantasy",
+      "GUID": "{8CFA9586-2605-4C02-8E8C-9E89009C52AE}"
+     },
+     {
+      "Id": "2194227326",
+      "Name": "RTPC_Amb_Wind",
+      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_Wind",
+      "GUID": "{BC286B6C-63CC-439C-8AA2-AB17994657B6}"
+     },
+     {
       "Id": "2653406601",
       "Name": "RTPC_PlayerSpeed",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_PlayerSpeed",
       "GUID": "{8C0A9834-0157-4CBB-8EC6-FA70E2657EF5}"
+     },
+     {
+      "Id": "3028788571",
+      "Name": "RTPC_Amb_NearWater",
+      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_NearWater",
+      "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
      },
      {
       "Id": "4085892778",
@@ -478,6 +502,6 @@
     ]
    }
   ],
-  "FileHash": "{A4980C98-CA80-1329-20BB-CA4AFF56B9CB}"
+  "FileHash": "{21C519F6-E612-2C63-AEA6-267E753885FB}"
  }
 }

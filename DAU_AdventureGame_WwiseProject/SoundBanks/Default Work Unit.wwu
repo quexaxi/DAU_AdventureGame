@@ -6,6 +6,8 @@
 				<SoundBank Name="SB_Main" ID="{E2002279-5ED8-4767-BD14-FAC2C1015F05}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Player_Footsteps" ID="{B1F7EC8D-A79A-4650-B7A6-2E9B58848145}" WorkUnitID="{3B83AA82-84E3-4B7F-8604-CA85F7B68D8E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_JumpUp" ID="{DAE98BE5-CD81-48D3-9955-82487DD864A4}" WorkUnitID="{3B83AA82-84E3-4B7F-8604-CA85F7B68D8E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Amb_Global" ID="{686A9575-B3BB-4AC4-AA92-DA8D8A91B8D4}" WorkUnitID="{76944B80-2D92-42C5-B83E-306340D52D1C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

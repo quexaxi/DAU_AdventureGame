@@ -6,6 +6,22 @@
 				<Property Name="Color" Type="int16" Value="4"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Amb_Global" ID="{686A9575-B3BB-4AC4-AA92-DA8D8A91B8D4}">
+					<ChildrenList>
+						<Action Name="" ID="{AB7F00AA-235A-4CCE-A544-D0494A028293}" ShortID="630490886">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Global" ID="{9F3126F9-2716-4A04-A6BC-9C81EFD4BEFD}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

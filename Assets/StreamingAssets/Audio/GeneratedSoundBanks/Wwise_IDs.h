@@ -13,8 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB_GLOBAL = 2676390936U;
         static const AkUniqueID PLAY_MAIN_MUSIC_SWITCH = 1378767680U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
+        static const AkUniqueID PLAY_PLAYER_JUMPUP = 2528119339U;
     } // namespace EVENTS
 
     namespace STATES
@@ -125,6 +127,10 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID RTPC_AMB_FANTASY = 1263047490U;
+        static const AkUniqueID RTPC_AMB_NEARWATER = 3028788571U;
+        static const AkUniqueID RTPC_AMB_TEMPLE = 1080360991U;
+        static const AkUniqueID RTPC_AMB_WIND = 2194227326U;
         static const AkUniqueID RTPC_DISTANCE = 262290038U;
         static const AkUniqueID RTPC_PLAYERSPEED = 2653406601U;
         static const AkUniqueID RTPC_PUZZLEPROGRESS = 4085892778U;

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F8F4F169-0B09-4224-9712-EBF38669B923}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="RTPC_Ambience" ID="{F8F4F169-0B09-4224-9712-EBF38669B923}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Amb_Temple" ID="{A972BBE8-6DAD-46FB-8C1F-0201189BA392}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Amb_NearWater" ID="{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Amb_Wind" ID="{BC286B6C-63CC-439C-8AA2-AB17994657B6}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Amb_Fantasy" ID="{8CFA9586-2605-4C02-8E8C-9E89009C52AE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

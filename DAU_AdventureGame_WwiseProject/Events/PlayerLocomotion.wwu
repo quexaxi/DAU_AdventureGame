@@ -28,6 +28,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Player_JumpUp" ID="{DAE98BE5-CD81-48D3-9955-82487DD864A4}">
+					<ChildrenList>
+						<Action Name="" ID="{BBB46DAA-4DD1-4B04-AE13-F8E753EE5351}" ShortID="818565910">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Jump" ID="{3A29B4B7-AE3C-4624-AB4D-0DF97CDBC9D0}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
