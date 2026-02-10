@@ -200,7 +200,7 @@ namespace Gamekit3D
             if (IsOrientationUpdated() && IsMoveInput)
                 UpdateOrientation();
 
-            PlayAudio();
+            //PlayAudio();
 
             TimeoutToIdle();
 
@@ -417,54 +417,54 @@ namespace Gamekit3D
         }
 
         // Called each physics step to check if audio should be played and if so instruct the relevant random audio player to do so.
-        void PlayAudio()
-        {
-            float footfallCurve = m_Animator.GetFloat(m_HashFootFall);
+        //void PlayAudio()
+        //{
+        //    float footfallCurve = m_Animator.GetFloat(m_HashFootFall);
 
-            if (footfallCurve > 0.01f && !footstepPlayer.playing && footstepPlayer.canPlay)
-            {
-                footstepPlayer.playing = true;
-                footstepPlayer.canPlay = false;
-                footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);
-            }
-            else if (footstepPlayer.playing)
-            {
-                footstepPlayer.playing = false;
-            }
-            else if (footfallCurve < 0.01f && !footstepPlayer.canPlay)
-            {
-                footstepPlayer.canPlay = true;
-            }
+        //    if (footfallCurve > 0.01f && !footstepPlayer.playing && footstepPlayer.canPlay)
+        //    {
+        //        footstepPlayer.playing = true;
+        //        footstepPlayer.canPlay = false;
+        //        footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);
+        //    }
+        //    else if (footstepPlayer.playing)
+        //    {
+        //        footstepPlayer.playing = false;
+        //    }
+        //    else if (footfallCurve < 0.01f && !footstepPlayer.canPlay)
+        //    {
+        //        footstepPlayer.canPlay = true;
+        //    }
 
-            if (m_IsGrounded && !m_PreviouslyGrounded)
-            {
-                landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
-                emoteLandingPlayer.PlayRandomClip();
-            }
+        //    if (m_IsGrounded && !m_PreviouslyGrounded)
+        //    {
+        //        landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
+        //        emoteLandingPlayer.PlayRandomClip();
+        //    }
 
-            if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
-            {
-                emoteJumpPlayer.PlayRandomClip();
-            }
+        //    if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
+        //    {
+        //        emoteJumpPlayer.PlayRandomClip();
+        //    }
 
-            if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
-            {
-                hurtAudioPlayer.PlayRandomClip();
-            }
+        //    if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
+        //    {
+        //        hurtAudioPlayer.PlayRandomClip();
+        //    }
 
-            if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
-            {
-                emoteDeathPlayer.PlayRandomClip();
-            }
+        //    if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
+        //    {
+        //        emoteDeathPlayer.PlayRandomClip();
+        //    }
 
-            if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo1 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo1 ||
-                m_CurrentStateInfo.shortNameHash == m_HashEllenCombo2 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo2 ||
-                m_CurrentStateInfo.shortNameHash == m_HashEllenCombo3 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo3 ||
-                m_CurrentStateInfo.shortNameHash == m_HashEllenCombo4 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo4)
-            {
-                emoteAttackPlayer.PlayRandomClip();
-            }
-        }
+        //    if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo1 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo1 ||
+        //        m_CurrentStateInfo.shortNameHash == m_HashEllenCombo2 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo2 ||
+        //        m_CurrentStateInfo.shortNameHash == m_HashEllenCombo3 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo3 ||
+        //        m_CurrentStateInfo.shortNameHash == m_HashEllenCombo4 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo4)
+        //    {
+        //        emoteAttackPlayer.PlayRandomClip();
+        //    }
+        //}
 
         // Called each physics step to count up to the point where Ellen considers a random idle.
         void TimeoutToIdle()
