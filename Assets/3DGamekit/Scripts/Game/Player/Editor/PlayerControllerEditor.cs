@@ -97,13 +97,13 @@ namespace Gamekit3D
                 EditorGUI.indentLevel++;
                 EditorGUILayout.PropertyField(m_MeleeWeaponProp, m_MeleeWeaponContent);
                 EditorGUILayout.PropertyField(m_CameraSettingsProp, m_CameraSettingsContent);
-                EditorGUILayout.PropertyField(m_FootstepPlayerProp, m_FootstepPlayerContent);
-                EditorGUILayout.PropertyField(m_HurtAudioPlayerProp, m_HurtAudioPlayerContent);
-                EditorGUILayout.PropertyField(m_LandingPlayerProp, m_LandingPlayerContent);
-                EditorGUILayout.PropertyField(m_EmoteLandingPlayerProp, m_EmoteLandingPlayerContent);
-                EditorGUILayout.PropertyField(m_EmoteDeathPlayerProp, m_EmoteDeathPlayerContent);
-                EditorGUILayout.PropertyField(m_EmoteAttackPlayerProp, m_EmoteAttackPlayerContent);
-                EditorGUILayout.PropertyField(m_EmoteJumpPlayerProp, m_EmoteJumpPlayerContent);
+                //EditorGUILayout.PropertyField(m_FootstepPlayerProp, m_FootstepPlayerContent);
+                //EditorGUILayout.PropertyField(m_HurtAudioPlayerProp, m_HurtAudioPlayerContent);
+                //EditorGUILayout.PropertyField(m_LandingPlayerProp, m_LandingPlayerContent);
+                //EditorGUILayout.PropertyField(m_EmoteLandingPlayerProp, m_EmoteLandingPlayerContent);
+                //EditorGUILayout.PropertyField(m_EmoteDeathPlayerProp, m_EmoteDeathPlayerContent);
+                //EditorGUILayout.PropertyField(m_EmoteAttackPlayerProp, m_EmoteAttackPlayerContent);
+                //EditorGUILayout.PropertyField(m_EmoteJumpPlayerProp, m_EmoteJumpPlayerContent);
                 EditorGUI.indentLevel--;
             }
 
