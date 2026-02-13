@@ -32,16 +32,6 @@ namespace Gamekit3D
         //public RandomAudioPlayer emoteAttackPlayer;
         //public RandomAudioPlayer emoteJumpPlayer;
 
-        public AK.Wwise.Event damageSoundEvent;
-        public AK.Wwise.Event footstepSoundEvent;
-        public AK.Wwise.Event jumpDownSoundEvent;
-        public AK.Wwise.Event jumpUpSoundEvent;
-        public AK.Wwise.Event deathSoundEvent;
-        public AK.Wwise.Event attackSoundEvent;
-
-        public GameObject headAudioSourceObject;
-        public GameObject footAudioSourceObject;
-
         protected AnimatorStateInfo m_CurrentStateInfo;    // Information about the base layer of the animator cached.
         protected AnimatorStateInfo m_NextStateInfo;
         protected bool m_IsAnimatorTransitioning;
@@ -426,62 +416,55 @@ namespace Gamekit3D
             transform.rotation = m_TargetRotation;
         }
 
-        public void PlayFootstepSound()
-        {
-            Debug.Log(m_CurrentWalkingSurface);
-            footstepSoundEvent.Post(footAudioSourceObject);
-        }
+        // Called each physics step to check if audio should be played and if so instruct the relevant random audio player to do so.
+        //void PlayAudio()
+        //{
+        //    float footfallCurve = m_Animator.GetFloat(m_HashFootFall);
 
-        //Called each physics step to check if audio should be played and if so instruct the relevant random audio player to do so.
-        void PlayAudio()
-        {
-            
-            float footfallCurve = m_Animator.GetFloat(m_HashFootFall);
+        //    if (footfallCurve > 0.01f && !footstepPlayer.playing && footstepPlayer.canPlay)
+        //    {
+        //        footstepPlayer.playing = true;
+        //        footstepPlayer.canPlay = false;
+        //        footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);
+        //    }
+        //    else if (footstepPlayer.playing)
+        //    {
+        //        footstepPlayer.playing = false;
+        //    }
+        //    else if (footfallCurve < 0.01f && !footstepPlayer.canPlay)
+        //    {
+        //        footstepPlayer.canPlay = true;
+        //    }
 
-            //if (footfallCurve > 0.01f && !footstepPlayer.playing && footstepPlayer.canPlay)
-            //{
-            //    footstepPlayer.playing = true;
-            //    footstepPlayer.canPlay = false;
-            //    footstepPlayer.PlayRandomClip(m_CurrentWalkingSurface, m_ForwardSpeed < 4 ? 0 : 1);
-            //}
-            //else if (footstepPlayer.playing)
-            //{
-            //    footstepPlayer.playing = false;
-            //}
-            //else if (footfallCurve < 0.01f && !footstepPlayer.canPlay)
-            //{
-            //    footstepPlayer.canPlay = true;
-            //}
+        //    if (m_IsGrounded && !m_PreviouslyGrounded)
+        //    {
+        //        landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
+        //        emoteLandingPlayer.PlayRandomClip();
+        //    }
 
-            if (m_IsGrounded && !m_PreviouslyGrounded)
-            {
-                //landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
-                //emoteLandingPlayer.PlayRandomClip();
-            }
+        //    if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
+        //    {
+        //        emoteJumpPlayer.PlayRandomClip();
+        //    }
 
-            if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
-            {
-                //emoteJumpPlayer.PlayRandomClip();
-            }
+        //    if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
+        //    {
+        //        hurtAudioPlayer.PlayRandomClip();
+        //    }
 
-            if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
-            {
-                //hurtAudioPlayer.PlayRandomClip();
-            }
+        //    if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
+        //    {
+        //        emoteDeathPlayer.PlayRandomClip();
+        //    }
 
-            if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
-            {
-                //emoteDeathPlayer.PlayRandomClip();
-            }
-
-            if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo1 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo1 ||
-                m_CurrentStateInfo.shortNameHash == m_HashEllenCombo2 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo2 ||
-                m_CurrentStateInfo.shortNameHash == m_HashEllenCombo3 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo3 ||
-                m_CurrentStateInfo.shortNameHash == m_HashEllenCombo4 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo4)
-            {
-                //emoteAttackPlayer.PlayRandomClip();
-            }
-        }
+        //    if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo1 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo1 ||
+        //        m_CurrentStateInfo.shortNameHash == m_HashEllenCombo2 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo2 ||
+        //        m_CurrentStateInfo.shortNameHash == m_HashEllenCombo3 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo3 ||
+        //        m_CurrentStateInfo.shortNameHash == m_HashEllenCombo4 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo4)
+        //    {
+        //        emoteAttackPlayer.PlayRandomClip();
+        //    }
+        //}
 
         // Called each physics step to count up to the point where Ellen considers a random idle.
         void TimeoutToIdle()
