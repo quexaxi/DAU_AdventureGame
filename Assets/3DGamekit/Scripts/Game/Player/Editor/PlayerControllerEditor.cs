@@ -21,13 +21,23 @@ namespace Gamekit3D
 
         SerializedProperty m_MeleeWeaponProp;
         SerializedProperty m_CameraSettingsProp;
-        SerializedProperty m_FootstepPlayerProp;
-        SerializedProperty m_HurtAudioPlayerProp;
-        SerializedProperty m_LandingPlayerProp;
-        SerializedProperty m_EmoteLandingPlayerProp;
-        SerializedProperty m_EmoteDeathPlayerProp;
-        SerializedProperty m_EmoteAttackPlayerProp;
-        SerializedProperty m_EmoteJumpPlayerProp;
+        //SerializedProperty m_FootstepPlayerProp;
+        //SerializedProperty m_HurtAudioPlayerProp;
+        //SerializedProperty m_LandingPlayerProp;
+        //SerializedProperty m_EmoteLandingPlayerProp;
+        //SerializedProperty m_EmoteDeathPlayerProp;
+        //SerializedProperty m_EmoteAttackPlayerProp;
+        //SerializedProperty m_EmoteJumpPlayerProp;
+
+        SerializedProperty damageSound;
+        SerializedProperty footstepSound;
+        SerializedProperty jumpDownSound;
+        SerializedProperty jumpUpSound;
+        SerializedProperty deathSound;
+        SerializedProperty attackSound;
+
+        SerializedProperty headAudioSource;
+        SerializedProperty footAudioSource;
 
         GUIContent m_ScriptContent = new GUIContent("Script");
 
@@ -40,13 +50,23 @@ namespace Gamekit3D
 
         GUIContent m_MeleeWeaponContent = new GUIContent("Melee Weapon", "Used for damaging enemies when Ellen swings her staff.");
         GUIContent m_CameraSettingsContent = new GUIContent("Camera Settings", "Used to get the rotation of the current camera so that Ellen faces the correct direction.  Note: This is the only reference which is not part of the Ellen prefab.  It should automatically be set to the Camera Settings script of the CameraRig gameobject when the Prefab is instantiated.");
-        GUIContent m_FootstepPlayerContent = new GUIContent("Footstep Random Audio Player", "Used to play a random sound when Ellen takes a step.");
-        GUIContent m_HurtAudioPlayerContent = new GUIContent("Hurt Random Audio Player", "Used to play a random sound when Ellen gets hurt.");
-        GUIContent m_LandingPlayerContent = new GUIContent("Landing Random Audio Player", "Used to play a random sound when Ellen lands.");
-        GUIContent m_EmoteLandingPlayerContent = new GUIContent("Emote Landing Player", "Used to play a random vocal sound when Ellen lands.");
-        GUIContent m_EmoteDeathPlayerContent = new GUIContent("Emote Death Player", "Used to play a random vocal sound when Ellen dies.");
-        GUIContent m_EmoteAttackPlayerContent = new GUIContent("Emote Attack Player", "Used to play a random vocal sound when Ellen attacks.");
-        GUIContent m_EmoteJumpPlayerContent = new GUIContent("Emote Jump Player", "Used to play a random vocal sound when Ellen jumps.");
+        //GUIContent m_FootstepPlayerContent = new GUIContent("Footstep Random Audio Player", "Used to play a random sound when Ellen takes a step.");
+        //GUIContent m_HurtAudioPlayerContent = new GUIContent("Hurt Random Audio Player", "Used to play a random sound when Ellen gets hurt.");
+        //GUIContent m_LandingPlayerContent = new GUIContent("Landing Random Audio Player", "Used to play a random sound when Ellen lands.");
+        //GUIContent m_EmoteLandingPlayerContent = new GUIContent("Emote Landing Player", "Used to play a random vocal sound when Ellen lands.");
+        //GUIContent m_EmoteDeathPlayerContent = new GUIContent("Emote Death Player", "Used to play a random vocal sound when Ellen dies.");
+        //GUIContent m_EmoteAttackPlayerContent = new GUIContent("Emote Attack Player", "Used to play a random vocal sound when Ellen attacks.");
+        //GUIContent m_EmoteJumpPlayerContent = new GUIContent("Emote Jump Player", "Used to play a random vocal sound when Ellen jumps.");
+
+        GUIContent damageSoundEvent = new GUIContent("Damage Sound Event", "A Wwise Event.");
+        GUIContent footstepSoundEvent = new GUIContent("Footstep Sound Event", "A Wwise Event.");
+        GUIContent jumpDownSoundEvent = new GUIContent("Land Sound Event", "A Wwise Event.");
+        GUIContent jumpUpSoundEvent = new GUIContent("Jump Sound Event", "A Wwise Event.");
+        GUIContent deathSoundEvent = new GUIContent("Death Sound Event", "A Wwise Event.");
+        GUIContent attackSoundEvent = new GUIContent("Attack Sound Event", "A Wwise Event.");
+
+        GUIContent headAudioSourceObject = new GUIContent("Head Audio Source Object", "A Game Object.");
+        GUIContent footAudioSourceObject = new GUIContent("Foot Audio Source Object", "A Game Object.");
 
         void OnEnable()
         {
@@ -62,13 +82,23 @@ namespace Gamekit3D
 
             m_MeleeWeaponProp = serializedObject.FindProperty("meleeWeapon");
             m_CameraSettingsProp = serializedObject.FindProperty("cameraSettings");
-            m_FootstepPlayerProp = serializedObject.FindProperty("footstepPlayer");
-            m_HurtAudioPlayerProp = serializedObject.FindProperty("hurtAudioPlayer");
-            m_LandingPlayerProp = serializedObject.FindProperty("landingPlayer");
-            m_EmoteLandingPlayerProp = serializedObject.FindProperty("emoteLandingPlayer");
-            m_EmoteDeathPlayerProp = serializedObject.FindProperty("emoteDeathPlayer");
-            m_EmoteAttackPlayerProp = serializedObject.FindProperty("emoteAttackPlayer");
-            m_EmoteJumpPlayerProp = serializedObject.FindProperty("emoteJumpPlayer");
+            //m_FootstepPlayerProp = serializedObject.FindProperty("footstepPlayer");
+            //m_HurtAudioPlayerProp = serializedObject.FindProperty("hurtAudioPlayer");
+            //m_LandingPlayerProp = serializedObject.FindProperty("landingPlayer");
+            //m_EmoteLandingPlayerProp = serializedObject.FindProperty("emoteLandingPlayer");
+            //m_EmoteDeathPlayerProp = serializedObject.FindProperty("emoteDeathPlayer");
+            //m_EmoteAttackPlayerProp = serializedObject.FindProperty("emoteAttackPlayer");
+            //m_EmoteJumpPlayerProp = serializedObject.FindProperty("emoteJumpPlayer");
+
+            damageSound = serializedObject.FindProperty("damageSoundEvent");
+            footstepSound = serializedObject.FindProperty("footstepSoundEvent");
+            jumpDownSound = serializedObject.FindProperty("jumpDownSoundEvent");
+            jumpUpSound = serializedObject.FindProperty("jumpUpSoundEvent");
+            deathSound = serializedObject.FindProperty("deathSoundEvent");
+            attackSound = serializedObject.FindProperty("attackSoundEvent");
+
+            headAudioSource = serializedObject.FindProperty("headAudioSourceObject");
+            footAudioSource = serializedObject.FindProperty("footAudioSourceObject");
         }
 
         public override void OnInspectorGUI()
@@ -104,6 +134,17 @@ namespace Gamekit3D
                 //EditorGUILayout.PropertyField(m_EmoteDeathPlayerProp, m_EmoteDeathPlayerContent);
                 //EditorGUILayout.PropertyField(m_EmoteAttackPlayerProp, m_EmoteAttackPlayerContent);
                 //EditorGUILayout.PropertyField(m_EmoteJumpPlayerProp, m_EmoteJumpPlayerContent);
+
+                EditorGUILayout.PropertyField(damageSound, damageSoundEvent);
+                EditorGUILayout.PropertyField(footstepSound, footstepSoundEvent);
+                EditorGUILayout.PropertyField(jumpDownSound, jumpDownSoundEvent);
+                EditorGUILayout.PropertyField(jumpUpSound, jumpUpSoundEvent);
+                EditorGUILayout.PropertyField(deathSound, deathSoundEvent);
+                EditorGUILayout.PropertyField(attackSound, attackSoundEvent);
+
+                EditorGUILayout.PropertyField(headAudioSource, headAudioSourceObject);
+                EditorGUILayout.PropertyField(footAudioSource, footAudioSourceObject);
+
                 EditorGUI.indentLevel--;
             }
 

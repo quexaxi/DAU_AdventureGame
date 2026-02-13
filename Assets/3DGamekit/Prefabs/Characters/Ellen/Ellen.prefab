@@ -20726,13 +20726,33 @@ MonoBehaviour:
   canAttack: 0
   cameraSettings: {fileID: 0}
   meleeWeapon: {fileID: 114298887321203036}
-  footstepPlayer: {fileID: 0}
-  hurtAudioPlayer: {fileID: 0}
-  landingPlayer: {fileID: 0}
-  emoteLandingPlayer: {fileID: 0}
-  emoteDeathPlayer: {fileID: 0}
-  emoteAttackPlayer: {fileID: 0}
-  emoteJumpPlayer: {fileID: 0}
+  damageSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  footstepSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1c9e760ea54065849bce6f2b393e08e0,
+      type: 2}
+  jumpDownSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  jumpUpSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  deathSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  attackSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  headAudioSourceObject: {fileID: 1176728729151303564}
+  footAudioSourceObject: {fileID: 1063099897946804}
 --- !u!114 &114166992771378430
 MonoBehaviour:
   m_ObjectHideFlags: 0

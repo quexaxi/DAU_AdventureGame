@@ -1028,7 +1028,7 @@ GameObject:
   - component: {fileID: 4330284469158708}
   m_Layer: 0
   m_Name: DestructibleBox
-  m_TagString: Stone
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
