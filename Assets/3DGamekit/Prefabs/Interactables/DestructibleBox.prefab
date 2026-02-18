@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4980026837090274}
   - component: {fileID: 65524452651023800}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: DestructibleBoxCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 23105413348060914}
   - component: {fileID: 64810308498445900}
   - component: {fileID: 54472876201041426}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 23131834157102828}
   - component: {fileID: 64569209643257300}
   - component: {fileID: 54958303855218422}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 23308351406890180}
   - component: {fileID: 64052507872488034}
   - component: {fileID: 54137800458000322}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,7 +468,7 @@ GameObject:
   - component: {fileID: 23231063297459274}
   - component: {fileID: 64734559308973134}
   - component: {fileID: 54443562368707480}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -602,7 +602,7 @@ GameObject:
   - component: {fileID: 23062042244815236}
   - component: {fileID: 64049662880904014}
   - component: {fileID: 54096629949123030}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -736,7 +736,7 @@ GameObject:
   - component: {fileID: 23744391946462176}
   - component: {fileID: 64855117156494372}
   - component: {fileID: 54513127651726316}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1028,7 +1028,7 @@ GameObject:
   - component: {fileID: 4330284469158708}
   m_Layer: 0
   m_Name: DestructibleBox
-  m_TagString: Stone
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1063,7 +1063,7 @@ GameObject:
   - component: {fileID: 23674483504574714}
   - component: {fileID: 64270480009533010}
   - component: {fileID: 54864268751139694}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1194,7 +1194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4730132166866816}
   - component: {fileID: 114783824653081440}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructibleBoxBreak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1287,7 +1287,7 @@ GameObject:
   - component: {fileID: 23080946754364214}
   - component: {fileID: 64640243450091138}
   - component: {fileID: 54952653704979808}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1421,7 +1421,7 @@ GameObject:
   - component: {fileID: 23734693030515410}
   - component: {fileID: 64036843679473064}
   - component: {fileID: 54759824241239828}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1555,7 +1555,7 @@ GameObject:
   - component: {fileID: 23276945494555082}
   - component: {fileID: 64821737472786894}
   - component: {fileID: 54914062182287362}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1689,7 +1689,7 @@ GameObject:
   - component: {fileID: 23035985826819670}
   - component: {fileID: 64569119638641228}
   - component: {fileID: 54642203501037878}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1823,7 +1823,7 @@ GameObject:
   - component: {fileID: 23820524871504448}
   - component: {fileID: 64125771565876272}
   - component: {fileID: 54350177447554084}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1957,7 +1957,7 @@ GameObject:
   - component: {fileID: 23232241240400280}
   - component: {fileID: 64006493169782642}
   - component: {fileID: 54791806111296000}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2089,7 +2089,7 @@ GameObject:
   - component: {fileID: 4854883808615200}
   - component: {fileID: 198145845874891146}
   - component: {fileID: 199430658373839990}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: Particle System (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6999,7 +6999,7 @@ GameObject:
   - component: {fileID: 4289513638420490}
   - component: {fileID: 198958917158874004}
   - component: {fileID: 199425956516247186}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11913,7 +11913,7 @@ GameObject:
   - component: {fileID: 114157936046045886}
   - component: {fileID: 64170521529424344}
   - component: {fileID: 54171921546205050}
-  m_Layer: 23
+  m_Layer: 0
   m_Name: DestructibleBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12141,7 +12141,7 @@ GameObject:
   - component: {fileID: 23583811039348962}
   - component: {fileID: 64511420575368098}
   - component: {fileID: 54774085141402580}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12275,7 +12275,7 @@ GameObject:
   - component: {fileID: 23439531239524800}
   - component: {fileID: 64898770140443146}
   - component: {fileID: 54330958339593676}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12409,7 +12409,7 @@ GameObject:
   - component: {fileID: 23930922332374554}
   - component: {fileID: 64219271187290832}
   - component: {fileID: 54097568945095668}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12543,7 +12543,7 @@ GameObject:
   - component: {fileID: 23043546465570830}
   - component: {fileID: 64865180939690098}
   - component: {fileID: 54194804768202664}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12677,7 +12677,7 @@ GameObject:
   - component: {fileID: 23769207469437368}
   - component: {fileID: 64874288674026260}
   - component: {fileID: 54245306270781164}
-  m_Layer: 19
+  m_Layer: 0
   m_Name: DestructableBox_Chunk9
   m_TagString: Untagged
   m_Icon: {fileID: 0}

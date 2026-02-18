@@ -30,8 +30,8 @@ namespace Gamekit3D
 
         public TimeEffect[] effects;
 
-        [Header("Audio")] public RandomAudioPlayer hitAudio;
-        public RandomAudioPlayer attackAudio;
+        //[Header("Audio")] public RandomAudioPlayer hitAudio;
+        //public RandomAudioPlayer attackAudio;
 
         public bool throwingHit
         {
@@ -79,8 +79,8 @@ namespace Gamekit3D
 
         public void BeginAttack(bool thowingAttack)
         {
-            if (attackAudio != null)
-                attackAudio.PlayRandomClip();
+            //if (attackAudio != null)
+            //    attackAudio.PlayRandomClip();
             throwingHit = thowingAttack;
 
             m_InAttack = true;
@@ -172,16 +172,16 @@ namespace Gamekit3D
                 return false;
             }
 
-            if (hitAudio != null)
-            {
-                var renderer = other.GetComponent<Renderer>();
-                if (!renderer)
-                    renderer = other.GetComponentInChildren<Renderer> ();
-                if (renderer)
-                    hitAudio.PlayRandomClip (renderer.sharedMaterial);
-                else
-                    hitAudio.PlayRandomClip ();
-            }
+            //if (hitAudio != null)
+            //{
+            //    var renderer = other.GetComponent<Renderer>();
+            //    if (!renderer)
+            //        renderer = other.GetComponentInChildren<Renderer> ();
+            //    if (renderer)
+            //        hitAudio.PlayRandomClip (renderer.sharedMaterial);
+            //    else
+            //        hitAudio.PlayRandomClip ();
+            //}
 
             Damageable.DamageMessage data;
 
