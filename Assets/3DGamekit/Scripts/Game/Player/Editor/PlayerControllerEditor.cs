@@ -39,6 +39,14 @@ namespace Gamekit3D
         SerializedProperty headAudioSource;
         SerializedProperty footAudioSource;
 
+        SerializedProperty matSwitchMud;
+        SerializedProperty matSwitchStone;
+        SerializedProperty matSwitchMetal;
+
+        SerializedProperty matMud;
+        SerializedProperty matStone;
+        SerializedProperty matDropship;
+
         GUIContent m_ScriptContent = new GUIContent("Script");
 
         GUIContent m_MaxForwardSpeedContent = new GUIContent("Max Forward Speed", "How fast Ellen can run.");
@@ -67,6 +75,14 @@ namespace Gamekit3D
 
         GUIContent headAudioSourceObject = new GUIContent("Head Audio Source Object", "A Game Object.");
         GUIContent footAudioSourceObject = new GUIContent("Foot Audio Source Object", "A Game Object.");
+
+        GUIContent matSoundSwitchChoiceMud = new GUIContent("Material Sound Switch: Mud", "A Wwise Switch Group");
+        GUIContent matSoundSwitchChoiceStone = new GUIContent("Material Sound Switch: Stone", "A Wwise Switch Group");
+        GUIContent matSoundSwitchChoiceMetal = new GUIContent("Material Sound Switch: Metal", "A Wwise Switch Group");
+
+        GUIContent matMudMaterial = new GUIContent("Material: Mud", "A Unity Material");
+        GUIContent matStoneMaterial = new GUIContent("Material: Stone", "A Unity Material");
+        GUIContent matDropshipMaterial = new GUIContent("Material: Dropship", "A Unity Material");
 
         void OnEnable()
         {
@@ -99,6 +115,14 @@ namespace Gamekit3D
 
             headAudioSource = serializedObject.FindProperty("headAudioSourceObject");
             footAudioSource = serializedObject.FindProperty("footAudioSourceObject");
+
+            matSwitchMud = serializedObject.FindProperty("matSoundSwitchChoiceMud");
+            matSwitchStone = serializedObject.FindProperty("matSoundSwitchChoiceStone");
+            matSwitchMetal = serializedObject.FindProperty("matSoundSwitchChoiceMetal");
+
+            matMud = serializedObject.FindProperty("material_Mud");
+            matStone = serializedObject.FindProperty("material_Stone");
+            matDropship = serializedObject.FindProperty("material_Dropship");
         }
 
         public override void OnInspectorGUI()
@@ -144,6 +168,14 @@ namespace Gamekit3D
 
                 EditorGUILayout.PropertyField(headAudioSource, headAudioSourceObject);
                 EditorGUILayout.PropertyField(footAudioSource, footAudioSourceObject);
+
+                EditorGUILayout.PropertyField(matSwitchMud, matSoundSwitchChoiceMud);
+                EditorGUILayout.PropertyField(matSwitchStone, matSoundSwitchChoiceStone);
+                EditorGUILayout.PropertyField(matSwitchMetal, matSoundSwitchChoiceMetal);
+
+                EditorGUILayout.PropertyField(matMud, new GUIContent("Materials: Mud"), true);
+                EditorGUILayout.PropertyField(matStone, new GUIContent("Materials: Stone"), true);
+                EditorGUILayout.PropertyField(matDropship, new GUIContent("Materials: Dropship"), true);
 
                 EditorGUI.indentLevel--;
             }

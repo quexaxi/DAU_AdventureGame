@@ -5,24 +5,10 @@
 			<ChildrenList>
 				<Event Name="Play_Player_Footsteps" ID="{B1F7EC8D-A79A-4650-B7A6-2E9B58848145}">
 					<ChildrenList>
-						<Action Name="" ID="{BDE7582C-3F01-4A7D-B64D-55DC77F1643A}" ShortID="139731279">
+						<Action Name="" ID="{AE69C49F-81DB-4BF6-A9B4-CF8CA00F7E77}" ShortID="680787475">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Player_Footstep_Dirt" ID="{086F9588-8858-4D06-96CD-53DB7423270E}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{4638EA34-4A2C-4A84-9812-82E6B87016CD}" ShortID="582610546">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_Footstep_Grass" ID="{DED0DE0F-5B42-461E-8DC4-A8A43CAFA67F}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{9F942037-E101-4E5B-BF48-E41252370B7A}" ShortID="657343575">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_Footstep_Stone" ID="{A25C34C2-0173-40C6-9777-95EAEDB8241D}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+									<ObjectRef Name="Player_Footsteps" ID="{AB299425-E7FA-48D4-BED9-40D813319E1E}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

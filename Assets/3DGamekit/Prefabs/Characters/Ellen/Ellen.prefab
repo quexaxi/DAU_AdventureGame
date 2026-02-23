@@ -20503,9 +20503,6 @@ GameObject:
   - component: {fileID: 114603677736913854}
   - component: {fileID: 114579421511091938}
   - component: {fileID: 114166992771378430}
-  - component: {fileID: 3997746236607016778}
-  - component: {fileID: 5776834434009687805}
-  - component: {fileID: 5218577727105945037}
   m_Layer: 9
   m_Name: Ellen
   m_TagString: Untagged
@@ -20751,6 +20748,72 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   headAudioSourceObject: {fileID: 1176728729151303564}
   footAudioSourceObject: {fileID: 1063099897946804}
+  matSoundSwitchChoiceMud:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f805000722fe3974facbf57746e469cc,
+      type: 2}
+  matSoundSwitchChoiceStone:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 928f2acb24e601b4a815092f712a29b7,
+      type: 2}
+  matSoundSwitchChoiceMetal:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 35122b7499d53c349b3f75ad23739168,
+      type: 2}
+  material_Mud:
+  - {fileID: 2100000, guid: 61be5fb840b83854a95a1ef4982462cd, type: 2}
+  - {fileID: 2100000, guid: 9f1e1e6c36df17a48b610353e7d0bc21, type: 2}
+  - {fileID: 2100000, guid: 5efb96c2e1892fd4db5e59e62a7b8d28, type: 2}
+  - {fileID: 2100000, guid: 7e0b7e421297cbb4cae0bb0da948f573, type: 2}
+  - {fileID: 2100000, guid: 427b5a116a8ebe64fbdad4bd862c7d37, type: 2}
+  material_Stone:
+  - {fileID: 2100000, guid: 3a1c0abc6434d724f86a321dcf7bf14e, type: 2}
+  - {fileID: 2100000, guid: adb337a478630cf4c91511a0dc9dc393, type: 2}
+  - {fileID: 2100000, guid: f34046eac45349744b2732582c411c14, type: 2}
+  - {fileID: 2100000, guid: d1ceeaadc3450694eafc85a314039392, type: 2}
+  - {fileID: 2100000, guid: 40cfcebf1ef55f74092c951f459bc5c5, type: 2}
+  - {fileID: 2100000, guid: 3b01d315743ae97459ca3d3bd461e4be, type: 2}
+  - {fileID: 2100000, guid: 2a8b76488fd1340459de8f96ea4eb868, type: 2}
+  - {fileID: 2100000, guid: 3ef81e43f26c03a48a716c889d201861, type: 2}
+  - {fileID: 2100000, guid: 00036c34b5ae386428e7e2e5470124e9, type: 2}
+  - {fileID: 2100000, guid: a997cca723ebe0f49ae9612bde2c80f4, type: 2}
+  - {fileID: 2100000, guid: 6301438681abcdd4081173f72ff42803, type: 2}
+  - {fileID: 2100000, guid: aeba2987925798e4a8401bfd77cd1284, type: 2}
+  - {fileID: 2100000, guid: 049606f690e98a949bc26f5a5c210b4d, type: 2}
+  - {fileID: 2100000, guid: 5caf37f41fd93d443a82f2fd01a16358, type: 2}
+  - {fileID: 2100000, guid: 80fada4b65ca27e40b0391b92c8fe136, type: 2}
+  - {fileID: 2100000, guid: 5caf37f41fd93d443a82f2fd01a16358, type: 2}
+  - {fileID: 2100000, guid: 80fada4b65ca27e40b0391b92c8fe136, type: 2}
+  - {fileID: 2100000, guid: 5a0c1b5b20deb5340b82c3aa4b716c73, type: 2}
+  - {fileID: 2100000, guid: 326d338815570844bba9082517b13153, type: 2}
+  - {fileID: 2100000, guid: 5d83db080be59c44d937740c3464c256, type: 2}
+  - {fileID: 2100000, guid: 2cd607346dbd37f41a37f41616cd5cb1, type: 2}
+  - {fileID: 2100000, guid: ed1d61f09b842f64f9eb2410a19ffe19, type: 2}
+  - {fileID: 2100000, guid: e197c91a5a0658e45855058cc6570ce5, type: 2}
+  - {fileID: 2100000, guid: 3f63094f480a91f43889dd69c30540a2, type: 2}
+  - {fileID: 2100000, guid: 33b20ee5df496994b9fb18a571448a2d, type: 2}
+  - {fileID: 2100000, guid: c8ce8ac43d3b78949ab5b0c47900a62c, type: 2}
+  - {fileID: 2100000, guid: d38a57c924e0bca4f99693b01ea4fea6, type: 2}
+  - {fileID: 2100000, guid: bb838f9031e07084ba7dedfcce8cc557, type: 2}
+  - {fileID: 2100000, guid: 26ac4cde285117148acca917dc54b4ac, type: 2}
+  - {fileID: 2100000, guid: c90acb39326143642a25b630416a7c8a, type: 2}
+  - {fileID: 2100000, guid: 213f29d8077200a489882139504e451d, type: 2}
+  - {fileID: 2100000, guid: bc9add680f5479b4c92e1e22e00c3687, type: 2}
+  material_Dropship:
+  - {fileID: 2100000, guid: ceacc89730515714ba02cef1afa41521, type: 2}
+  - {fileID: 2100000, guid: 9f6ef4965d08a0e4e9074adc1e848339, type: 2}
+  - {fileID: 2100000, guid: 7a789884b6c7b5d41b87337c5fc29995, type: 2}
+  - {fileID: 2100000, guid: a7569aadde6bf9e40a7068da3b212ad5, type: 2}
+  - {fileID: 2100000, guid: 1c4cffe9877845349940f71100042f8f, type: 2}
 --- !u!114 &114166992771378430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20764,84 +20827,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arcsCount: 12
---- !u!114 &3997746236607016778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991219941496362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc24423584c7a3a4594cb741fc80275a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerFootstepEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 1c9e760ea54065849bce6f2b393e08e0,
-      type: 2}
-  footstepSource: {fileID: 1063099897946804}
-  jumpUpVoiceEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  headAudioSource: {fileID: 1176728729151303564}
-  surfaceProbe: {fileID: 5776834434009687805}
---- !u!114 &5776834434009687805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991219941496362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f906728488799640a51fed8f2ac5421, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  probeOrigin: {fileID: 4569376433081242}
-  rayStartUpOffset: 0.15
-  rayLength: 1.5
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  tagOverrides:
-  - tag: Stone
-    surfaceId: Stone
-  - tag: Metal
-    surfaceId: Metal
-  layerOverrides: []
-  materialOverrides: []
-  sampleMeshMask: 1
-  uvSource: 0
-  normalizeMaskWeights: 1
-  switchGroup: PlayerFootsteps
-  defaultSurfaceId: Default
-  surfaces:
-  - surfaceId: Metal
-    switchState: Metal
-    rtpcName: 
-    rtpcScale: 0
-  debugLogs: 1
-  debugLogEveryProbe: 0
-  debugDrawRay: 1
-  debugRayDrawDuration: 0.25
-  debugLogMaterials: 1
-  debugLogMaskWeights: 1
---- !u!114 &5218577727105945037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991219941496362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2a421ecdbbf9c04c9e7796fc99520e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 61be5fb840b83854a95a1ef4982462cd, type: 2}
 --- !u!1 &1991646998098166
 GameObject:
   m_ObjectHideFlags: 0

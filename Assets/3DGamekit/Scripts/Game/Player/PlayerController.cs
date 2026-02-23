@@ -2,6 +2,7 @@ using UnityEngine;
 using Gamekit3D.Message;
 using System.Collections;
 using UnityEngine.XR.WSA;
+using System;
 
 namespace Gamekit3D
 {
@@ -41,6 +42,14 @@ namespace Gamekit3D
 
         public GameObject headAudioSourceObject;
         public GameObject footAudioSourceObject;
+
+        public AK.Wwise.Switch matSoundSwitchChoiceMud;
+        public AK.Wwise.Switch matSoundSwitchChoiceStone;
+        public AK.Wwise.Switch matSoundSwitchChoiceMetal;
+
+        public Material[] material_Mud;
+        public Material[] material_Stone;
+        public Material[] material_Dropship;
 
         protected AnimatorStateInfo m_CurrentStateInfo;    // Information about the base layer of the animator cached.
         protected AnimatorStateInfo m_NextStateInfo;
@@ -429,6 +438,7 @@ namespace Gamekit3D
         public void PlayFootstepSound()
         {
             Debug.Log(m_CurrentWalkingSurface);
+            SetAudioMaterialSwitch();
             footstepSoundEvent.Post(footAudioSourceObject);
         }
 
@@ -457,21 +467,29 @@ namespace Gamekit3D
             {
                 //landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
                 //emoteLandingPlayer.PlayRandomClip();
+                Debug.Log(m_CurrentWalkingSurface);
+                SetAudioMaterialSwitch();
+                jumpDownSoundEvent.Post(footAudioSourceObject);
             }
 
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
             {
                 //emoteJumpPlayer.PlayRandomClip();
+                Debug.Log(m_CurrentWalkingSurface);
+                SetAudioMaterialSwitch();
+                jumpUpSoundEvent.Post(footAudioSourceObject);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
             {
                 //hurtAudioPlayer.PlayRandomClip();
+                damageSoundEvent.Post(headAudioSourceObject);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
             {
                 //emoteDeathPlayer.PlayRandomClip();
+                deathSoundEvent.Post(headAudioSourceObject);
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo1 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo1 ||
@@ -480,6 +498,40 @@ namespace Gamekit3D
                 m_CurrentStateInfo.shortNameHash == m_HashEllenCombo4 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo4)
             {
                 //emoteAttackPlayer.PlayRandomClip();
+                attackSoundEvent.Post(headAudioSourceObject);
+            }
+        }
+
+        void SetAudioMaterialSwitch()
+        {
+            if (m_CurrentWalkingSurface == null)
+            {
+                Debug.Log("Wwise Switch: default");
+                matSoundSwitchChoiceMud.SetValue(footAudioSourceObject);
+                return;
+            }
+
+            // If m_CurrentWalkingSurface comes from a Renderer, prefer storing/using renderer.sharedMaterial.
+            if (Array.IndexOf(material_Mud, m_CurrentWalkingSurface) >= 0)
+            {
+                Debug.Log("Wwise Switch: Mud");
+                matSoundSwitchChoiceMud.SetValue(footAudioSourceObject);
+            }
+            else if (Array.IndexOf(material_Stone, m_CurrentWalkingSurface) >= 0)
+            {
+                Debug.Log("Wwise Switch: Stone");
+                matSoundSwitchChoiceStone.SetValue(footAudioSourceObject);
+            }
+            else if (Array.IndexOf(material_Dropship, m_CurrentWalkingSurface) >= 0)
+            {
+                Debug.Log("Wwise Switch: Metal");
+                matSoundSwitchChoiceMetal.SetValue(footAudioSourceObject);
+            }
+            else
+            {
+                // fallback
+                Debug.Log("Wwise Switch: fallback");
+                matSoundSwitchChoiceMud.SetValue(footAudioSourceObject);
             }
         }
 
