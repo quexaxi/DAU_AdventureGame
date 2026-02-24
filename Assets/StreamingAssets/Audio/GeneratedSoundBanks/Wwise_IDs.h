@@ -14,9 +14,11 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_AMB_GLOBAL = 2676390936U;
+        static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
         static const AkUniqueID PLAY_MAIN_MUSIC_SWITCH = 1378767680U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
         static const AkUniqueID PLAY_PLAYER_JUMPUP = 2528119339U;
+        static const AkUniqueID PLAY_WORLD_STAFF_SWELL_LP = 2718565570U;
     } // namespace EVENTS
 
     namespace STATES

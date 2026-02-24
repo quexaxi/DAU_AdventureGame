@@ -442,6 +442,41 @@ namespace Gamekit3D
             footstepSoundEvent.Post(footAudioSourceObject);
         }
 
+        public void PlayJumpSound()
+        {
+            Debug.Log(m_CurrentWalkingSurface);
+            SetAudioMaterialSwitch();
+            jumpUpSoundEvent.Post(footAudioSourceObject);
+        }
+
+        public void PlayLandSound()
+        {
+            Debug.Log(m_CurrentWalkingSurface);
+            SetAudioMaterialSwitch();
+            jumpDownSoundEvent.Post(footAudioSourceObject);
+        }
+
+        public void PlayAttackSound()
+        {
+            Debug.Log(m_CurrentWalkingSurface);
+            SetAudioMaterialSwitch();
+            attackSoundEvent.Post(footAudioSourceObject);
+        }
+
+        public void PlayDeathSound()
+        {
+            Debug.Log(m_CurrentWalkingSurface);
+            SetAudioMaterialSwitch();
+            deathSoundEvent.Post(footAudioSourceObject);
+        }
+
+        public void PlayDamageSound()
+        {
+            Debug.Log(m_CurrentWalkingSurface);
+            SetAudioMaterialSwitch();
+            damageSoundEvent.Post(footAudioSourceObject);
+        }
+
         //Called each physics step to check if audio should be played and if so instruct the relevant random audio player to do so.
         void PlayAudio()
         {
@@ -506,7 +541,7 @@ namespace Gamekit3D
         {
             if (m_CurrentWalkingSurface == null)
             {
-                Debug.Log("Wwise Switch: default");
+                //Debug.Log("Wwise Switch: default");
                 matSoundSwitchChoiceMud.SetValue(footAudioSourceObject);
                 return;
             }
@@ -514,23 +549,23 @@ namespace Gamekit3D
             // If m_CurrentWalkingSurface comes from a Renderer, prefer storing/using renderer.sharedMaterial.
             if (Array.IndexOf(material_Mud, m_CurrentWalkingSurface) >= 0)
             {
-                Debug.Log("Wwise Switch: Mud");
+                //Debug.Log("Wwise Switch: Mud");
                 matSoundSwitchChoiceMud.SetValue(footAudioSourceObject);
             }
             else if (Array.IndexOf(material_Stone, m_CurrentWalkingSurface) >= 0)
             {
-                Debug.Log("Wwise Switch: Stone");
+                //Debug.Log("Wwise Switch: Stone");
                 matSoundSwitchChoiceStone.SetValue(footAudioSourceObject);
             }
             else if (Array.IndexOf(material_Dropship, m_CurrentWalkingSurface) >= 0)
             {
-                Debug.Log("Wwise Switch: Metal");
+                //Debug.Log("Wwise Switch: Metal");
                 matSoundSwitchChoiceMetal.SetValue(footAudioSourceObject);
             }
             else
             {
                 // fallback
-                Debug.Log("Wwise Switch: fallback");
+                //Debug.Log("Wwise Switch: fallback");
                 matSoundSwitchChoiceMud.SetValue(footAudioSourceObject);
             }
         }

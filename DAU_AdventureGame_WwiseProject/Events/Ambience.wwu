@@ -9,13 +9,21 @@
 			<ChildrenList>
 				<Event Name="Play_Amb_Global" ID="{686A9575-B3BB-4AC4-AA92-DA8D8A91B8D4}">
 					<ChildrenList>
-						<Action Name="" ID="{AB7F00AA-235A-4CCE-A544-D0494A028293}" ShortID="630490886">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
+						<Action Name="" ID="{8E570A01-FBD8-49C1-83D6-47B4F5D06E28}" ShortID="347165353">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Global" ID="{9F3126F9-2716-4A04-A6BC-9C81EFD4BEFD}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+									<ObjectRef Name="AMB_Base_Jungle" ID="{7E1EECB2-8601-44E8-9C7C-5E29525C7110}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Amb_Spaceship" ID="{DCD288B3-C4F3-456E-8390-8F414D604867}">
+					<ChildrenList>
+						<Action Name="" ID="{652298F6-5D1C-4C5A-A6E8-878A632E81A3}" ShortID="283443327">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Spaceship" ID="{174E691F-7D6A-4DF6-B874-4C5369BEC0E7}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

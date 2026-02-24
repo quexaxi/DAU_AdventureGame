@@ -19,15 +19,15 @@ public class PlayerSoundController : MonoBehaviour
     private GameObject headAudioSource;
 
     // Footstep switch related
-    [SerializeField] private SurfaceProbeWwise surfaceProbe;
+    //[SerializeField] private SurfaceProbeWwise surfaceProbe;
 
-    public void ww_player_footstep_play()
-    {
-        if (surfaceProbe != null && footstepSource != null)
-            surfaceProbe.ApplySurfaceTo(footstepSource);
+    //public void ww_player_footstep_play()
+    //{
+    //    if (surfaceProbe != null && footstepSource != null)
+    //        surfaceProbe.ApplySurfaceTo(footstepSource);
 
-        playerFootstepEvent.Post(footstepSource);
-    }
+    //    playerFootstepEvent.Post(footstepSource);
+    //}
 
     public void ww_player_jump_up_play()
     {

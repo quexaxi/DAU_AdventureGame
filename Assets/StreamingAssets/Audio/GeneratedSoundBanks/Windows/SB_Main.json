@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{46A62C61-6226-BE9C-3032-69321D0EB990}",
+    "Hash": "{B79C9780-8853-68D3-4CE3-ABAFADE74E04}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -38,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Jump_01.wav",
       "CachePath": "7C/{7C2C6792-2C21-EF82-7D24-AA72C2B70BDA}.wem"
+     },
+     {
+      "Id": "232616254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Main_Jungle_01.wav",
+      "CachePath": "08/{08956A45-64B1-2BFC-8357-11840D6C3CE2}.wem"
      },
      {
       "Id": "255903489",
@@ -88,6 +96,14 @@
       "CachePath": "B2/{B2B1FB80-3E99-E751-0F4F-710D3836C7E1}.wem"
      },
      {
+      "Id": "420773595",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Spaceship.wav",
+      "CachePath": "59/{5999B511-3947-A5F8-5CD5-61FA695F7C11}.wem"
+     },
+     {
       "Id": "423665199",
       "Language": "SFX",
       "Streaming": "false",
@@ -118,6 +134,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Footstep_Stone_05.wav",
       "CachePath": "4F/{4F85B860-67C9-145F-9B6B-C5F98B09296B}.wem"
+     },
+     {
+      "Id": "593107319",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Staff_Swell.wav",
+      "CachePath": "08/{08BCE7C0-AD1D-9D30-545F-786BB1D17B8A}.wem"
      },
      {
       "Id": "614234922",
@@ -231,10 +255,27 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Global",
       "GUID": "{686A9575-B3BB-4AC4-AA92-DA8D8A91B8D4}",
       "Color": "4",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "232616254"
+       }
+      ]
+     },
+     {
+      "Id": "3213331111",
+      "Name": "Play_Amb_Spaceship",
+      "ObjectPath": "\\Events\\Ambience\\Play_Amb_Spaceship",
+      "GUID": "{DCD288B3-C4F3-456E-8390-8F414D604867}",
+      "Color": "4",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "420773595"
+       }
+      ]
      },
      {
       "Id": "98439365",
@@ -371,6 +412,19 @@
         "Id": "755437045"
        }
       ]
+     },
+     {
+      "Id": "2718565570",
+      "Name": "Play_World_Staff_Swell_Lp",
+      "ObjectPath": "\\Events\\World\\Play_World_Staff_Swell_Lp",
+      "GUID": "{42EF8B9A-CE27-42D2-8B51-4BAE7B38E29E}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "593107319"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -407,6 +461,6 @@
     ]
    }
   ],
-  "FileHash": "{F7B73255-4A50-2CA5-E3DD-85B66085932A}"
+  "FileHash": "{FE915177-B524-5AB7-0EF7-4F1BC6BC99EF}"
  }
 }
