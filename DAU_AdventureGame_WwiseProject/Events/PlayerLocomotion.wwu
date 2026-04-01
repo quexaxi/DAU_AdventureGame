@@ -7,7 +7,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{AE69C49F-81DB-4BF6-A9B4-CF8CA00F7E77}" ShortID="680787475">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.2"/>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -16,9 +16,6 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{2FA7BF46-1ABE-4970-9D38-ECC553C22EFB}" ShortID="378999642">
-							<PropertyList>
-								<Property Name="Probability" Type="Real64" Value="99"/>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Player_Cloth" ID="{1AA3E4CA-1AED-438D-9544-82BC6DA96A48}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
