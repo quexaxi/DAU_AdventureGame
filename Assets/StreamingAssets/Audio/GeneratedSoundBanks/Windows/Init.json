@@ -418,6 +418,20 @@
       ]
      },
      {
+      "Id": "806507282",
+      "Name": "ChomperFootsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\ChomperFootsteps",
+      "GUID": "{96D5E82D-B26E-4902-AB2D-EE8795678BC2}",
+      "Switches": []
+     },
+     {
+      "Id": "846198821",
+      "Name": "PlayerLand",
+      "ObjectPath": "\\Switches\\Default Work Unit\\PlayerLand",
+      "GUID": "{08C81EB7-0D73-4D4A-BD33-E2DC36570BBB}",
+      "Switches": []
+     },
+     {
       "Id": "1044534455",
       "Name": "GroundMaterialSwitch",
       "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterialSwitch",
@@ -502,6 +516,6 @@
     ]
    }
   ],
-  "FileHash": "{21C519F6-E612-2C63-AEA6-267E753885FB}"
+  "FileHash": "{60C53C90-9852-BFE2-C335-CF016A046C9D}"
  }
 }

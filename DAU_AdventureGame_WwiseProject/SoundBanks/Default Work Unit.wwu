@@ -6,8 +6,9 @@
 				<SoundBank Name="SB_Main" ID="{E2002279-5ED8-4767-BD14-FAC2C1015F05}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Ambience" ID="{76944B80-2D92-42C5-B83E-306340D52D1C}" WorkUnitID="{76944B80-2D92-42C5-B83E-306340D52D1C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Player_Footsteps" ID="{B1F7EC8D-A79A-4650-B7A6-2E9B58848145}" WorkUnitID="{3B83AA82-84E3-4B7F-8604-CA85F7B68D8E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Player_JumpUp" ID="{DAE98BE5-CD81-48D3-9955-82487DD864A4}" WorkUnitID="{3B83AA82-84E3-4B7F-8604-CA85F7B68D8E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NPC" ID="{536381D6-0805-48C8-B343-C885D7436FE4}" WorkUnitID="{536381D6-0805-48C8-B343-C885D7436FE4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{9B91F9E8-15A1-4939-B8D8-92AF6F995375}" WorkUnitID="{9B91F9E8-15A1-4939-B8D8-92AF6F995375}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}" WorkUnitID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="World" ID="{4BEFC0C3-A18E-4D12-931B-AEA8E2D4584D}" WorkUnitID="{4BEFC0C3-A18E-4D12-931B-AEA8E2D4584D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

@@ -6,9 +6,22 @@
 				<Event Name="Play_Player_Footsteps" ID="{B1F7EC8D-A79A-4650-B7A6-2E9B58848145}">
 					<ChildrenList>
 						<Action Name="" ID="{AE69C49F-81DB-4BF6-A9B4-CF8CA00F7E77}" ShortID="680787475">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Player_Footsteps" ID="{AB299425-E7FA-48D4-BED9-40D813319E1E}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2FA7BF46-1ABE-4970-9D38-ECC553C22EFB}" ShortID="378999642">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="99"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Cloth" ID="{1AA3E4CA-1AED-438D-9544-82BC6DA96A48}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -17,9 +30,52 @@
 				<Event Name="Play_Player_JumpUp" ID="{DAE98BE5-CD81-48D3-9955-82487DD864A4}">
 					<ChildrenList>
 						<Action Name="" ID="{BBB46DAA-4DD1-4B04-AE13-F8E753EE5351}" ShortID="818565910">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+								<Property Name="Probability" Type="Real64" Value="99"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Player_Jump_Voice" ID="{3A29B4B7-AE3C-4624-AB4D-0DF97CDBC9D0}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E32E3EC6-07B4-4734-9F5F-AA2676154F95}" ShortID="37088414">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Ellen_Jump_Whoosh" ID="{E38B358A-8171-468D-9952-6D13E3FC57F1}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Land" ID="{1118A975-03F4-4727-8DEC-B0CA91DBA82A}">
+					<ChildrenList>
+						<Action Name="" ID="{3D1F7F5E-1B0A-4260-A649-2F297ED3C591}" ShortID="340647216">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Land_Voice" ID="{06D19B7A-B83E-46E6-8469-524DE044A596}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AB096C45-3A9B-4423-AF2A-1A8CFAD21B7E}" ShortID="380236906">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Land" ID="{735758D2-E1FF-4CEF-A88A-4A033A4E658D}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Roll" ID="{C4C036DE-2D0A-4E53-9C78-6D4AF7D1E144}">
+					<ChildrenList>
+						<Action Name="" ID="{F653F2A5-B584-4183-95A8-7F8F89C6D7E0}" ShortID="457176169">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Roll" ID="{AF7AE51A-5AF6-4B38-9A21-4B1619ABDA90}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

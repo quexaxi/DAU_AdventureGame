@@ -6,6 +6,10 @@
 				<Property Name="Color" Type="int16" Value="1"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="ChomperLocomotion" ID="{C72A6AFA-5C90-4FA5-ABB5-EE4CA1CAAB68}" PersistMode="Reference"/>
+				<WorkUnit Name="ChomperCombat" ID="{37312D64-BD47-490B-9743-2462ACFECBA5}" PersistMode="Reference"/>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

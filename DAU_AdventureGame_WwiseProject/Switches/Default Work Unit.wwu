@@ -35,6 +35,8 @@
 						<Switch Name="Stone" ID="{593E332C-64AD-484E-9DF1-1FCC27C66E73}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="ChomperFootsteps" ID="{96D5E82D-B26E-4902-AB2D-EE8795678BC2}"/>
+				<SwitchGroup Name="PlayerLand" ID="{08C81EB7-0D73-4D4A-BD33-E2DC36570BBB}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

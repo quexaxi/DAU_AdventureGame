@@ -15,10 +15,31 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMB_GLOBAL = 2676390936U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
+        static const AkUniqueID PLAY_CHOMPER_BREATH = 4104589597U;
+        static const AkUniqueID PLAY_CHOMPER_DEATH = 2761388991U;
+        static const AkUniqueID PLAY_CHOMPER_FOOTSTEPS = 3742480528U;
+        static const AkUniqueID PLAY_CHOMPER_GRUNT = 3136529387U;
+        static const AkUniqueID PLAY_CHOMPER_SLURP = 2329507261U;
+        static const AkUniqueID PLAY_CHOMPER_SMELL = 3615463328U;
+        static const AkUniqueID PLAY_CHOMPER_SPOTTED = 253791182U;
         static const AkUniqueID PLAY_MAIN_MUSIC_SWITCH = 1378767680U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
         static const AkUniqueID PLAY_PLAYER_JUMPUP = 2528119339U;
+        static const AkUniqueID PLAY_PLAYER_LAND = 4249207015U;
+        static const AkUniqueID PLAY_PLAYER_ROLL = 2370959289U;
+        static const AkUniqueID PLAY_ROCK_BREAK = 651543525U;
+        static const AkUniqueID PLAY_STAFF_PICKUP = 877612971U;
+        static const AkUniqueID PLAY_STAFF_SWING = 3707491759U;
         static const AkUniqueID PLAY_WORLD_STAFF_SWELL_LP = 2718565570U;
+        static const AkUniqueID UI_BACK = 2024222415U;
+        static const AkUniqueID UI_CANCEL = 3083016892U;
+        static const AkUniqueID UI_CLICK = 2249769530U;
+        static const AkUniqueID UI_ESC = 3213519765U;
+        static const AkUniqueID UI_HOVER = 2118900976U;
+        static const AkUniqueID UI_SELECT = 2774129122U;
+        static const AkUniqueID UI_START = 1219048826U;
+        static const AkUniqueID UI_TEXT_POP = 866798855U;
+        static const AkUniqueID UI_TEXT_POPOUT = 3909382469U;
     } // namespace EVENTS
 
     namespace STATES
@@ -77,6 +98,15 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace CHOMPERFOOTSTEPS
+        {
+            static const AkUniqueID GROUP = 806507282U;
+
+            namespace SWITCH
+            {
+            } // namespace SWITCH
+        } // namespace CHOMPERFOOTSTEPS
+
         namespace GROUNDMATERIALSWITCH
         {
             static const AkUniqueID GROUP = 1044534455U;
@@ -112,6 +142,15 @@ namespace AK
                 static const AkUniqueID NEARDEATH = 898449699U;
             } // namespace SWITCH
         } // namespace PLAYERHEALTH
+
+        namespace PLAYERLAND
+        {
+            static const AkUniqueID GROUP = 846198821U;
+
+            namespace SWITCH
+            {
+            } // namespace SWITCH
+        } // namespace PLAYERLAND
 
         namespace PLAYERSPEEDSWITCH
         {

@@ -8,6 +8,7 @@
 			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="PlayerLocomotion" ID="{3B83AA82-84E3-4B7F-8604-CA85F7B68D8E}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerCombat" ID="{DFFFFC8D-05F0-4B8B-8443-E5D64C9C404C}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

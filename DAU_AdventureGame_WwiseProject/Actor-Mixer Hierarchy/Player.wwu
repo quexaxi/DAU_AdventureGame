@@ -1058,184 +1058,6 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Player_Cloth" ID="{1AA3E4CA-1AED-438D-9544-82BC6DA96A48}" ShortID="651657653">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="SFX_Ellen_Cloth_01" ID="{C99A05B0-1EA3-44D3-B20A-3E32BAAA35B8}" ShortID="277284791">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Ellen_Cloth_01" ID="{F2C6D557-82FF-40B8-AB20-E870805A0CFD}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_Ellen_Cloth_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="272817585"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Ellen_Cloth_01" ID="{F2C6D557-82FF-40B8-AB20-E870805A0CFD}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_Ellen_Cloth_02" ID="{6FED162F-C09E-4532-A050-98FFFF673E5E}" ShortID="807220090">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Ellen_Cloth_02" ID="{FFA0692F-4B99-4CE5-9209-0BCD5B9AB596}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_Ellen_Cloth_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="348037534"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Ellen_Cloth_02" ID="{FFA0692F-4B99-4CE5-9209-0BCD5B9AB596}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_Ellen_Cloth_03" ID="{48A8C964-5094-4E28-80B7-0A216F819BAE}" ShortID="755283518">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Ellen_Cloth_03" ID="{CDDAC095-28F6-4505-A7FA-F2006ACCDEB6}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_Ellen_Cloth_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="123403445"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Ellen_Cloth_03" ID="{CDDAC095-28F6-4505-A7FA-F2006ACCDEB6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_Ellen_Cloth_04" ID="{C7B7D69C-9BE4-42CD-82B2-316F83F33FF4}" ShortID="183202260">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Ellen_Cloth_04" ID="{13230682-7EE0-4039-9B09-C6187A97E985}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_Ellen_Cloth_04.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="136363487"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Ellen_Cloth_04" ID="{13230682-7EE0-4039-9B09-C6187A97E985}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Player_Land" ID="{E4CFB016-D786-4ED6-81C1-E3DBB4489D1D}" ShortID="187248524">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Ellen_Land_Dirt" ID="{C165090A-05A0-4438-8D1E-21E85D8ECFD4}" ShortID="770814223">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Ellen_Land_Dirt" ID="{8CB91519-FE45-4C21-99EF-0A0F4D5EB4B1}">
-											<Language>SFX</Language>
-											<AudioFile>Ellen_Land_Dirt.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="615615615"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Ellen_Land_Dirt" ID="{8CB91519-FE45-4C21-99EF-0A0F4D5EB4B1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Ellen_Land_Grass" ID="{44AC909C-C79C-4943-8C9C-8136757DB8CD}" ShortID="631813890">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Ellen_Land_Grass" ID="{9D9FFC20-DCC6-4B45-A92E-27BB4E5972D4}">
-											<Language>SFX</Language>
-											<AudioFile>Ellen_Land_Grass.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="977271813"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Ellen_Land_Grass" ID="{9D9FFC20-DCC6-4B45-A92E-27BB4E5972D4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Ellen_Land_Stone" ID="{9682F2CB-AA41-4D67-B216-202BD1687334}" ShortID="459615416">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Ellen_Land_Stone" ID="{E72EF6BE-F8E5-44A5-8601-1E72FCF11F71}">
-											<Language>SFX</Language>
-											<AudioFile>Ellen_Land_Stone.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="430015297"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Ellen_Land_Stone" ID="{E72EF6BE-F8E5-44A5-8601-1E72FCF11F71}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 						<Sound Name="Player_Roll" ID="{AF7AE51A-5AF6-4B38-9A21-4B1619ABDA90}" ShortID="940831637">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1280,6 +1102,84 @@
 								<ActiveSource Name="SFX_Ellen_Jump_Whoosh" ID="{4AC10672-E871-438B-871F-D31C004EBD8B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Player_Land" ID="{735758D2-E1FF-4CEF-A88A-4A033A4E658D}" ShortID="936098873">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Player_Land_Dirt" ID="{C165090A-05A0-4438-8D1E-21E85D8ECFD4}" ShortID="770814223">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ellen_Land_Dirt" ID="{8CB91519-FE45-4C21-99EF-0A0F4D5EB4B1}">
+											<Language>SFX</Language>
+											<AudioFile>Ellen_Land_Dirt.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="615615615"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ellen_Land_Dirt" ID="{8CB91519-FE45-4C21-99EF-0A0F4D5EB4B1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Player_Land_Grass" ID="{44AC909C-C79C-4943-8C9C-8136757DB8CD}" ShortID="631813890">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ellen_Land_Grass" ID="{9D9FFC20-DCC6-4B45-A92E-27BB4E5972D4}">
+											<Language>SFX</Language>
+											<AudioFile>Ellen_Land_Grass.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977271813"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ellen_Land_Grass" ID="{9D9FFC20-DCC6-4B45-A92E-27BB4E5972D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Player_Land_Stone" ID="{9682F2CB-AA41-4D67-B216-202BD1687334}" ShortID="459615416">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ellen_Land_Stone" ID="{E72EF6BE-F8E5-44A5-8601-1E72FCF11F71}">
+											<Language>SFX</Language>
+											<AudioFile>Ellen_Land_Stone.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="430015297"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ellen_Land_Stone" ID="{E72EF6BE-F8E5-44A5-8601-1E72FCF11F71}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Player_Combat" ID="{194C6EBC-0ABA-49F4-8451-D2776F8737DC}" ShortID="591000506">
@@ -1443,6 +1343,106 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<RandomSequenceContainer Name="Player_Cloth" ID="{1AA3E4CA-1AED-438D-9544-82BC6DA96A48}" ShortID="651657653">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Ellen_Cloth_01" ID="{C99A05B0-1EA3-44D3-B20A-3E32BAAA35B8}" ShortID="277284791">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Ellen_Cloth_01" ID="{F2C6D557-82FF-40B8-AB20-E870805A0CFD}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Ellen_Cloth_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="272817585"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Ellen_Cloth_01" ID="{F2C6D557-82FF-40B8-AB20-E870805A0CFD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Ellen_Cloth_02" ID="{6FED162F-C09E-4532-A050-98FFFF673E5E}" ShortID="807220090">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Ellen_Cloth_02" ID="{FFA0692F-4B99-4CE5-9209-0BCD5B9AB596}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Ellen_Cloth_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="348037534"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Ellen_Cloth_02" ID="{FFA0692F-4B99-4CE5-9209-0BCD5B9AB596}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Ellen_Cloth_03" ID="{48A8C964-5094-4E28-80B7-0A216F819BAE}" ShortID="755283518">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Ellen_Cloth_03" ID="{CDDAC095-28F6-4505-A7FA-F2006ACCDEB6}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Ellen_Cloth_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="123403445"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Ellen_Cloth_03" ID="{CDDAC095-28F6-4505-A7FA-F2006ACCDEB6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Ellen_Cloth_04" ID="{C7B7D69C-9BE4-42CD-82B2-316F83F33FF4}" ShortID="183202260">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Ellen_Cloth_04" ID="{13230682-7EE0-4039-9B09-C6187A97E985}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Ellen_Cloth_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="136363487"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Ellen_Cloth_04" ID="{13230682-7EE0-4039-9B09-C6187A97E985}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

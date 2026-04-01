@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C72A6AFA-5C90-4FA5-ABB5-EE4CA1CAAB68}" SchemaVersion="123" RootDocumentID="{536381D6-0805-48C8-B343-C885D7436FE4}" ParentDocumentID="{536381D6-0805-48C8-B343-C885D7436FE4}">
+	<Events>
+		<WorkUnit Name="ChomperLocomotion" ID="{C72A6AFA-5C90-4FA5-ABB5-EE4CA1CAAB68}" OwnerID="{536381D6-0805-48C8-B343-C885D7436FE4}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Chomper_Footsteps" ID="{43794AD3-AB95-4E18-896A-E428517F9F9A}">
+					<ChildrenList>
+						<Action Name="" ID="{B19E1911-F076-43B2-9E1A-BA2ECD4A695C}" ShortID="751169757">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_Footstep" ID="{B04BA17B-7FD7-484D-8D28-30A39D2AA01A}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{39DC2D2A-C323-46C5-A527-A3D5BCCE42C5}" ShortID="969393040">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="90"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_Footstep_Layer" ID="{3CDF5626-7821-4212-B96A-6AB6576460FE}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

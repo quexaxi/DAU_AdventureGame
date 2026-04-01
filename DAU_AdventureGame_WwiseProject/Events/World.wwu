@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{4BEFC0C3-A18E-4D12-931B-AEA8E2D4584D}" SchemaVersion="123">
 	<Events>
 		<WorkUnit Name="World" ID="{4BEFC0C3-A18E-4D12-931B-AEA8E2D4584D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="11"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Event Name="Play_World_Staff_Swell_Lp" ID="{42EF8B9A-CE27-42D2-8B51-4BAE7B38E29E}">
 					<ChildrenList>
@@ -9,6 +13,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Staff_Swell" ID="{DCAA44ED-6A9D-47B2-B88C-1AB10CCE5588}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rock_Break" ID="{E2C8888B-BE15-4EF8-9B64-AB32C266CB72}">
+					<ChildrenList>
+						<Action Name="" ID="{20A57A90-F2DA-4E4D-81DA-B8A0B2B64D00}" ShortID="904243262">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Rock_Break" ID="{ED1DA24D-DC85-4188-B401-5B859A65550C}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

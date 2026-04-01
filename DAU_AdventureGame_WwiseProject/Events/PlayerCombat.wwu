@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DFFFFC8D-05F0-4B8B-8443-E5D64C9C404C}" SchemaVersion="123" RootDocumentID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}" ParentDocumentID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}">
+	<Events>
+		<WorkUnit Name="PlayerCombat" ID="{DFFFFC8D-05F0-4B8B-8443-E5D64C9C404C}" OwnerID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Staff_Pickup" ID="{D9C42927-278B-4770-A495-D6317374579E}">
+					<ChildrenList>
+						<Action Name="" ID="{E4F2661E-5A83-408A-9772-C2216C26F35B}" ShortID="139035370">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Staff_PickUp" ID="{39D3E83E-5E7B-4DDC-A566-6BB3A57BA81D}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Staff_Swing" ID="{93C17C68-4755-401A-9AC0-7D4A144C1B83}">
+					<ChildrenList>
+						<Action Name="" ID="{EB6A6DEB-8673-4A27-9812-40E23B211099}" ShortID="759729589">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Staff_Swing" ID="{452AFA8A-3AA0-454F-999F-9F02FF98FFF2}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

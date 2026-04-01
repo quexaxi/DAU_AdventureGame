@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9B91F9E8-15A1-4939-B8D8-92AF6F995375}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="UI" ID="{9B91F9E8-15A1-4939-B8D8-92AF6F995375}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="UI_Hover" ID="{7F2D1369-FC54-4BCE-9030-4F1B28DF2923}">
+					<ChildrenList>
+						<Action Name="" ID="{B4F9010C-DBD2-4B1A-830A-11DE21130D7A}" ShortID="49524095">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Hover" ID="{E9C488AC-D538-4F19-B4A5-50E7F4CAE011}" WorkUnitID="{197A6B10-554A-420B-8A3E-D15FD82F04E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Back" ID="{179226EB-4640-4161-86CF-9B333C7A6A51}">
+					<ChildrenList>
+						<Action Name="" ID="{DCF6415D-0E2A-4F13-9469-0DFA1EFA61BB}" ShortID="212210629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Back" ID="{00EE01AC-B78E-40CE-A762-F9C7CADEDBA3}" WorkUnitID="{197A6B10-554A-420B-8A3E-D15FD82F04E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Cancel" ID="{5AF97951-67F6-485C-BFC8-3B4B5F30166C}">
+					<ChildrenList>
+						<Action Name="" ID="{CF0317F7-DD41-473A-BFAD-064D80A14974}" ShortID="879228941">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Cancel" ID="{61034268-34E8-4C03-BA94-D023BFBCEBDB}" WorkUnitID="{197A6B10-554A-420B-8A3E-D15FD82F04E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Click" ID="{C3430D3F-F6AB-4952-AE22-FD569B1DCF62}">
+					<ChildrenList>
+						<Action Name="" ID="{AAFA1DD5-5824-4F62-9724-58F7426191DC}" ShortID="993216658">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Click" ID="{A085D4DC-3456-4695-91F3-3200F65139FB}" WorkUnitID="{197A6B10-554A-420B-8A3E-D15FD82F04E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Start" ID="{A22AE574-4965-4DE3-9223-92B5E437CF8E}">
+					<ChildrenList>
+						<Action Name="" ID="{AA58AC22-59DD-4366-880F-6458486B421F}" ShortID="456857476">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Click_Start" ID="{B208611D-8AD0-4633-97CB-791ED07E9A6B}" WorkUnitID="{197A6B10-554A-420B-8A3E-D15FD82F04E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_ESC" ID="{3ACCBCAC-AC2B-4261-AB23-04432CB8D034}">
+					<ChildrenList>
+						<Action Name="" ID="{A3A492B5-84BC-49CB-95B9-8E3689557479}" ShortID="881177517">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_ESC" ID="{611360C6-6C38-41C0-AEAE-9DC60B3F57BD}" WorkUnitID="{197A6B10-554A-420B-8A3E-D15FD82F04E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Select" ID="{E5EE9894-0B40-484D-A445-BFAA0EDBCB7A}">
+					<ChildrenList>
+						<Action Name="" ID="{73219AF6-497C-44E3-BC34-89E12E201BCE}" ShortID="445717603">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Select" ID="{D8EAD3A8-42D7-49A9-80A7-1C89A7D7518A}" WorkUnitID="{197A6B10-554A-420B-8A3E-D15FD82F04E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Text_Pop" ID="{5120B6C0-8DC8-4ABC-952D-3DE2F14D9FE9}">
+					<ChildrenList>
+						<Action Name="" ID="{9EF7C1B8-6AF8-4870-9C49-8B2771EA2CC6}" ShortID="265677864">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Text_Pop" ID="{FE1E184C-34E7-4BDC-B2AF-004A03C10601}" WorkUnitID="{197A6B10-554A-420B-8A3E-D15FD82F04E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Text_PopOut" ID="{7B2686E8-C913-4B37-832F-56F3CF8FD75F}">
+					<ChildrenList>
+						<Action Name="" ID="{09D4D7CB-E736-4110-9DBE-7F39803DB935}" ShortID="685274400">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Text_PopOut" ID="{A4BE0883-8246-42FA-8C28-65BEB632A61E}" WorkUnitID="{197A6B10-554A-420B-8A3E-D15FD82F04E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
