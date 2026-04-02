@@ -3521,6 +3521,7 @@ GameObject:
   - component: {fileID: 65771025306039616}
   - component: {fileID: 114643127116660914}
   - component: {fileID: 195733995024529676}
+  - component: {fileID: 2587189505825713551}
   m_Layer: 0
   m_Name: Chomper
   m_TagString: Untagged
@@ -3702,6 +3703,57 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2587189505825713551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722084123150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e679e9065250c74b80a68c30f786cf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tongueSlurpEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64de39aff5998df4dbe3c74e972e6c64,
+      type: 2}
+  growlEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 48c8ebab47a21ec43b14e8ca4ac9bea5,
+      type: 2}
+  footstepEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 73295ae52e27d814fb252d1899690205,
+      type: 2}
+  spottedEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 09bac04c237b9b2479e16832563664c6,
+      type: 2}
+  breathEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b869e5011ffda124ab4790b8be1ec484,
+      type: 2}
+  smellEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a7d67929e4b50b244b4bf1bb34736ef4,
+      type: 2}
+  gruntEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 48c8ebab47a21ec43b14e8ca4ac9bea5,
+      type: 2}
+  itchingEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1737964142438470
 GameObject:
   m_ObjectHideFlags: 0

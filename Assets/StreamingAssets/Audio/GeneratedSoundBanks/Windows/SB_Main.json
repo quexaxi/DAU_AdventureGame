@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{674E6F07-20D9-EAF9-55C0-33A4EC50E8EE}",
+    "Hash": "{23638D03-C9A1-1EBA-15E2-1A8FA25D302A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -62,14 +62,6 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Land_01.wav",
       "CachePath": "BB/{BBA5C2DD-7748-08C0-ABDB-E28371AF9689}.wem"
-     },
-     {
-      "Id": "113731952",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_Chomper_Footstep_Breath_03.wav",
-      "CachePath": "D6/{D6E6B35E-79BE-571F-99BC-6109B019C717}.wem"
      },
      {
       "Id": "123403445",
@@ -206,14 +198,6 @@
       "Location": "Memory",
       "ShortName": "UI_Text_PopOut_02.wav",
       "CachePath": "44/{44D237C7-C00E-9291-F562-54867A09EECD}.wem"
-     },
-     {
-      "Id": "365632225",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_Chomper_Smell_02.wav",
-      "CachePath": "36/{36D9C044-32DC-23BA-B4D1-33CAEDBC35E8}.wem"
      },
      {
       "Id": "374993025",
@@ -504,22 +488,6 @@
       "CachePath": "CE/{CEA7D405-4CF5-C41C-2DF7-271D84FCDFC0}.wem"
      },
      {
-      "Id": "944932326",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_Chomper_Footstep_Breath_01.wav",
-      "CachePath": "05/{054F12D8-370E-32C9-E6B7-57BCF827EF13}.wem"
-     },
-     {
-      "Id": "948429880",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_Chomper_Footstep_Breath_02.wav",
-      "CachePath": "00/{009521C0-D86B-15BA-75D9-4D618C41E0C0}.wem"
-     },
-     {
       "Id": "952032992",
       "Language": "SFX",
       "Streaming": "false",
@@ -666,14 +634,11 @@
       "GUID": "{43794AD3-AB95-4E18-896A-E428517F9F9A}",
       "Color": "1",
       "DurationType": "OneShot",
-      "DurationMin": "0.2546875",
+      "DurationMin": "0.2515625",
       "DurationMax": "0.33683333",
       "MediaRefs": [
        {
         "Id": "4291479"
-       },
-       {
-        "Id": "113731952"
        },
        {
         "Id": "258059862"
@@ -689,12 +654,6 @@
        },
        {
         "Id": "695809018"
-       },
-       {
-        "Id": "944932326"
-       },
-       {
-        "Id": "948429880"
        },
        {
         "Id": "978907425"
@@ -741,14 +700,11 @@
       "GUID": "{012C75A6-2D2D-4208-87B3-57F7685440F6}",
       "Color": "1",
       "DurationType": "OneShot",
-      "DurationMin": "0.3118125",
+      "DurationMin": "0.9294375",
       "DurationMax": "0.9294375",
       "MediaRefs": [
        {
         "Id": "228008484"
-       },
-       {
-        "Id": "365632225"
        }
       ]
      },
@@ -1207,6 +1163,6 @@
     ]
    }
   ],
-  "FileHash": "{882DE218-9CC5-B992-8523-1B885367C8A6}"
+  "FileHash": "{C928DDDF-FAB5-E06F-E395-34CF03534A3A}"
  }
 }
