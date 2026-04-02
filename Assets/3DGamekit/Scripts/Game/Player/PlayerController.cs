@@ -442,40 +442,40 @@ namespace Gamekit3D
             footstepSoundEvent.Post(footAudioSourceObject);
         }
 
-        public void PlayJumpSound()
-        {
-            Debug.Log(m_CurrentWalkingSurface);
-            SetAudioMaterialSwitch();
-            jumpUpSoundEvent.Post(footAudioSourceObject);
-        }
+        //public void PlayJumpSound()
+        //{
+        //    Debug.Log(m_CurrentWalkingSurface);
+        //    SetAudioMaterialSwitch();
+        //    jumpUpSoundEvent.Post(footAudioSourceObject);
+        //}
 
-        public void PlayLandSound()
-        {
-            Debug.Log(m_CurrentWalkingSurface);
-            SetAudioMaterialSwitch();
-            jumpDownSoundEvent.Post(footAudioSourceObject);
-        }
+        //public void PlayLandSound()
+        //{
+        //    Debug.Log(m_CurrentWalkingSurface);
+        //    SetAudioMaterialSwitch();
+        //    jumpDownSoundEvent.Post(footAudioSourceObject);
+        //}
 
-        public void PlayAttackSound()
-        {
-            Debug.Log(m_CurrentWalkingSurface);
-            SetAudioMaterialSwitch();
-            attackSoundEvent.Post(footAudioSourceObject);
-        }
+        //public void PlayAttackSound()
+        //{
+        //    Debug.Log(m_CurrentWalkingSurface);
+        //    SetAudioMaterialSwitch();
+        //    attackSoundEvent.Post(footAudioSourceObject);
+        //}
 
-        public void PlayDeathSound()
-        {
-            Debug.Log(m_CurrentWalkingSurface);
-            SetAudioMaterialSwitch();
-            deathSoundEvent.Post(footAudioSourceObject);
-        }
+        //public void PlayDeathSound()
+        //{
+        //    Debug.Log(m_CurrentWalkingSurface);
+        //    SetAudioMaterialSwitch();
+        //    deathSoundEvent.Post(footAudioSourceObject);
+        //}
 
-        public void PlayDamageSound()
-        {
-            Debug.Log(m_CurrentWalkingSurface);
-            SetAudioMaterialSwitch();
-            damageSoundEvent.Post(footAudioSourceObject);
-        }
+        //public void PlayDamageSound()
+        //{
+        //    Debug.Log(m_CurrentWalkingSurface);
+        //    SetAudioMaterialSwitch();
+        //    damageSoundEvent.Post(footAudioSourceObject);
+        //}
 
         //Called each physics step to check if audio should be played and if so instruct the relevant random audio player to do so.
         void PlayAudio()
@@ -771,6 +771,7 @@ namespace Gamekit3D
             //{
             //    hurtAudioPlayer.PlayRandomClip();
             //}
+            damageSoundEvent.Post(headAudioSourceObject);
         }
 
         // Called by OnReceiveMessage and by DeathVolumes in the scene.
