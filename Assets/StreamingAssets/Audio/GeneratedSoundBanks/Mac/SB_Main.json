@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{23638D03-C9A1-1EBA-15E2-1A8FA25D302A}",
+    "Hash": "{0F46FCD1-DEC7-AAD0-382E-EF0EFB27225A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -62,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Land_01.wav",
       "CachePath": "BB/{BBA5C2DD-7748-08C0-ABDB-E28371AF9689}.wem"
+     },
+     {
+      "Id": "113731952",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Footstep_Breath_03.wav",
+      "CachePath": "D6/{D6E6B35E-79BE-571F-99BC-6109B019C717}.wem"
      },
      {
       "Id": "123403445",
@@ -488,6 +496,22 @@
       "CachePath": "CE/{CEA7D405-4CF5-C41C-2DF7-271D84FCDFC0}.wem"
      },
      {
+      "Id": "944932326",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Footstep_Breath_01.wav",
+      "CachePath": "05/{054F12D8-370E-32C9-E6B7-57BCF827EF13}.wem"
+     },
+     {
+      "Id": "948429880",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Footstep_Breath_02.wav",
+      "CachePath": "00/{009521C0-D86B-15BA-75D9-4D618C41E0C0}.wem"
+     },
+     {
       "Id": "952032992",
       "Language": "SFX",
       "Streaming": "false",
@@ -560,6 +584,14 @@
       "CachePath": "B0/{B0BF1DEA-03C2-7922-ACCC-D5956D334099}.wem"
      },
      {
+      "Id": "1044922980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Main_NearWater_01.wav",
+      "CachePath": "BF/{BF0A07F7-93A0-8A49-EB75-61339F1C30CD}.wem"
+     },
+     {
       "Id": "1054101459",
       "Language": "SFX",
       "Streaming": "false",
@@ -598,11 +630,26 @@
       ]
      },
      {
+      "Id": "2049148582",
+      "Name": "Play_Amb_Water",
+      "ObjectPath": "\\Events\\Ambience\\Play_Amb_Water",
+      "GUID": "{60E34E90-1772-4B41-B83B-22BD46F5858D}",
+      "Color": "4",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1044922980"
+       }
+      ]
+     },
+     {
       "Id": "4104589597",
       "Name": "Play_Chomper_Breath",
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Breath",
       "GUID": "{55B9E699-FF7F-4919-87BF-525D90223B99}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.36933333",
       "DurationMax": "0.36933333",
@@ -618,6 +665,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Death",
       "GUID": "{C3C5C866-8B0A-43C3-A9D4-9EF60EDCB0D1}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.9571875",
       "DurationMax": "0.9571875",
@@ -633,12 +681,16 @@
       "ObjectPath": "\\Events\\NPC\\ChomperLocomotion\\Play_Chomper_Footsteps",
       "GUID": "{43794AD3-AB95-4E18-896A-E428517F9F9A}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.2515625",
+      "DurationMin": "0.2546875",
       "DurationMax": "0.33683333",
       "MediaRefs": [
        {
         "Id": "4291479"
+       },
+       {
+        "Id": "113731952"
        },
        {
         "Id": "258059862"
@@ -656,6 +708,12 @@
         "Id": "695809018"
        },
        {
+        "Id": "944932326"
+       },
+       {
+        "Id": "948429880"
+       },
+       {
         "Id": "978907425"
        }
       ]
@@ -666,6 +724,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Grunt",
       "GUID": "{FBBA384E-DF8E-42EA-ACF4-989F2BD10048}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.79485416",
       "DurationMax": "1.8845834",
@@ -684,6 +743,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Slurp",
       "GUID": "{B4B98BB3-8DC2-42C2-A183-34F8A46DD81E}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "1.5251875",
       "DurationMax": "1.5251875",
@@ -699,6 +759,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Smell",
       "GUID": "{012C75A6-2D2D-4208-87B3-57F7685440F6}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.9294375",
       "DurationMax": "0.9294375",
@@ -714,6 +775,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Spotted",
       "GUID": "{554DE8FF-3B85-4704-9419-0BDA108DA0D4}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.9278333",
       "DurationMax": "0.9278333",
@@ -1122,6 +1184,14 @@
       ]
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "506610676",
+      "Name": "RTPC_Amb_WaterProximity",
+      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_WaterProximity",
+      "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "806507282",
@@ -1163,6 +1233,6 @@
     ]
    }
   ],
-  "FileHash": "{D31840D0-48AF-7C3E-B319-497CEB1F22B6}"
+  "FileHash": "{E56D199E-9696-8FBA-BCB2-610114A46352}"
  }
 }

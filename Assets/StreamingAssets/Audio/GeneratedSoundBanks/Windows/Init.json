@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{57436A36-16CE-2ABF-0046-422011272022}",
+    "Hash": "{725B17B0-5701-E82E-614A-CD9B4C4CFECC}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -218,6 +218,12 @@
       "GUID": "{30AB1DC2-EE39-4297-A37E-E6A50049A7D6}"
      },
      {
+      "Id": "506610676",
+      "Name": "RTPC_Amb_WaterProximity",
+      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_WaterProximity",
+      "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
+     },
+     {
       "Id": "1080360991",
       "Name": "RTPC_Amb_Temple",
       "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_Temple",
@@ -240,12 +246,6 @@
       "Name": "RTPC_PlayerSpeed",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_PlayerSpeed",
       "GUID": "{8C0A9834-0157-4CBB-8EC6-FA70E2657EF5}"
-     },
-     {
-      "Id": "3028788571",
-      "Name": "RTPC_Amb_NearWater",
-      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_NearWater",
-      "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
      },
      {
       "Id": "4085892778",
@@ -516,6 +516,6 @@
     ]
    }
   ],
-  "FileHash": "{60C53C90-9852-BFE2-C335-CF016A046C9D}"
+  "FileHash": "{8413C21B-403E-D19C-BF5F-8BE11920C99E}"
  }
 }

@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMB_GLOBAL = 2676390936U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
+        static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
         static const AkUniqueID PLAY_CHOMPER_BREATH = 4104589597U;
         static const AkUniqueID PLAY_CHOMPER_DEATH = 2761388991U;
         static const AkUniqueID PLAY_CHOMPER_FOOTSTEPS = 3742480528U;
@@ -169,8 +170,8 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID RTPC_AMB_FANTASY = 1263047490U;
-        static const AkUniqueID RTPC_AMB_NEARWATER = 3028788571U;
         static const AkUniqueID RTPC_AMB_TEMPLE = 1080360991U;
+        static const AkUniqueID RTPC_AMB_WATERPROXIMITY = 506610676U;
         static const AkUniqueID RTPC_AMB_WIND = 2194227326U;
         static const AkUniqueID RTPC_DISTANCE = 262290038U;
         static const AkUniqueID RTPC_PLAYERSPEED = 2653406601U;

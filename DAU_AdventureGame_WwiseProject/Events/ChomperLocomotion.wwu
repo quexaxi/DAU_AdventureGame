@@ -17,11 +17,6 @@
 						</Action>
 						<Action Name="" ID="{39DC2D2A-C323-46C5-A527-A3D5BCCE42C5}" ShortID="969393040">
 							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Probability" Type="Real64" Value="90"/>
 							</PropertyList>
 							<ReferenceList>

@@ -435,14 +435,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 82853499343333026}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 4394656685929508826}
+        m_TargetAssemblyTypeName: UISoundController, Assembly-CSharp
+        m_MethodName: PlayClick
         m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: dd4831d7f16404eef93a553329551c28,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -486,14 +485,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 82853499343333026}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
+        - m_Target: {fileID: 4394656685929508826}
+          m_TargetAssemblyTypeName: UISoundController, Assembly-CSharp
+          m_MethodName: PlayClick
           m_Mode: 1
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 6b299ed8d39414c719f79a90fef873c9,
-              type: 3}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -511,6 +509,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee32716ce3a35044971121ada148f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI_Back:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 66fb2bb6ebb46eb4fa9a9377977882fa,
+      type: 2}
+  UI_Cancel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fcabcebfea193874485ac161cfa97666,
+      type: 2}
+  UI_Click:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ee93b320f871599488b6b968f54433e7,
+      type: 2}
+  UI_ESC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: eddd2ce0b20849f43aeddd9e7719bfe0,
+      type: 2}
+  UI_Hover:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5c78c7318644d4e4bb2c2616c0f7e2d0,
+      type: 2}
+  UI_Select:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b8edfd47fc5423041a5fe9b4d99c765b,
+      type: 2}
+  UI_Start:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e505cf1d5ebe55249ac77069538d4d54,
+      type: 2}
+  UI_Text_Pop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d4a5655af8c459d488b300546a8844ae,
+      type: 2}
+  UI_Text_PopOut:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 99ca8a65c3e83e5408327e2ead1e75bc,
+      type: 2}
 --- !u!1 &1023584815895628
 GameObject:
   m_ObjectHideFlags: 0
@@ -2414,6 +2457,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &95174845254692634
 Animator:
   serializedVersion: 5
@@ -2982,6 +3037,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee32716ce3a35044971121ada148f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI_Back:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Cancel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Click:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_ESC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Hover:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Select:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Start:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Text_Pop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Text_PopOut:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1352014396210270
 GameObject:
   m_ObjectHideFlags: 0
@@ -3782,6 +3873,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee32716ce3a35044971121ada148f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI_Back:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Cancel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Click:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_ESC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Hover:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Select:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Start:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Text_Pop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Text_PopOut:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1488563161167442
 GameObject:
   m_ObjectHideFlags: 0
@@ -4499,6 +4626,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee32716ce3a35044971121ada148f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI_Back:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Cancel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Click:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_ESC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Hover:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Select:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Start:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Text_Pop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Text_PopOut:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1539263326051834
 GameObject:
   m_ObjectHideFlags: 0
@@ -5399,6 +5562,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6815362989357436938}
+        m_TargetAssemblyTypeName: UISoundController, Assembly-CSharp
+        m_MethodName: PlayClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &95836340401522068
 Animator:
   serializedVersion: 5
@@ -5437,14 +5612,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 82853499343333026}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
+        - m_Target: {fileID: 6815362989357436938}
+          m_TargetAssemblyTypeName: UISoundController, Assembly-CSharp
+          m_MethodName: PlayClick
           m_Mode: 1
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 6b299ed8d39414c719f79a90fef873c9,
-              type: 3}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -5462,6 +5636,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee32716ce3a35044971121ada148f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI_Back:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 66fb2bb6ebb46eb4fa9a9377977882fa,
+      type: 2}
+  UI_Cancel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fcabcebfea193874485ac161cfa97666,
+      type: 2}
+  UI_Click:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ee93b320f871599488b6b968f54433e7,
+      type: 2}
+  UI_ESC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: eddd2ce0b20849f43aeddd9e7719bfe0,
+      type: 2}
+  UI_Hover:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5c78c7318644d4e4bb2c2616c0f7e2d0,
+      type: 2}
+  UI_Select:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b8edfd47fc5423041a5fe9b4d99c765b,
+      type: 2}
+  UI_Start:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e505cf1d5ebe55249ac77069538d4d54,
+      type: 2}
+  UI_Text_Pop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d4a5655af8c459d488b300546a8844ae,
+      type: 2}
+  UI_Text_PopOut:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 99ca8a65c3e83e5408327e2ead1e75bc,
+      type: 2}
 --- !u!1 &1607321754220932
 GameObject:
   m_ObjectHideFlags: 0
@@ -7166,6 +7385,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee32716ce3a35044971121ada148f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI_Back:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Cancel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Click:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_ESC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Hover:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Select:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Start:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Text_Pop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Text_PopOut:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1864887695928104
 GameObject:
   m_ObjectHideFlags: 0
@@ -7724,6 +7979,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee32716ce3a35044971121ada148f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI_Back:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Cancel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Click:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_ESC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Hover:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Select:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Start:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Text_Pop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  UI_Text_PopOut:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1924183042991058
 GameObject:
   m_ObjectHideFlags: 0
@@ -8511,6 +8802,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3073343076273639685}
+        m_TargetAssemblyTypeName: UISoundController, Assembly-CSharp
+        m_MethodName: PlayBack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &95797561166319378
 Animator:
   serializedVersion: 5
@@ -8549,14 +8852,13 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 82853499343333026}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
+        - m_Target: {fileID: 3073343076273639685}
+          m_TargetAssemblyTypeName: UISoundController, Assembly-CSharp
+          m_MethodName: PlayBack
           m_Mode: 1
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 6b299ed8d39414c719f79a90fef873c9,
-              type: 3}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -8574,6 +8876,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee32716ce3a35044971121ada148f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI_Back:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 66fb2bb6ebb46eb4fa9a9377977882fa,
+      type: 2}
+  UI_Cancel:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fcabcebfea193874485ac161cfa97666,
+      type: 2}
+  UI_Click:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ee93b320f871599488b6b968f54433e7,
+      type: 2}
+  UI_ESC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: eddd2ce0b20849f43aeddd9e7719bfe0,
+      type: 2}
+  UI_Hover:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5c78c7318644d4e4bb2c2616c0f7e2d0,
+      type: 2}
+  UI_Select:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b8edfd47fc5423041a5fe9b4d99c765b,
+      type: 2}
+  UI_Start:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e505cf1d5ebe55249ac77069538d4d54,
+      type: 2}
+  UI_Text_Pop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d4a5655af8c459d488b300546a8844ae,
+      type: 2}
+  UI_Text_PopOut:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 99ca8a65c3e83e5408327e2ead1e75bc,
+      type: 2}
 --- !u!1 &1967289726781572
 GameObject:
   m_ObjectHideFlags: 0

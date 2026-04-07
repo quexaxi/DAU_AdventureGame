@@ -8,7 +8,7 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="RTPC_Amb_NearWater" ID="{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}">
+				<GameParameter Name="RTPC_Amb_WaterProximity" ID="{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>

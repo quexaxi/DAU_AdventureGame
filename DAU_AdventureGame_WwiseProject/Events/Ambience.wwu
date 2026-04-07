@@ -29,6 +29,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Amb_Water" ID="{60E34E90-1772-4B41-B83B-22BD46F5858D}">
+					<ChildrenList>
+						<Action Name="" ID="{4C958229-2BB0-436E-9A5D-89B7EB3483A7}" ShortID="109379748">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Water" ID="{77EDE3F6-498A-4454-A2AC-9E315D6FE09C}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

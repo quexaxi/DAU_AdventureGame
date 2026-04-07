@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{9A8E2140-A556-01DB-365D-5B70D94F1F4F}",
+    "Hash": "{0F46FCD1-DEC7-AAD0-382E-EF0EFB27225A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -70,6 +70,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Land_01.wav",
       "CachePath": "BB/{BBA5C2DD-7748-08C0-ABDB-E28371AF9689}.wem"
+     },
+     {
+      "Id": "113731952",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Footstep_Breath_03.wav",
+      "CachePath": "D6/{D6E6B35E-79BE-571F-99BC-6109B019C717}.wem"
      },
      {
       "Id": "123403445",
@@ -496,6 +504,22 @@
       "CachePath": "CE/{CEA7D405-4CF5-C41C-2DF7-271D84FCDFC0}.wem"
      },
      {
+      "Id": "944932326",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Footstep_Breath_01.wav",
+      "CachePath": "05/{054F12D8-370E-32C9-E6B7-57BCF827EF13}.wem"
+     },
+     {
+      "Id": "948429880",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Footstep_Breath_02.wav",
+      "CachePath": "00/{009521C0-D86B-15BA-75D9-4D618C41E0C0}.wem"
+     },
+     {
       "Id": "952032992",
       "Language": "SFX",
       "Streaming": "false",
@@ -568,6 +592,14 @@
       "CachePath": "B0/{B0BF1DEA-03C2-7922-ACCC-D5956D334099}.wem"
      },
      {
+      "Id": "1044922980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Main_NearWater_01.wav",
+      "CachePath": "BF/{BF0A07F7-93A0-8A49-EB75-61339F1C30CD}.wem"
+     },
+     {
       "Id": "1054101459",
       "Language": "SFX",
       "Streaming": "false",
@@ -602,6 +634,20 @@
       "MediaRefs": [
        {
         "Id": "420773595"
+       }
+      ]
+     },
+     {
+      "Id": "2049148582",
+      "Name": "Play_Amb_Water",
+      "ObjectPath": "\\Events\\Ambience\\Play_Amb_Water",
+      "GUID": "{60E34E90-1772-4B41-B83B-22BD46F5858D}",
+      "Color": "4",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1044922980"
        }
       ]
      },
@@ -643,12 +689,16 @@
       "ObjectPath": "\\Events\\NPC\\ChomperLocomotion\\Play_Chomper_Footsteps",
       "GUID": "{43794AD3-AB95-4E18-896A-E428517F9F9A}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.2515625",
+      "DurationMin": "0.2546875",
       "DurationMax": "0.33683333",
       "MediaRefs": [
        {
         "Id": "4291479"
+       },
+       {
+        "Id": "113731952"
        },
        {
         "Id": "258059862"
@@ -664,6 +714,12 @@
        },
        {
         "Id": "695809018"
+       },
+       {
+        "Id": "944932326"
+       },
+       {
+        "Id": "948429880"
        },
        {
         "Id": "978907425"
@@ -1136,6 +1192,14 @@
       ]
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "506610676",
+      "Name": "RTPC_Amb_WaterProximity",
+      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_WaterProximity",
+      "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "806507282",
@@ -1209,7 +1273,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{57436A36-16CE-2ABF-0046-422011272022}",
+    "Hash": "{725B17B0-5701-E82E-614A-CD9B4C4CFECC}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -1417,6 +1481,12 @@
       "GUID": "{30AB1DC2-EE39-4297-A37E-E6A50049A7D6}"
      },
      {
+      "Id": "506610676",
+      "Name": "RTPC_Amb_WaterProximity",
+      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_WaterProximity",
+      "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
+     },
+     {
       "Id": "1080360991",
       "Name": "RTPC_Amb_Temple",
       "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_Temple",
@@ -1439,12 +1509,6 @@
       "Name": "RTPC_PlayerSpeed",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_PlayerSpeed",
       "GUID": "{8C0A9834-0157-4CBB-8EC6-FA70E2657EF5}"
-     },
-     {
-      "Id": "3028788571",
-      "Name": "RTPC_Amb_NearWater",
-      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_NearWater",
-      "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
      },
      {
       "Id": "4085892778",
@@ -1828,6 +1892,6 @@
     ]
    }
   ],
-  "FileHash": "{5EFC203E-C7F9-D1C2-D9B7-22143A6E944E}"
+  "FileHash": "{5151E1DC-C9DC-6C73-A189-4AD265B90FDC}"
  }
 }

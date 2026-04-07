@@ -1132,7 +1132,7 @@ MonoBehaviour:
   hitParticlePrefab: {fileID: 0}
   targetLayers:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 0
   attackPoints:
   - radius: 0.42
     offset: {x: 0, y: 0, z: 0}

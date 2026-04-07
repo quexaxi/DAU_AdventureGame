@@ -25,7 +25,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="AMB_Layer_NearWater" ID="{77EDE3F6-498A-4454-A2AC-9E315D6FE09C}" ShortID="732829502">
+						<Sound Name="AMB_Water" ID="{77EDE3F6-498A-4454-A2AC-9E315D6FE09C}" ShortID="732829502">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
@@ -59,7 +59,7 @@
 												</PropertyList>
 												<ReferenceList>
 													<Reference Name="ControlInput">
-														<ObjectRef Name="RTPC_Amb_NearWater" ID="{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}" WorkUnitID="{F8F4F169-0B09-4224-9712-EBF38669B923}"/>
+														<ObjectRef Name="RTPC_Amb_WaterProximity" ID="{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}" WorkUnitID="{F8F4F169-0B09-4224-9712-EBF38669B923}"/>
 													</Reference>
 													<Reference Name="Curve">
 														<Custom>
@@ -74,8 +74,13 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>-20</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
 																		<XPos>100</XPos>
-																		<YPos>-15</YPos>
+																		<YPos>-4</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
