@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{23638D03-C9A1-1EBA-15E2-1A8FA25D302A}",
+    "Hash": "{9A8E2140-A556-01DB-365D-5B70D94F1F4F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -611,6 +611,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Breath",
       "GUID": "{55B9E699-FF7F-4919-87BF-525D90223B99}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.36933333",
       "DurationMax": "0.36933333",
@@ -626,6 +627,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Death",
       "GUID": "{C3C5C866-8B0A-43C3-A9D4-9EF60EDCB0D1}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.9571875",
       "DurationMax": "0.9571875",
@@ -674,6 +676,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Grunt",
       "GUID": "{FBBA384E-DF8E-42EA-ACF4-989F2BD10048}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.79485416",
       "DurationMax": "1.8845834",
@@ -692,6 +695,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Slurp",
       "GUID": "{B4B98BB3-8DC2-42C2-A183-34F8A46DD81E}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "1.5251875",
       "DurationMax": "1.5251875",
@@ -707,6 +711,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Smell",
       "GUID": "{012C75A6-2D2D-4208-87B3-57F7685440F6}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.9294375",
       "DurationMax": "0.9294375",
@@ -722,6 +727,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Spotted",
       "GUID": "{554DE8FF-3B85-4704-9419-0BDA108DA0D4}",
       "Color": "1",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.9278333",
       "DurationMax": "0.9278333",
@@ -1822,6 +1828,6 @@
     ]
    }
   ],
-  "FileHash": "{DC33E0E2-4D50-80A7-AB03-FB9AD19FDAFB}"
+  "FileHash": "{5EFC203E-C7F9-D1C2-D9B7-22143A6E944E}"
  }
 }
