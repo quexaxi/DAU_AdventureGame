@@ -9,29 +9,24 @@ public class WaterAmbienceTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Entered trigger: " + other.name);
+
         if (!other.CompareTag("Player")) return;
+
+        Debug.Log("Posting water event");
 
         if (!isPlaying)
         {
             waterEvent.Post(gameObject);
+            waterRTPC.SetGlobalValue(100f);
             isPlaying = true;
         }
     }
 
-    private void OnTriggerStay(Collider other)
-    {
-        if (!other.CompareTag("Player")) return;
-
-        float distance = Vector3.Distance(other.transform.position, transform.position);
-
-        // Distance arttýkça RTPC düþsün
-        float value = Mathf.Clamp(100f - distance * 5f, 0f, 100f);
-
-        waterRTPC.SetGlobalValue(value);
-    }
-
     private void OnTriggerExit(Collider other)
     {
+        Debug.Log("Exited trigger: " + other.name);
+
         if (!other.CompareTag("Player")) return;
 
         waterRTPC.SetGlobalValue(0f);

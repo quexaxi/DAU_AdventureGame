@@ -33,10 +33,13 @@
 						<Switch Name="Dirt" ID="{323A5A26-5B0D-4035-BAF7-001DD52DFD70}"/>
 						<Switch Name="Grass" ID="{6E6FA05D-2E6B-437F-934F-B816327F7E08}"/>
 						<Switch Name="Stone" ID="{593E332C-64AD-484E-9DF1-1FCC27C66E73}"/>
+						<Switch Name="Metal" ID="{9CF8EE91-FDFB-4C25-AE7A-D037A50F0B02}"/>
+						<Switch Name="Puddle" ID="{FD3BFF30-B4F3-4B15-B3A8-6AE12AF9BECE}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="ChomperFootsteps" ID="{96D5E82D-B26E-4902-AB2D-EE8795678BC2}"/>
 				<SwitchGroup Name="PlayerLand" ID="{08C81EB7-0D73-4D4A-BD33-E2DC36570BBB}"/>
+				<SwitchGroup Name="GrenadierFootsteps" ID="{F9BF8941-99CA-48B3-B575-90FBC8271E0A}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

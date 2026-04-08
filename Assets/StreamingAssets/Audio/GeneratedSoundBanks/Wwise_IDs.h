@@ -23,6 +23,11 @@ namespace AK
         static const AkUniqueID PLAY_CHOMPER_SLURP = 2329507261U;
         static const AkUniqueID PLAY_CHOMPER_SMELL = 3615463328U;
         static const AkUniqueID PLAY_CHOMPER_SPOTTED = 253791182U;
+        static const AkUniqueID PLAY_GRENADIER_DAMAGE = 3333154347U;
+        static const AkUniqueID PLAY_GRENADIER_DEATH = 3337034902U;
+        static const AkUniqueID PLAY_GRENADIER_FOOTSTEPS = 2094447813U;
+        static const AkUniqueID PLAY_GRENADIER_PUNCH = 777046152U;
+        static const AkUniqueID PLAY_GRENADIER_THROW = 4143606696U;
         static const AkUniqueID PLAY_MAIN_MUSIC_SWITCH = 1378767680U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
         static const AkUniqueID PLAY_PLAYER_JUMPUP = 2528119339U;
@@ -108,6 +113,15 @@ namespace AK
             } // namespace SWITCH
         } // namespace CHOMPERFOOTSTEPS
 
+        namespace GRENADIERFOOTSTEPS
+        {
+            static const AkUniqueID GROUP = 3174454669U;
+
+            namespace SWITCH
+            {
+            } // namespace SWITCH
+        } // namespace GRENADIERFOOTSTEPS
+
         namespace GROUNDMATERIALSWITCH
         {
             static const AkUniqueID GROUP = 1044534455U;
@@ -128,6 +142,8 @@ namespace AK
             {
                 static const AkUniqueID DIRT = 2195636714U;
                 static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID METAL = 2473969246U;
+                static const AkUniqueID PUDDLE = 2003927601U;
                 static const AkUniqueID STONE = 1216965916U;
             } // namespace SWITCH
         } // namespace PLAYERFOOTSTEPS
@@ -174,6 +190,7 @@ namespace AK
         static const AkUniqueID RTPC_AMB_WATERPROXIMITY = 506610676U;
         static const AkUniqueID RTPC_AMB_WIND = 2194227326U;
         static const AkUniqueID RTPC_DISTANCE = 262290038U;
+        static const AkUniqueID RTPC_INMENU_LPF = 3408349920U;
         static const AkUniqueID RTPC_PLAYERSPEED = 2653406601U;
         static const AkUniqueID RTPC_PUZZLEPROGRESS = 4085892778U;
     } // namespace GAME_PARAMETERS

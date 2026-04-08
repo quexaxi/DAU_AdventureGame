@@ -35,10 +35,24 @@
 							<ChildrenList>
 								<Sound Name="SFX_Staff_Swell" ID="{DCAA44ED-6A9D-47B2-B88C-1AB10CCE5588}" ShortID="718106440">
 									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8A8D1718-C6A4-4302-94D4-14C34833DC76}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+															<Property Name="Min" Type="Real64" Value="-20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -63,6 +77,23 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{67473C77-F19E-4CA5-A166-85BFA63C44D7}"/>
+									</PositioningInfo>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{91D4E3B6-9CF6-4A72-90F8-29D815370184}" ShortID="793639080">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+														</PropertyList>
+														<ReferenceList/>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 									<ActiveSourceList>
 										<ActiveSource Name="SFX_Staff_Swell" ID="{A2FE4169-22F0-4D09-9458-AF7DEF218B45}" Platform="Linked"/>
 									</ActiveSourceList>

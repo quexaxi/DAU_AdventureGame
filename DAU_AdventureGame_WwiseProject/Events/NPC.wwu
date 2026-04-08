@@ -9,6 +9,8 @@
 			<ChildrenList>
 				<WorkUnit Name="ChomperLocomotion" ID="{C72A6AFA-5C90-4FA5-ABB5-EE4CA1CAAB68}" PersistMode="Reference"/>
 				<WorkUnit Name="ChomperCombat" ID="{37312D64-BD47-490B-9743-2462ACFECBA5}" PersistMode="Reference"/>
+				<WorkUnit Name="GrenadierCombat" ID="{E12E15C9-6440-4335-A1E9-784B0EC71F0D}" PersistMode="Reference"/>
+				<WorkUnit Name="GrenadierLocomotion" ID="{AB595862-293D-4865-9F14-5E37BD006117}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

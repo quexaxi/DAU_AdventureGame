@@ -16,6 +16,27 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{D05F5D8F-9F16-493F-95FE-56B52C4339AE}" ShortID="617340096">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fireflies" ID="{5CDDB0C9-AAB7-4C54-A409-D8C6D0A88860}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6CCD61F2-51D5-47CE-AB9B-FAD54C4FDEEE}" ShortID="532185091">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Frogs" ID="{939A37CB-201C-4174-AB42-474CCE15185C}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{05FEA506-3443-431A-98B8-A429E9173C12}" ShortID="800852151">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swamp_Animals" ID="{B9A0314B-3BFC-4088-8E18-5482B51CB636}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Amb_Spaceship" ID="{DCD288B3-C4F3-456E-8390-8F414D604867}">

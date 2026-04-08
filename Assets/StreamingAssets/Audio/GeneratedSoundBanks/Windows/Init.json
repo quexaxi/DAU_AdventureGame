@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{725B17B0-5701-E82E-614A-CD9B4C4CFECC}",
+    "Hash": "{E890E6EC-29CD-E6D2-A2C9-93C67F9BA2AA}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -248,6 +248,12 @@
       "GUID": "{8C0A9834-0157-4CBB-8EC6-FA70E2657EF5}"
      },
      {
+      "Id": "3408349920",
+      "Name": "RTPC_InMenu_LPF",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_InMenu_LPF",
+      "GUID": "{7DED6CDC-FF97-43C7-88AE-B06CD5A7CE0B}"
+     },
+     {
       "Id": "4085892778",
       "Name": "RTPC_PuzzleProgress",
       "ObjectPath": "\\Game Parameters\\RTPC_Puzzle\\RTPC_PuzzleProgress",
@@ -472,10 +478,24 @@
         "Color": "4"
        },
        {
+        "Id": "2003927601",
+        "Name": "Puddle",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Puddle",
+        "GUID": "{FD3BFF30-B4F3-4B15-B3A8-6AE12AF9BECE}",
+        "Color": "4"
+       },
+       {
         "Id": "2195636714",
         "Name": "Dirt",
         "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Dirt",
         "GUID": "{323A5A26-5B0D-4035-BAF7-001DD52DFD70}",
+        "Color": "4"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Metal",
+        "GUID": "{9CF8EE91-FDFB-4C25-AE7A-D037A50F0B02}",
         "Color": "4"
        },
        {
@@ -512,10 +532,17 @@
         "GUID": "{C1549CCB-4CBE-448E-BBD1-ECE8283874C4}"
        }
       ]
+     },
+     {
+      "Id": "3174454669",
+      "Name": "GrenadierFootsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\GrenadierFootsteps",
+      "GUID": "{F9BF8941-99CA-48B3-B575-90FBC8271E0A}",
+      "Switches": []
      }
     ]
    }
   ],
-  "FileHash": "{8413C21B-403E-D19C-BF5F-8BE11920C99E}"
+  "FileHash": "{AEE1DF00-CF30-7D0B-9B03-C9D7582518ED}"
  }
 }

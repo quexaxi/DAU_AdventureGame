@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{0F46FCD1-DEC7-AAD0-382E-EF0EFB27225A}",
+    "Hash": "{521B07CB-3013-F8D3-A344-5D243998BCD0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -296,6 +296,14 @@
       "CachePath": "87/{87EA38D1-1493-6F2D-65D2-085601423028}.wem"
      },
      {
+      "Id": "502378117",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ellen_Footstep_Metal_05.wav",
+      "CachePath": "EC/{EC767D64-630F-F588-CF95-59A9C3875643}.wem"
+     },
+     {
       "Id": "515365309",
       "Language": "SFX",
       "Streaming": "false",
@@ -310,6 +318,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Chomper_Footstep_05.wav",
       "CachePath": "A6/{A632652E-7FFF-BA69-5A0A-C4245B1E1DA8}.wem"
+     },
+     {
+      "Id": "540270920",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ellen_Footstep_Metal_06.wav",
+      "CachePath": "64/{640C28BD-8F1F-FDFC-B229-8EB0F374AACB}.wem"
      },
      {
       "Id": "551571241",
@@ -416,6 +432,14 @@
       "CachePath": "66/{6669FDB7-7A77-8B8E-534F-B635CBC7F728}.wem"
      },
      {
+      "Id": "709878297",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ellen_Footstep_Metal_02.wav",
+      "CachePath": "A2/{A20BFE65-E83F-7CA0-1FD0-FDA8F1ECC972}.wem"
+     },
+     {
       "Id": "748045547",
       "Language": "SFX",
       "Streaming": "false",
@@ -472,6 +496,14 @@
       "CachePath": "C8/{C8297BA8-6A4E-A621-B0BF-075386ACB83B}.wem"
      },
      {
+      "Id": "828575570",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ellen_Footstep_Metal_04.wav",
+      "CachePath": "75/{7555FD42-814F-F5FA-09F9-5312A19D7DB1}.wem"
+     },
+     {
       "Id": "864634417",
       "Language": "SFX",
       "Streaming": "false",
@@ -520,6 +552,14 @@
       "CachePath": "35/{35F2455C-528B-441A-A6BD-CC3905CDDC66}.wem"
      },
      {
+      "Id": "975087654",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ellen_Footstep_Metal_07.wav",
+      "CachePath": "04/{04FEC4ED-85DD-8EF8-F9A4-F6DD30A68BC4}.wem"
+     },
+     {
       "Id": "977271813",
       "Language": "SFX",
       "Streaming": "false",
@@ -544,12 +584,28 @@
       "CachePath": "1D/{1DAEA103-DB0B-1836-2679-648B6DFCDACF}.wem"
      },
      {
+      "Id": "1019763854",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ellen_Footstep_Metal_03.wav",
+      "CachePath": "91/{913843C7-BE48-ED84-4386-D6C9104C196D}.wem"
+     },
+     {
       "Id": "1032667905",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UI_Menu_Select.wav",
       "CachePath": "2A/{2A98A6AE-4D9C-652E-9643-0496DF1F6A31}.wem"
+     },
+     {
+      "Id": "1037984318",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ellen_Footstep_Metal_01.wav",
+      "CachePath": "67/{6726AFD3-E795-7F6F-D12B-1AE511398A3F}.wem"
      },
      {
       "Id": "1040522203",
@@ -607,7 +663,6 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Global",
       "GUID": "{686A9575-B3BB-4AC4-AA92-DA8D8A91B8D4}",
       "Color": "4",
-      "MaxAttenuation": "5",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -651,8 +706,8 @@
       "Color": "1",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.36933333",
-      "DurationMax": "0.36933333",
+      "DurationMin": "0.35265484",
+      "DurationMax": "0.38680062",
       "MediaRefs": [
        {
         "Id": "439165719"
@@ -668,7 +723,7 @@
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.9571875",
-      "DurationMax": "0.9571875",
+      "DurationMax": "0.96830946",
       "MediaRefs": [
        {
         "Id": "304280999"
@@ -684,7 +739,7 @@
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.2546875",
-      "DurationMax": "0.33683333",
+      "DurationMax": "0.34097314",
       "MediaRefs": [
        {
         "Id": "4291479"
@@ -726,8 +781,8 @@
       "Color": "1",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.79485416",
-      "DurationMax": "1.8845834",
+      "DurationMin": "0.7766997",
+      "DurationMax": "1.9286333",
       "MediaRefs": [
        {
         "Id": "8757324"
@@ -745,8 +800,8 @@
       "Color": "1",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "1.5251875",
-      "DurationMax": "1.5251875",
+      "DurationMin": "1.4903523",
+      "DurationMax": "1.560837",
       "MediaRefs": [
        {
         "Id": "754620863"
@@ -761,8 +816,8 @@
       "Color": "1",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.9294375",
-      "DurationMax": "0.9294375",
+      "DurationMin": "0.9082092",
+      "DurationMax": "0.95116204",
       "MediaRefs": [
        {
         "Id": "228008484"
@@ -777,13 +832,68 @@
       "Color": "1",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.9278333",
-      "DurationMax": "0.9278333",
+      "DurationMin": "0.875758",
+      "DurationMax": "0.9830052",
       "MediaRefs": [
        {
         "Id": "786744393"
        }
       ]
+     },
+     {
+      "Id": "3333154347",
+      "Name": "Play_Grenadier_Damage",
+      "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Damage",
+      "GUID": "{BF519991-EAA2-4BE2-B050-D7792C448A72}",
+      "Color": "1",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3337034902",
+      "Name": "Play_Grenadier_Death",
+      "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Death",
+      "GUID": "{2114BE96-2C69-42F2-A016-74D1A7AB7A2F}",
+      "Color": "1",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2094447813",
+      "Name": "Play_Grenadier_Footsteps",
+      "ObjectPath": "\\Events\\NPC\\GrenadierLocomotion\\Play_Grenadier_Footsteps",
+      "GUID": "{90CB6681-2834-4DA7-8799-3C26D19399B3}",
+      "Color": "1",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "777046152",
+      "Name": "Play_Grenadier_Punch",
+      "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Punch",
+      "GUID": "{72D835A4-7FB0-48BA-8336-D4B46DE5205B}",
+      "Color": "1",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "4143606696",
+      "Name": "Play_Grenadier_Throw",
+      "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Throw",
+      "GUID": "{638EBEF0-F39C-44C2-A7BE-1CCC27EA1030}",
+      "Color": "1",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "98439365",
@@ -793,7 +903,7 @@
       "Color": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.41079167",
-      "DurationMax": "0.70567805",
+      "DurationMax": "0.7343231",
       "MediaRefs": [
        {
         "Id": "123403445"
@@ -914,6 +1024,38 @@
           "Id": "873452055"
          }
         ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1681012287",
+         "Id": "2473969246",
+         "GUID": "{9CF8EE91-FDFB-4C25-AE7A-D037A50F0B02}",
+         "Color": "4"
+        },
+        "MediaRefs": [
+         {
+          "Id": "502378117"
+         },
+         {
+          "Id": "540270920"
+         },
+         {
+          "Id": "709878297"
+         },
+         {
+          "Id": "828575570"
+         },
+         {
+          "Id": "975087654"
+         },
+         {
+          "Id": "1019763854"
+         },
+         {
+          "Id": "1037984318"
+         }
+        ]
        }
       ]
      },
@@ -924,8 +1066,8 @@
       "GUID": "{DAE98BE5-CD81-48D3-9955-82487DD864A4}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.42579165",
-      "DurationMax": "0.43995833",
+      "DurationMin": "0.41107944",
+      "DurationMax": "0.45603636",
       "MediaRefs": [
        {
         "Id": "166730860"
@@ -945,8 +1087,8 @@
       "GUID": "{1118A975-03F4-4727-8DEC-B0CA91DBA82A}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.59758335",
-      "DurationMax": "0.6964167",
+      "DurationMin": "0.5885025",
+      "DurationMax": "0.7080198",
       "MediaRefs": [
        {
         "Id": "109044943"
@@ -972,8 +1114,8 @@
       "GUID": "{C4C036DE-2D0A-4E53-9C78-6D4AF7D1E144}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.5898542",
-      "DurationMax": "0.5898542",
+      "DurationMin": "0.54403204",
+      "DurationMax": "0.6395357",
       "MediaRefs": [
        {
         "Id": "931855267"
@@ -1002,8 +1144,8 @@
       "GUID": "{D9C42927-278B-4770-A495-D6317374579E}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "1.1675625",
-      "DurationMax": "1.1675625",
+      "DurationMin": "1.1408954",
+      "DurationMax": "1.194853",
       "MediaRefs": [
        {
         "Id": "324719264"
@@ -1017,8 +1159,8 @@
       "GUID": "{93C17C68-4755-401A-9AC0-7D4A144C1B83}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.41070834",
-      "DurationMax": "0.4810625",
+      "DurationMin": "0.36589953",
+      "DurationMax": "0.5399744",
       "MediaRefs": [
        {
         "Id": "61862981"
@@ -1040,7 +1182,6 @@
       "ObjectPath": "\\Events\\World\\Play_World_Staff_Swell_Lp",
       "GUID": "{42EF8B9A-CE27-42D2-8B51-4BAE7B38E29E}",
       "Color": "11",
-      "MaxAttenuation": "20",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1055,8 +1196,8 @@
       "GUID": "{179226EB-4640-4161-86CF-9B333C7A6A51}",
       "Color": "7",
       "DurationType": "OneShot",
-      "DurationMin": "0.13127084",
-      "DurationMax": "0.13127084",
+      "DurationMin": "0.12753381",
+      "DurationMax": "0.13511737",
       "MediaRefs": [
        {
         "Id": "1042833976"
@@ -1070,8 +1211,8 @@
       "GUID": "{5AF97951-67F6-485C-BFC8-3B4B5F30166C}",
       "Color": "7",
       "DurationType": "OneShot",
-      "DurationMin": "0.1790625",
-      "DurationMax": "0.1790625",
+      "DurationMin": "0.17396493",
+      "DurationMax": "0.18430944",
       "MediaRefs": [
        {
         "Id": "584238416"
@@ -1085,8 +1226,8 @@
       "GUID": "{C3430D3F-F6AB-4952-AE22-FD569B1DCF62}",
       "Color": "7",
       "DurationType": "OneShot",
-      "DurationMin": "0.22314583",
-      "DurationMax": "0.22314583",
+      "DurationMin": "0.2167933",
+      "DurationMax": "0.2296845",
       "MediaRefs": [
        {
         "Id": "313247670"
@@ -1100,8 +1241,8 @@
       "GUID": "{3ACCBCAC-AC2B-4261-AB23-04432CB8D034}",
       "Color": "7",
       "DurationType": "OneShot",
-      "DurationMin": "0.21358334",
-      "DurationMax": "0.21358334",
+      "DurationMin": "0.20750304",
+      "DurationMax": "0.21984181",
       "MediaRefs": [
        {
         "Id": "492557416"
@@ -1115,8 +1256,8 @@
       "GUID": "{7F2D1369-FC54-4BCE-9030-4F1B28DF2923}",
       "Color": "7",
       "DurationType": "OneShot",
-      "DurationMin": "0.392375",
-      "DurationMax": "0.392375",
+      "DurationMin": "0.38120484",
+      "DurationMax": "0.40387246",
       "MediaRefs": [
        {
         "Id": "471114426"
@@ -1130,8 +1271,8 @@
       "GUID": "{E5EE9894-0B40-484D-A445-BFAA0EDBCB7A}",
       "Color": "7",
       "DurationType": "OneShot",
-      "DurationMin": "0.24825",
-      "DurationMax": "0.24825",
+      "DurationMin": "0.24118279",
+      "DurationMax": "0.25552428",
       "MediaRefs": [
        {
         "Id": "1032667905"
@@ -1145,8 +1286,8 @@
       "GUID": "{A22AE574-4965-4DE3-9223-92B5E437CF8E}",
       "Color": "7",
       "DurationType": "OneShot",
-      "DurationMin": "0.878625",
-      "DurationMax": "0.878625",
+      "DurationMin": "0.85361224",
+      "DurationMax": "0.90437067",
       "MediaRefs": [
        {
         "Id": "643020254"
@@ -1160,8 +1301,8 @@
       "GUID": "{5120B6C0-8DC8-4ABC-952D-3DE2F14D9FE9}",
       "Color": "7",
       "DurationType": "OneShot",
-      "DurationMin": "0.107",
-      "DurationMax": "0.107",
+      "DurationMin": "0.10395392",
+      "DurationMax": "0.11013534",
       "MediaRefs": [
        {
         "Id": "748045547"
@@ -1175,8 +1316,8 @@
       "GUID": "{7B2686E8-C913-4B37-832F-56F3CF8FD75F}",
       "Color": "7",
       "DurationType": "OneShot",
-      "DurationMin": "0.11464583",
-      "DurationMax": "0.11464583",
+      "DurationMin": "0.11138208",
+      "DurationMax": "0.11800521",
       "MediaRefs": [
        {
         "Id": "352522030"
@@ -1215,10 +1356,24 @@
         "Color": "4"
        },
        {
+        "Id": "2003927601",
+        "Name": "Puddle",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Puddle",
+        "GUID": "{FD3BFF30-B4F3-4B15-B3A8-6AE12AF9BECE}",
+        "Color": "4"
+       },
+       {
         "Id": "2195636714",
         "Name": "Dirt",
         "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Dirt",
         "GUID": "{323A5A26-5B0D-4035-BAF7-001DD52DFD70}",
+        "Color": "4"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps\\Metal",
+        "GUID": "{9CF8EE91-FDFB-4C25-AE7A-D037A50F0B02}",
         "Color": "4"
        },
        {
@@ -1229,10 +1384,17 @@
         "Color": "4"
        }
       ]
+     },
+     {
+      "Id": "3174454669",
+      "Name": "GrenadierFootsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\GrenadierFootsteps",
+      "GUID": "{F9BF8941-99CA-48B3-B575-90FBC8271E0A}",
+      "Switches": []
      }
     ]
    }
   ],
-  "FileHash": "{FDA228B5-1CBB-DE33-27C0-355C9F0F64E3}"
+  "FileHash": "{505C7BA3-49C0-44B3-0B93-C50A846DDA07}"
  }
 }

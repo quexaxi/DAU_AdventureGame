@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AB595862-293D-4865-9F14-5E37BD006117}" SchemaVersion="123" RootDocumentID="{536381D6-0805-48C8-B343-C885D7436FE4}" ParentDocumentID="{536381D6-0805-48C8-B343-C885D7436FE4}">
+	<Events>
+		<WorkUnit Name="GrenadierLocomotion" ID="{AB595862-293D-4865-9F14-5E37BD006117}" OwnerID="{536381D6-0805-48C8-B343-C885D7436FE4}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Grenadier_Footsteps" ID="{90CB6681-2834-4DA7-8799-3C26D19399B3}">
+					<ChildrenList>
+						<Action Name="" ID="{A8AAABD8-6B51-4CCE-A740-5A9F36139FBF}" ShortID="638866916">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grenadier_Footstep_Layer" ID="{A1BA8170-12DB-45F0-B2E2-1BFB9F839570}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2EB67263-71A9-4E6C-9CB6-159F58084A58}" ShortID="53252050">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grenadier_Footstep" ID="{C5794B61-019F-4AAC-80EF-0A721EAFC8EB}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

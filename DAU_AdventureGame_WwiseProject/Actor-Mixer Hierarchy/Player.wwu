@@ -11,6 +11,31 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="13"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5A19A1D3-FB2F-46AB-A4F6-747A6A23BBCB}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="40"/>
+											<Property Name="Min" Type="Real64" Value="-40"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{DAEBD946-50FD-443C-8EBA-860C94CDC450}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -23,6 +48,31 @@
 					<ChildrenList>
 						<SwitchContainer Name="Player_Footsteps" ID="{AB299425-E7FA-48D4-BED9-40D813319E1E}" ShortID="964691210">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3037EA4E-0DEC-4694-A394-E564F21C30D0}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7AB3BDA2-82ED-428D-A162-B6ACA8BB1E34}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="40"/>
+													<Property Name="Min" Type="Real64" Value="-40"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ModifierList>
 										<ModifierInfo>
@@ -895,6 +945,20 @@
 										<ActiveSource Name="Ellen_Footstep_Grass_Scuff" ID="{47547C53-98C2-401C-B57A-F33B85D7B29D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Player_Footstep_Puddle" ID="{075F67B3-E1A1-4E07-BB21-404A5D0A34EA}" ShortID="528683545">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -909,6 +973,9 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Player_Footstep_Metal" ID="{BFA253AE-4377-4164-B9F2-263A75C952D4}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Player_Footstep_Puddle" ID="{075F67B3-E1A1-4E07-BB21-404A5D0A34EA}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Player_Footstep_Stone" ID="{A25C34C2-0173-40C6-9777-95EAEDB8241D}"/>
@@ -928,15 +995,54 @@
 										</ItemList>
 									</Grouping>
 									<Grouping>
+										<SwitchRef Name="Puddle" ID="{FD3BFF30-B4F3-4B15-B3A8-6AE12AF9BECE}"/>
+										<ItemList>
+											<ItemRef Name="Player_Footstep_Puddle" ID="{075F67B3-E1A1-4E07-BB21-404A5D0A34EA}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
 										<SwitchRef Name="Grass" ID="{6E6FA05D-2E6B-437F-934F-B816327F7E08}"/>
 										<ItemList>
 											<ItemRef Name="Player_Footstep_Grass" ID="{DED0DE0F-5B42-461E-8DC4-A8A43CAFA67F}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Metal" ID="{9CF8EE91-FDFB-4C25-AE7A-D037A50F0B02}"/>
+										<ItemList>
+											<ItemRef Name="Player_Footstep_Metal" ID="{BFA253AE-4377-4164-B9F2-263A75C952D4}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 						<RandomSequenceContainer Name="Player_Jump_Voice" ID="{3A29B4B7-AE3C-4624-AB4D-0DF97CDBC9D0}" ShortID="245715348">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1C48B2B6-D4F6-4E35-8332-4D891DAED099}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="40"/>
+													<Property Name="Min" Type="Real64" Value="-40"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A1D6F940-B2DC-4DE4-8F6D-4F4F35A09AFE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
@@ -1003,6 +1109,33 @@
 							</ReferenceList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Player_Land_Voice" ID="{06D19B7A-B83E-46E6-8469-524DE044A596}" ShortID="580546168">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{738BBC66-07F3-4F01-B8C1-7E60051230C4}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="70"/>
+													<Property Name="Min" Type="Real64" Value="-40"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{162E302A-3A15-452C-A22E-83C2A992115C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
@@ -1059,6 +1192,21 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Sound Name="Player_Roll" ID="{AF7AE51A-5AF6-4B38-9A21-4B1619ABDA90}" ShortID="940831637">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AE3AEAF0-6CF7-472F-9857-896F2DB3AB7A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
@@ -1198,7 +1346,36 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Player_Staff_Swing" ID="{452AFA8A-3AA0-454F-999F-9F02FF98FFF2}" ShortID="600385313">
 							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F15D944D-E447-4E6E-A1D0-BED034ED2A35}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6764FEEC-A332-44B4-A301-0BA4CE0769A0}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1320,6 +1497,21 @@
 							</ReferenceList>
 						</RandomSequenceContainer>
 						<Sound Name="SFX_Staff_PickUp" ID="{39D3E83E-5E7B-4DDC-A566-6BB3A57BA81D}" ShortID="357280733">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E603AA24-3BA4-446A-B695-F74EE4384656}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="40"/>
+													<Property Name="Min" Type="Real64" Value="-40"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>

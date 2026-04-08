@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E12E15C9-6440-4335-A1E9-784B0EC71F0D}" SchemaVersion="123" RootDocumentID="{536381D6-0805-48C8-B343-C885D7436FE4}" ParentDocumentID="{536381D6-0805-48C8-B343-C885D7436FE4}">
+	<Events>
+		<WorkUnit Name="GrenadierCombat" ID="{E12E15C9-6440-4335-A1E9-784B0EC71F0D}" OwnerID="{536381D6-0805-48C8-B343-C885D7436FE4}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Grenadier_Death" ID="{2114BE96-2C69-42F2-A016-74D1A7AB7A2F}">
+					<ChildrenList>
+						<Action Name="" ID="{5BFCE850-B9A0-4402-9DEC-2D785EDD86CF}" ShortID="605583868">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grenadier_Death" ID="{F0DBCD28-7D9D-49CB-BAD7-AFFD78F294B2}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_Damage" ID="{BF519991-EAA2-4BE2-B050-D7792C448A72}">
+					<ChildrenList>
+						<Action Name="" ID="{2B907604-3497-4FD8-AF66-02464C940D04}" ShortID="810640007">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grenadier_Damage" ID="{5CEC845D-600A-4E46-AFFB-D718F549E084}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_Throw" ID="{638EBEF0-F39C-44C2-A7BE-1CCC27EA1030}">
+					<ChildrenList>
+						<Action Name="" ID="{57E3185D-24FB-4587-922F-8154E14E8AC0}" ShortID="34031746">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grenadier_Throw" ID="{2288D6A7-5C61-467E-A966-772DC9DD6A2F}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_Punch" ID="{72D835A4-7FB0-48BA-8336-D4B46DE5205B}">
+					<ChildrenList>
+						<Action Name="" ID="{E2F28B4F-B4BF-4299-967A-8CA28151B832}" ShortID="755201494">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grenadier_Punch" ID="{A7020EA9-D42F-4E90-8608-18E82F35271E}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

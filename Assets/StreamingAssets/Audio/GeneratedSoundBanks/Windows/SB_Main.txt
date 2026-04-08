@@ -2,11 +2,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	98439365	Play_Player_Footsteps			\Player\PlayerLocomotion\Play_Player_Footsteps	
 	253791182	Play_Chomper_Spotted			\NPC\ChomperCombat\Play_Chomper_Spotted	
 	651543525	Play_Rock_Break			\World\Play_Rock_Break	
+	777046152	Play_Grenadier_Punch			\NPC\GrenadierCombat\Play_Grenadier_Punch	
 	866798855	UI_Text_Pop			\UI\UI_Text_Pop	
 	877612971	Play_Staff_Pickup			\Player\PlayerCombat\Play_Staff_Pickup	
 	1219048826	UI_Start			\UI\UI_Start	
 	2024222415	UI_Back			\UI\UI_Back	
 	2049148582	Play_Amb_Water			\Ambience\Play_Amb_Water	
+	2094447813	Play_Grenadier_Footsteps			\NPC\GrenadierLocomotion\Play_Grenadier_Footsteps	
 	2118900976	UI_Hover			\UI\UI_Hover	
 	2249769530	UI_Click			\UI\UI_Click	
 	2329507261	Play_Chomper_Slurp			\NPC\ChomperCombat\Play_Chomper_Slurp	
@@ -20,20 +22,26 @@ Event	ID	Name			Wwise Object Path	Notes
 	3136529387	Play_Chomper_Grunt			\NPC\ChomperCombat\Play_Chomper_Grunt	
 	3213331111	Play_Amb_Spaceship			\Ambience\Play_Amb_Spaceship	
 	3213519765	UI_ESC			\UI\UI_ESC	
+	3333154347	Play_Grenadier_Damage			\NPC\GrenadierCombat\Play_Grenadier_Damage	
+	3337034902	Play_Grenadier_Death			\NPC\GrenadierCombat\Play_Grenadier_Death	
 	3615463328	Play_Chomper_Smell			\NPC\ChomperCombat\Play_Chomper_Smell	
 	3707491759	Play_Staff_Swing			\Player\PlayerCombat\Play_Staff_Swing	
 	3742480528	Play_Chomper_Footsteps			\NPC\ChomperLocomotion\Play_Chomper_Footsteps	
 	3909382469	UI_Text_PopOut			\UI\UI_Text_PopOut	
 	4104589597	Play_Chomper_Breath			\NPC\ChomperCombat\Play_Chomper_Breath	
+	4143606696	Play_Grenadier_Throw			\NPC\GrenadierCombat\Play_Grenadier_Throw	
 	4249207015	Play_Player_Land			\Player\PlayerLocomotion\Play_Player_Land	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	806507282	ChomperFootsteps			\Default Work Unit\ChomperFootsteps	
 	1681012287	PlayerFootsteps			\Default Work Unit\PlayerFootsteps	
+	3174454669	GrenadierFootsteps			\Default Work Unit\GrenadierFootsteps	
 
 Switch	ID	Name	Switch Group			Notes
 	1216965916	Stone	PlayerFootsteps			
+	2003927601	Puddle	PlayerFootsteps			
 	2195636714	Dirt	PlayerFootsteps			
+	2473969246	Metal	PlayerFootsteps			
 	4248645337	Grass	PlayerFootsteps			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -75,8 +83,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	473746383	SFX_Rock_Break	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\A2\{A2A32DD2-1B2E-9B7C-3B30-C8E091B8C766}.wem		\Actor-Mixer Hierarchy\World\World\Interactions\SFX_Rock_Break		218716
 	492557416	UI_Menu_ESC	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\FA\{FAAE173C-5B09-DD6B-D045-6BF7F2EA0127}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_ESC		41104
 	501566221	SFX_Ellen_Footstep_Dirt_04	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\87\{87EA38D1-1493-6F2D-65D2-085601423028}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Dirt\SFX_Ellen_Footstep_Dirt_04		75188
+	502378117	Ellen_Footstep_Metal_05	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\EC\{EC767D64-630F-F588-CF95-59A9C3875643}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Metal\Ellen_Footstep_Metal_05		45264
 	515365309	SFX_Chomper_Footstep_06	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\8B\{8B029DA6-7220-C552-231E-C14C3D455D81}.wem		\Actor-Mixer Hierarchy\NPC\NPC\NPC_Movement\Chomper_Footstep\Chomper_Footstep\SFX_Chomper_Footstep_06		45568
 	517086339	SFX_Chomper_Footstep_05	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\A6\{A632652E-7FFF-BA69-5A0A-C4245B1E1DA8}.wem		\Actor-Mixer Hierarchy\NPC\NPC\NPC_Movement\Chomper_Footstep\Chomper_Footstep\SFX_Chomper_Footstep_05		29196
+	540270920	Ellen_Footstep_Metal_06	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\64\{640C28BD-8F1F-FDFC-B229-8EB0F374AACB}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Metal\Ellen_Footstep_Metal_06		56736
 	551571241	SFX_Ellen_Footstep_Stone_05	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\4F\{4F85B860-67C9-145F-9B6B-C5F98B09296B}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_05		83588
 	584238416	UI_Menu_Cancel	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\03\{03769441-5B6E-8338-3B64-AA95C3B5665B}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Cancel		34476
 	593107319	SFX_Staff_Swell	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\F5\{F5667C55-E28D-2168-D04F-A756C778E184}.wem		\Actor-Mixer Hierarchy\World\World\Magic\SFX_Staff_Swell		2614924
@@ -90,6 +100,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	679285970	SFX_Chomper_Grunt_02	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\9F\{9F0EEF1F-3866-C982-DC02-5C00940ABC78}.wem		\Actor-Mixer Hierarchy\NPC\NPC\Chomper_Combat\Chomper_Grunt\SFX_Chomper_Grunt_02		152708
 	695809018	SFX_Chomper_Footstep_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\DA\{DAF8B199-296F-5CE7-84DB-E34D2B0B49AF}.wem		\Actor-Mixer Hierarchy\NPC\NPC\NPC_Movement\Chomper_Footstep\Chomper_Footstep\SFX_Chomper_Footstep_01		39120
 	704766683	SFX_Ellen_Footstep_Dirt_03	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\66\{6669FDB7-7A77-8B8E-534F-B635CBC7F728}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Dirt\SFX_Ellen_Footstep_Dirt_03		65636
+	709878297	Ellen_Footstep_Metal_02	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\A2\{A20BFE65-E83F-7CA0-1FD0-FDA8F1ECC972}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Metal\Ellen_Footstep_Metal_02		45548
 	748045547	UI_Text_Pop	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\C4\{C42D8C35-6F32-E4AD-0356-D916EA5DCA65}.wem		\Actor-Mixer Hierarchy\UI\UI_Text_Pop		20640
 	754620863	SFX_Chomper_Slurp_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\88\{887A8BC5-25B5-834E-57BF-924E674A7CFE}.wem		\Actor-Mixer Hierarchy\NPC\NPC\Chomper_Combat\SFX_Chomper_Slurp_01		292932
 	755437045	SFX_Ellen_Jump_02	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\98\{98A55DFC-0133-BCD0-E17F-B9F75025FC34}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Jump_Voice\SFX_Ellen_Jump_02		65368
@@ -97,16 +108,20 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	793851530	SFX_Ellen_Footstep_Dirt_07	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\5C\{5C92683E-EAA5-CDD2-72C5-54EF63A671C5}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Dirt\SFX_Ellen_Footstep_Dirt_07		90120
 	819759711	SFX_Staff_Swing_03	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\8B\{8BB5F184-BC39-7298-26AA-C1D13901E4FD}.wem		\Actor-Mixer Hierarchy\Player\Player_Combat\Player_Staff_Swing\SFX_Staff_Swing_03		86884
 	827380283	SFX_Ellen_Footstep_Grass_04	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\C8\{C8297BA8-6A4E-A621-B0BF-075386ACB83B}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_04		96312
+	828575570	Ellen_Footstep_Metal_04	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\75\{7555FD42-814F-F5FA-09F9-5312A19D7DB1}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Metal\Ellen_Footstep_Metal_04		44628
 	864634417	SFX_Staff_Swing_02	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\2D\{2D183B63-471C-CB05-1180-DE0D7BA7A400}.wem		\Actor-Mixer Hierarchy\Player\Player_Combat\Player_Staff_Swing\SFX_Staff_Swing_02		87336
 	873452055	SFX_Ellen_Footstep_Grass_10	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\BE\{BEF346DD-E176-C24C-090A-D386EA57BFE0}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_10		95132
 	931855267	Player_Roll	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\CE\{CEA7D405-4CF5-C41C-2DF7-271D84FCDFC0}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Roll		113348
 	944932326	SFX_Chomper_Footstep_Breath_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\05\{054F12D8-370E-32C9-E6B7-57BCF827EF13}.wem		\Actor-Mixer Hierarchy\NPC\NPC\NPC_Movement\Chomper_Footstep\Chomper_Footstep_Layer\SFX_Chomper_Footstep_Breath_01		54924
 	948429880	SFX_Chomper_Footstep_Breath_02	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\00\{009521C0-D86B-15BA-75D9-4D618C41E0C0}.wem		\Actor-Mixer Hierarchy\NPC\NPC\NPC_Movement\Chomper_Footstep\Chomper_Footstep_Layer\SFX_Chomper_Footstep_Breath_02		48996
 	952032992	SFX_Ellen_Footstep_Stone_07	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\35\{35F2455C-528B-441A-A6BD-CC3905CDDC66}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_07		69180
+	975087654	Ellen_Footstep_Metal_07	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\04\{04FEC4ED-85DD-8EF8-F9A4-F6DD30A68BC4}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Metal\Ellen_Footstep_Metal_07		52600
 	977271813	Player_Land_Grass	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\36\{36CB5491-FE05-AC37-7F3B-6B5562B607A8}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Land\Player_Land_Grass		95408
 	978907425	SFX_Chomper_Footstep_07	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\4A\{4A831675-C4AA-47AC-4E7F-5B6A12525423}.wem		\Actor-Mixer Hierarchy\NPC\NPC\NPC_Movement\Chomper_Footstep\Chomper_Footstep\SFX_Chomper_Footstep_07		38292
 	995122761	SFX_Ellen_Footstep_Stone_04	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\1D\{1DAEA103-DB0B-1836-2679-648B6DFCDACF}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_04		76540
+	1019763854	Ellen_Footstep_Metal_03	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\91\{913843C7-BE48-ED84-4386-D6C9104C196D}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Metal\Ellen_Footstep_Metal_03		44988
 	1032667905	UI_Menu_Select	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\2A\{2A98A6AE-4D9C-652E-9643-0496DF1F6A31}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Select		47760
+	1037984318	Ellen_Footstep_Metal_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\67\{6726AFD3-E795-7F6F-D12B-1AE511398A3F}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\Player_Footsteps\Player_Footstep_Metal\Ellen_Footstep_Metal_01		46072
 	1040522203	SFX_Ellen_Jump_Whoosh	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\F7\{F7BB25DB-CABC-0AD4-FB02-462E960EEFA8}.wem		\Actor-Mixer Hierarchy\Player\Player_Movement\SFX_Ellen_Jump_Whoosh		43980
 	1041792918	SFX_Staff_Swing_04	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\E5\{E5FF92F0-DFFE-385B-08B8-73E97E8AA08E}.wem		\Actor-Mixer Hierarchy\Player\Player_Combat\Player_Staff_Swing\SFX_Staff_Swing_04		78952
 	1042833976	UI_Menu_Back	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\55\{55A03F81-F836-8EBA-349E-CAA7B6D9F2BA}.wem		\Actor-Mixer Hierarchy\UI\UI_Menu_Back		25300

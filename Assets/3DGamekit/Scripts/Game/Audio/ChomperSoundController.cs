@@ -13,7 +13,12 @@ public class ChomperSoundController : MonoBehaviour
     public AK.Wwise.Event smellEvent;
     public AK.Wwise.Event gruntEvent;
     public AK.Wwise.Event itchingEvent;
-   
+    public AK.Wwise.Event chomperHit01Event;
+    public AK.Wwise.Event chomperHit02Event;
+    public AK.Wwise.Event chomperHit03Event;
+    public AK.Wwise.Event chomperHit04Event;
+
+
     public void AnimSlurp()
     {
         tongueSlurpEvent.Post(gameObject);
@@ -53,4 +58,25 @@ public class ChomperSoundController : MonoBehaviour
     {
         itchingEvent.Post(gameObject);
     }
+
+    public void ChomperHit01()
+    {
+        chomperHit01Event.Post(gameObject);
+    }
+
+    public void ChomperHit02()
+    {
+        chomperHit02Event.Post(gameObject);
+    }
+
+    public void ChomperHit03()
+    {
+        chomperHit03Event.Post(gameObject);
+    }
+
+    public void ChomperHit04()
+    {
+        chomperHit04Event.Post(gameObject);
+    }
+
 }
