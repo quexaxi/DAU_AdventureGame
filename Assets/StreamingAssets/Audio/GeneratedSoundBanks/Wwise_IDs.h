@@ -227,7 +227,10 @@ namespace AK
     namespace AUX_BUSSES
     {
         static const AkUniqueID REV_FOREST = 3910197480U;
-        static const AkUniqueID REV_TEMPLE = 472728108U;
+        static const AkUniqueID REV_SMALL_ROOM = 1551944282U;
+        static const AkUniqueID REV_SPACESHIP = 4010439117U;
+        static const AkUniqueID REV_TEMPLE_LARGE = 4023024944U;
+        static const AkUniqueID REV_TEMPLE_SMALL = 1495343048U;
         static const AkUniqueID REVERBS_AUX = 4148005607U;
     } // namespace AUX_BUSSES
 

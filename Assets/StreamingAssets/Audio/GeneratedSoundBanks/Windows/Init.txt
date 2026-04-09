@@ -45,8 +45,11 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	4015094827	Mechanisms			\Default Work Unit\Master_Audio_Bus\SFX_Bus\World_Bus\Mechanisms	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	472728108	Rev_Temple			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_Temple	
+	1495343048	Rev_Temple_Small			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_Temple_Small	
+	1551944282	Rev_Small_Room			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_Small_Room	
 	3910197480	Rev_Forest			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_Forest	
+	4010439117	Rev_Spaceship			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_Spaceship	
+	4023024944	Rev_Temple_Large			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_Temple_Large	
 	4148005607	Reverbs_AUX			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX	
 
 Audio Devices	ID	Name	Type				Notes

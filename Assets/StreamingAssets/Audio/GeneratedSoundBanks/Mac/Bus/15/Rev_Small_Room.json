@@ -1,0 +1,39 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1551944282",
+    "Type": "Bus",
+    "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
+    "Language": "SFX",
+    "Hash": "{5D82DC29-B82B-736B-159D-6A4B3E3351BB}",
+    "ObjectPath": "Rev_Small_Room",
+    "ShortName": "Rev_Small_Room",
+    "Path": "Bus/15/Rev_Small_Room.bnk",
+    "AuxBusses": [
+     {
+      "Id": "1551944282",
+      "Name": "Rev_Small_Room",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Small_Room",
+      "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "4148005607",
+        "Name": "Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+        "Color": "2"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B6CA774E-6F72-390E-0FB8-FE23BEE6286C}"
+ }
+}

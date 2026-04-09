@@ -1,0 +1,39 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4023024944",
+    "Type": "Bus",
+    "GUID": "{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}",
+    "Language": "SFX",
+    "Hash": "{850C3E42-7720-ACAE-284D-8CD8D60E6950}",
+    "ObjectPath": "Rev_Temple_Large",
+    "ShortName": "Rev_Temple_Large",
+    "Path": "Bus/40/Rev_Temple_Large.bnk",
+    "AuxBusses": [
+     {
+      "Id": "4023024944",
+      "Name": "Rev_Temple_Large",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Temple_Large",
+      "GUID": "{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}",
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "4148005607",
+        "Name": "Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+        "Color": "2"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{04AE6ECE-1187-A194-0301-2EEF5F0B0B47}"
+ }
+}

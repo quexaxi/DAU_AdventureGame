@@ -69,7 +69,10 @@
 							</PropertyList>
 							<ChildrenList>
 								<AuxBus Name="Rev_Forest" ID="{4A07DD45-9B83-42D7-AFAC-9685B0647E61}"/>
-								<AuxBus Name="Rev_Temple" ID="{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}"/>
+								<AuxBus Name="Rev_Temple_Large" ID="{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}"/>
+								<AuxBus Name="Rev_Temple_Small" ID="{1F870487-926E-4BD5-9B1F-3F0CE683C813}"/>
+								<AuxBus Name="Rev_Spaceship" ID="{669BD2F1-A6ED-4457-BF3B-E941CD329237}"/>
+								<AuxBus Name="Rev_Small_Room" ID="{A91B7386-9107-442F-8F2F-0600D3D7C9A3}"/>
 							</ChildrenList>
 						</AuxBus>
 						<Bus Name="SFX_Bus" ID="{7B709ABD-1B63-490D-940F-9BDCF7C5B00E}">

@@ -1,0 +1,39 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1495343048",
+    "Type": "Bus",
+    "GUID": "{1F870487-926E-4BD5-9B1F-3F0CE683C813}",
+    "Language": "SFX",
+    "Hash": "{DB3657D9-3581-09D2-6D8F-BD1935EADF7E}",
+    "ObjectPath": "Rev_Temple_Small",
+    "ShortName": "Rev_Temple_Small",
+    "Path": "Bus/14/Rev_Temple_Small.bnk",
+    "AuxBusses": [
+     {
+      "Id": "1495343048",
+      "Name": "Rev_Temple_Small",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Temple_Small",
+      "GUID": "{1F870487-926E-4BD5-9B1F-3F0CE683C813}",
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "4148005607",
+        "Name": "Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+        "Color": "2"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B819099B-F39B-2F9B-A78A-B8F463D98B39}"
+ }
+}

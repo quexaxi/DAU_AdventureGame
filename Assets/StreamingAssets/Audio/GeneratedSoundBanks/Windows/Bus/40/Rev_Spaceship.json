@@ -1,0 +1,39 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4010439117",
+    "Type": "Bus",
+    "GUID": "{669BD2F1-A6ED-4457-BF3B-E941CD329237}",
+    "Language": "SFX",
+    "Hash": "{4362E201-4380-D539-52BE-7CEE5E60ADA9}",
+    "ObjectPath": "Rev_Spaceship",
+    "ShortName": "Rev_Spaceship",
+    "Path": "Bus/40/Rev_Spaceship.bnk",
+    "AuxBusses": [
+     {
+      "Id": "4010439117",
+      "Name": "Rev_Spaceship",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Spaceship",
+      "GUID": "{669BD2F1-A6ED-4457-BF3B-E941CD329237}",
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "4148005607",
+        "Name": "Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+        "Color": "2"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0400CC4B-5B40-B40E-6E3B-03576F3F309E}"
+ }
+}
