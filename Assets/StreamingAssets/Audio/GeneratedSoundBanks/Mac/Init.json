@@ -10,11 +10,37 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{37BF8A22-99E3-7A14-79FE-974A4EBAB734}",
+    "Hash": "{DCA3CB23-31B5-A3E7-A457-D2A81CA0B0A1}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3164629247",
+       "Name": "Holy",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Holy",
+       "GUID": "{CC7B8638-C670-4AD5-B3FB-331EA81037F6}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -171,6 +197,22 @@
     ],
     "AuxBusses": [
      {
+      "Id": "273255480",
+      "Name": "Rev_TeleporterArea",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_TeleporterArea",
+      "GUID": "{72354B84-DA22-4A28-A05E-6152082E4A18}",
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "4148005607",
+        "Name": "Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+        "Color": "2"
+       }
+      ]
+     },
+     {
       "Id": "1495343048",
       "Name": "Rev_Temple_Small",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Temple_Small",
@@ -192,6 +234,13 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Small_Room",
       "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
       "Color": "2",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "4148005607",
@@ -203,27 +252,41 @@
       ]
      },
      {
-      "Id": "3910197480",
-      "Name": "Rev_Forest",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Forest",
+      "Id": "1676981132",
+      "Name": "Rev_SwitchesArea",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_SwitchesArea",
+      "GUID": "{0A19BD35-A89B-4686-8214-AF0FE99A0B25}",
+      "Color": "2",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "4148005607",
+        "Name": "Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+        "Color": "2"
+       }
+      ]
+     },
+     {
+      "Id": "3958414088",
+      "Name": "Rev_StartingArea",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_StartingArea",
       "GUID": "{4A07DD45-9B83-42D7-AFAC-9685B0647E61}",
       "Color": "2",
-      "AuxBusRefs": [
-       {
-        "Id": "4148005607",
-        "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
-        "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
-        "Color": "2"
-       }
-      ]
-     },
-     {
-      "Id": "4010439117",
-      "Name": "Rev_Spaceship",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Spaceship",
-      "GUID": "{669BD2F1-A6ED-4457-BF3B-E941CD329237}",
-      "Color": "2",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3164629247"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "4148005607",
@@ -309,6 +372,116 @@
      }
     ],
     "StateGroups": [
+     {
+      "Id": "136446852",
+      "Name": "Crystal_Field_03",
+      "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_03",
+      "GUID": "{A53876A2-0083-435C-B445-CEEBA89C4871}",
+      "States": [
+       {
+        "Id": "58138747",
+        "Name": "Active",
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_03\\Active",
+        "GUID": "{41FDFD23-9078-49E4-B9DE-1F006DF8DF57}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_03\\None",
+        "GUID": "{6CD3E1AE-C77B-4BCD-84B4-8A5C9D61675A}"
+       },
+       {
+        "Id": "885280877",
+        "Name": "Not_Active",
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_03\\Not_Active",
+        "GUID": "{B77A6A3C-9613-4BA4-98CC-EFFE43CACFB3}"
+       }
+      ]
+     },
+     {
+      "Id": "136446853",
+      "Name": "Crystal_Field_02",
+      "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_02",
+      "GUID": "{BDC0E2CE-69F2-4469-AD0D-E2FD8A038CC0}",
+      "States": [
+       {
+        "Id": "58138747",
+        "Name": "Active",
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_02\\Active",
+        "GUID": "{DE4CBE78-14DD-4AB4-91EB-D52F354EECCC}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_02\\None",
+        "GUID": "{B86E4A5C-67C3-4115-B3AF-A45EAFF84FF4}"
+       },
+       {
+        "Id": "885280877",
+        "Name": "Not_Active",
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_02\\Not_Active",
+        "GUID": "{A16E37A9-1859-4C58-89C3-1A75387CF969}"
+       }
+      ]
+     },
+     {
+      "Id": "136446854",
+      "Name": "Crystal_Field_01",
+      "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_01",
+      "GUID": "{2851B444-32D1-4AF1-A7A9-DEE79B7FD043}",
+      "States": [
+       {
+        "Id": "58138747",
+        "Name": "Active",
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_01\\Active",
+        "GUID": "{328ABE04-139A-4497-A62E-BFEFA1DA414C}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_01\\None",
+        "GUID": "{C2644401-0C76-4A92-BE09-0D53A3BAC794}"
+       },
+       {
+        "Id": "885280877",
+        "Name": "Not_Active",
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_01\\Not_Active",
+        "GUID": "{2247E9A8-C7A1-4989-A717-D18C38E04F7A}"
+       }
+      ]
+     },
+     {
+      "Id": "206648942",
+      "Name": "AMB_Region",
+      "ObjectPath": "\\States\\Default Work Unit\\AMB_Region",
+      "GUID": "{4AF18F8B-5A2A-4740-9E8A-6FF1C8E35516}",
+      "States": [
+       {
+        "Id": "167300246",
+        "Name": "TeleporterArea",
+        "ObjectPath": "\\States\\Default Work Unit\\AMB_Region\\TeleporterArea",
+        "GUID": "{9B5912B0-8F19-4901-8044-B23309C3C555}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\AMB_Region\\None",
+        "GUID": "{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"
+       },
+       {
+        "Id": "773685982",
+        "Name": "SwitchesArea",
+        "ObjectPath": "\\States\\Default Work Unit\\AMB_Region\\SwitchesArea",
+        "GUID": "{98C8DD4B-9996-4EEE-B97A-145176A60240}"
+       },
+       {
+        "Id": "1178768754",
+        "Name": "StartingArea",
+        "ObjectPath": "\\States\\Default Work Unit\\AMB_Region\\StartingArea",
+        "GUID": "{0DA34214-807F-41CF-857F-6D58D3547A8A}"
+       }
+      ]
+     },
      {
       "Id": "1021618141",
       "Name": "MusicState",
@@ -591,6 +764,6 @@
     ]
    }
   ],
-  "FileHash": "{2A2CD35A-2039-13B3-9BE5-4738402693D3}"
+  "FileHash": "{A82C09C2-622F-A79A-53C4-8F5669819583}"
  }
 }

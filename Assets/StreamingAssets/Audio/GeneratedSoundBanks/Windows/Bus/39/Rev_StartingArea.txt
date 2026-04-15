@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3958414088	Rev_StartingArea			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_StartingArea	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3164629247	Holy	Wwise RoomVerb			
+

@@ -1,0 +1,3 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	273255480	Rev_TeleporterArea			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_TeleporterArea	
+

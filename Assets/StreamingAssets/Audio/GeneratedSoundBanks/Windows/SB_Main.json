@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{521B07CB-3013-F8D3-A344-5D243998BCD0}",
+    "Hash": "{F036D020-1841-42D9-0BE6-A8FFADC2348B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -86,6 +86,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Cloth_04.wav",
       "CachePath": "1A/{1A728FAA-E934-FBA7-894D-9AEA4E932A0D}.wem"
+     },
+     {
+      "Id": "151546490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Fly_05.wav",
+      "CachePath": "00/{007D83EC-4D7F-0491-BE94-23823930005C}.wem"
      },
      {
       "Id": "164943370",
@@ -208,6 +216,14 @@
       "CachePath": "44/{44D237C7-C00E-9291-F562-54867A09EECD}.wem"
      },
      {
+      "Id": "372718200",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Fly_03.wav",
+      "CachePath": "B1/{B12CB96F-4F8A-9976-1D53-E9FC144A2AEA}.wem"
+     },
+     {
       "Id": "374993025",
       "Language": "SFX",
       "Streaming": "false",
@@ -262,6 +278,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Chomper_Breath_01.wav",
       "CachePath": "F6/{F6C76081-B2DB-A45A-1998-91E751646F90}.wem"
+     },
+     {
+      "Id": "457487603",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Fly_01.wav",
+      "CachePath": "CB/{CBA4227C-961A-2C6C-FE8A-C566E544CBFE}.wem"
      },
      {
       "Id": "471114426",
@@ -352,6 +376,14 @@
       "CachePath": "F5/{F5667C55-E28D-2168-D04F-A756C778E184}.wem"
      },
      {
+      "Id": "599865767",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Fly_04.wav",
+      "CachePath": "28/{28545A09-9B67-C146-B9B7-65A61D3CB23D}.wem"
+     },
+     {
       "Id": "614234922",
       "Language": "SFX",
       "Streaming": "false",
@@ -438,6 +470,14 @@
       "Location": "Memory",
       "ShortName": "Ellen_Footstep_Metal_02.wav",
       "CachePath": "A2/{A20BFE65-E83F-7CA0-1FD0-FDA8F1ECC972}.wem"
+     },
+     {
+      "Id": "727113440",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Fly_02.wav",
+      "CachePath": "19/{195E2818-8AAC-1EC5-363C-D2AEEAEB0C8C}.wem"
      },
      {
       "Id": "748045547",
@@ -666,7 +706,22 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+        "Id": "151546490"
+       },
+       {
         "Id": "232616254"
+       },
+       {
+        "Id": "372718200"
+       },
+       {
+        "Id": "457487603"
+       },
+       {
+        "Id": "599865767"
+       },
+       {
+        "Id": "727113440"
        }
       ]
      },
@@ -1087,23 +1142,55 @@
       "GUID": "{1118A975-03F4-4727-8DEC-B0CA91DBA82A}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.5885025",
-      "DurationMax": "0.7080198",
+      "DurationMin": "0.38850254",
+      "DurationMax": "0.5080198",
       "MediaRefs": [
        {
         "Id": "109044943"
        },
        {
         "Id": "164943370"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1044534455",
+         "Id": "2195636714",
+         "GUID": "{62E18F48-F7FA-4801-A88A-7A1F968E2AEC}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "615615615"
+         }
+        ]
        },
        {
-        "Id": "430015297"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1044534455",
+         "Id": "4248645337",
+         "GUID": "{83EA234F-A611-456E-94DB-B0740C5984F6}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "977271813"
+         }
+        ]
        },
        {
-        "Id": "615615615"
-       },
-       {
-        "Id": "977271813"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1044534455",
+         "Id": "1216965916",
+         "GUID": "{DC02AB6B-9E51-41B8-BCCC-970DFA8DF552}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "430015297"
+         }
+        ]
        }
       ]
      },
@@ -1129,8 +1216,8 @@
       "GUID": "{E2C8888B-BE15-4EF8-9B64-AB32C266CB72}",
       "Color": "11",
       "DurationType": "OneShot",
-      "DurationMin": "1.1386459",
-      "DurationMax": "1.1386459",
+      "DurationMin": "0.71730196",
+      "DurationMax": "1.8074876",
       "MediaRefs": [
        {
         "Id": "473746383"
@@ -1164,6 +1251,12 @@
       "MediaRefs": [
        {
         "Id": "61862981"
+       },
+       {
+        "Id": "166730860"
+       },
+       {
+        "Id": "755437045"
        },
        {
         "Id": "819759711"
@@ -1342,6 +1435,32 @@
       "Switches": []
      },
      {
+      "Id": "1044534455",
+      "Name": "GroundMaterialSwitch",
+      "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterialSwitch",
+      "GUID": "{19B5AF97-0961-4FBC-AFF9-BF06C60DA2A3}",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterialSwitch\\Stone",
+        "GUID": "{DC02AB6B-9E51-41B8-BCCC-970DFA8DF552}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterialSwitch\\Dirt",
+        "GUID": "{62E18F48-F7FA-4801-A88A-7A1F968E2AEC}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterialSwitch\\Grass",
+        "GUID": "{83EA234F-A611-456E-94DB-B0740C5984F6}"
+       }
+      ]
+     },
+     {
       "Id": "1681012287",
       "Name": "PlayerFootsteps",
       "ObjectPath": "\\Switches\\Default Work Unit\\PlayerFootsteps",
@@ -1395,6 +1514,6 @@
     ]
    }
   ],
-  "FileHash": "{505C7BA3-49C0-44B3-0B93-C50A846DDA07}"
+  "FileHash": "{8C5952A1-66F4-486E-EA88-AC82BC87FE40}"
  }
 }

@@ -23,6 +23,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{2367C041-E1C6-4D42-8B7A-F84097074A00}" ShortID="746236883">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="20"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Jump_Voice" ID="{3A29B4B7-AE3C-4624-AB4D-0DF97CDBC9D0}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

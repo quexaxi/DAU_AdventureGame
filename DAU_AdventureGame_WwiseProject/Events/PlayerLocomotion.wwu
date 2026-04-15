@@ -29,7 +29,7 @@
 						<Action Name="" ID="{BBB46DAA-4DD1-4B04-AE13-F8E753EE5351}" ShortID="818565910">
 							<PropertyList>
 								<Property Name="Delay" Type="Real64" Value="0.1"/>
-								<Property Name="Probability" Type="Real64" Value="99"/>
+								<Property Name="Probability" Type="Real64" Value="80"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -49,19 +49,19 @@
 				<Event Name="Play_Player_Land" ID="{1118A975-03F4-4727-8DEC-B0CA91DBA82A}">
 					<ChildrenList>
 						<Action Name="" ID="{3D1F7F5E-1B0A-4260-A649-2F297ED3C591}" ShortID="340647216">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="50"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Player_Land_Voice" ID="{06D19B7A-B83E-46E6-8469-524DE044A596}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{AB096C45-3A9B-4423-AF2A-1A8CFAD21B7E}" ShortID="380236906">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.2"/>
-							</PropertyList>
+						<Action Name="" ID="{D2DFEDC3-AB6D-4D05-BEA4-98BCC3A54491}" ShortID="723908583">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Player_Land" ID="{735758D2-E1FF-4CEF-A88A-4A033A4E658D}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+									<ObjectRef Name="Player_Land" ID="{5ECAB353-D3E1-4A79-8402-6BACD0A10BE6}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -74,6 +74,9 @@
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{AFD4AE54-BE84-4439-9B8D-0113B4CEFB94}">
@@ -923,7 +926,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<Sound Name="Ellen_Footstep_Grass_Scuff" ID="{5833A587-D908-4A20-A7CD-18C9CF842EF4}" ShortID="99213277">
+								<Sound Name="Player_Footstep_Grass_Scuff" ID="{5833A587-D908-4A20-A7CD-18C9CF842EF4}" ShortID="99213277">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
@@ -966,7 +969,7 @@
 										<ItemRef Name="Player_Footstep_Grass" ID="{DED0DE0F-5B42-461E-8DC4-A8A43CAFA67F}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="Ellen_Footstep_Grass_Scuff" ID="{5833A587-D908-4A20-A7CD-18C9CF842EF4}"/>
+										<ItemRef Name="Player_Footstep_Grass_Scuff" ID="{5833A587-D908-4A20-A7CD-18C9CF842EF4}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Player_Footstep_Dirt" ID="{086F9588-8858-4D06-96CD-53DB7423270E}"/>
@@ -1250,7 +1253,7 @@
 								<ActiveSource Name="SFX_Ellen_Jump_Whoosh" ID="{4AC10672-E871-438B-871F-D31C004EBD8B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<RandomSequenceContainer Name="Player_Land" ID="{735758D2-E1FF-4CEF-A88A-4A033A4E658D}" ShortID="936098873">
+						<SwitchContainer Name="Player_Land" ID="{5ECAB353-D3E1-4A79-8402-6BACD0A10BE6}" ShortID="1016485031">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
@@ -1258,30 +1261,11 @@
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
 								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="GroundMaterialSwitch" ID="{19B5AF97-0961-4FBC-AFF9-BF06C60DA2A3}" WorkUnitID="{A57EDC93-18A5-4E9C-83EB-3376599056FD}"/>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Player_Land_Dirt" ID="{C165090A-05A0-4438-8D1E-21E85D8ECFD4}" ShortID="770814223">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Ellen_Land_Dirt" ID="{8CB91519-FE45-4C21-99EF-0A0F4D5EB4B1}">
-											<Language>SFX</Language>
-											<AudioFile>Ellen_Land_Dirt.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="615615615"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Ellen_Land_Dirt" ID="{8CB91519-FE45-4C21-99EF-0A0F4D5EB4B1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Player_Land_Grass" ID="{44AC909C-C79C-4943-8C9C-8136757DB8CD}" ShortID="631813890">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1302,6 +1286,28 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Ellen_Land_Grass" ID="{9D9FFC20-DCC6-4B45-A92E-27BB4E5972D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Player_Land_Dirt" ID="{C165090A-05A0-4438-8D1E-21E85D8ECFD4}" ShortID="770814223">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ellen_Land_Dirt" ID="{8CB91519-FE45-4C21-99EF-0A0F4D5EB4B1}">
+											<Language>SFX</Language>
+											<AudioFile>Ellen_Land_Dirt.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="615615615"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ellen_Land_Dirt" ID="{8CB91519-FE45-4C21-99EF-0A0F4D5EB4B1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Player_Land_Stone" ID="{9682F2CB-AA41-4D67-B216-202BD1687334}" ShortID="459615416">
@@ -1327,7 +1333,40 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-						</RandomSequenceContainer>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Player_Land_Dirt" ID="{C165090A-05A0-4438-8D1E-21E85D8ECFD4}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Player_Land_Grass" ID="{44AC909C-C79C-4943-8C9C-8136757DB8CD}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Player_Land_Stone" ID="{9682F2CB-AA41-4D67-B216-202BD1687334}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Dirt" ID="{62E18F48-F7FA-4801-A88A-7A1F968E2AEC}"/>
+										<ItemList>
+											<ItemRef Name="Player_Land_Dirt" ID="{C165090A-05A0-4438-8D1E-21E85D8ECFD4}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{83EA234F-A611-456E-94DB-B0740C5984F6}"/>
+										<ItemList>
+											<ItemRef Name="Player_Land_Grass" ID="{44AC909C-C79C-4943-8C9C-8136757DB8CD}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Stone" ID="{DC02AB6B-9E51-41B8-BCCC-970DFA8DF552}"/>
+										<ItemList>
+											<ItemRef Name="Player_Land_Stone" ID="{9682F2CB-AA41-4D67-B216-202BD1687334}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Player_Combat" ID="{194C6EBC-0ABA-49F4-8451-D2776F8737DC}" ShortID="591000506">

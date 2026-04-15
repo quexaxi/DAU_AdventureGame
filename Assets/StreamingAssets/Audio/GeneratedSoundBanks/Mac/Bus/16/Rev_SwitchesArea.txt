@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1676981132	Rev_SwitchesArea			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_SwitchesArea	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+

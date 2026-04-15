@@ -12,7 +12,7 @@
 						<Action Name="" ID="{DDC3ACA3-79D0-4CA0-8B9C-83BA2B4C51AC}" ShortID="293589126">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Staff_Swell" ID="{DCAA44ED-6A9D-47B2-B88C-1AB10CCE5588}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+									<ObjectRef Name="Staff Swell" ID="{DCAA44ED-6A9D-47B2-B88C-1AB10CCE5588}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -23,7 +23,7 @@
 						<Action Name="" ID="{20A57A90-F2DA-4E4D-81DA-B8A0B2B64D00}" ShortID="904243262">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Rock_Break" ID="{ED1DA24D-DC85-4188-B401-5B859A65550C}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+									<ObjectRef Name="Rock_Breaks" ID="{ED1DA24D-DC85-4188-B401-5B859A65550C}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

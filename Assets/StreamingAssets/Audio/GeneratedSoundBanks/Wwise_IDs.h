@@ -50,6 +50,19 @@ namespace AK
 
     namespace STATES
     {
+        namespace AMB_REGION
+        {
+            static const AkUniqueID GROUP = 206648942U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID STARTINGAREA = 1178768754U;
+                static const AkUniqueID SWITCHESAREA = 773685982U;
+                static const AkUniqueID TELEPORTERAREA = 167300246U;
+            } // namespace STATE
+        } // namespace AMB_REGION
+
         namespace AREASTATE
         {
             static const AkUniqueID GROUP = 2064552269U;
@@ -61,6 +74,42 @@ namespace AK
                 static const AkUniqueID TEMPLE = 2323193050U;
             } // namespace STATE
         } // namespace AREASTATE
+
+        namespace CRYSTAL_FIELD_01
+        {
+            static const AkUniqueID GROUP = 136446854U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ACTIVE = 58138747U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NOT_ACTIVE = 885280877U;
+            } // namespace STATE
+        } // namespace CRYSTAL_FIELD_01
+
+        namespace CRYSTAL_FIELD_02
+        {
+            static const AkUniqueID GROUP = 136446853U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ACTIVE = 58138747U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NOT_ACTIVE = 885280877U;
+            } // namespace STATE
+        } // namespace CRYSTAL_FIELD_02
+
+        namespace CRYSTAL_FIELD_03
+        {
+            static const AkUniqueID GROUP = 136446852U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ACTIVE = 58138747U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NOT_ACTIVE = 885280877U;
+            } // namespace STATE
+        } // namespace CRYSTAL_FIELD_03
 
         namespace GAMESTATUS
         {
@@ -226,9 +275,10 @@ namespace AK
 
     namespace AUX_BUSSES
     {
-        static const AkUniqueID REV_FOREST = 3910197480U;
         static const AkUniqueID REV_SMALL_ROOM = 1551944282U;
-        static const AkUniqueID REV_SPACESHIP = 4010439117U;
+        static const AkUniqueID REV_STARTINGAREA = 3958414088U;
+        static const AkUniqueID REV_SWITCHESAREA = 1676981132U;
+        static const AkUniqueID REV_TELEPORTERAREA = 273255480U;
         static const AkUniqueID REV_TEMPLE_LARGE = 4023024944U;
         static const AkUniqueID REV_TEMPLE_SMALL = 1495343048U;
         static const AkUniqueID REVERBS_AUX = 4148005607U;

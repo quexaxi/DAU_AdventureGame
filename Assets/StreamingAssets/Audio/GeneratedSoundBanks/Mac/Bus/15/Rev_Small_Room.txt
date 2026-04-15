@@ -1,3 +1,6 @@
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1551944282	Rev_Small_Room			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_Small_Room	
 
+Effect plug-ins	ID	Name	Type				Notes
+	2995775460	Room_Small	Wwise RoomVerb			
+
