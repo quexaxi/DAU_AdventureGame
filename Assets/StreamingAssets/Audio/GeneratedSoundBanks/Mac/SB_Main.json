@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{F036D020-1841-42D9-0BE6-A8FFADC2348B}",
+    "Hash": "{88EB6DAE-7F70-015B-D5A5-FE267A906246}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Chomper_Grunt_01.wav",
       "CachePath": "55/{550A6E5D-FC68-EA74-0189-667784FD9E32}.wem"
+     },
+     {
+      "Id": "15768759",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chest_Opens.wav",
+      "CachePath": "CC/{CC6F5144-B47D-2F29-F7CC-409DDDF95796}.wem"
      },
      {
       "Id": "19017698",
@@ -269,7 +277,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ellen_Land_Stone.wav",
-      "CachePath": "71/{71FF979B-2D53-76A4-FD6B-F8A319B64481}.wem"
+      "CachePath": "13/{13B348E4-661B-BFBC-99D4-F55DB268C00C}.wem"
      },
      {
       "Id": "439165719",
@@ -405,7 +413,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ellen_Land_Dirt.wav",
-      "CachePath": "3F/{3F8C096F-3641-08AC-26F9-8DB275290AA2}.wem"
+      "CachePath": "3B/{3B5B7650-E2A2-94ED-5D82-0E4F8192C170}.wem"
      },
      {
       "Id": "638728891",
@@ -478,6 +486,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Fly_02.wav",
       "CachePath": "19/{195E2818-8AAC-1EC5-363C-D2AEEAEB0C8C}.wem"
+     },
+     {
+      "Id": "729393014",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chest_Swell.wav",
+      "CachePath": "09/{09BCE2E8-1CFE-777E-23D4-47A4DD35CBC0}.wem"
      },
      {
       "Id": "748045547",
@@ -576,6 +592,14 @@
       "CachePath": "05/{054F12D8-370E-32C9-E6B7-57BCF827EF13}.wem"
      },
      {
+      "Id": "945458740",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Door_Opens.wav",
+      "CachePath": "79/{791B7DD0-2872-2672-E2B4-5D0F9775262A}.wem"
+     },
+     {
       "Id": "948429880",
       "Language": "SFX",
       "Streaming": "false",
@@ -605,7 +629,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ellen_Land_Grass.wav",
-      "CachePath": "36/{36CB5491-FE05-AC37-7F3B-6B5562B607A8}.wem"
+      "CachePath": "3C/{3C92F086-7800-86FC-F22F-D2550167AEDD}.wem"
      },
      {
       "Id": "978907425",
@@ -646,14 +670,6 @@
       "Location": "Memory",
       "ShortName": "Ellen_Footstep_Metal_01.wav",
       "CachePath": "67/{6726AFD3-E795-7F6F-D12B-1AE511398A3F}.wem"
-     },
-     {
-      "Id": "1040522203",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_Ellen_Jump_Whoosh.wav",
-      "CachePath": "F7/{F7BB25DB-CABC-0AD4-FB02-462E960EEFA8}.wem"
      },
      {
       "Id": "1041792918",
@@ -745,11 +761,39 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Water",
       "GUID": "{60E34E90-1772-4B41-B83B-22BD46F5858D}",
       "Color": "4",
-      "MaxAttenuation": "5",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "1044922980"
+       }
+      ]
+     },
+     {
+      "Id": "901880995",
+      "Name": "Play_Chest_Opens",
+      "ObjectPath": "\\Events\\World\\Play_Chest_Opens",
+      "GUID": "{E96ACCE8-EEC7-4A55-83A8-936526C3338F}",
+      "Color": "11",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0233282",
+      "DurationMax": "1.3659792",
+      "MediaRefs": [
+       {
+        "Id": "15768759"
+       }
+      ]
+     },
+     {
+      "Id": "3163471222",
+      "Name": "Play_Chest_Swell_Lp",
+      "ObjectPath": "\\Events\\World\\Play_Chest_Swell_Lp",
+      "GUID": "{69A23D73-B1FA-4042-A345-B17205A00F94}",
+      "Color": "11",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "729393014"
        }
       ]
      },
@@ -761,7 +805,7 @@
       "Color": "1",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.35265484",
+      "DurationMin": "0",
       "DurationMax": "0.38680062",
       "MediaRefs": [
        {
@@ -793,7 +837,7 @@
       "Color": "1",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.2546875",
+      "DurationMin": "0",
       "DurationMax": "0.34097314",
       "MediaRefs": [
        {
@@ -836,7 +880,7 @@
       "Color": "1",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.7766997",
+      "DurationMin": "0",
       "DurationMax": "1.9286333",
       "MediaRefs": [
        {
@@ -887,11 +931,26 @@
       "Color": "1",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.875758",
+      "DurationMin": "0",
       "DurationMax": "0.9830052",
       "MediaRefs": [
        {
         "Id": "786744393"
+       }
+      ]
+     },
+     {
+      "Id": "2743573824",
+      "Name": "Play_Door_Opens",
+      "ObjectPath": "\\Events\\World\\Play_Door_Opens",
+      "GUID": "{7F5ED430-0E7B-4FAF-A134-AB284452E729}",
+      "Color": "11",
+      "DurationType": "OneShot",
+      "DurationMin": "4.5574307",
+      "DurationMax": "6.4451804",
+      "MediaRefs": [
+       {
+        "Id": "945458740"
        }
       ]
      },
@@ -1129,9 +1188,6 @@
        },
        {
         "Id": "755437045"
-       },
-       {
-        "Id": "1040522203"
        }
       ]
      },
@@ -1142,7 +1198,7 @@
       "GUID": "{1118A975-03F4-4727-8DEC-B0CA91DBA82A}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.38850254",
+      "DurationMin": "0.4256771",
       "DurationMax": "0.5080198",
       "MediaRefs": [
        {
@@ -1171,7 +1227,8 @@
          "GroupType": "Switch",
          "GroupId": "1044534455",
          "Id": "4248645337",
-         "GUID": "{83EA234F-A611-456E-94DB-B0740C5984F6}"
+         "GUID": "{83EA234F-A611-456E-94DB-B0740C5984F6}",
+         "Default": "true"
         },
         "MediaRefs": [
          {
@@ -1217,7 +1274,7 @@
       "Color": "11",
       "DurationType": "OneShot",
       "DurationMin": "0.71730196",
-      "DurationMax": "1.8074876",
+      "DurationMax": "1.1386459",
       "MediaRefs": [
        {
         "Id": "473746383"
@@ -1275,6 +1332,7 @@
       "ObjectPath": "\\Events\\World\\Play_World_Staff_Swell_Lp",
       "GUID": "{42EF8B9A-CE27-42D2-8B51-4BAE7B38E29E}",
       "Color": "11",
+      "MaxAttenuation": "30.000002",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1514,6 +1572,6 @@
     ]
    }
   ],
-  "FileHash": "{596961E2-57FF-C157-80A5-975A9E60BC88}"
+  "FileHash": "{F1967DAE-6887-A637-E2A6-BBE7E1455085}"
  }
 }

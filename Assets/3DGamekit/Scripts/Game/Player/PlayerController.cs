@@ -46,10 +46,24 @@ namespace Gamekit3D
         public AK.Wwise.Switch matSoundSwitchChoiceMud;
         public AK.Wwise.Switch matSoundSwitchChoiceStone;
         public AK.Wwise.Switch matSoundSwitchChoiceMetal;
+        public AK.Wwise.Switch matSoundSwitchChoiceGrass;
+        public AK.Wwise.Switch matSoundSwitchChoicePuddle;
 
         public Material[] material_Mud;
         public Material[] material_Stone;
         public Material[] material_Dropship;
+        public Material[] material_Grass;
+        public Material[] material_Puddle;
+
+        public AK.Wwise.Event rollSoundEvent;
+
+        public void AnimEllenRoll()
+        {
+            SetAudioMaterialSwitch();
+
+            if (rollSoundEvent != null)
+                rollSoundEvent.Post(footAudioSourceObject);
+        }  
 
         protected AnimatorStateInfo m_CurrentStateInfo;    // Information about the base layer of the animator cached.
         protected AnimatorStateInfo m_NextStateInfo;
@@ -219,9 +233,9 @@ namespace Gamekit3D
             if (IsOrientationUpdated() && IsMoveInput)
                 UpdateOrientation();
 
-            //PlayAudio();
+            PlayAudio();
 
-            TimeoutToIdle();
+        TimeoutToIdle();
 
             m_PreviouslyGrounded = m_IsGrounded;
         }
@@ -561,6 +575,16 @@ namespace Gamekit3D
             {
                 //Debug.Log("Wwise Switch: Metal");
                 matSoundSwitchChoiceMetal.SetValue(footAudioSourceObject);
+            }
+            else if (Array.IndexOf(material_Grass, m_CurrentWalkingSurface) >= 0)
+            {
+                //Debug.Log("Wwise Switch: Grass");
+                matSoundSwitchChoiceGrass.SetValue(footAudioSourceObject);
+            }
+            else if (Array.IndexOf(material_Puddle, m_CurrentWalkingSurface) >= 0)
+            {
+                //Debug.Log("Wwise Switch: Puddle");
+                matSoundSwitchChoicePuddle.SetValue(footAudioSourceObject);
             }
             else
             {

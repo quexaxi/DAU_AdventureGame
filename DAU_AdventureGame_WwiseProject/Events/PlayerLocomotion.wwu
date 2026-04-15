@@ -16,6 +16,9 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{2FA7BF46-1ABE-4970-9D38-ECC553C22EFB}" ShortID="378999642">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="80"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Player_Cloth" ID="{1AA3E4CA-1AED-438D-9544-82BC6DA96A48}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
@@ -29,7 +32,6 @@
 						<Action Name="" ID="{BBB46DAA-4DD1-4B04-AE13-F8E753EE5351}" ShortID="818565910">
 							<PropertyList>
 								<Property Name="Delay" Type="Real64" Value="0.1"/>
-								<Property Name="Probability" Type="Real64" Value="80"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -38,6 +40,13 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{E32E3EC6-07B4-4734-9F5F-AA2676154F95}" ShortID="37088414">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Ellen_Jump_Whoosh" ID="{E38B358A-8171-468D-9952-6D13E3FC57F1}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
@@ -50,6 +59,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{3D1F7F5E-1B0A-4260-A649-2F297ED3C591}" ShortID="340647216">
 							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
 								<Property Name="Probability" Type="Real64" Value="50"/>
 							</PropertyList>
 							<ReferenceList>

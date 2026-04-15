@@ -29,6 +29,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Chest_Swell_Lp" ID="{69A23D73-B1FA-4042-A345-B17205A00F94}">
+					<ChildrenList>
+						<Action Name="" ID="{AB633928-727E-4215-B593-F6ADCA9980D4}" ShortID="429069552">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chest Swell" ID="{5D1582B8-5A01-4DDE-BE74-C02D5D40DFE1}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chest_Opens" ID="{E96ACCE8-EEC7-4A55-83A8-936526C3338F}">
+					<ChildrenList>
+						<Action Name="" ID="{8FDF6788-9D38-4662-B53F-5B899115AD70}" ShortID="55232941">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chest_Opens" ID="{F6B1C154-BDA4-4863-B50E-A585FBACE1E8}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Door_Opens" ID="{7F5ED430-0E7B-4FAF-A134-AB284452E729}">
+					<ChildrenList>
+						<Action Name="" ID="{2A9A2279-3695-4C01-BE36-5D44820000F5}" ShortID="924875760">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Opens" ID="{5293F5AA-5553-42D4-B003-D419FB0733FE}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

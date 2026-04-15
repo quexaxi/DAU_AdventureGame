@@ -995,7 +995,7 @@ GameObject:
   - component: {fileID: 198061263868912346}
   - component: {fileID: 199664493192749804}
   m_Layer: 0
-  m_Name: RepawnParticles
+  m_Name: RespawnParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11853,7 +11853,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: b5c5f3cd82bfc524f94fff54f79e4010, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20776,6 +20775,10 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   onDamageMessageReceivers: []
+  Box_Breaks_Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &114603677736913854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20822,11 +20825,13 @@ MonoBehaviour:
   jumpDownSoundEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: df65ff3a5b6a881468f9b28d997c955d,
+      type: 2}
   jumpUpSoundEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: ea1ee0ab64fcbed4789dd657fa8bd524,
+      type: 2}
   deathSoundEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -20834,7 +20839,8 @@ MonoBehaviour:
   attackSoundEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a65d21b8f1a3ab54fb9575c8e540078d,
+      type: 2}
   headAudioSourceObject: {fileID: 1176728729151303564}
   footAudioSourceObject: {fileID: 1063099897946804}
   matSoundSwitchChoiceMud:
@@ -20856,8 +20862,20 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 35122b7499d53c349b3f75ad23739168,
+    WwiseObjectReference: {fileID: 11400000, guid: 9c346d8389693134480e4e53647f9d21,
       type: 2}
+  matSoundSwitchChoiceGrass:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  matSoundSwitchChoicePuddle:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   material_Mud:
   - {fileID: 2100000, guid: 61be5fb840b83854a95a1ef4982462cd, type: 2}
   - {fileID: 2100000, guid: 9f1e1e6c36df17a48b610353e7d0bc21, type: 2}
@@ -20903,6 +20921,12 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 7a789884b6c7b5d41b87337c5fc29995, type: 2}
   - {fileID: 2100000, guid: a7569aadde6bf9e40a7068da3b212ad5, type: 2}
   - {fileID: 2100000, guid: 1c4cffe9877845349940f71100042f8f, type: 2}
+  material_Grass: []
+  material_Puddle: []
+  rollSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &114166992771378430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20933,13 +20957,13 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 1c9e760ea54065849bce6f2b393e08e0,
       type: 2}
-  footstepSource: {fileID: 0}
+  footstepSource: {fileID: 1063099897946804}
   jumpUpVoiceEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: ea1ee0ab64fcbed4789dd657fa8bd524,
       type: 2}
-  headAudioSource: {fileID: 0}
+  headAudioSource: {fileID: 1176728729151303564}
 --- !u!1 &1991646998098166
 GameObject:
   m_ObjectHideFlags: 0

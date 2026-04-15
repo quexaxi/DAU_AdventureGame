@@ -20,6 +20,8 @@ namespace Gamekit3D
 
         const string k_CutoffName = "_Cutoff";
 
+        public AK.Wwise.Event Box_Breaks_Event;
+
         void Awake()
         {
 
@@ -38,6 +40,8 @@ namespace Gamekit3D
 
             m_StartTime = Time.time + Random.Range(minStartTime, maxStartTime);
             m_EndTime = m_StartTime + dissolveTime + m_ParticleSystem.main.startLifetime.constant;
+
+               Box_Breaks_Event.Post(gameObject);
         }
 
         void Update()

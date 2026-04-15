@@ -6,6 +6,9 @@
 				<Event Name="Play_Chomper_Grunt" ID="{FBBA384E-DF8E-42EA-ACF4-989F2BD10048}">
 					<ChildrenList>
 						<Action Name="" ID="{BC5CF87A-A301-4E4C-822A-D8339AFAFAF8}" ShortID="372121309">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="90"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Chomper_Grunt" ID="{D5409DEC-7858-4DAB-A80D-120CFB650513}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
@@ -39,6 +42,9 @@
 				<Event Name="Play_Chomper_Breath" ID="{55B9E699-FF7F-4919-87BF-525D90223B99}">
 					<ChildrenList>
 						<Action Name="" ID="{23D6E507-3341-4B43-916B-C8B39A09C946}" ShortID="1000955766">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="70"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Chomper_Breath_01" ID="{55B510AE-8A35-4BB8-827E-4AEC587AFA50}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
@@ -61,6 +67,9 @@
 				<Event Name="Play_Chomper_Spotted" ID="{554DE8FF-3B85-4704-9419-0BDA108DA0D4}">
 					<ChildrenList>
 						<Action Name="" ID="{990CCC69-0139-49A8-A78F-8FBBFE1C25FD}" ShortID="368729232">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="90"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Chomper_Spotted_01" ID="{4AF26F3E-F496-4DEB-BA41-CCFC8712824E}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>

@@ -16,6 +16,8 @@ namespace AK
         static const AkUniqueID PLAY_AMB_GLOBAL = 2676390936U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
+        static const AkUniqueID PLAY_CHEST_OPENS = 901880995U;
+        static const AkUniqueID PLAY_CHEST_SWELL_LP = 3163471222U;
         static const AkUniqueID PLAY_CHOMPER_BREATH = 4104589597U;
         static const AkUniqueID PLAY_CHOMPER_DEATH = 2761388991U;
         static const AkUniqueID PLAY_CHOMPER_FOOTSTEPS = 3742480528U;
@@ -23,6 +25,7 @@ namespace AK
         static const AkUniqueID PLAY_CHOMPER_SLURP = 2329507261U;
         static const AkUniqueID PLAY_CHOMPER_SMELL = 3615463328U;
         static const AkUniqueID PLAY_CHOMPER_SPOTTED = 253791182U;
+        static const AkUniqueID PLAY_DOOR_OPENS = 2743573824U;
         static const AkUniqueID PLAY_GRENADIER_DAMAGE = 3333154347U;
         static const AkUniqueID PLAY_GRENADIER_DEATH = 3337034902U;
         static const AkUniqueID PLAY_GRENADIER_FOOTSTEPS = 2094447813U;

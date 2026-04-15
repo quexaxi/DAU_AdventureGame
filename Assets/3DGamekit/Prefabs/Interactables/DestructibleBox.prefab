@@ -1274,6 +1274,10 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  Box_Breaks_Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1681811184619038
 GameObject:
   m_ObjectHideFlags: 0
@@ -12079,6 +12083,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   onDamageMessageReceivers: []
+  Box_Breaks_Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a76726be505e70c47a0a580f4ee3afd2,
+      type: 2}
 --- !u!64 &64170521529424344
 MeshCollider:
   m_ObjectHideFlags: 0

@@ -35,6 +35,8 @@ namespace Gamekit3D
         protected float m_timeSinceLastHit = 0.0f;
         protected Collider m_Collider;
 
+        public AK.Wwise.Event Box_Breaks_Event;
+
         System.Action schedule;
 
         void Start()
@@ -108,6 +110,8 @@ namespace Gamekit3D
                 var receiver = onDamageMessageReceivers[i] as IMessageReceiver;
                 receiver.OnReceiveMessage(messageType, this, data);
             }
+
+            Box_Breaks_Event.Post(gameObject);
         }
 
         void LateUpdate()
