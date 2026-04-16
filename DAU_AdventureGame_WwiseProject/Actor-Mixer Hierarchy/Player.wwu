@@ -1539,6 +1539,18 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Player_Damage" ID="{7AAB2FFC-1BDF-4266-9735-C48AC29EFB41}" ShortID="689714420">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>150</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
@@ -1547,6 +1559,30 @@
 									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Ellen_Damaged" ID="{02EF43AA-0C07-4B72-8C7B-AB607AFD0F96}" ShortID="442749559">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Ellen_Damaged" ID="{873B3B4D-C011-474D-86D0-C8AEEFB52722}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Ellen_Damaged.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="478470819"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Ellen_Damaged" ID="{873B3B4D-C011-474D-86D0-C8AEEFB52722}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Player_Death" ID="{4CBDEF3A-4724-48C6-9E86-D669D834905F}" ShortID="641569358">
 							<ReferenceList>
@@ -1595,13 +1631,55 @@
 								<ActiveSource Name="SFX_Staff_PickUp" ID="{4F888595-6D50-4009-B8CC-418458811988}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Player_Fall_Water" ID="{CB89E4A7-AEF4-42C0-881E-60AA7D82650A}" ShortID="145976340">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>300</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Ellen_Fall_Into_Water" ID="{33C7F3D0-46AC-4696-A0DD-65EF5C620971}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Ellen_Fall_Into_Water.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="44101102"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Ellen_Fall_Into_Water" ID="{33C7F3D0-46AC-4696-A0DD-65EF5C620971}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<RandomSequenceContainer Name="Player_Cloth" ID="{1AA3E4CA-1AED-438D-9544-82BC6DA96A48}" ShortID="651657653">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{FBBE6C37-A2B7-450E-9E4A-F45A506B1592}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-15</Value>
+								<Value>-25</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

@@ -725,7 +725,6 @@
 							<PropertyList>
 								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -736,87 +735,17 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="AMB_Base_Jungle" ID="{7E1EECB2-8601-44E8-9C7C-5E29525C7110}" ShortID="226718391">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
-										<Property Name="OverrideConversion" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-23</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{B364BD7A-1444-4633-9846-170C23784F65}"/>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Amb_Ext_Generic" ID="{3CED2E42-9A9A-4FDA-B4BB-7D9FD41EA1C4}" WorkUnitID="{3527C007-9CD2-4C70-B30F-0E55AD7BC424}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Main_Jungle_01" ID="{0681774B-9A27-497A-B7A0-CE1780C2CDB7}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Main_Jungle_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="232616254"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<StateInfo>
-										<StateGroupList>
-											<StateGroupInfo>
-												<StateGroupRef Name="AMB_Region" ID="{4AF18F8B-5A2A-4740-9E8A-6FF1C8E35516}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="StartingArea" ID="{0DA34214-807F-41CF-857F-6D58D3547A8A}"/>
-												<CustomState Name="" ID="{2C30B0BE-84DD-4C79-B727-13E5BF00DCC3}" ShortID="682093728"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="TeleporterArea" ID="{9B5912B0-8F19-4901-8044-B23309C3C555}"/>
-												<CustomState Name="" ID="{672306FC-2F63-43E0-A5D4-C91F425E6E58}" ShortID="20501103">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="None" ID="{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"/>
-												<CustomState Name="" ID="{EA65BA07-7221-491E-B7EA-FB055C5E0003}" ShortID="242780852"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="SwitchesArea" ID="{98C8DD4B-9996-4EEE-B97A-145176A60240}"/>
-												<CustomState Name="" ID="{4FC388AE-B5BD-43B5-B91C-E7217E7DD843}" ShortID="915033230">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-10"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Main_Jungle_01" ID="{0681774B-9A27-497A-B7A0-CE1780C2CDB7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="AMB_Temple" ID="{748243FD-261D-407B-B54A-42CE733B9AAE}" ShortID="603296428">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -922,7 +851,7 @@
 										</CustomStateList>
 									</StateInfo>
 								</Sound>
-								<Sound Name="AMB_Water" ID="{77EDE3F6-498A-4454-A2AC-9E315D6FE09C}" ShortID="732829502">
+								<Sound Name="AMB_Water_Jungle" ID="{77EDE3F6-498A-4454-A2AC-9E315D6FE09C}" ShortID="732829502">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
@@ -1043,6 +972,228 @@
 										<ActiveSource Name="AMB_Main_NearWater_01" ID="{46620111-DAF6-4B24-87D0-9B0588C66A37}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="AMB_Base" ID="{C9CA1BFC-EE33-49F4-8992-CDB7B916205E}" ShortID="17920109">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_Jungle" ID="{7E1EECB2-8601-44E8-9C7C-5E29525C7110}" ShortID="226718391">
+											<PropertyList>
+												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+												<Property Name="OverrideConversion" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-23</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B364BD7A-1444-4633-9846-170C23784F65}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Main_Jungle_01" ID="{0681774B-9A27-497A-B7A0-CE1780C2CDB7}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Main_Jungle_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="232616254"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="AMB_Region" ID="{4AF18F8B-5A2A-4740-9E8A-6FF1C8E35516}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="StartingArea" ID="{0DA34214-807F-41CF-857F-6D58D3547A8A}"/>
+														<CustomState Name="" ID="{2C30B0BE-84DD-4C79-B727-13E5BF00DCC3}" ShortID="682093728"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="TeleporterArea" ID="{9B5912B0-8F19-4901-8044-B23309C3C555}"/>
+														<CustomState Name="" ID="{672306FC-2F63-43E0-A5D4-C91F425E6E58}" ShortID="20501103">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="None" ID="{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"/>
+														<CustomState Name="" ID="{EA65BA07-7221-491E-B7EA-FB055C5E0003}" ShortID="242780852"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="SwitchesArea" ID="{98C8DD4B-9996-4EEE-B97A-145176A60240}"/>
+														<CustomState Name="" ID="{4FC388AE-B5BD-43B5-B91C-E7217E7DD843}" ShortID="915033230">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-10"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Main_Jungle_01" ID="{0681774B-9A27-497A-B7A0-CE1780C2CDB7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<BlendContainer Name="AMB_Water_Layer" ID="{82199253-1E15-42F4-BD8C-9745C5A430B8}" ShortID="430641753">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Water_Distance" ID="{A6AE024B-D5A7-4275-B96E-66BB82A0741C}" WorkUnitID="{3527C007-9CD2-4C70-B30F-0E55AD7BC424}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_Water" ID="{1629287C-1A8A-41CA-839E-7CAC6E83FE66}" ShortID="955409610">
+											<PropertyList>
+												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{3E9B3D53-08DA-4D39-B196-8C772C790264}" ShortID="413669717">
+															<PropertyList>
+																<Property Name="RadiusMax" Type="Real64" Value="70"/>
+															</PropertyList>
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{3364F52F-5C66-4D91-B55D-271734C84FA0}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>70</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+																<ObstructionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionVolumeUsage>
+																<ObstructionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionLPFUsage>
+																<ObstructionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</ObstructionHPFUsage>
+																<OcclusionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionVolumeUsage>
+																<OcclusionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionLPFUsage>
+																<OcclusionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</OcclusionHPFUsage>
+																<DiffractionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionVolumeUsage>
+																<DiffractionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionLPFUsage>
+																<DiffractionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</DiffractionHPFUsage>
+																<TransmissionVolumeUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionVolumeUsage>
+																<TransmissionLPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionLPFUsage>
+																<TransmissionHPFUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+																</TransmissionHPFUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_Water" ID="{1E5382FB-8869-4D39-A9C6-B3AD7B6628D5}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_Water.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="765393161"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_Water" ID="{1E5382FB-8869-4D39-A9C6-B3AD7B6628D5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Spaceship" ID="{F0F3A79E-E0F0-4DE1-9A88-03B6A59F15F7}" ShortID="726011106">

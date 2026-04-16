@@ -35,6 +35,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Player_Damage" ID="{CD66F68F-DB9D-421B-AFC3-EA7139240380}">
+					<ChildrenList>
+						<Action Name="" ID="{A72BE3A1-329E-48A8-A36B-D1FF8B5B802A}" ShortID="792342204">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Damage" ID="{7AAB2FFC-1BDF-4266-9735-C48AC29EFB41}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Fall_Water" ID="{5B42FC85-F07F-426C-AE54-E0228F6AD40F}">
+					<ChildrenList>
+						<Action Name="" ID="{432CB13A-6B67-4040-AC00-7151050E3245}" ShortID="204232653">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Fall_Water" ID="{CB89E4A7-AEF4-42C0-881E-60AA7D82650A}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

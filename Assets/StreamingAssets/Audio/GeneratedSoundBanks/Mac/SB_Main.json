@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{88EB6DAE-7F70-015B-D5A5-FE267A906246}",
+    "Hash": "{712E6FF6-F85D-5045-75D4-1FB7E59BF6DA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -46,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Footstep_Grass_02.wav",
       "CachePath": "A0/{A0D37CBC-F6C1-292E-6E33-E6C7842C30C3}.wem"
+     },
+     {
+      "Id": "44101102",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Ellen_Fall_Into_Water.wav",
+      "CachePath": "63/{635DD79F-9694-3500-C82B-FF6E20B11943}.wem"
      },
      {
       "Id": "61862981",
@@ -176,6 +184,14 @@
       "CachePath": "8E/{8E6ECBFE-E46C-41C5-B3E5-1D8EA7844CF0}.wem"
      },
      {
+      "Id": "303239524",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Main_Fantasy_01.wav",
+      "CachePath": "F6/{F64B2E68-2AF9-9D38-D164-086966957409}.wem"
+     },
+     {
       "Id": "304280999",
       "Language": "SFX",
       "Streaming": "false",
@@ -206,6 +222,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Staff_PickUp.wav",
       "CachePath": "E8/{E82D6974-13AA-87B0-C3E1-3A23EEDC64DA}.wem"
+     },
+     {
+      "Id": "330622173",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Grenadier_Prepare_Punch.wav",
+      "CachePath": "39/{39F7E8ED-63AD-6E31-69D0-D4E386A9A012}.wem"
      },
      {
       "Id": "348037534",
@@ -277,7 +301,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ellen_Land_Stone.wav",
-      "CachePath": "13/{13B348E4-661B-BFBC-99D4-F55DB268C00C}.wem"
+      "CachePath": "F7/{F7B7C9EB-E57C-9BF4-E694-B5D24FB9259D}.wem"
+     },
+     {
+      "Id": "433526139",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Grenadier_Ball_Explodes.wav",
+      "CachePath": "ED/{ED130E39-E3E1-D950-BAF6-1ED14908E906}.wem"
      },
      {
       "Id": "439165719",
@@ -304,12 +336,20 @@
       "CachePath": "99/{99B352D3-2F0E-9C54-3999-1A2DC77A144E}.wem"
      },
      {
-      "Id": "473746383",
+      "Id": "478470819",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "SFX_Rock_Break.wav",
-      "CachePath": "A2/{A2A32DD2-1B2E-9B7C-3B30-C8E091B8C766}.wem"
+      "ShortName": "SFX_Ellen_Damaged.wav",
+      "CachePath": "47/{47763B88-61CF-EAEE-D5CE-FD27E749CFBD}.wem"
+     },
+     {
+      "Id": "489339366",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Grenadier_Death.wav",
+      "CachePath": "2F/{2F73642F-F914-78EB-E462-D7A583435C16}.wem"
      },
      {
       "Id": "492557416",
@@ -318,6 +358,14 @@
       "Location": "Memory",
       "ShortName": "UI_Menu_ESC.wav",
       "CachePath": "FA/{FAAE173C-5B09-DD6B-D045-6BF7F2EA0127}.wem"
+     },
+     {
+      "Id": "496297057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Rock_Break_02.wav",
+      "CachePath": "64/{645A59E8-B375-1693-06DA-E2F0994A3ED9}.wem"
      },
      {
       "Id": "501566221",
@@ -334,6 +382,14 @@
       "Location": "Memory",
       "ShortName": "Ellen_Footstep_Metal_05.wav",
       "CachePath": "EC/{EC767D64-630F-F588-CF95-59A9C3875643}.wem"
+     },
+     {
+      "Id": "509214995",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Grenadier_Recharge_Ball.wav",
+      "CachePath": "55/{5542D0C5-A8B3-2580-2D64-5BBB9E31E1F0}.wem"
      },
      {
       "Id": "515365309",
@@ -413,7 +469,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ellen_Land_Dirt.wav",
-      "CachePath": "3B/{3B5B7650-E2A2-94ED-5D82-0E4F8192C170}.wem"
+      "CachePath": "B6/{B693B947-CFDC-8A2D-44C2-F3BF81AA9913}.wem"
      },
      {
       "Id": "638728891",
@@ -440,12 +496,28 @@
       "CachePath": "B2/{B28BF71A-AD7B-E5BC-6D2F-C871A27AAD4D}.wem"
      },
      {
+      "Id": "650135807",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Grenadier_Footstep_02.wav",
+      "CachePath": "92/{9257641C-F61F-E1F9-2C1A-F665411E700F}.wem"
+     },
+     {
       "Id": "652120000",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Footstep_Stone_06.wav",
       "CachePath": "CB/{CBB12FDA-B391-5EB9-98B6-E63E1C9D2F89}.wem"
+     },
+     {
+      "Id": "667856581",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Grenadier_Footstep_01.wav",
+      "CachePath": "A0/{A07C1777-885E-03E0-6A3C-9534272AF07F}.wem"
      },
      {
       "Id": "679285970",
@@ -496,6 +568,22 @@
       "CachePath": "09/{09BCE2E8-1CFE-777E-23D4-47A4DD35CBC0}.wem"
      },
      {
+      "Id": "732753450",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Grenadier_Ball_Jump.wav",
+      "CachePath": "2B/{2B07F0E4-D996-3609-DBF9-6D7DDAC4612F}.wem"
+     },
+     {
+      "Id": "739015491",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Grenadier_Recharge_AfterDamage.wav",
+      "CachePath": "8F/{8F385A4C-B50A-0F2A-A506-EE5660447E71}.wem"
+     },
+     {
       "Id": "748045547",
       "Language": "SFX",
       "Streaming": "false",
@@ -518,6 +606,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Jump_02.wav",
       "CachePath": "98/{98A55DFC-0133-BCD0-E17F-B9F75025FC34}.wem"
+     },
+     {
+      "Id": "765393161",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Water.wav",
+      "CachePath": "B9/{B9E062A6-6456-1B9F-37F2-2535E9477AFF}.wem"
      },
      {
       "Id": "786744393",
@@ -616,6 +712,14 @@
       "CachePath": "35/{35F2455C-528B-441A-A6BD-CC3905CDDC66}.wem"
      },
      {
+      "Id": "969100254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Grenadier_ThrowBall.wav",
+      "CachePath": "45/{4550733B-137F-416D-C07C-DAD6C85CA57A}.wem"
+     },
+     {
       "Id": "975087654",
       "Language": "SFX",
       "Streaming": "false",
@@ -629,7 +733,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ellen_Land_Grass.wav",
-      "CachePath": "3C/{3C92F086-7800-86FC-F22F-D2550167AEDD}.wem"
+      "CachePath": "B9/{B9FB0B25-59F8-C31C-2021-67944F493092}.wem"
      },
      {
       "Id": "978907425",
@@ -680,6 +784,14 @@
       "CachePath": "E5/{E5FF92F0-DFFE-385B-08B8-73E97E8AA08E}.wem"
      },
      {
+      "Id": "1042640024",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Grenadier_Damaged.wav",
+      "CachePath": "CA/{CA12BF7D-EBAB-AFD5-C8B5-4C0C3081B0A0}.wem"
+     },
+     {
       "Id": "1042833976",
       "Language": "SFX",
       "Streaming": "false",
@@ -694,14 +806,6 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Footstep_Dirt_05.wav",
       "CachePath": "B0/{B0BF1DEA-03C2-7922-ACCC-D5956D334099}.wem"
-     },
-     {
-      "Id": "1044922980",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "AMB_Main_NearWater_01.wav",
-      "CachePath": "BF/{BF0A07F7-93A0-8A49-EB75-61339F1C30CD}.wem"
      },
      {
       "Id": "1054101459",
@@ -756,15 +860,30 @@
       ]
      },
      {
+      "Id": "1234490318",
+      "Name": "Play_Amb_Temple",
+      "ObjectPath": "\\Events\\Ambience\\Play_Amb_Temple",
+      "GUID": "{478B4E24-EC1B-4504-A799-8ABDA113E6DE}",
+      "Color": "4",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "303239524"
+       }
+      ]
+     },
+     {
       "Id": "2049148582",
       "Name": "Play_Amb_Water",
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Water",
       "GUID": "{60E34E90-1772-4B41-B83B-22BD46F5858D}",
       "Color": "4",
+      "MaxAttenuation": "5",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "1044922980"
+        "Id": "765393161"
        }
       ]
      },
@@ -803,10 +922,10 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Breath",
       "GUID": "{55B9E699-FF7F-4919-87BF-525D90223B99}",
       "Color": "1",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "0.38680062",
+      "DurationMax": "0.41456264",
       "MediaRefs": [
        {
         "Id": "439165719"
@@ -819,10 +938,10 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Death",
       "GUID": "{C3C5C866-8B0A-43C3-A9D4-9EF60EDCB0D1}",
       "Color": "1",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0.9571875",
-      "DurationMax": "0.96830946",
+      "DurationMin": "0.9299382",
+      "DurationMax": "0.9852352",
       "MediaRefs": [
        {
         "Id": "304280999"
@@ -835,7 +954,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperLocomotion\\Play_Chomper_Footsteps",
       "GUID": "{43794AD3-AB95-4E18-896A-E428517F9F9A}",
       "Color": "1",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0.34097314",
@@ -878,10 +997,10 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Grunt",
       "GUID": "{FBBA384E-DF8E-42EA-ACF4-989F2BD10048}",
       "Color": "1",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "1.9286333",
+      "DurationMax": "2.1153734",
       "MediaRefs": [
        {
         "Id": "8757324"
@@ -897,10 +1016,10 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Slurp",
       "GUID": "{B4B98BB3-8DC2-42C2-A183-34F8A46DD81E}",
       "Color": "1",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "1.4903523",
-      "DurationMax": "1.560837",
+      "DurationMin": "0",
+      "DurationMax": "1.6158799",
       "MediaRefs": [
        {
         "Id": "754620863"
@@ -913,10 +1032,10 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Smell",
       "GUID": "{012C75A6-2D2D-4208-87B3-57F7685440F6}",
       "Color": "1",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0.9082092",
-      "DurationMax": "0.95116204",
+      "DurationMin": "0",
+      "DurationMax": "0.9847048",
       "MediaRefs": [
        {
         "Id": "228008484"
@@ -929,7 +1048,7 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Spotted",
       "GUID": "{554DE8FF-3B85-4704-9419-0BDA108DA0D4}",
       "Color": "1",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0.9830052",
@@ -955,15 +1074,52 @@
       ]
      },
      {
+      "Id": "152431872",
+      "Name": "Play_Grenadier_Ball_Explodes",
+      "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Ball_Explodes",
+      "GUID": "{2966D884-CC7F-47C4-844D-5984FB5EA95E}",
+      "Color": "1",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9163958",
+      "DurationMax": "1.9163958",
+      "MediaRefs": [
+       {
+        "Id": "433526139"
+       }
+      ]
+     },
+     {
+      "Id": "2635705170",
+      "Name": "Play_Grenadier_Ball_Jump",
+      "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Ball_Jump",
+      "GUID": "{7D0B4682-9792-4B30-957B-9965CA5CD31F}",
+      "Color": "1",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3917425",
+      "DurationMax": "1.5621784",
+      "MediaRefs": [
+       {
+        "Id": "732753450"
+       }
+      ]
+     },
+     {
       "Id": "3333154347",
       "Name": "Play_Grenadier_Damage",
       "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Damage",
       "GUID": "{BF519991-EAA2-4BE2-B050-D7792C448A72}",
       "Color": "1",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.302026",
+      "DurationMax": "1.4280946",
+      "MediaRefs": [
+       {
+        "Id": "1042640024"
+       }
+      ]
      },
      {
       "Id": "3337034902",
@@ -971,10 +1127,15 @@
       "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Death",
       "GUID": "{2114BE96-2C69-42F2-A016-74D1A7AB7A2F}",
       "Color": "1",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "6.673269",
+      "DurationMax": "7.319408",
+      "MediaRefs": [
+       {
+        "Id": "489339366"
+       }
+      ]
      },
      {
       "Id": "2094447813",
@@ -982,10 +1143,18 @@
       "ObjectPath": "\\Events\\NPC\\GrenadierLocomotion\\Play_Grenadier_Footsteps",
       "GUID": "{90CB6681-2834-4DA7-8799-3C26D19399B3}",
       "Color": "1",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "1.4912256",
+      "DurationMax": "1.5472687",
+      "MediaRefs": [
+       {
+        "Id": "650135807"
+       },
+       {
+        "Id": "667856581"
+       }
+      ]
      },
      {
       "Id": "777046152",
@@ -993,10 +1162,47 @@
       "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Punch",
       "GUID": "{72D835A4-7FB0-48BA-8336-D4B46DE5205B}",
       "Color": "1",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "2.6868846",
+      "DurationMax": "2.9470422",
+      "MediaRefs": [
+       {
+        "Id": "330622173"
+       }
+      ]
+     },
+     {
+      "Id": "2643749509",
+      "Name": "Play_Grenadier_Recharge_Ball",
+      "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Recharge_Ball",
+      "GUID": "{D8DE5B08-1E07-4738-8C2D-0EBD574FC487}",
+      "Color": "1",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4031608",
+      "DurationMax": "1.4526432",
+      "MediaRefs": [
+       {
+        "Id": "509214995"
+       }
+      ]
+     },
+     {
+      "Id": "1616663833",
+      "Name": "Play_Grenadier_Recharge_Damage",
+      "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Recharge_Damage",
+      "GUID": "{2EF3F4B5-F986-45C0-8198-AD075F214204}",
+      "Color": "1",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "4.655104",
+      "DurationMax": "4.655104",
+      "MediaRefs": [
+       {
+        "Id": "739015491"
+       }
+      ]
      },
      {
       "Id": "4143606696",
@@ -1004,10 +1210,45 @@
       "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Throw",
       "GUID": "{638EBEF0-F39C-44C2-A7BE-1CCC27EA1030}",
       "Color": "1",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "2.1073754",
+      "DurationMax": "2.3114219",
+      "MediaRefs": [
+       {
+        "Id": "969100254"
+       }
+      ]
+     },
+     {
+      "Id": "3638125099",
+      "Name": "Play_Player_Damage",
+      "ObjectPath": "\\Events\\Player\\PlayerCombat\\Play_Player_Damage",
+      "GUID": "{CD66F68F-DB9D-421B-AFC3-EA7139240380}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.43034235",
+      "DurationMax": "0.43034235",
+      "MediaRefs": [
+       {
+        "Id": "478470819"
+       }
+      ]
+     },
+     {
+      "Id": "3772621023",
+      "Name": "Play_Player_Fall_Water",
+      "ObjectPath": "\\Events\\Player\\PlayerCombat\\Play_Player_Fall_Water",
+      "GUID": "{5B42FC85-F07F-426C-AE54-E0228F6AD40F}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8147247",
+      "DurationMax": "1.8147247",
+      "MediaRefs": [
+       {
+        "Id": "44101102"
+       }
+      ]
      },
      {
       "Id": "98439365",
@@ -1016,7 +1257,7 @@
       "GUID": "{B1F7EC8D-A79A-4650-B7A6-2E9B58848145}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.41079167",
+      "DurationMin": "0.3990972",
       "DurationMax": "0.7343231",
       "MediaRefs": [
        {
@@ -1277,7 +1518,7 @@
       "DurationMax": "1.1386459",
       "MediaRefs": [
        {
-        "Id": "473746383"
+        "Id": "496297057"
        }
       ]
      },
@@ -1476,14 +1717,6 @@
       ]
      }
     ],
-    "GameParameters": [
-     {
-      "Id": "506610676",
-      "Name": "RTPC_Amb_WaterProximity",
-      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_WaterProximity",
-      "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
-     }
-    ],
     "SwitchGroups": [
      {
       "Id": "806507282",
@@ -1572,6 +1805,6 @@
     ]
    }
   ],
-  "FileHash": "{F1967DAE-6887-A637-E2A6-BBE7E1455085}"
+  "FileHash": "{19F89F7E-3C1F-43FF-AD85-029DCF4A6CCC}"
  }
 }

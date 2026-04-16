@@ -10,25 +10,27 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{1210BFA8-9649-4822-DB06-D22CF6AE16F5}",
+    "Hash": "{D7C8961D-6E16-04DA-2D3C-E2BA1DD01931}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "190406084",
+       "Name": "Room_Small (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Small_Room\\[Effect Slot [0]: (RoomVerb)]\\Room_Small (Custom)",
+       "GUID": "{CBC36301-73CA-4769-9328-D66612F07F9F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "ShareSets": [
       {
        "Id": "48620415",
        "Name": "Have_U_Ever_Been_Outside",
        "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
        "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
-      },
-      {
-       "Id": "2995775460",
-       "Name": "Room_Small",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
-       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       },
@@ -235,9 +237,9 @@
       "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
       "Color": "2",
       "PluginRefs": {
-       "ShareSets": [
+       "Custom": [
         {
-         "Id": "2995775460"
+         "Id": "190406084"
         }
        ]
       },
@@ -764,6 +766,6 @@
     ]
    }
   ],
-  "FileHash": "{B5160EF6-BF47-D02A-8051-3056B51EFEA3}"
+  "FileHash": "{DE2979B3-D91F-59F5-572D-DB57F393F897}"
  }
 }

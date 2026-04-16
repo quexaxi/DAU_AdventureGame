@@ -5,13 +5,6 @@
 			<ChildrenList>
 				<Event Name="Play_Grenadier_Footsteps" ID="{90CB6681-2834-4DA7-8799-3C26D19399B3}">
 					<ChildrenList>
-						<Action Name="" ID="{A8AAABD8-6B51-4CCE-A740-5A9F36139FBF}" ShortID="638866916">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Grenadier_Footstep_Layer" ID="{A1BA8170-12DB-45F0-B2E2-1BFB9F839570}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{2EB67263-71A9-4E6C-9CB6-159F58084A58}" ShortID="53252050">
 							<ReferenceList>
 								<Reference Name="Target">

@@ -208,7 +208,7 @@
 																	<PointList>
 																		<Point>
 																			<XPos>0</XPos>
-																			<YPos>-0</YPos>
+																			<YPos>0</YPos>
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
@@ -456,7 +456,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-3</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -486,9 +486,16 @@
 												<MediaID ID="473746383"/>
 											</MediaIDList>
 										</AudioFileSource>
+										<AudioFileSource Name="SFX_Rock_Break_02" ID="{28300096-3057-45D2-BFD4-6B94109139CD}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Rock_Break_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="496297057"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="SFX_Rock_Break" ID="{C25B3372-73EB-478C-A62A-13F1FFD1698D}" Platform="Linked"/>
+										<ActiveSource Name="SFX_Rock_Break_02" ID="{28300096-3057-45D2-BFD4-6B94109139CD}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Chest_Opens" ID="{F6B1C154-BDA4-4863-B50E-A585FBACE1E8}" ShortID="1062235720">

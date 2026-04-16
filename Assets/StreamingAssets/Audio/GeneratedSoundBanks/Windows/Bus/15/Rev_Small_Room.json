@@ -10,17 +10,17 @@
     "Type": "Bus",
     "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
     "Language": "SFX",
-    "Hash": "{230553D6-E263-6EED-B0A2-8B1D446AEE63}",
+    "Hash": "{F3DA8407-AC57-43E1-42EC-1DBA6ED9CFCE}",
     "ObjectPath": "Rev_Small_Room",
     "ShortName": "Rev_Small_Room",
     "Path": "Bus/15/Rev_Small_Room.bnk",
     "Plugins": {
-     "ShareSets": [
+     "Custom": [
       {
-       "Id": "2995775460",
-       "Name": "Room_Small",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
-       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "Id": "190406084",
+       "Name": "Room_Small (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Small_Room\\[Effect Slot [0]: (RoomVerb)]\\Room_Small (Custom)",
+       "GUID": "{CBC36301-73CA-4769-9328-D66612F07F9F}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -34,9 +34,9 @@
       "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
       "Color": "2",
       "PluginRefs": {
-       "ShareSets": [
+       "Custom": [
         {
-         "Id": "2995775460"
+         "Id": "190406084"
         }
        ]
       },
@@ -53,6 +53,6 @@
     ]
    }
   ],
-  "FileHash": "{B4BB0C33-82D7-403D-13FF-5F015024D957}"
+  "FileHash": "{87B33618-F589-8182-E6A1-F3E660BF84AC}"
  }
 }

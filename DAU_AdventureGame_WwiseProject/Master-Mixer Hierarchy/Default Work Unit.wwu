@@ -94,8 +94,28 @@
 												<Local>
 													<EffectSlot Name="" ID="{15B668EB-D138-42F1-A341-32E0AE898116}" ShortID="188768750">
 														<ReferenceList>
-															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-																<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															<Reference Name="Effect">
+																<Custom CreatedFrom="{577F1466-A63B-47F7-98BD-C56E433F8B5D}">
+																	<Effect Name="Room_Small (Custom)" ID="{CBC36301-73CA-4769-9328-D66612F07F9F}" ShortID="190406084" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<PropertyList>
+																			<Property Name="DecayTime" Type="Real32" Value="4"/>
+																			<Property Name="Density" Type="Real32" Value="70"/>
+																			<Property Name="Diffusion" Type="Real32" Value="90"/>
+																			<Property Name="DryLevel" Type="Real32" Value="0"/>
+																			<Property Name="ERLevel" Type="Real32" Value="-6"/>
+																			<Property Name="ERPattern" Type="int32" Value="22"/>
+																			<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																			<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																			<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+																			<Property Name="HFDamping" Type="Real32" Value="1.5"/>
+																			<Property Name="PreDelay" Type="Real32" Value="30"/>
+																			<Property Name="ReverbLevel" Type="Real32" Value="-3"/>
+																			<Property Name="RoomShape" Type="Real32" Value="55"/>
+																			<Property Name="RoomSize" Type="Real32" Value="15"/>
+																			<Property Name="StereoWidth" Type="Real32" Value="100"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
 															</Reference>
 														</ReferenceList>
 													</EffectSlot>

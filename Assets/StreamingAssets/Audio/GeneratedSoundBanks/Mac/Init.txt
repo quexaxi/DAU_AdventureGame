@@ -72,7 +72,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
-	2995775460	Room_Small	Wwise RoomVerb			
+	190406084	Room_Small (Custom)	Wwise RoomVerb			
 	3164629247	Holy	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

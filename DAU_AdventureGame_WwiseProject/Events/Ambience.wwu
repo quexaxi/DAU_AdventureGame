@@ -9,13 +9,6 @@
 			<ChildrenList>
 				<Event Name="Play_Amb_Global" ID="{686A9575-B3BB-4AC4-AA92-DA8D8A91B8D4}">
 					<ChildrenList>
-						<Action Name="" ID="{8E570A01-FBD8-49C1-83D6-47B4F5D06E28}" ShortID="347165353">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="AMB_Base_Jungle" ID="{7E1EECB2-8601-44E8-9C7C-5E29525C7110}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{D05F5D8F-9F16-493F-95FE-56B52C4339AE}" ShortID="617340096">
 							<PropertyList>
 								<Property Name="Delay" Type="Real64" Value="5">
@@ -53,6 +46,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{744D4C0D-B122-4332-BE42-06C9CF57D5B4}" ShortID="804332540">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Base" ID="{C9CA1BFC-EE33-49F4-8992-CDB7B916205E}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Amb_Spaceship" ID="{DCD288B3-C4F3-456E-8390-8F414D604867}">
@@ -68,10 +68,21 @@
 				</Event>
 				<Event Name="Play_Amb_Water" ID="{60E34E90-1772-4B41-B83B-22BD46F5858D}">
 					<ChildrenList>
-						<Action Name="" ID="{37F7DE82-E268-4D20-BCA7-6B6F6B206478}" ShortID="501791880">
+						<Action Name="" ID="{EEAD8132-FEF4-4CA3-B04A-E7947D50AAFC}" ShortID="296827927">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Water" ID="{77EDE3F6-498A-4454-A2AC-9E315D6FE09C}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+									<ObjectRef Name="AMB_Water_Layer" ID="{82199253-1E15-42F4-BD8C-9745C5A430B8}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Amb_Temple" ID="{478B4E24-EC1B-4504-A799-8ABDA113E6DE}">
+					<ChildrenList>
+						<Action Name="" ID="{4283C9E4-DAB8-4A21-8496-226D3B7FE32C}" ShortID="585512401">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Temple" ID="{748243FD-261D-407B-B54A-42CE733B9AAE}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

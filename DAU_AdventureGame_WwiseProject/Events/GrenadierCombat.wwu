@@ -47,6 +47,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Grenadier_Ball_Explodes" ID="{2966D884-CC7F-47C4-844D-5984FB5EA95E}">
+					<ChildrenList>
+						<Action Name="" ID="{6296BFE1-C68B-4586-8C52-1D70D1A82344}" ShortID="983099099">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_Ball_Explodes" ID="{16E00EAC-C868-46D0-A58F-489FECC79628}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_Ball_Jump" ID="{7D0B4682-9792-4B30-957B-9965CA5CD31F}">
+					<ChildrenList>
+						<Action Name="" ID="{DEB3E45C-2B82-413E-9778-F18EB92DBB53}" ShortID="910293470">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_Ball_Jump" ID="{4F954303-A310-466E-B1C2-BA6C65FF88A1}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_Recharge_Damage" ID="{2EF3F4B5-F986-45C0-8198-AD075F214204}">
+					<ChildrenList>
+						<Action Name="" ID="{ECC4AC6F-3650-4805-B1AB-163718123D17}" ShortID="636572873">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_Recharge_AfterDamage" ID="{18F7E345-954D-46BF-8E9B-D1900ABC7B72}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_Recharge_Ball" ID="{D8DE5B08-1E07-4738-8C2D-0EBD574FC487}">
+					<ChildrenList>
+						<Action Name="" ID="{DB53E88F-DD7F-482C-8970-9A9326CE709E}" ShortID="565206406">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Grenadier_Recharge_Ball" ID="{76A2DFC7-4E23-4E31-ABFA-58EED8E9C20A}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

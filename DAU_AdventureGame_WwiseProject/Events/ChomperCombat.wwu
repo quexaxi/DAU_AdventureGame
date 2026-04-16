@@ -7,7 +7,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{BC5CF87A-A301-4E4C-822A-D8339AFAFAF8}" ShortID="372121309">
 							<PropertyList>
-								<Property Name="Probability" Type="Real64" Value="90"/>
+								<Property Name="Probability" Type="Real64" Value="70"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -20,6 +20,9 @@
 				<Event Name="Play_Chomper_Smell" ID="{012C75A6-2D2D-4208-87B3-57F7685440F6}">
 					<ChildrenList>
 						<Action Name="" ID="{905418E0-E0B8-4307-98F0-C0EF6AC3885D}" ShortID="322360331">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="70"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Chomper_Smell_01" ID="{DFB0C5ED-57A5-4565-A252-F977617923BE}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
@@ -43,7 +46,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{23D6E507-3341-4B43-916B-C8B39A09C946}" ShortID="1000955766">
 							<PropertyList>
-								<Property Name="Probability" Type="Real64" Value="70"/>
+								<Property Name="Probability" Type="Real64" Value="45"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -56,6 +59,9 @@
 				<Event Name="Play_Chomper_Slurp" ID="{B4B98BB3-8DC2-42C2-A183-34F8A46DD81E}">
 					<ChildrenList>
 						<Action Name="" ID="{04ACA5BA-D9EE-4E59-A484-036A78E91DFC}" ShortID="718152751">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="40"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX_Chomper_Slurp_01" ID="{1326214C-2FF4-4E7F-85AF-CF8F44FD4790}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
@@ -68,7 +74,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{990CCC69-0139-49A8-A78F-8FBBFE1C25FD}" ShortID="368729232">
 							<PropertyList>
-								<Property Name="Probability" Type="Real64" Value="90"/>
+								<Property Name="Probability" Type="Real64" Value="80"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

@@ -7544,7 +7544,7 @@ GameObject:
   - component: {fileID: 222123483929760088}
   - component: {fileID: 114322400778331904}
   m_Layer: 5
-  m_Name: VoumeTitle
+  m_Name: VolumeTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

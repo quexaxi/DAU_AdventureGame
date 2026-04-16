@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMB_GLOBAL = 2676390936U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
+        static const AkUniqueID PLAY_AMB_TEMPLE = 1234490318U;
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
         static const AkUniqueID PLAY_CHEST_OPENS = 901880995U;
         static const AkUniqueID PLAY_CHEST_SWELL_LP = 3163471222U;
@@ -26,12 +27,18 @@ namespace AK
         static const AkUniqueID PLAY_CHOMPER_SMELL = 3615463328U;
         static const AkUniqueID PLAY_CHOMPER_SPOTTED = 253791182U;
         static const AkUniqueID PLAY_DOOR_OPENS = 2743573824U;
+        static const AkUniqueID PLAY_GRENADIER_BALL_EXPLODES = 152431872U;
+        static const AkUniqueID PLAY_GRENADIER_BALL_JUMP = 2635705170U;
         static const AkUniqueID PLAY_GRENADIER_DAMAGE = 3333154347U;
         static const AkUniqueID PLAY_GRENADIER_DEATH = 3337034902U;
         static const AkUniqueID PLAY_GRENADIER_FOOTSTEPS = 2094447813U;
         static const AkUniqueID PLAY_GRENADIER_PUNCH = 777046152U;
+        static const AkUniqueID PLAY_GRENADIER_RECHARGE_BALL = 2643749509U;
+        static const AkUniqueID PLAY_GRENADIER_RECHARGE_DAMAGE = 1616663833U;
         static const AkUniqueID PLAY_GRENADIER_THROW = 4143606696U;
         static const AkUniqueID PLAY_MAIN_MUSIC_SWITCH = 1378767680U;
+        static const AkUniqueID PLAY_PLAYER_DAMAGE = 3638125099U;
+        static const AkUniqueID PLAY_PLAYER_FALL_WATER = 3772621023U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
         static const AkUniqueID PLAY_PLAYER_JUMPUP = 2528119339U;
         static const AkUniqueID PLAY_PLAYER_LAND = 4249207015U;
