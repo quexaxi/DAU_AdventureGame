@@ -23,6 +23,8 @@
 						<State Name="None" ID="{2D6159F1-9568-4C21-B7D3-5C283FDC24B4}"/>
 						<State Name="InGame" ID="{46EF84C3-6F12-4636-9C61-4FC5ACCD7A79}"/>
 						<State Name="InMenu" ID="{D4FA3304-E065-40D3-AB6F-41B25D58C068}"/>
+						<State Name="Pause_ON" ID="{03327C38-7C69-4D68-88F0-16990075A2EA}"/>
+						<State Name="Pause_OFF" ID="{159EAF81-5D08-46E0-A7C6-144B962C675B}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="AreaState" ID="{86D1661F-D151-441E-B989-812D5FCC9BC6}">

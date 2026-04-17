@@ -155,44 +155,170 @@
 										<Property Name="Color" Type="int16" Value="12"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
-									<ChildrenList>
-										<Bus Name="NPC_Combat" ID="{8392C1FC-D5BE-4791-90D3-C2F8F221360A}"/>
-									</ChildrenList>
 								</Bus>
 								<Bus Name="Player_Bus" ID="{4CD7B20E-9F08-4083-BAE5-E74081E91E90}">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="24"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
-									<ChildrenList>
-										<Bus Name="Player_Locomotion" ID="{62073232-C1FE-485D-8C4F-671DC960991D}"/>
-										<Bus Name="Player_Footsteps" ID="{B358B667-7572-4333-9635-773C4319FE2A}"/>
-										<Bus Name="Player_Combat" ID="{503DA485-E6CF-4A1C-9F6D-C8107D71296E}">
-											<ChildrenList>
-												<Bus Name="Player_Attack" ID="{2BEC3150-4E03-413D-B181-7CAE4282B1AA}"/>
-												<Bus Name="Player_Damage" ID="{5F09CD2D-5565-4F2C-A547-497EB33A4C00}"/>
-											</ChildrenList>
-										</Bus>
-									</ChildrenList>
 								</Bus>
 								<Bus Name="World_Bus" ID="{D2EE225A-FADF-43E8-BF84-CCB55DE740D9}">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="21"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
-									<ChildrenList>
-										<Bus Name="Props" ID="{A423B904-5F20-4887-A733-E4810CC7038A}"/>
-										<Bus Name="Environment" ID="{E9C4B0B2-D300-476B-9E1C-884245D9D26C}"/>
-										<Bus Name="Mechanisms" ID="{FB873078-F8A1-4DAA-BEE2-E85229657272}"/>
-									</ChildrenList>
 								</Bus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameStatus" ID="{830E284B-0B92-4381-B91F-204F58465E63}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{D4FA3304-E065-40D3-AB6F-41B25D58C068}"/>
+										<CustomState Name="" ID="{E063584D-B8C7-4F25-A06D-AC7E7AC81915}" ShortID="996989606"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InGame" ID="{46EF84C3-6F12-4636-9C61-4FC5ACCD7A79}"/>
+										<CustomState Name="" ID="{B6CD32D1-B59C-4392-BFC8-4510F43770FF}" ShortID="307769305"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pause_OFF" ID="{159EAF81-5D08-46E0-A7C6-144B962C675B}"/>
+										<CustomState Name="" ID="{220B8D99-BE39-4FB2-A4F0-6303025A2B49}" ShortID="692277486"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{2D6159F1-9568-4C21-B7D3-5C283FDC24B4}"/>
+										<CustomState Name="" ID="{06FE3CB3-C742-4A4F-8B9A-604A8191D517}" ShortID="713326779"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pause_ON" ID="{03327C38-7C69-4D68-88F0-16990075A2EA}"/>
+										<CustomState Name="" ID="{ED991A56-BFF7-4FC3-93F8-1C910835E4E0}" ShortID="839449907">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="75"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{51816C92-3FE3-45A0-B9E5-8D2DFB0CBD12}" ShortID="414808005">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SFX_Volume" ID="{5928E642-2CC0-4B77-A974-B83CCB9E6B0C}" WorkUnitID="{9509A0B2-2221-4530-98BB-38D927BFEA99}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{BB3A36FA-8F45-493D-9623-CEF178FB6938}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</Bus>
 						<Bus Name="Music_Bus" ID="{0E86956F-7235-4FA4-A5C8-01B3F8C7D1D0}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="14"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameStatus" ID="{830E284B-0B92-4381-B91F-204F58465E63}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{D4FA3304-E065-40D3-AB6F-41B25D58C068}"/>
+										<CustomState Name="" ID="{1CC577C3-82D3-466A-BDE6-03C2581C6B89}" ShortID="235278541"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InGame" ID="{46EF84C3-6F12-4636-9C61-4FC5ACCD7A79}"/>
+										<CustomState Name="" ID="{01014B1C-F0D3-4D3B-91C7-3487E632EE6B}" ShortID="350240298"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pause_OFF" ID="{159EAF81-5D08-46E0-A7C6-144B962C675B}"/>
+										<CustomState Name="" ID="{A5AE4F42-D905-4332-BE39-E1FDF2ED6594}" ShortID="775876221"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{2D6159F1-9568-4C21-B7D3-5C283FDC24B4}"/>
+										<CustomState Name="" ID="{CDB1EE3A-1180-42E0-83A9-B01B060429A8}" ShortID="499965813"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pause_ON" ID="{03327C38-7C69-4D68-88F0-16990075A2EA}"/>
+										<CustomState Name="" ID="{4720DF19-152B-4192-8922-CCA20C4A4F55}" ShortID="702628851">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="60"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{629E347B-8163-4269-90C5-C9C422F1FE40}" ShortID="810822075">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Music_Volume" ID="{1B95548B-F98F-4A0F-8461-596AA1D9C0A3}" WorkUnitID="{9509A0B2-2221-4530-98BB-38D927BFEA99}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{19A86408-C4FB-4BC6-8AC5-E3930457B943}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</Bus>
 						<Bus Name="UI_Bus" ID="{C2440AB2-DD4A-40C3-92C5-740D474F3A3E}">
 							<PropertyList>
@@ -207,6 +333,70 @@
 							</PropertyList>
 						</Bus>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="PlayerState" ID="{BE14EA33-01B6-489B-8F88-EB82671BD8EB}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Dead" ID="{FD228A97-BF21-4284-96D9-83D53979C81F}"/>
+								<CustomState Name="" ID="{C423F720-A4FD-4C55-8150-E9F0BD85976F}" ShortID="150743027">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="60"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Alive" ID="{27E908DC-B8D4-42D0-9726-41496AA97AA7}"/>
+								<CustomState Name="" ID="{929C9AFE-A21D-417D-807C-3F018634278B}" ShortID="180376220"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{BE746DC0-0F60-4C41-AFAF-00578C70D4D7}"/>
+								<CustomState Name="" ID="{7C14D684-0529-416F-AD36-81A43A4252C3}" ShortID="784877828"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{3D305018-5D78-4291-8868-64D7D70E2293}" ShortID="41174507">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Master_Volume" ID="{CD036B2E-3113-4964-A24C-86FEE5EE2424}" WorkUnitID="{9509A0B2-2221-4530-98BB-38D927BFEA99}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{4CB17E23-5E90-4B69-98BA-CFFC09E19D44}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -11,6 +11,7 @@
 				<GameParameter Name="RTPC_Amb_WaterProximity" ID="{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="20"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="RTPC_Amb_Wind" ID="{BC286B6C-63CC-439C-8AA2-AB17994657B6}">
