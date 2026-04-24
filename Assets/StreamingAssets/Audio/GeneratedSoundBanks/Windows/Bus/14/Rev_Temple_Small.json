@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{1F870487-926E-4BD5-9B1F-3F0CE683C813}",
     "Language": "SFX",
-    "Hash": "{DB3657D9-3581-09D2-6D8F-BD1935EADF7E}",
+    "Hash": "{F94AB648-5BAC-6737-5FEB-F3C183C64052}",
     "ObjectPath": "Rev_Temple_Small",
     "ShortName": "Rev_Temple_Small",
     "Path": "Bus/14/Rev_Temple_Small.bnk",
@@ -34,6 +34,6 @@
     ]
    }
   ],
-  "FileHash": "{B819099B-F39B-2F9B-A78A-B8F463D98B39}"
+  "FileHash": "{B3EEACC4-8B1E-FE4E-22A9-616874324E89}"
  }
 }

@@ -17,6 +17,9 @@ namespace Gamekit3D
         public GameObject controlsCanvas;
         public GameObject audioCanvas;
 
+        public AK.Wwise.State wwiseStatePause;
+        public AK.Wwise.State wwiseStateResume;
+
         protected bool m_InPause;
         protected PlayableDirector[] m_Directors;
 
@@ -86,6 +89,7 @@ namespace Gamekit3D
                 else if(m_Directors[i].state == PlayState.Paused && m_InPause)
                 {
                     m_Directors[i].Resume ();
+                    wwiseStateResume.SetValue();
                 }
             }
             

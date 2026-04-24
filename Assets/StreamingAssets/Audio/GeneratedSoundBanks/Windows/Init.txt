@@ -30,6 +30,8 @@ State	ID	Name	State Group			Notes
 	748895195	None	GameStatus			
 	984691642	InGame	GameStatus			
 	3374585465	InMenu	GameStatus			
+	3537680115	Pause_ON	GameStatus			
+	3967028551	Pause_OFF	GameStatus			
 	748895195	None	AreaState			
 	782826392	Default	AreaState			
 	2323193050	Temple	AreaState			
@@ -38,28 +40,21 @@ State	ID	Name	State Group			Notes
 	2044049779	Dead	PlayerState			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1006694123	Music_Volume			\Default Work Unit\Music_Volume	
 	3408349920	RTPC_InMenu_LPF			\Default Work Unit\RTPC_InMenu_LPF	
+	4179668880	Master_Volume			\Default Work Unit\Master_Volume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	213475909	SFX_Bus			\Default Work Unit\Master_Audio_Bus\SFX_Bus	
-	968010305	Props			\Default Work Unit\Master_Audio_Bus\SFX_Bus\World_Bus\Props	
 	1138681361	Player_Bus			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Player_Bus	
 	1191351487	VO_Bus			\Default Work Unit\Master_Audio_Bus\VO_Bus	
-	1229948536	Environment			\Default Work Unit\Master_Audio_Bus\SFX_Bus\World_Bus\Environment	
-	1375983526	Player_Locomotion			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Player_Bus\Player_Locomotion	
-	1730208058	Player_Footsteps			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Player_Bus\Player_Footsteps	
 	1737722166	AMB_Beds			\Default Work Unit\Master_Audio_Bus\AMB_Bus\AMB_Beds	
 	1836527144	World_Bus			\Default Work Unit\Master_Audio_Bus\SFX_Bus\World_Bus	
-	2074073782	Player_Damage			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Player_Bus\Player_Combat\Player_Damage	
 	2392784291	Master_Audio_Bus			\Default Work Unit\Master_Audio_Bus	
-	2411464625	NPC_Combat			\Default Work Unit\Master_Audio_Bus\SFX_Bus\NPC_Bus\NPC_Combat	
-	2665470225	Player_Combat			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Player_Bus\Player_Combat	
 	2680856269	Music_Bus			\Default Work Unit\Master_Audio_Bus\Music_Bus	
-	2824512041	Player_Attack			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Player_Bus\Player_Combat\Player_Attack	
 	3247222208	UI_Bus			\Default Work Unit\Master_Audio_Bus\UI_Bus	
 	3319158528	AMB_Bus			\Default Work Unit\Master_Audio_Bus\AMB_Bus	
 	3319244337	NPC_Bus			\Default Work Unit\Master_Audio_Bus\SFX_Bus\NPC_Bus	
-	4015094827	Mechanisms			\Default Work Unit\Master_Audio_Bus\SFX_Bus\World_Bus\Mechanisms	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	273255480	Rev_TeleporterArea			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_TeleporterArea	

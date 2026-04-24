@@ -1132,7 +1132,7 @@ MonoBehaviour:
   hitParticlePrefab: {fileID: 0}
   targetLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   attackPoints:
   - radius: 0.42
     offset: {x: 0, y: 0, z: 0}
@@ -2318,7 +2318,7 @@ GameObject:
   - component: {fileID: 4998087950247418}
   - component: {fileID: 114256129122157784}
   - component: {fileID: 65925898071369330}
-  m_Layer: 0
+  m_Layer: 23
   m_Name: BodyDamager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2359,7 +2359,7 @@ MonoBehaviour:
   amount: 1
   damagedLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
 --- !u!65 &65925898071369330
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3522,7 +3522,7 @@ GameObject:
   - component: {fileID: 114643127116660914}
   - component: {fileID: 195733995024529676}
   - component: {fileID: 2587189505825713551}
-  m_Layer: 0
+  m_Layer: 23
   m_Name: Chomper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3632,6 +3632,10 @@ MonoBehaviour:
       m_Calls: []
   onDamageMessageReceivers:
   - {fileID: 114290622220327500}
+  Box_Breaks_Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &114675004760664532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3751,6 +3755,22 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: 48c8ebab47a21ec43b14e8ca4ac9bea5,
       type: 2}
   itchingEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  chomperHit01Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  chomperHit02Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  chomperHit03Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  chomperHit04Event:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}

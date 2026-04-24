@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D7C8961D-6E16-04DA-2D3C-E2BA1DD01931}",
+    "Hash": "{8605457B-145B-DC96-8C03-1FA576CDCBF6}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -71,13 +71,6 @@
       "Color": "11"
      },
      {
-      "Id": "968010305",
-      "Name": "Props",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\World_Bus\\Props",
-      "GUID": "{A423B904-5F20-4887-A733-E4810CC7038A}",
-      "Color": "21"
-     },
-     {
       "Id": "1138681361",
       "Name": "Player_Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus",
@@ -90,27 +83,6 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\VO_Bus",
       "GUID": "{83644DF5-0837-49BA-94D7-DC7B29280A63}",
       "Color": "18"
-     },
-     {
-      "Id": "1229948536",
-      "Name": "Environment",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\World_Bus\\Environment",
-      "GUID": "{E9C4B0B2-D300-476B-9E1C-884245D9D26C}",
-      "Color": "21"
-     },
-     {
-      "Id": "1375983526",
-      "Name": "Player_Locomotion",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Locomotion",
-      "GUID": "{62073232-C1FE-485D-8C4F-671DC960991D}",
-      "Color": "24"
-     },
-     {
-      "Id": "1730208058",
-      "Name": "Player_Footsteps",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Footsteps",
-      "GUID": "{B358B667-7572-4333-9635-773C4319FE2A}",
-      "Color": "24"
      },
      {
       "Id": "1737722166",
@@ -127,13 +99,6 @@
       "Color": "21"
      },
      {
-      "Id": "2074073782",
-      "Name": "Player_Damage",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Combat\\Player_Damage",
-      "GUID": "{5F09CD2D-5565-4F2C-A547-497EB33A4C00}",
-      "Color": "24"
-     },
-     {
       "Id": "2392784291",
       "Name": "Master_Audio_Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus",
@@ -141,32 +106,11 @@
       "Color": "10"
      },
      {
-      "Id": "2411464625",
-      "Name": "NPC_Combat",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\NPC_Bus\\NPC_Combat",
-      "GUID": "{8392C1FC-D5BE-4791-90D3-C2F8F221360A}",
-      "Color": "12"
-     },
-     {
-      "Id": "2665470225",
-      "Name": "Player_Combat",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Combat",
-      "GUID": "{503DA485-E6CF-4A1C-9F6D-C8107D71296E}",
-      "Color": "24"
-     },
-     {
       "Id": "2680856269",
       "Name": "Music_Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Music_Bus",
       "GUID": "{0E86956F-7235-4FA4-A5C8-01B3F8C7D1D0}",
       "Color": "14"
-     },
-     {
-      "Id": "2824512041",
-      "Name": "Player_Attack",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Combat\\Player_Attack",
-      "GUID": "{2BEC3150-4E03-413D-B181-7CAE4282B1AA}",
-      "Color": "24"
      },
      {
       "Id": "3247222208",
@@ -188,13 +132,6 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\NPC_Bus",
       "GUID": "{B7DA418B-0B11-4E82-8034-D984FB5F70C6}",
       "Color": "12"
-     },
-     {
-      "Id": "4015094827",
-      "Name": "Mechanisms",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\World_Bus\\Mechanisms",
-      "GUID": "{FB873078-F8A1-4DAA-BEE2-E85229657272}",
-      "Color": "21"
      }
     ],
     "AuxBusses": [
@@ -337,6 +274,12 @@
       "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
      },
      {
+      "Id": "1006694123",
+      "Name": "Music_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Volume",
+      "GUID": "{1B95548B-F98F-4A0F-8461-596AA1D9C0A3}"
+     },
+     {
       "Id": "1080360991",
       "Name": "RTPC_Amb_Temple",
       "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_Temple",
@@ -347,6 +290,12 @@
       "Name": "RTPC_Amb_Fantasy",
       "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_Fantasy",
       "GUID": "{8CFA9586-2605-4C02-8E8C-9E89009C52AE}"
+     },
+     {
+      "Id": "1564184899",
+      "Name": "SFX_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFX_Volume",
+      "GUID": "{5928E642-2CC0-4B77-A974-B83CCB9E6B0C}"
      },
      {
       "Id": "2194227326",
@@ -371,6 +320,12 @@
       "Name": "RTPC_PuzzleProgress",
       "ObjectPath": "\\Game Parameters\\RTPC_Puzzle\\RTPC_PuzzleProgress",
       "GUID": "{D6D3AB7E-644B-43D4-A6A4-9FBAE32A4958}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{CD036B2E-3113-4964-A24C-86FEE5EE2424}"
      }
     ],
     "StateGroups": [
@@ -554,6 +509,20 @@
         "Name": "InMenu",
         "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InMenu",
         "GUID": "{D4FA3304-E065-40D3-AB6F-41B25D58C068}",
+        "Color": "1"
+       },
+       {
+        "Id": "3537680115",
+        "Name": "Pause_ON",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\Pause_ON",
+        "GUID": "{03327C38-7C69-4D68-88F0-16990075A2EA}",
+        "Color": "1"
+       },
+       {
+        "Id": "3967028551",
+        "Name": "Pause_OFF",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\Pause_OFF",
+        "GUID": "{159EAF81-5D08-46E0-A7C6-144B962C675B}",
         "Color": "1"
        }
       ]
@@ -766,6 +735,6 @@
     ]
    }
   ],
-  "FileHash": "{DE2979B3-D91F-59F5-572D-DB57F393F897}"
+  "FileHash": "{3E596AE5-38AD-FC63-10E7-C70D7C61FAB5}"
  }
 }

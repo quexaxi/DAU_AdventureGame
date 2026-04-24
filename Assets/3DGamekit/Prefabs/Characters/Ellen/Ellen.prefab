@@ -20819,7 +20819,8 @@ MonoBehaviour:
   damageSoundEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 376c4e42ee25ded459169a32eb42d179,
+      type: 2}
   footstepSoundEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -20918,6 +20919,11 @@ MonoBehaviour:
   - {fileID: 2100000, guid: c90acb39326143642a25b630416a7c8a, type: 2}
   - {fileID: 2100000, guid: 213f29d8077200a489882139504e451d, type: 2}
   - {fileID: 2100000, guid: bc9add680f5479b4c92e1e22e00c3687, type: 2}
+  - {fileID: 2100000, guid: 8491ec434f8e32f4f9fc6839ffa24121, type: 2}
+  - {fileID: 2100000, guid: b4d52da8c0d97f841be80b861af24164, type: 2}
+  - {fileID: 2100000, guid: 9dfa8e231f9684b489b86a4b74cba739, type: 2}
+  - {fileID: 2100000, guid: ac4bc75e76feb8042ab5161e3e1b0554, type: 2}
+  - {fileID: 2100000, guid: 96b29c39d6e3d5c4a8bf9c1b9baeac8d, type: 2}
   material_Dropship:
   - {fileID: 2100000, guid: ceacc89730515714ba02cef1afa41521, type: 2}
   - {fileID: 2100000, guid: 9f6ef4965d08a0e4e9074adc1e848339, type: 2}

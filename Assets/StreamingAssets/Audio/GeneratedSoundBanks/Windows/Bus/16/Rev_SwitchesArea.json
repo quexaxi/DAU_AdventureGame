@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{0A19BD35-A89B-4686-8214-AF0FE99A0B25}",
     "Language": "SFX",
-    "Hash": "{E3DF1E76-2F03-B823-AAB5-81F824E0093E}",
+    "Hash": "{F5095E3E-D507-8377-5FB6-2E581748F6DA}",
     "ObjectPath": "Rev_SwitchesArea",
     "ShortName": "Rev_SwitchesArea",
     "Path": "Bus/16/Rev_SwitchesArea.bnk",
@@ -53,6 +53,6 @@
     ]
    }
   ],
-  "FileHash": "{21872D7E-452A-89C8-A4B5-B942D2253537}"
+  "FileHash": "{2D6C904A-6B05-7495-8E2A-1F39FA1257C4}"
  }
 }

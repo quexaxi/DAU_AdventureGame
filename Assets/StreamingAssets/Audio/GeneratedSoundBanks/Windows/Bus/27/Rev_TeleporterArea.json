@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{72354B84-DA22-4A28-A05E-6152082E4A18}",
     "Language": "SFX",
-    "Hash": "{EB5A8F03-FCB1-03FB-70FD-FBAA74F69161}",
+    "Hash": "{9BA66A0B-7C19-7D4C-4C8D-E70FB400DBA1}",
     "ObjectPath": "Rev_TeleporterArea",
     "ShortName": "Rev_TeleporterArea",
     "Path": "Bus/27/Rev_TeleporterArea.bnk",
@@ -34,6 +34,6 @@
     ]
    }
   ],
-  "FileHash": "{431B0223-FB35-7995-CBF7-7AC16313EA93}"
+  "FileHash": "{7B4C92FE-E009-4D2F-2C6F-67DAC07BBE42}"
  }
 }

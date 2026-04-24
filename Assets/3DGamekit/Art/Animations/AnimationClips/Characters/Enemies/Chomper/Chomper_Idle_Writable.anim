@@ -581257,13 +581257,6 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0
-    functionName: ChomperTest
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
   - time: 0.95
     functionName: AnimBreath
     data: 
@@ -581280,13 +581273,6 @@ AnimationClip:
     messageOptions: 0
   - time: 3.35
     functionName: AnimBreath
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 4.45
-    functionName: ChomperTest
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -581383,13 +581369,6 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 12.566667
-    functionName: ChomperTest
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
   - time: 13.324534
     functionName: PlayStep
     data: 
@@ -581427,13 +581406,6 @@ AnimationClip:
     messageOptions: 0
   - time: 16.533333
     functionName: AnimItching
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 18.6
-    functionName: ChomperTest
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

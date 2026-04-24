@@ -5463,13 +5463,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   OnEnter:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+        m_TargetAssemblyTypeName: Gamekit3D.PlayerController, Assembly-CSharp
+        m_MethodName: SetCanAttack
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

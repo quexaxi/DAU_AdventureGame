@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{4A07DD45-9B83-42D7-AFAC-9685B0647E61}",
     "Language": "SFX",
-    "Hash": "{888009EB-8EB3-8FD4-7E92-646722531AA1}",
+    "Hash": "{100637B3-4F97-7214-E98B-19781FB17B7C}",
     "ObjectPath": "Rev_StartingArea",
     "ShortName": "Rev_StartingArea",
     "Path": "Bus/39/Rev_StartingArea.bnk",
@@ -53,6 +53,6 @@
     ]
    }
   ],
-  "FileHash": "{6825CDC3-8F22-E04D-8C1C-E49F6649A8E4}"
+  "FileHash": "{535C9FBE-F2D1-7A05-FF9A-FEC554C84C5C}"
  }
 }

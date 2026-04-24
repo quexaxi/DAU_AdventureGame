@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{712E6FF6-F85D-5045-75D4-1FB7E59BF6DA}",
+    "Hash": "{4906DFBC-8D6F-FD15-7DAD-B5B72F5AB4DD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -1725,6 +1725,14 @@
       ]
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "506610676",
+      "Name": "RTPC_Amb_WaterProximity",
+      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_WaterProximity",
+      "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "806507282",
@@ -1817,7 +1825,7 @@
     "Type": "Bus",
     "GUID": "{72354B84-DA22-4A28-A05E-6152082E4A18}",
     "Language": "SFX",
-    "Hash": "{EB5A8F03-FCB1-03FB-70FD-FBAA74F69161}",
+    "Hash": "{9BA66A0B-7C19-7D4C-4C8D-E70FB400DBA1}",
     "ObjectPath": "Rev_TeleporterArea",
     "ShortName": "Rev_TeleporterArea",
     "Path": "Bus/27/Rev_TeleporterArea.bnk",
@@ -1845,7 +1853,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D7C8961D-6E16-04DA-2D3C-E2BA1DD01931}",
+    "Hash": "{8605457B-145B-DC96-8C03-1FA576CDCBF6}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -1906,13 +1914,6 @@
       "Color": "11"
      },
      {
-      "Id": "968010305",
-      "Name": "Props",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\World_Bus\\Props",
-      "GUID": "{A423B904-5F20-4887-A733-E4810CC7038A}",
-      "Color": "21"
-     },
-     {
       "Id": "1138681361",
       "Name": "Player_Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus",
@@ -1925,27 +1926,6 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\VO_Bus",
       "GUID": "{83644DF5-0837-49BA-94D7-DC7B29280A63}",
       "Color": "18"
-     },
-     {
-      "Id": "1229948536",
-      "Name": "Environment",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\World_Bus\\Environment",
-      "GUID": "{E9C4B0B2-D300-476B-9E1C-884245D9D26C}",
-      "Color": "21"
-     },
-     {
-      "Id": "1375983526",
-      "Name": "Player_Locomotion",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Locomotion",
-      "GUID": "{62073232-C1FE-485D-8C4F-671DC960991D}",
-      "Color": "24"
-     },
-     {
-      "Id": "1730208058",
-      "Name": "Player_Footsteps",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Footsteps",
-      "GUID": "{B358B667-7572-4333-9635-773C4319FE2A}",
-      "Color": "24"
      },
      {
       "Id": "1737722166",
@@ -1962,13 +1942,6 @@
       "Color": "21"
      },
      {
-      "Id": "2074073782",
-      "Name": "Player_Damage",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Combat\\Player_Damage",
-      "GUID": "{5F09CD2D-5565-4F2C-A547-497EB33A4C00}",
-      "Color": "24"
-     },
-     {
       "Id": "2392784291",
       "Name": "Master_Audio_Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus",
@@ -1976,32 +1949,11 @@
       "Color": "10"
      },
      {
-      "Id": "2411464625",
-      "Name": "NPC_Combat",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\NPC_Bus\\NPC_Combat",
-      "GUID": "{8392C1FC-D5BE-4791-90D3-C2F8F221360A}",
-      "Color": "12"
-     },
-     {
-      "Id": "2665470225",
-      "Name": "Player_Combat",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Combat",
-      "GUID": "{503DA485-E6CF-4A1C-9F6D-C8107D71296E}",
-      "Color": "24"
-     },
-     {
       "Id": "2680856269",
       "Name": "Music_Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Music_Bus",
       "GUID": "{0E86956F-7235-4FA4-A5C8-01B3F8C7D1D0}",
       "Color": "14"
-     },
-     {
-      "Id": "2824512041",
-      "Name": "Player_Attack",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Player_Bus\\Player_Combat\\Player_Attack",
-      "GUID": "{2BEC3150-4E03-413D-B181-7CAE4282B1AA}",
-      "Color": "24"
      },
      {
       "Id": "3247222208",
@@ -2023,13 +1975,6 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\NPC_Bus",
       "GUID": "{B7DA418B-0B11-4E82-8034-D984FB5F70C6}",
       "Color": "12"
-     },
-     {
-      "Id": "4015094827",
-      "Name": "Mechanisms",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\World_Bus\\Mechanisms",
-      "GUID": "{FB873078-F8A1-4DAA-BEE2-E85229657272}",
-      "Color": "21"
      }
     ],
     "AuxBusses": [
@@ -2172,6 +2117,12 @@
       "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
      },
      {
+      "Id": "1006694123",
+      "Name": "Music_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Volume",
+      "GUID": "{1B95548B-F98F-4A0F-8461-596AA1D9C0A3}"
+     },
+     {
       "Id": "1080360991",
       "Name": "RTPC_Amb_Temple",
       "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_Temple",
@@ -2182,6 +2133,12 @@
       "Name": "RTPC_Amb_Fantasy",
       "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_Fantasy",
       "GUID": "{8CFA9586-2605-4C02-8E8C-9E89009C52AE}"
+     },
+     {
+      "Id": "1564184899",
+      "Name": "SFX_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFX_Volume",
+      "GUID": "{5928E642-2CC0-4B77-A974-B83CCB9E6B0C}"
      },
      {
       "Id": "2194227326",
@@ -2206,6 +2163,12 @@
       "Name": "RTPC_PuzzleProgress",
       "ObjectPath": "\\Game Parameters\\RTPC_Puzzle\\RTPC_PuzzleProgress",
       "GUID": "{D6D3AB7E-644B-43D4-A6A4-9FBAE32A4958}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{CD036B2E-3113-4964-A24C-86FEE5EE2424}"
      }
     ],
     "StateGroups": [
@@ -2389,6 +2352,20 @@
         "Name": "InMenu",
         "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InMenu",
         "GUID": "{D4FA3304-E065-40D3-AB6F-41B25D58C068}",
+        "Color": "1"
+       },
+       {
+        "Id": "3537680115",
+        "Name": "Pause_ON",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\Pause_ON",
+        "GUID": "{03327C38-7C69-4D68-88F0-16990075A2EA}",
+        "Color": "1"
+       },
+       {
+        "Id": "3967028551",
+        "Name": "Pause_OFF",
+        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\Pause_OFF",
+        "GUID": "{159EAF81-5D08-46E0-A7C6-144B962C675B}",
         "Color": "1"
        }
       ]
@@ -2671,7 +2648,7 @@
     "Type": "Bus",
     "GUID": "{1F870487-926E-4BD5-9B1F-3F0CE683C813}",
     "Language": "SFX",
-    "Hash": "{DB3657D9-3581-09D2-6D8F-BD1935EADF7E}",
+    "Hash": "{F94AB648-5BAC-6737-5FEB-F3C183C64052}",
     "ObjectPath": "Rev_Temple_Small",
     "ShortName": "Rev_Temple_Small",
     "Path": "Bus/14/Rev_Temple_Small.bnk",
@@ -2699,7 +2676,7 @@
     "Type": "Bus",
     "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
     "Language": "SFX",
-    "Hash": "{F3DA8407-AC57-43E1-42EC-1DBA6ED9CFCE}",
+    "Hash": "{F6D31E9D-44B8-759E-A3B2-64082250C48E}",
     "ObjectPath": "Rev_Small_Room",
     "ShortName": "Rev_Small_Room",
     "Path": "Bus/15/Rev_Small_Room.bnk",
@@ -2746,7 +2723,7 @@
     "Type": "Bus",
     "GUID": "{0A19BD35-A89B-4686-8214-AF0FE99A0B25}",
     "Language": "SFX",
-    "Hash": "{E3DF1E76-2F03-B823-AAB5-81F824E0093E}",
+    "Hash": "{F5095E3E-D507-8377-5FB6-2E581748F6DA}",
     "ObjectPath": "Rev_SwitchesArea",
     "ShortName": "Rev_SwitchesArea",
     "Path": "Bus/16/Rev_SwitchesArea.bnk",
@@ -2793,7 +2770,7 @@
     "Type": "Bus",
     "GUID": "{4A07DD45-9B83-42D7-AFAC-9685B0647E61}",
     "Language": "SFX",
-    "Hash": "{888009EB-8EB3-8FD4-7E92-646722531AA1}",
+    "Hash": "{100637B3-4F97-7214-E98B-19781FB17B7C}",
     "ObjectPath": "Rev_StartingArea",
     "ShortName": "Rev_StartingArea",
     "Path": "Bus/39/Rev_StartingArea.bnk",
@@ -2840,7 +2817,7 @@
     "Type": "Bus",
     "GUID": "{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}",
     "Language": "SFX",
-    "Hash": "{850C3E42-7720-ACAE-284D-8CD8D60E6950}",
+    "Hash": "{1CFFEC7D-2A1D-5772-1469-D86443D6E3F5}",
     "ObjectPath": "Rev_Temple_Large",
     "ShortName": "Rev_Temple_Large",
     "Path": "Bus/40/Rev_Temple_Large.bnk",
@@ -2883,6 +2860,6 @@
     ]
    }
   ],
-  "FileHash": "{80FA9561-4AE6-0E2E-EF52-70EF643CB2CC}"
+  "FileHash": "{157159E3-9AE6-EFC7-EADB-A89048B9931A}"
  }
 }

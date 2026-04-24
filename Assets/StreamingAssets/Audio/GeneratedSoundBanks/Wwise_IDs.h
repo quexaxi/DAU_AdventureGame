@@ -130,6 +130,8 @@ namespace AK
                 static const AkUniqueID INGAME = 984691642U;
                 static const AkUniqueID INMENU = 3374585465U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PAUSE_OFF = 3967028551U;
+                static const AkUniqueID PAUSE_ON = 3537680115U;
             } // namespace STATE
         } // namespace GAMESTATUS
 
@@ -244,6 +246,8 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID MASTER_VOLUME = 4179668880U;
+        static const AkUniqueID MUSIC_VOLUME = 1006694123U;
         static const AkUniqueID RTPC_AMB_FANTASY = 1263047490U;
         static const AkUniqueID RTPC_AMB_TEMPLE = 1080360991U;
         static const AkUniqueID RTPC_AMB_WATERPROXIMITY = 506610676U;
@@ -252,6 +256,7 @@ namespace AK
         static const AkUniqueID RTPC_INMENU_LPF = 3408349920U;
         static const AkUniqueID RTPC_PLAYERSPEED = 2653406601U;
         static const AkUniqueID RTPC_PUZZLEPROGRESS = 4085892778U;
+        static const AkUniqueID SFX_VOLUME = 1564184899U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -264,19 +269,10 @@ namespace AK
     {
         static const AkUniqueID AMB_BEDS = 1737722166U;
         static const AkUniqueID AMB_BUS = 3319158528U;
-        static const AkUniqueID ENVIRONMENT = 1229948536U;
         static const AkUniqueID MASTER_AUDIO_BUS = 2392784291U;
-        static const AkUniqueID MECHANISMS = 4015094827U;
         static const AkUniqueID MUSIC_BUS = 2680856269U;
         static const AkUniqueID NPC_BUS = 3319244337U;
-        static const AkUniqueID NPC_COMBAT = 2411464625U;
-        static const AkUniqueID PLAYER_ATTACK = 2824512041U;
         static const AkUniqueID PLAYER_BUS = 1138681361U;
-        static const AkUniqueID PLAYER_COMBAT = 2665470225U;
-        static const AkUniqueID PLAYER_DAMAGE = 2074073782U;
-        static const AkUniqueID PLAYER_FOOTSTEPS = 1730208058U;
-        static const AkUniqueID PLAYER_LOCOMOTION = 1375983526U;
-        static const AkUniqueID PROPS = 968010305U;
         static const AkUniqueID SFX_BUS = 213475909U;
         static const AkUniqueID UI_BUS = 3247222208U;
         static const AkUniqueID VO_BUS = 1191351487U;

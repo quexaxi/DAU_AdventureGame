@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{712E6FF6-F85D-5045-75D4-1FB7E59BF6DA}",
+    "Hash": "{4906DFBC-8D6F-FD15-7DAD-B5B72F5AB4DD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -1717,6 +1717,14 @@
       ]
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "506610676",
+      "Name": "RTPC_Amb_WaterProximity",
+      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_WaterProximity",
+      "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "806507282",
@@ -1805,6 +1813,6 @@
     ]
    }
   ],
-  "FileHash": "{12FFBBC8-6CB1-5464-D7F5-DBD68DDF0090}"
+  "FileHash": "{60B08482-A3D7-123E-2134-A3285E218FDD}"
  }
 }
