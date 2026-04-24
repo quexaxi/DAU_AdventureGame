@@ -18,14 +18,14 @@
      {
       "Id": "273255480",
       "Name": "Rev_TeleporterArea",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_TeleporterArea",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_TeleporterArea",
       "GUID": "{72354B84-DA22-4A28-A05E-6152082E4A18}",
       "Color": "2",
       "AuxBusRefs": [
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -34,6 +34,6 @@
     ]
    }
   ],
-  "FileHash": "{7B4C92FE-E009-4D2F-2C6F-67DAC07BBE42}"
+  "FileHash": "{C68F746A-3A2D-E019-BB5A-3E804EE54768}"
  }
 }

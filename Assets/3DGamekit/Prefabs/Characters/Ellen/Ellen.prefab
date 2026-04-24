@@ -20839,7 +20839,8 @@ MonoBehaviour:
   deathSoundEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 376c4e42ee25ded459169a32eb42d179,
+      type: 2}
   attackSoundEvent:
     idInternal: 0
     valueGuidInternal: 

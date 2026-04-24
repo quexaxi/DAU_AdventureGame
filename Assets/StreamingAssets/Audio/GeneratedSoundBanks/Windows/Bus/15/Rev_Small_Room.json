@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
     "Language": "SFX",
-    "Hash": "{F6D31E9D-44B8-759E-A3B2-64082250C48E}",
+    "Hash": "{3AD0E3D5-6DE6-35D8-1BB1-A2FA250ADBFF}",
     "ObjectPath": "Rev_Small_Room",
     "ShortName": "Rev_Small_Room",
     "Path": "Bus/15/Rev_Small_Room.bnk",
@@ -19,7 +19,7 @@
       {
        "Id": "190406084",
        "Name": "Room_Small (Custom)",
-       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Small_Room\\[Effect Slot [0]: (RoomVerb)]\\Room_Small (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_Small_Room\\[Effect Slot [0]: (RoomVerb)]\\Room_Small (Custom)",
        "GUID": "{CBC36301-73CA-4769-9328-D66612F07F9F}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
@@ -30,7 +30,7 @@
      {
       "Id": "1551944282",
       "Name": "Rev_Small_Room",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Small_Room",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_Small_Room",
       "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
       "Color": "2",
       "PluginRefs": {
@@ -44,7 +44,7 @@
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -53,6 +53,6 @@
     ]
    }
   ],
-  "FileHash": "{144725F0-9384-0018-8572-BE4EF9FCD6C6}"
+  "FileHash": "{5CE95128-23FC-45F4-3A48-3EFCFC5D78D4}"
  }
 }

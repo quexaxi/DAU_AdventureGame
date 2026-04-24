@@ -364,7 +364,7 @@
 				</Attenuation>
 				<Attenuation Name="Water_Distance" ID="{A6AE024B-D5A7-4275-B96E-66BB82A0741C}" ShortID="281535058">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="5"/>
+						<Property Name="RadiusMax" Type="Real64" Value="15"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -381,7 +381,7 @@
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>5</XPos>
+											<XPos>15</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -409,8 +409,8 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>5</XPos>
-											<YPos>100</YPos>
+											<XPos>15</XPos>
+											<YPos>50</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -434,7 +434,7 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>5</XPos>
+											<XPos>15</XPos>
 											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>

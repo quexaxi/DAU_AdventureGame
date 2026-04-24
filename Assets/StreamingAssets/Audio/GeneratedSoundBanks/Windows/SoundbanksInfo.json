@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{4906DFBC-8D6F-FD15-7DAD-B5B72F5AB4DD}",
+    "Hash": "{38B2C3EA-2857-CD97-4EEE-F23330CD4B97}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -887,7 +887,7 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Water",
       "GUID": "{60E34E90-1772-4B41-B83B-22BD46F5858D}",
       "Color": "4",
-      "MaxAttenuation": "5",
+      "MaxAttenuation": "15",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1576,9 +1576,9 @@
       ]
      },
      {
-      "Id": "2718565570",
-      "Name": "Play_World_Staff_Swell_Lp",
-      "ObjectPath": "\\Events\\World\\Play_World_Staff_Swell_Lp",
+      "Id": "969098578",
+      "Name": "Play_WeaponPedestal_Swell",
+      "ObjectPath": "\\Events\\World\\Play_WeaponPedestal_Swell",
       "GUID": "{42EF8B9A-CE27-42D2-8B51-4BAE7B38E29E}",
       "Color": "11",
       "MaxAttenuation": "30.000002",
@@ -1588,6 +1588,17 @@
         "Id": "593107319"
        }
       ]
+     },
+     {
+      "Id": "2610202148",
+      "Name": "Stop_WeaponPedestal_Swell",
+      "ObjectPath": "\\Events\\World\\Stop_WeaponPedestal_Swell",
+      "GUID": "{0755F1DC-D161-4589-A3FC-B356988E4D2A}",
+      "Color": "11",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2024222415",
@@ -1727,10 +1738,10 @@
     ],
     "GameParameters": [
      {
-      "Id": "506610676",
-      "Name": "RTPC_Amb_WaterProximity",
-      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_WaterProximity",
-      "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
+      "Id": "262290038",
+      "Name": "RTPC_Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_Distance",
+      "GUID": "{30AB1DC2-EE39-4297-A37E-E6A50049A7D6}"
      }
     ],
     "SwitchGroups": [
@@ -1833,14 +1844,14 @@
      {
       "Id": "273255480",
       "Name": "Rev_TeleporterArea",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_TeleporterArea",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_TeleporterArea",
       "GUID": "{72354B84-DA22-4A28-A05E-6152082E4A18}",
       "Color": "2",
       "AuxBusRefs": [
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -1853,7 +1864,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{8605457B-145B-DC96-8C03-1FA576CDCBF6}",
+    "Hash": "{9D4F9E75-028A-38D8-1F4D-AFBBAF47FF0C}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -1862,7 +1873,7 @@
       {
        "Id": "190406084",
        "Name": "Room_Small (Custom)",
-       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Small_Room\\[Effect Slot [0]: (RoomVerb)]\\Room_Small (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_Small_Room\\[Effect Slot [0]: (RoomVerb)]\\Room_Small (Custom)",
        "GUID": "{CBC36301-73CA-4769-9328-D66612F07F9F}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
@@ -1878,10 +1889,18 @@
        "LibId": "7733251"
       },
       {
-       "Id": "3164629247",
-       "Name": "Holy",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Holy",
-       "GUID": "{CC7B8638-C670-4AD5-B3FB-331EA81037F6}",
+       "Id": "602546716",
+       "Name": "Room_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Large",
+       "GUID": "{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -1923,7 +1942,7 @@
      {
       "Id": "1191351487",
       "Name": "VO_Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\VO_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\VO_Bus",
       "GUID": "{83644DF5-0837-49BA-94D7-DC7B29280A63}",
       "Color": "18"
      },
@@ -1981,14 +2000,14 @@
      {
       "Id": "273255480",
       "Name": "Rev_TeleporterArea",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_TeleporterArea",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_TeleporterArea",
       "GUID": "{72354B84-DA22-4A28-A05E-6152082E4A18}",
       "Color": "2",
       "AuxBusRefs": [
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -1997,14 +2016,21 @@
      {
       "Id": "1495343048",
       "Name": "Rev_Temple_Small",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Temple_Small",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_Temple_Small",
       "GUID": "{1F870487-926E-4BD5-9B1F-3F0CE683C813}",
       "Color": "2",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -2013,7 +2039,7 @@
      {
       "Id": "1551944282",
       "Name": "Rev_Small_Room",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Small_Room",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_Small_Room",
       "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
       "Color": "2",
       "PluginRefs": {
@@ -2027,7 +2053,7 @@
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -2036,7 +2062,7 @@
      {
       "Id": "1676981132",
       "Name": "Rev_SwitchesArea",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_SwitchesArea",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_SwitchesArea",
       "GUID": "{0A19BD35-A89B-4686-8214-AF0FE99A0B25}",
       "Color": "2",
       "PluginRefs": {
@@ -2050,22 +2076,22 @@
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
       ]
      },
      {
-      "Id": "3958414088",
-      "Name": "Rev_StartingArea",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_StartingArea",
-      "GUID": "{4A07DD45-9B83-42D7-AFAC-9685B0647E61}",
+      "Id": "2408058993",
+      "Name": "Rev_General",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_General",
+      "GUID": "{AF1996CE-5C41-476C-9B69-DAF1F05690D1}",
       "Color": "2",
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "3164629247"
+         "Id": "48620415"
         }
        ]
       },
@@ -2073,7 +2099,7 @@
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -2082,14 +2108,21 @@
      {
       "Id": "4023024944",
       "Name": "Rev_Temple_Large",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Temple_Large",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_Temple_Large",
       "GUID": "{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}",
       "Color": "2",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "602546716"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -2098,7 +2131,7 @@
      {
       "Id": "4148005607",
       "Name": "Reverbs_AUX",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
       "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
       "Color": "2"
      }
@@ -2157,12 +2190,6 @@
       "Name": "RTPC_InMenu_LPF",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_InMenu_LPF",
       "GUID": "{7DED6CDC-FF97-43C7-88AE-B06CD5A7CE0B}"
-     },
-     {
-      "Id": "4085892778",
-      "Name": "RTPC_PuzzleProgress",
-      "ObjectPath": "\\Game Parameters\\RTPC_Puzzle\\RTPC_PuzzleProgress",
-      "GUID": "{D6D3AB7E-644B-43D4-A6A4-9FBAE32A4958}"
      },
      {
       "Id": "4179668880",
@@ -2352,20 +2379,6 @@
         "Name": "InMenu",
         "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\InMenu",
         "GUID": "{D4FA3304-E065-40D3-AB6F-41B25D58C068}",
-        "Color": "1"
-       },
-       {
-        "Id": "3537680115",
-        "Name": "Pause_ON",
-        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\Pause_ON",
-        "GUID": "{03327C38-7C69-4D68-88F0-16990075A2EA}",
-        "Color": "1"
-       },
-       {
-        "Id": "3967028551",
-        "Name": "Pause_OFF",
-        "ObjectPath": "\\States\\Default Work Unit\\GameStatus\\Pause_OFF",
-        "GUID": "{159EAF81-5D08-46E0-A7C6-144B962C675B}",
         "Color": "1"
        }
       ]
@@ -2648,22 +2661,41 @@
     "Type": "Bus",
     "GUID": "{1F870487-926E-4BD5-9B1F-3F0CE683C813}",
     "Language": "SFX",
-    "Hash": "{F94AB648-5BAC-6737-5FEB-F3C183C64052}",
+    "Hash": "{F25476D5-C07E-3EFC-863D-EB8615EAF1ED}",
     "ObjectPath": "Rev_Temple_Small",
     "ShortName": "Rev_Temple_Small",
     "Path": "Bus/14/Rev_Temple_Small.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "AuxBusses": [
      {
       "Id": "1495343048",
       "Name": "Rev_Temple_Small",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Temple_Small",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_Temple_Small",
       "GUID": "{1F870487-926E-4BD5-9B1F-3F0CE683C813}",
       "Color": "2",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -2676,7 +2708,7 @@
     "Type": "Bus",
     "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
     "Language": "SFX",
-    "Hash": "{F6D31E9D-44B8-759E-A3B2-64082250C48E}",
+    "Hash": "{3AD0E3D5-6DE6-35D8-1BB1-A2FA250ADBFF}",
     "ObjectPath": "Rev_Small_Room",
     "ShortName": "Rev_Small_Room",
     "Path": "Bus/15/Rev_Small_Room.bnk",
@@ -2685,7 +2717,7 @@
       {
        "Id": "190406084",
        "Name": "Room_Small (Custom)",
-       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Small_Room\\[Effect Slot [0]: (RoomVerb)]\\Room_Small (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_Small_Room\\[Effect Slot [0]: (RoomVerb)]\\Room_Small (Custom)",
        "GUID": "{CBC36301-73CA-4769-9328-D66612F07F9F}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
@@ -2696,7 +2728,7 @@
      {
       "Id": "1551944282",
       "Name": "Rev_Small_Room",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Small_Room",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_Small_Room",
       "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
       "Color": "2",
       "PluginRefs": {
@@ -2710,7 +2742,7 @@
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -2743,7 +2775,7 @@
      {
       "Id": "1676981132",
       "Name": "Rev_SwitchesArea",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_SwitchesArea",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_SwitchesArea",
       "GUID": "{0A19BD35-A89B-4686-8214-AF0FE99A0B25}",
       "Color": "2",
       "PluginRefs": {
@@ -2757,7 +2789,7 @@
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -2766,21 +2798,21 @@
     ]
    },
    {
-    "Id": "3958414088",
+    "Id": "2408058993",
     "Type": "Bus",
-    "GUID": "{4A07DD45-9B83-42D7-AFAC-9685B0647E61}",
+    "GUID": "{AF1996CE-5C41-476C-9B69-DAF1F05690D1}",
     "Language": "SFX",
-    "Hash": "{100637B3-4F97-7214-E98B-19781FB17B7C}",
-    "ObjectPath": "Rev_StartingArea",
-    "ShortName": "Rev_StartingArea",
-    "Path": "Bus/39/Rev_StartingArea.bnk",
+    "Hash": "{7EBAC233-0E2F-6FC6-17A6-8EA614A5B13E}",
+    "ObjectPath": "Rev_General",
+    "ShortName": "Rev_General",
+    "Path": "Bus/24/Rev_General.bnk",
     "Plugins": {
      "ShareSets": [
       {
-       "Id": "3164629247",
-       "Name": "Holy",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Holy",
-       "GUID": "{CC7B8638-C670-4AD5-B3FB-331EA81037F6}",
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -2788,15 +2820,15 @@
     },
     "AuxBusses": [
      {
-      "Id": "3958414088",
-      "Name": "Rev_StartingArea",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_StartingArea",
-      "GUID": "{4A07DD45-9B83-42D7-AFAC-9685B0647E61}",
+      "Id": "2408058993",
+      "Name": "Rev_General",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_General",
+      "GUID": "{AF1996CE-5C41-476C-9B69-DAF1F05690D1}",
       "Color": "2",
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "3164629247"
+         "Id": "48620415"
         }
        ]
       },
@@ -2804,7 +2836,7 @@
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -2817,22 +2849,41 @@
     "Type": "Bus",
     "GUID": "{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}",
     "Language": "SFX",
-    "Hash": "{1CFFEC7D-2A1D-5772-1469-D86443D6E3F5}",
+    "Hash": "{2FF44B6D-D9F7-E716-3842-BB4729F40920}",
     "ObjectPath": "Rev_Temple_Large",
     "ShortName": "Rev_Temple_Large",
     "Path": "Bus/40/Rev_Temple_Large.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "602546716",
+       "Name": "Room_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Large",
+       "GUID": "{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "AuxBusses": [
      {
       "Id": "4023024944",
       "Name": "Rev_Temple_Large",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Temple_Large",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_Temple_Large",
       "GUID": "{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}",
       "Color": "2",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "602546716"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -2845,7 +2896,7 @@
     "Type": "Bus",
     "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
     "Language": "SFX",
-    "Hash": "{C506DE3D-9CE6-A06D-A20D-D201F48FE74B}",
+    "Hash": "{00992DE1-71F8-8DE1-893E-7526F63B47C4}",
     "ObjectPath": "Reverbs_AUX",
     "ShortName": "Reverbs_AUX",
     "Path": "Bus/41/Reverbs_AUX.bnk",
@@ -2853,13 +2904,13 @@
      {
       "Id": "4148005607",
       "Name": "Reverbs_AUX",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
       "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
       "Color": "2"
      }
     ]
    }
   ],
-  "FileHash": "{157159E3-9AE6-EFC7-EADB-A89048B9931A}"
+  "FileHash": "{50B13FFF-04EF-4322-9816-FD9EF27B7218}"
  }
 }

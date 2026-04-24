@@ -7,7 +7,7 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Event Name="Play_World_Staff_Swell_Lp" ID="{42EF8B9A-CE27-42D2-8B51-4BAE7B38E29E}">
+				<Event Name="Play_WeaponPedestal_Swell" ID="{42EF8B9A-CE27-42D2-8B51-4BAE7B38E29E}">
 					<ChildrenList>
 						<Action Name="" ID="{DDC3ACA3-79D0-4CA0-8B9C-83BA2B4C51AC}" ShortID="293589126">
 							<ReferenceList>
@@ -57,6 +57,21 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Door_Opens" ID="{5293F5AA-5553-42D4-B003-D419FB0733FE}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_WeaponPedestal_Swell" ID="{0755F1DC-D161-4589-A3FC-B356988E4D2A}">
+					<ChildrenList>
+						<Action Name="" ID="{5E9939DB-9C42-477F-A75E-607967BF0B35}" ShortID="20858568">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Staff Swell" ID="{DCAA44ED-6A9D-47B2-B88C-1AB10CCE5588}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

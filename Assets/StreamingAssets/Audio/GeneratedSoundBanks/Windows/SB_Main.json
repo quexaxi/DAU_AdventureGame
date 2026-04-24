@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{4906DFBC-8D6F-FD15-7DAD-B5B72F5AB4DD}",
+    "Hash": "{38B2C3EA-2857-CD97-4EEE-F23330CD4B97}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -879,7 +879,7 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Water",
       "GUID": "{60E34E90-1772-4B41-B83B-22BD46F5858D}",
       "Color": "4",
-      "MaxAttenuation": "5",
+      "MaxAttenuation": "15",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1568,9 +1568,9 @@
       ]
      },
      {
-      "Id": "2718565570",
-      "Name": "Play_World_Staff_Swell_Lp",
-      "ObjectPath": "\\Events\\World\\Play_World_Staff_Swell_Lp",
+      "Id": "969098578",
+      "Name": "Play_WeaponPedestal_Swell",
+      "ObjectPath": "\\Events\\World\\Play_WeaponPedestal_Swell",
       "GUID": "{42EF8B9A-CE27-42D2-8B51-4BAE7B38E29E}",
       "Color": "11",
       "MaxAttenuation": "30.000002",
@@ -1580,6 +1580,17 @@
         "Id": "593107319"
        }
       ]
+     },
+     {
+      "Id": "2610202148",
+      "Name": "Stop_WeaponPedestal_Swell",
+      "ObjectPath": "\\Events\\World\\Stop_WeaponPedestal_Swell",
+      "GUID": "{0755F1DC-D161-4589-A3FC-B356988E4D2A}",
+      "Color": "11",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2024222415",
@@ -1719,10 +1730,10 @@
     ],
     "GameParameters": [
      {
-      "Id": "506610676",
-      "Name": "RTPC_Amb_WaterProximity",
-      "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_WaterProximity",
-      "GUID": "{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}"
+      "Id": "262290038",
+      "Name": "RTPC_Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_Distance",
+      "GUID": "{30AB1DC2-EE39-4297-A37E-E6A50049A7D6}"
      }
     ],
     "SwitchGroups": [
@@ -1813,6 +1824,6 @@
     ]
    }
   ],
-  "FileHash": "{60B08482-A3D7-123E-2134-A3285E218FDD}"
+  "FileHash": "{C3BE1AA1-2F9B-7111-248B-916D842AFE05}"
  }
 }

@@ -46,7 +46,8 @@ namespace AK
         static const AkUniqueID PLAY_ROCK_BREAK = 651543525U;
         static const AkUniqueID PLAY_STAFF_PICKUP = 877612971U;
         static const AkUniqueID PLAY_STAFF_SWING = 3707491759U;
-        static const AkUniqueID PLAY_WORLD_STAFF_SWELL_LP = 2718565570U;
+        static const AkUniqueID PLAY_WEAPONPEDESTAL_SWELL = 969098578U;
+        static const AkUniqueID STOP_WEAPONPEDESTAL_SWELL = 2610202148U;
         static const AkUniqueID UI_BACK = 2024222415U;
         static const AkUniqueID UI_CANCEL = 3083016892U;
         static const AkUniqueID UI_CLICK = 2249769530U;
@@ -130,8 +131,6 @@ namespace AK
                 static const AkUniqueID INGAME = 984691642U;
                 static const AkUniqueID INMENU = 3374585465U;
                 static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID PAUSE_OFF = 3967028551U;
-                static const AkUniqueID PAUSE_ON = 3537680115U;
             } // namespace STATE
         } // namespace GAMESTATUS
 
@@ -255,7 +254,6 @@ namespace AK
         static const AkUniqueID RTPC_DISTANCE = 262290038U;
         static const AkUniqueID RTPC_INMENU_LPF = 3408349920U;
         static const AkUniqueID RTPC_PLAYERSPEED = 2653406601U;
-        static const AkUniqueID RTPC_PUZZLEPROGRESS = 4085892778U;
         static const AkUniqueID SFX_VOLUME = 1564184899U;
     } // namespace GAME_PARAMETERS
 
@@ -281,8 +279,8 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID REV_GENERAL = 2408058993U;
         static const AkUniqueID REV_SMALL_ROOM = 1551944282U;
-        static const AkUniqueID REV_STARTINGAREA = 3958414088U;
         static const AkUniqueID REV_SWITCHESAREA = 1676981132U;
         static const AkUniqueID REV_TELEPORTERAREA = 273255480U;
         static const AkUniqueID REV_TEMPLE_LARGE = 4023024944U;

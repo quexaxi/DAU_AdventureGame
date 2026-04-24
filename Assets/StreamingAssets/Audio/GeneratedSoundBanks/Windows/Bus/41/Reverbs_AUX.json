@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
     "Language": "SFX",
-    "Hash": "{C506DE3D-9CE6-A06D-A20D-D201F48FE74B}",
+    "Hash": "{00992DE1-71F8-8DE1-893E-7526F63B47C4}",
     "ObjectPath": "Reverbs_AUX",
     "ShortName": "Reverbs_AUX",
     "Path": "Bus/41/Reverbs_AUX.bnk",
@@ -18,13 +18,13 @@
      {
       "Id": "4148005607",
       "Name": "Reverbs_AUX",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
       "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
       "Color": "2"
      }
     ]
    }
   ],
-  "FileHash": "{FF5A16D0-0FB7-0921-36AD-40623A5659FC}"
+  "FileHash": "{68E53188-B2E4-89FD-484E-84C318855D68}"
  }
 }

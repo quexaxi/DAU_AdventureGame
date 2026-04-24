@@ -3769,11 +3769,13 @@ MonoBehaviour:
   chomperHit03Event:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2107b2a2f07a36c4ba2d7aff4327d466,
+      type: 2}
   chomperHit04Event:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2107b2a2f07a36c4ba2d7aff4327d466,
+      type: 2}
 --- !u!1 &1737964142438470
 GameObject:
   m_ObjectHideFlags: 0

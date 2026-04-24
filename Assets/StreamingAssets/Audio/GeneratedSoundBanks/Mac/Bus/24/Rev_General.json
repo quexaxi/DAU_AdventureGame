@@ -1,0 +1,58 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2408058993",
+    "Type": "Bus",
+    "GUID": "{AF1996CE-5C41-476C-9B69-DAF1F05690D1}",
+    "Language": "SFX",
+    "Hash": "{7EBAC233-0E2F-6FC6-17A6-8EA614A5B13E}",
+    "ObjectPath": "Rev_General",
+    "ShortName": "Rev_General",
+    "Path": "Bus/24/Rev_General.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2408058993",
+      "Name": "Rev_General",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_General",
+      "GUID": "{AF1996CE-5C41-476C-9B69-DAF1F05690D1}",
+      "Color": "2",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "4148005607",
+        "Name": "Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
+        "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
+        "Color": "2"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{EB0B96E7-72C3-42F7-7E68-545BD95CB53D}"
+ }
+}

@@ -10,22 +10,41 @@
     "Type": "Bus",
     "GUID": "{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}",
     "Language": "SFX",
-    "Hash": "{1CFFEC7D-2A1D-5772-1469-D86443D6E3F5}",
+    "Hash": "{2FF44B6D-D9F7-E716-3842-BB4729F40920}",
     "ObjectPath": "Rev_Temple_Large",
     "ShortName": "Rev_Temple_Large",
     "Path": "Bus/40/Rev_Temple_Large.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "602546716",
+       "Name": "Room_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Large",
+       "GUID": "{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "AuxBusses": [
      {
       "Id": "4023024944",
       "Name": "Rev_Temple_Large",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_Temple_Large",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_Temple_Large",
       "GUID": "{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}",
       "Color": "2",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "602546716"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -34,6 +53,6 @@
     ]
    }
   ],
-  "FileHash": "{23AC6DEC-3601-7BF1-A663-D29698ECF935}"
+  "FileHash": "{7D905618-1F95-0C79-C780-9625C11B61CE}"
  }
 }

@@ -30,7 +30,7 @@
      {
       "Id": "1676981132",
       "Name": "Rev_SwitchesArea",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX\\Rev_SwitchesArea",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_SwitchesArea",
       "GUID": "{0A19BD35-A89B-4686-8214-AF0FE99A0B25}",
       "Color": "2",
       "PluginRefs": {
@@ -44,7 +44,7 @@
        {
         "Id": "4148005607",
         "Name": "Reverbs_AUX",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\Reverbs_AUX",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
        }
@@ -53,6 +53,6 @@
     ]
    }
   ],
-  "FileHash": "{2D6C904A-6B05-7495-8E2A-1F39FA1257C4}"
+  "FileHash": "{88A11CD8-FB75-F08E-FE70-62A03E7FCF5F}"
  }
 }

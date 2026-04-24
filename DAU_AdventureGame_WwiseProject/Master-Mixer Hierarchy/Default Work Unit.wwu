@@ -22,6 +22,31 @@
 							<ChildrenList>
 								<Bus Name="AMB_Beds" ID="{D714EE64-07CD-4826-917D-DF4D5FCAB905}"/>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameStatus" ID="{830E284B-0B92-4381-B91F-204F58465E63}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="InMenu" ID="{D4FA3304-E065-40D3-AB6F-41B25D58C068}"/>
+										<CustomState Name="" ID="{9EF3A5CC-730C-404F-A8D6-20563EB58064}" ShortID="1008100580">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="-60"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InGame" ID="{46EF84C3-6F12-4636-9C61-4FC5ACCD7A79}"/>
+										<CustomState Name="" ID="{2E2AE96C-1AFD-49F9-9F29-FCE3B43E8205}" ShortID="869023111"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{2D6159F1-9568-4C21-B7D3-5C283FDC24B4}"/>
+										<CustomState Name="" ID="{AE2984D4-2529-4D90-905C-3024B11C5C7C}" ShortID="597040793"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<Reference>
@@ -62,109 +87,6 @@
 								</ObjectList>
 							</ObjectLists>
 						</Bus>
-						<AuxBus Name="Reverbs_AUX" ID="{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="2"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<AuxBus Name="Rev_StartingArea" ID="{4A07DD45-9B83-42D7-AFAC-9685B0647E61}">
-									<PropertyList>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-									</PropertyList>
-									<ObjectLists>
-										<ObjectList Name="Effects">
-											<Reference>
-												<Local>
-													<EffectSlot Name="" ID="{DA558009-4503-48F2-8272-33D8141C9A1C}" ShortID="841984425">
-														<ReferenceList>
-															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-																<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-															</Reference>
-														</ReferenceList>
-													</EffectSlot>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</AuxBus>
-								<AuxBus Name="Rev_Temple_Large" ID="{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}">
-									<PropertyList>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-									</PropertyList>
-								</AuxBus>
-								<AuxBus Name="Rev_Temple_Small" ID="{1F870487-926E-4BD5-9B1F-3F0CE683C813}">
-									<PropertyList>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-									</PropertyList>
-								</AuxBus>
-								<AuxBus Name="Rev_Small_Room" ID="{A91B7386-9107-442F-8F2F-0600D3D7C9A3}">
-									<PropertyList>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-									</PropertyList>
-									<ObjectLists>
-										<ObjectList Name="Effects">
-											<Reference>
-												<Local>
-													<EffectSlot Name="" ID="{15B668EB-D138-42F1-A341-32E0AE898116}" ShortID="188768750">
-														<ReferenceList>
-															<Reference Name="Effect">
-																<Custom CreatedFrom="{577F1466-A63B-47F7-98BD-C56E433F8B5D}">
-																	<Effect Name="Room_Small (Custom)" ID="{CBC36301-73CA-4769-9328-D66612F07F9F}" ShortID="190406084" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-																		<PropertyList>
-																			<Property Name="DecayTime" Type="Real32" Value="4"/>
-																			<Property Name="Density" Type="Real32" Value="70"/>
-																			<Property Name="Diffusion" Type="Real32" Value="90"/>
-																			<Property Name="DryLevel" Type="Real32" Value="0"/>
-																			<Property Name="ERLevel" Type="Real32" Value="-6"/>
-																			<Property Name="ERPattern" Type="int32" Value="22"/>
-																			<Property Name="Filter1Freq" Type="Real32" Value="590"/>
-																			<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
-																			<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
-																			<Property Name="HFDamping" Type="Real32" Value="1.5"/>
-																			<Property Name="PreDelay" Type="Real32" Value="30"/>
-																			<Property Name="ReverbLevel" Type="Real32" Value="-3"/>
-																			<Property Name="RoomShape" Type="Real32" Value="55"/>
-																			<Property Name="RoomSize" Type="Real32" Value="15"/>
-																			<Property Name="StereoWidth" Type="Real32" Value="100"/>
-																		</PropertyList>
-																	</Effect>
-																</Custom>
-															</Reference>
-														</ReferenceList>
-													</EffectSlot>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</AuxBus>
-								<AuxBus Name="Rev_TeleporterArea" ID="{72354B84-DA22-4A28-A05E-6152082E4A18}">
-									<PropertyList>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-									</PropertyList>
-								</AuxBus>
-								<AuxBus Name="Rev_SwitchesArea" ID="{0A19BD35-A89B-4686-8214-AF0FE99A0B25}">
-									<PropertyList>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-									</PropertyList>
-									<ObjectLists>
-										<ObjectList Name="Effects">
-											<Reference>
-												<Local>
-													<EffectSlot Name="" ID="{A5A1B2E1-556D-4509-9DE8-94A9A798769A}" ShortID="427406459">
-														<ReferenceList>
-															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-																<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-															</Reference>
-														</ReferenceList>
-													</EffectSlot>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</AuxBus>
-							</ChildrenList>
-						</AuxBus>
 						<Bus Name="SFX_Bus" ID="{7B709ABD-1B63-490D-940F-9BDCF7C5B00E}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="11"/>
@@ -189,6 +111,145 @@
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
+								<AuxBus Name="Reverbs_AUX" ID="{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<AuxBus Name="Rev_Temple_Large" ID="{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{8C283423-E071-4481-BDAA-4C38CF2500E4}" ShortID="825930222">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Rev_Temple_Small" ID="{1F870487-926E-4BD5-9B1F-3F0CE683C813}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{CF22C939-2BFE-4D31-8357-F3083E5ACB68}" ShortID="86428703">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Rev_Small_Room" ID="{A91B7386-9107-442F-8F2F-0600D3D7C9A3}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{15B668EB-D138-42F1-A341-32E0AE898116}" ShortID="188768750">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom CreatedFrom="{577F1466-A63B-47F7-98BD-C56E433F8B5D}">
+																			<Effect Name="Room_Small (Custom)" ID="{CBC36301-73CA-4769-9328-D66612F07F9F}" ShortID="190406084" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																				<PropertyList>
+																					<Property Name="DecayTime" Type="Real32" Value="1.7"/>
+																					<Property Name="Density" Type="Real32" Value="55"/>
+																					<Property Name="Diffusion" Type="Real32" Value="70"/>
+																					<Property Name="DryLevel" Type="Real32" Value="0"/>
+																					<Property Name="ERLevel" Type="Real32" Value="-12"/>
+																					<Property Name="ERPattern" Type="int32" Value="22"/>
+																					<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+																					<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+																					<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+																					<Property Name="HFDamping" Type="Real32" Value="2.5"/>
+																					<Property Name="PreDelay" Type="Real32" Value="12"/>
+																					<Property Name="ReverbLevel" Type="Real32" Value="-15"/>
+																					<Property Name="RoomShape" Type="Real32" Value="55"/>
+																					<Property Name="RoomSize" Type="Real32" Value="10"/>
+																					<Property Name="StereoWidth" Type="Real32" Value="75"/>
+																				</PropertyList>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Rev_TeleporterArea" ID="{72354B84-DA22-4A28-A05E-6152082E4A18}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+										</AuxBus>
+										<AuxBus Name="Rev_SwitchesArea" ID="{0A19BD35-A89B-4686-8214-AF0FE99A0B25}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{A5A1B2E1-556D-4509-9DE8-94A9A798769A}" ShortID="427406459">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Rev_General" ID="{AF1996CE-5C41-476C-9B69-DAF1F05690D1}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{D9445171-8A99-46DA-BBBE-1DA46E5B837B}" ShortID="759811294">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+									</ChildrenList>
+								</AuxBus>
+								<Bus Name="VO_Bus" ID="{83644DF5-0837-49BA-94D7-DC7B29280A63}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="18"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -206,20 +267,8 @@
 										<CustomState Name="" ID="{B6CD32D1-B59C-4392-BFC8-4510F43770FF}" ShortID="307769305"/>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Pause_OFF" ID="{159EAF81-5D08-46E0-A7C6-144B962C675B}"/>
-										<CustomState Name="" ID="{220B8D99-BE39-4FB2-A4F0-6303025A2B49}" ShortID="692277486"/>
-									</CustomState>
-									<CustomState>
 										<StateRef Name="None" ID="{2D6159F1-9568-4C21-B7D3-5C283FDC24B4}"/>
 										<CustomState Name="" ID="{06FE3CB3-C742-4A4F-8B9A-604A8191D517}" ShortID="713326779"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Pause_ON" ID="{03327C38-7C69-4D68-88F0-16990075A2EA}"/>
-										<CustomState Name="" ID="{ED991A56-BFF7-4FC3-93F8-1C910835E4E0}" ShortID="839449907">
-											<PropertyList>
-												<Property Name="Lowpass" Type="int16" Value="75"/>
-											</PropertyList>
-										</CustomState>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
@@ -245,20 +294,8 @@
 										<CustomState Name="" ID="{01014B1C-F0D3-4D3B-91C7-3487E632EE6B}" ShortID="350240298"/>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Pause_OFF" ID="{159EAF81-5D08-46E0-A7C6-144B962C675B}"/>
-										<CustomState Name="" ID="{A5AE4F42-D905-4332-BE39-E1FDF2ED6594}" ShortID="775876221"/>
-									</CustomState>
-									<CustomState>
 										<StateRef Name="None" ID="{2D6159F1-9568-4C21-B7D3-5C283FDC24B4}"/>
 										<CustomState Name="" ID="{CDB1EE3A-1180-42E0-83A9-B01B060429A8}" ShortID="499965813"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Pause_ON" ID="{03327C38-7C69-4D68-88F0-16990075A2EA}"/>
-										<CustomState Name="" ID="{4720DF19-152B-4192-8922-CCA20C4A4F55}" ShortID="702628851">
-											<PropertyList>
-												<Property Name="Lowpass" Type="int16" Value="60"/>
-											</PropertyList>
-										</CustomState>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
@@ -308,20 +345,21 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</Bus>
-						<Bus Name="VO_Bus" ID="{83644DF5-0837-49BA-94D7-DC7B29280A63}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="18"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
 							<StateGroupInfo>
 								<StateGroupRef Name="PlayerState" ID="{BE14EA33-01B6-489B-8F88-EB82671BD8EB}"/>
 							</StateGroupInfo>
+							<StateGroupInfo>
+								<StateGroupRef Name="GameStatus" ID="{830E284B-0B92-4381-B91F-204F58465E63}"/>
+							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>
+							<CustomState>
+								<StateRef Name="InMenu" ID="{D4FA3304-E065-40D3-AB6F-41B25D58C068}"/>
+								<CustomState Name="" ID="{C74E56E2-E96B-4E77-88E7-F2C23E41254E}" ShortID="448598283"/>
+							</CustomState>
 							<CustomState>
 								<StateRef Name="Dead" ID="{FD228A97-BF21-4284-96D9-83D53979C81F}"/>
 								<CustomState Name="" ID="{C423F720-A4FD-4C55-8150-E9F0BD85976F}" ShortID="150743027">
@@ -333,6 +371,14 @@
 							<CustomState>
 								<StateRef Name="Alive" ID="{27E908DC-B8D4-42D0-9726-41496AA97AA7}"/>
 								<CustomState Name="" ID="{929C9AFE-A21D-417D-807C-3F018634278B}" ShortID="180376220"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="InGame" ID="{46EF84C3-6F12-4636-9C61-4FC5ACCD7A79}"/>
+								<CustomState Name="" ID="{EB20623E-F9F9-4032-85E7-66AA8BEDBFE5}" ShortID="561397762"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{2D6159F1-9568-4C21-B7D3-5C283FDC24B4}"/>
+								<CustomState Name="" ID="{4515B213-E2D8-41B1-8CD6-02D458442E81}" ShortID="64316923"/>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="None" ID="{BE746DC0-0F60-4C41-AFAF-00578C70D4D7}"/>
