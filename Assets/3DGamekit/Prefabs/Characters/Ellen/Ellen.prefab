@@ -6719,7 +6719,7 @@ MonoBehaviour:
     type: 3}
   targetLayers:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 8388608
   attackPoints:
   - radius: 0.3
     offset: {x: 0.15, y: 0, z: 0}

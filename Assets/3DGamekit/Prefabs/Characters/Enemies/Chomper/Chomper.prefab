@@ -2318,7 +2318,7 @@ GameObject:
   - component: {fileID: 4998087950247418}
   - component: {fileID: 114256129122157784}
   - component: {fileID: 65925898071369330}
-  m_Layer: 23
+  m_Layer: 28
   m_Name: BodyDamager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3590,7 +3590,7 @@ MonoBehaviour:
     maxHeightDifference: 1
     viewBlockerLayerMask:
       serializedVersion: 2
-      m_Bits: 0
+      m_Bits: 2147483648
   timeToStopPursuit: 3
   attackAudio: {fileID: 114190857395315650}
   frontStepAudio: {fileID: 114857521794206750}

@@ -16,12 +16,6 @@ public class SliderSoundController : MonoBehaviour
         m_Slider.onValueChanged.AddListener(SliderValueChange);
     }
 
-    //private void Update()
-    //{
-    //    print(m_Slider.value);
-    //}
-
-
     void SliderValueChange(float value)
     {
         //print(value);

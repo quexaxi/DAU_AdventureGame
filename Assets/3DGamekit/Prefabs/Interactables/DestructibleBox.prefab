@@ -11917,7 +11917,7 @@ GameObject:
   - component: {fileID: 114157936046045886}
   - component: {fileID: 64170521529424344}
   - component: {fileID: 54171921546205050}
-  m_Layer: 0
+  m_Layer: 23
   m_Name: DestructibleBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
