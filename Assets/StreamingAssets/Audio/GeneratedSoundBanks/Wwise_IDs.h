@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PLAY_AMB_GLOBAL = 2676390936U;
         static const AkUniqueID PLAY_AMB_SPACESHIP = 3213331111U;
         static const AkUniqueID PLAY_AMB_TEMPLE = 1234490318U;
+        static const AkUniqueID PLAY_AMB_TEMPLE_WIND = 620059043U;
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
         static const AkUniqueID PLAY_CHEST_OPENS = 901880995U;
         static const AkUniqueID PLAY_CHEST_SWELL_LP = 3163471222U;
@@ -27,6 +28,7 @@ namespace AK
         static const AkUniqueID PLAY_CHOMPER_SMELL = 3615463328U;
         static const AkUniqueID PLAY_CHOMPER_SPOTTED = 253791182U;
         static const AkUniqueID PLAY_DOOR_OPENS = 2743573824U;
+        static const AkUniqueID PLAY_EELDOG = 376636326U;
         static const AkUniqueID PLAY_GRENADIER_BALL_EXPLODES = 152431872U;
         static const AkUniqueID PLAY_GRENADIER_BALL_JUMP = 2635705170U;
         static const AkUniqueID PLAY_GRENADIER_DAMAGE = 3333154347U;
@@ -37,6 +39,7 @@ namespace AK
         static const AkUniqueID PLAY_GRENADIER_RECHARGE_DAMAGE = 1616663833U;
         static const AkUniqueID PLAY_GRENADIER_THROW = 4143606696U;
         static const AkUniqueID PLAY_MAIN_MUSIC_SWITCH = 1378767680U;
+        static const AkUniqueID PLAY_MUSIC_MAIN = 1614763749U;
         static const AkUniqueID PLAY_PLAYER_DAMAGE = 3638125099U;
         static const AkUniqueID PLAY_PLAYER_FALL_WATER = 3772621023U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
@@ -46,6 +49,7 @@ namespace AK
         static const AkUniqueID PLAY_ROCK_BREAK = 651543525U;
         static const AkUniqueID PLAY_STAFF_PICKUP = 877612971U;
         static const AkUniqueID PLAY_STAFF_SWING = 3707491759U;
+        static const AkUniqueID PLAY_TELEPORTER = 1186994630U;
         static const AkUniqueID PLAY_WEAPONPEDESTAL_SWELL = 969098578U;
         static const AkUniqueID STOP_WEAPONPEDESTAL_SWELL = 2610202148U;
         static const AkUniqueID UI_BACK = 2024222415U;
@@ -86,9 +90,9 @@ namespace AK
             } // namespace STATE
         } // namespace AREASTATE
 
-        namespace CRYSTAL_FIELD_01
+        namespace CRYSTAL_FIELD
         {
-            static const AkUniqueID GROUP = 136446854U;
+            static const AkUniqueID GROUP = 23840208U;
 
             namespace STATE
             {
@@ -96,31 +100,7 @@ namespace AK
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID NOT_ACTIVE = 885280877U;
             } // namespace STATE
-        } // namespace CRYSTAL_FIELD_01
-
-        namespace CRYSTAL_FIELD_02
-        {
-            static const AkUniqueID GROUP = 136446853U;
-
-            namespace STATE
-            {
-                static const AkUniqueID ACTIVE = 58138747U;
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID NOT_ACTIVE = 885280877U;
-            } // namespace STATE
-        } // namespace CRYSTAL_FIELD_02
-
-        namespace CRYSTAL_FIELD_03
-        {
-            static const AkUniqueID GROUP = 136446852U;
-
-            namespace STATE
-            {
-                static const AkUniqueID ACTIVE = 58138747U;
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID NOT_ACTIVE = 885280877U;
-            } // namespace STATE
-        } // namespace CRYSTAL_FIELD_03
+        } // namespace CRYSTAL_FIELD
 
         namespace GAMESTATUS
         {
@@ -141,9 +121,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID EXPLORATION = 2582085496U;
-                static const AkUniqueID FINALBOSS = 2147352708U;
                 static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID SILENCE = 3041563226U;
                 static const AkUniqueID TEMPLE = 2323193050U;
             } // namespace STATE
         } // namespace MUSICSTATE

@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{38B2C3EA-2857-CD97-4EEE-F23330CD4B97}",
+    "Hash": "{70F6E85A-6F43-76AF-FF7D-E7A487E67308}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -134,6 +134,22 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Jump_01.wav",
       "CachePath": "7C/{7C2C6792-2C21-EF82-7D24-AA72C2B70BDA}.wem"
+     },
+     {
+      "Id": "168740610",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Eeldog_Jump_01.wav",
+      "CachePath": "B4/{B48F93FF-4E7B-5F40-8000-5B2D54718831}.wem"
+     },
+     {
+      "Id": "175268632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Teleporter.wav",
+      "CachePath": "4E/{4EBEC0D3-04A7-3633-924E-43525634FAA2}.wem"
      },
      {
       "Id": "228008484",
@@ -256,6 +272,14 @@
       "CachePath": "44/{44D237C7-C00E-9291-F562-54867A09EECD}.wem"
      },
      {
+      "Id": "369221159",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Frog_03.wav",
+      "CachePath": "43/{43B01278-5B70-B429-047D-8E0C1C53105C}.wem"
+     },
+     {
       "Id": "372718200",
       "Language": "SFX",
       "Streaming": "false",
@@ -312,6 +336,14 @@
       "CachePath": "F7/{F7B7C9EB-E57C-9BF4-E694-B5D24FB9259D}.wem"
      },
      {
+      "Id": "430129272",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Frog_01.wav",
+      "CachePath": "00/{008C9462-6F73-0EC4-0638-97540B43B21D}.wem"
+     },
+     {
       "Id": "433526139",
       "Language": "SFX",
       "Streaming": "false",
@@ -326,6 +358,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Chomper_Breath_01.wav",
       "CachePath": "F6/{F6C76081-B2DB-A45A-1998-91E751646F90}.wem"
+     },
+     {
+      "Id": "451686296",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Eeldog_Jump_03.wav",
+      "CachePath": "87/{8763372A-AD33-895E-5D24-9F4D4BD57DD3}.wem"
      },
      {
       "Id": "457487603",
@@ -350,6 +390,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Damaged.wav",
       "CachePath": "47/{47763B88-61CF-EAEE-D5CE-FD27E749CFBD}.wem"
+     },
+     {
+      "Id": "487890085",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Frog_02.wav",
+      "CachePath": "BD/{BD31EC81-A9E7-72E6-94B7-EBD6E64D4428}.wem"
      },
      {
       "Id": "489339366",
@@ -680,6 +728,14 @@
       "CachePath": "BE/{BEF346DD-E176-C24C-090A-D386EA57BFE0}.wem"
      },
      {
+      "Id": "899803020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Frog_04.wav",
+      "CachePath": "AE/{AEE2ABD4-9C79-5648-9670-8B04DFA2FE5F}.wem"
+     },
+     {
       "Id": "931855267",
       "Language": "SFX",
       "Streaming": "false",
@@ -752,6 +808,22 @@
       "CachePath": "4A/{4A831675-C4AA-47AC-4E7F-5B6A12525423}.wem"
      },
      {
+      "Id": "980405893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Swamps.wav",
+      "CachePath": "4D/{4D176B13-5E1E-9E5C-E819-53EB2458CE6E}.wem"
+     },
+     {
+      "Id": "992886622",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Wind.wav",
+      "CachePath": "E8/{E825FE29-1E48-4A25-BDF4-563C919F9A8C}.wem"
+     },
+     {
       "Id": "995122761",
       "Language": "SFX",
       "Streaming": "false",
@@ -822,6 +894,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Footstep_Stone_03.wav",
       "CachePath": "07/{07B843DE-89C1-5EE5-7625-98D50210EC70}.wem"
+     },
+     {
+      "Id": "1073195844",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Eeldog_Jump_02.wav",
+      "CachePath": "D2/{D2497DEE-49DC-1CBE-BD84-43A36BC57CE0}.wem"
      }
     ],
     "Events": [
@@ -840,16 +920,31 @@
         "Id": "232616254"
        },
        {
+        "Id": "369221159"
+       },
+       {
         "Id": "372718200"
        },
        {
+        "Id": "430129272"
+       },
+       {
         "Id": "457487603"
+       },
+       {
+        "Id": "487890085"
        },
        {
         "Id": "599865767"
        },
        {
         "Id": "727113440"
+       },
+       {
+        "Id": "899803020"
+       },
+       {
+        "Id": "980405893"
        }
       ]
      },
@@ -859,7 +954,7 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Spaceship",
       "GUID": "{DCD288B3-C4F3-456E-8390-8F414D604867}",
       "Color": "4",
-      "MaxAttenuation": "5",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -878,6 +973,23 @@
       "MediaRefs": [
        {
         "Id": "303239524"
+       }
+      ]
+     },
+     {
+      "Id": "620059043",
+      "Name": "Play_Amb_Temple_Wind",
+      "ObjectPath": "\\Events\\Ambience\\Play_Amb_Temple_Wind",
+      "GUID": "{2C900E3D-DDB5-46D8-97D8-0EE1F3C3F2AE}",
+      "Color": "4",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "303239524"
+       },
+       {
+        "Id": "992886622"
        }
       ]
      },
@@ -1078,6 +1190,27 @@
       "MediaRefs": [
        {
         "Id": "945458740"
+       }
+      ]
+     },
+     {
+      "Id": "376636326",
+      "Name": "Play_Eeldog",
+      "ObjectPath": "\\Events\\World\\Play_Eeldog",
+      "GUID": "{2AC001AE-D6CF-4F76-ABAD-8CA6D2DFE06A}",
+      "Color": "11",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "1.0861832",
+      "MediaRefs": [
+       {
+        "Id": "168740610"
+       },
+       {
+        "Id": "451686296"
+       },
+       {
+        "Id": "1073195844"
        }
       ]
      },
@@ -1522,8 +1655,8 @@
       "GUID": "{E2C8888B-BE15-4EF8-9B64-AB32C266CB72}",
       "Color": "11",
       "DurationType": "OneShot",
-      "DurationMin": "0.71730196",
-      "DurationMax": "1.1386459",
+      "DurationMin": "0.56932294",
+      "DurationMax": "2.0288363",
       "MediaRefs": [
        {
         "Id": "496297057"
@@ -1572,6 +1705,20 @@
        },
        {
         "Id": "1041792918"
+       }
+      ]
+     },
+     {
+      "Id": "1186994630",
+      "Name": "Play_Teleporter",
+      "ObjectPath": "\\Events\\World\\Play_Teleporter",
+      "GUID": "{34740B8D-4768-4DCD-B4DD-39F77A04FBE7}",
+      "Color": "11",
+      "MaxAttenuation": "50",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "175268632"
        }
       ]
      },
@@ -1864,7 +2011,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{C32EBDB9-9472-BC96-E429-3D1AB100F5B2}",
+    "Hash": "{CC9E46E3-9CA3-499D-7D02-EFA5433027DB}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -2200,80 +2347,32 @@
     ],
     "StateGroups": [
      {
-      "Id": "136446852",
-      "Name": "Crystal_Field_03",
-      "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_03",
-      "GUID": "{A53876A2-0083-435C-B445-CEEBA89C4871}",
-      "States": [
-       {
-        "Id": "58138747",
-        "Name": "Active",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_03\\Active",
-        "GUID": "{41FDFD23-9078-49E4-B9DE-1F006DF8DF57}"
-       },
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_03\\None",
-        "GUID": "{6CD3E1AE-C77B-4BCD-84B4-8A5C9D61675A}"
-       },
-       {
-        "Id": "885280877",
-        "Name": "Not_Active",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_03\\Not_Active",
-        "GUID": "{B77A6A3C-9613-4BA4-98CC-EFFE43CACFB3}"
-       }
-      ]
-     },
-     {
-      "Id": "136446853",
-      "Name": "Crystal_Field_02",
-      "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_02",
-      "GUID": "{BDC0E2CE-69F2-4469-AD0D-E2FD8A038CC0}",
-      "States": [
-       {
-        "Id": "58138747",
-        "Name": "Active",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_02\\Active",
-        "GUID": "{DE4CBE78-14DD-4AB4-91EB-D52F354EECCC}"
-       },
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_02\\None",
-        "GUID": "{B86E4A5C-67C3-4115-B3AF-A45EAFF84FF4}"
-       },
-       {
-        "Id": "885280877",
-        "Name": "Not_Active",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_02\\Not_Active",
-        "GUID": "{A16E37A9-1859-4C58-89C3-1A75387CF969}"
-       }
-      ]
-     },
-     {
-      "Id": "136446854",
-      "Name": "Crystal_Field_01",
-      "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_01",
+      "Id": "23840208",
+      "Name": "Crystal_Field",
+      "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field",
       "GUID": "{2851B444-32D1-4AF1-A7A9-DEE79B7FD043}",
+      "Color": "10",
       "States": [
        {
         "Id": "58138747",
         "Name": "Active",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_01\\Active",
-        "GUID": "{328ABE04-139A-4497-A62E-BFEFA1DA414C}"
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field\\Active",
+        "GUID": "{328ABE04-139A-4497-A62E-BFEFA1DA414C}",
+        "Color": "10"
        },
        {
         "Id": "748895195",
         "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_01\\None",
-        "GUID": "{C2644401-0C76-4A92-BE09-0D53A3BAC794}"
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field\\None",
+        "GUID": "{C2644401-0C76-4A92-BE09-0D53A3BAC794}",
+        "Color": "10"
        },
        {
         "Id": "885280877",
         "Name": "Not_Active",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_01\\Not_Active",
-        "GUID": "{2247E9A8-C7A1-4989-A717-D18C38E04F7A}"
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field\\Not_Active",
+        "GUID": "{2247E9A8-C7A1-4989-A717-D18C38E04F7A}",
+        "Color": "10"
        }
       ]
      },
@@ -2282,30 +2381,35 @@
       "Name": "AMB_Region",
       "ObjectPath": "\\States\\Default Work Unit\\AMB_Region",
       "GUID": "{4AF18F8B-5A2A-4740-9E8A-6FF1C8E35516}",
+      "Color": "8",
       "States": [
        {
         "Id": "167300246",
         "Name": "TeleporterArea",
         "ObjectPath": "\\States\\Default Work Unit\\AMB_Region\\TeleporterArea",
-        "GUID": "{9B5912B0-8F19-4901-8044-B23309C3C555}"
+        "GUID": "{9B5912B0-8F19-4901-8044-B23309C3C555}",
+        "Color": "8"
        },
        {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\AMB_Region\\None",
-        "GUID": "{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"
+        "GUID": "{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}",
+        "Color": "8"
        },
        {
         "Id": "773685982",
         "Name": "SwitchesArea",
         "ObjectPath": "\\States\\Default Work Unit\\AMB_Region\\SwitchesArea",
-        "GUID": "{98C8DD4B-9996-4EEE-B97A-145176A60240}"
+        "GUID": "{98C8DD4B-9996-4EEE-B97A-145176A60240}",
+        "Color": "8"
        },
        {
         "Id": "1178768754",
         "Name": "StartingArea",
         "ObjectPath": "\\States\\Default Work Unit\\AMB_Region\\StartingArea",
-        "GUID": "{0DA34214-807F-41CF-857F-6D58D3547A8A}"
+        "GUID": "{0DA34214-807F-41CF-857F-6D58D3547A8A}",
+        "Color": "8"
        }
       ]
      },
@@ -2324,13 +2428,6 @@
         "Color": "12"
        },
        {
-        "Id": "2147352708",
-        "Name": "FinalBoss",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\FinalBoss",
-        "GUID": "{F1357C94-33B9-40C8-A519-FA2309A3E9BC}",
-        "Color": "12"
-       },
-       {
         "Id": "2323193050",
         "Name": "Temple",
         "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Temple",
@@ -2342,13 +2439,6 @@
         "Name": "Exploration",
         "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Exploration",
         "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
-        "Color": "12"
-       },
-       {
-        "Id": "3041563226",
-        "Name": "Silence",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Silence",
-        "GUID": "{B8DFB4D3-E289-47E4-91A3-44E60761A507}",
         "Color": "12"
        }
       ]
@@ -2595,10 +2685,30 @@
     "Type": "Event",
     "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
     "Language": "SFX",
-    "Hash": "{285090D7-217C-C25B-C2FE-5407FC561570}",
+    "Hash": "{6EF32BFC-58CE-0F4D-7C70-10293F169CA0}",
     "ObjectPath": "Play_Main_Music_Switch",
     "ShortName": "Play_Main_Music_Switch",
     "Path": "Event/13/Play_Main_Music_Switch.bnk",
+    "Media": [
+     {
+      "Id": "40400148",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_Temple.wav",
+      "Path": "Media/40/40400148.wem",
+      "CachePath": "41/{41BB8506-F69A-E5A7-6737-DAED860FF2A6}.wem"
+     },
+     {
+      "Id": "622130365",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_Exploration.wav",
+      "Path": "Media/62/622130365.wem",
+      "CachePath": "96/{96D716F7-DEEE-62D4-88F8-6C8F1F938763}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "1378767680",
@@ -2606,7 +2716,36 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_Music_Switch",
       "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
       "DurationType": "Infinite",
-      "SwitchContainers": []
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "2582085496",
+         "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
+         "Color": "12"
+        },
+        "MediaRefs": [
+         {
+          "Id": "622130365"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "2323193050",
+         "GUID": "{791E3DFA-B917-4A23-BA27-09DA2A45E68C}",
+         "Color": "12"
+        },
+        "MediaRefs": [
+         {
+          "Id": "40400148"
+         }
+        ]
+       }
+      ]
      }
     ],
     "StateGroups": [
@@ -2625,13 +2764,6 @@
         "Color": "12"
        },
        {
-        "Id": "2147352708",
-        "Name": "FinalBoss",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\FinalBoss",
-        "GUID": "{F1357C94-33B9-40C8-A519-FA2309A3E9BC}",
-        "Color": "12"
-       },
-       {
         "Id": "2323193050",
         "Name": "Temple",
         "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Temple",
@@ -2643,13 +2775,6 @@
         "Name": "Exploration",
         "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Exploration",
         "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
-        "Color": "12"
-       },
-       {
-        "Id": "3041563226",
-        "Name": "Silence",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Silence",
-        "GUID": "{B8DFB4D3-E289-47E4-91A3-44E60761A507}",
         "Color": "12"
        }
       ]
@@ -2745,6 +2870,56 @@
         "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX",
         "GUID": "{DF7CA0CF-F9ED-48F0-9814-3E0DA494E1B4}",
         "Color": "2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1614763749",
+    "Type": "Event",
+    "GUID": "{C172C8BE-A0DB-47A9-A368-CBE49CE23DCE}",
+    "Language": "SFX",
+    "Hash": "{930377AA-535A-EF33-7FC6-D19D4115965F}",
+    "ObjectPath": "Play_Music_Main",
+    "ShortName": "Play_Music_Main",
+    "Path": "Event/16/Play_Music_Main.bnk",
+    "Media": [
+     {
+      "Id": "40400148",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_Temple.wav",
+      "Path": "Media/40/40400148.wem",
+      "CachePath": "41/{41BB8506-F69A-E5A7-6737-DAED860FF2A6}.wem"
+     },
+     {
+      "Id": "622130365",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_Exploration.wav",
+      "Path": "Media/62/622130365.wem",
+      "CachePath": "96/{96D716F7-DEEE-62D4-88F8-6C8F1F938763}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1614763749",
+      "Name": "Play_Music_Main",
+      "ObjectPath": "\\Events\\Music\\Play_Music_Main",
+      "GUID": "{C172C8BE-A0DB-47A9-A368-CBE49CE23DCE}",
+      "Color": "18",
+      "DurationType": "OneShot",
+      "DurationMin": "40.2515",
+      "DurationMax": "40.2515",
+      "MediaRefs": [
+       {
+        "Id": "40400148"
+       },
+       {
+        "Id": "622130365"
        }
       ]
      }
@@ -2911,6 +3086,6 @@
     ]
    }
   ],
-  "FileHash": "{2D9944FA-236A-4AF8-2C4F-1CE1EC8F9AD2}"
+  "FileHash": "{7F509560-AA87-CF4E-34DD-4D504D9B5AE8}"
  }
 }

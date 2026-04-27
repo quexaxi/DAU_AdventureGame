@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{38B2C3EA-2857-CD97-4EEE-F23330CD4B97}",
+    "Hash": "{70F6E85A-6F43-76AF-FF7D-E7A487E67308}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -126,6 +126,22 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Jump_01.wav",
       "CachePath": "7C/{7C2C6792-2C21-EF82-7D24-AA72C2B70BDA}.wem"
+     },
+     {
+      "Id": "168740610",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Eeldog_Jump_01.wav",
+      "CachePath": "B4/{B48F93FF-4E7B-5F40-8000-5B2D54718831}.wem"
+     },
+     {
+      "Id": "175268632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Teleporter.wav",
+      "CachePath": "4E/{4EBEC0D3-04A7-3633-924E-43525634FAA2}.wem"
      },
      {
       "Id": "228008484",
@@ -248,6 +264,14 @@
       "CachePath": "44/{44D237C7-C00E-9291-F562-54867A09EECD}.wem"
      },
      {
+      "Id": "369221159",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Frog_03.wav",
+      "CachePath": "43/{43B01278-5B70-B429-047D-8E0C1C53105C}.wem"
+     },
+     {
       "Id": "372718200",
       "Language": "SFX",
       "Streaming": "false",
@@ -304,6 +328,14 @@
       "CachePath": "F7/{F7B7C9EB-E57C-9BF4-E694-B5D24FB9259D}.wem"
      },
      {
+      "Id": "430129272",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Frog_01.wav",
+      "CachePath": "00/{008C9462-6F73-0EC4-0638-97540B43B21D}.wem"
+     },
+     {
       "Id": "433526139",
       "Language": "SFX",
       "Streaming": "false",
@@ -318,6 +350,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Chomper_Breath_01.wav",
       "CachePath": "F6/{F6C76081-B2DB-A45A-1998-91E751646F90}.wem"
+     },
+     {
+      "Id": "451686296",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Eeldog_Jump_03.wav",
+      "CachePath": "87/{8763372A-AD33-895E-5D24-9F4D4BD57DD3}.wem"
      },
      {
       "Id": "457487603",
@@ -342,6 +382,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Damaged.wav",
       "CachePath": "47/{47763B88-61CF-EAEE-D5CE-FD27E749CFBD}.wem"
+     },
+     {
+      "Id": "487890085",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Frog_02.wav",
+      "CachePath": "BD/{BD31EC81-A9E7-72E6-94B7-EBD6E64D4428}.wem"
      },
      {
       "Id": "489339366",
@@ -672,6 +720,14 @@
       "CachePath": "BE/{BEF346DD-E176-C24C-090A-D386EA57BFE0}.wem"
      },
      {
+      "Id": "899803020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Frog_04.wav",
+      "CachePath": "AE/{AEE2ABD4-9C79-5648-9670-8B04DFA2FE5F}.wem"
+     },
+     {
       "Id": "931855267",
       "Language": "SFX",
       "Streaming": "false",
@@ -744,6 +800,22 @@
       "CachePath": "4A/{4A831675-C4AA-47AC-4E7F-5B6A12525423}.wem"
      },
      {
+      "Id": "980405893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Swamps.wav",
+      "CachePath": "4D/{4D176B13-5E1E-9E5C-E819-53EB2458CE6E}.wem"
+     },
+     {
+      "Id": "992886622",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Wind.wav",
+      "CachePath": "E8/{E825FE29-1E48-4A25-BDF4-563C919F9A8C}.wem"
+     },
+     {
       "Id": "995122761",
       "Language": "SFX",
       "Streaming": "false",
@@ -814,6 +886,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Footstep_Stone_03.wav",
       "CachePath": "07/{07B843DE-89C1-5EE5-7625-98D50210EC70}.wem"
+     },
+     {
+      "Id": "1073195844",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Eeldog_Jump_02.wav",
+      "CachePath": "D2/{D2497DEE-49DC-1CBE-BD84-43A36BC57CE0}.wem"
      }
     ],
     "Events": [
@@ -832,16 +912,31 @@
         "Id": "232616254"
        },
        {
+        "Id": "369221159"
+       },
+       {
         "Id": "372718200"
        },
        {
+        "Id": "430129272"
+       },
+       {
         "Id": "457487603"
+       },
+       {
+        "Id": "487890085"
        },
        {
         "Id": "599865767"
        },
        {
         "Id": "727113440"
+       },
+       {
+        "Id": "899803020"
+       },
+       {
+        "Id": "980405893"
        }
       ]
      },
@@ -851,7 +946,7 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Spaceship",
       "GUID": "{DCD288B3-C4F3-456E-8390-8F414D604867}",
       "Color": "4",
-      "MaxAttenuation": "5",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -870,6 +965,23 @@
       "MediaRefs": [
        {
         "Id": "303239524"
+       }
+      ]
+     },
+     {
+      "Id": "620059043",
+      "Name": "Play_Amb_Temple_Wind",
+      "ObjectPath": "\\Events\\Ambience\\Play_Amb_Temple_Wind",
+      "GUID": "{2C900E3D-DDB5-46D8-97D8-0EE1F3C3F2AE}",
+      "Color": "4",
+      "MaxAttenuation": "5",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "303239524"
+       },
+       {
+        "Id": "992886622"
        }
       ]
      },
@@ -1070,6 +1182,27 @@
       "MediaRefs": [
        {
         "Id": "945458740"
+       }
+      ]
+     },
+     {
+      "Id": "376636326",
+      "Name": "Play_Eeldog",
+      "ObjectPath": "\\Events\\World\\Play_Eeldog",
+      "GUID": "{2AC001AE-D6CF-4F76-ABAD-8CA6D2DFE06A}",
+      "Color": "11",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "1.0861832",
+      "MediaRefs": [
+       {
+        "Id": "168740610"
+       },
+       {
+        "Id": "451686296"
+       },
+       {
+        "Id": "1073195844"
        }
       ]
      },
@@ -1514,8 +1647,8 @@
       "GUID": "{E2C8888B-BE15-4EF8-9B64-AB32C266CB72}",
       "Color": "11",
       "DurationType": "OneShot",
-      "DurationMin": "0.71730196",
-      "DurationMax": "1.1386459",
+      "DurationMin": "0.56932294",
+      "DurationMax": "2.0288363",
       "MediaRefs": [
        {
         "Id": "496297057"
@@ -1564,6 +1697,20 @@
        },
        {
         "Id": "1041792918"
+       }
+      ]
+     },
+     {
+      "Id": "1186994630",
+      "Name": "Play_Teleporter",
+      "ObjectPath": "\\Events\\World\\Play_Teleporter",
+      "GUID": "{34740B8D-4768-4DCD-B4DD-39F77A04FBE7}",
+      "Color": "11",
+      "MaxAttenuation": "50",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "175268632"
        }
       ]
      },
@@ -1824,6 +1971,6 @@
     ]
    }
   ],
-  "FileHash": "{C3BE1AA1-2F9B-7111-248B-916D842AFE05}"
+  "FileHash": "{65E5F99A-C1BD-86D4-8BF6-FAB2F977193B}"
  }
 }

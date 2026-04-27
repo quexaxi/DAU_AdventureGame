@@ -10,10 +10,30 @@
     "Type": "Event",
     "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
     "Language": "SFX",
-    "Hash": "{285090D7-217C-C25B-C2FE-5407FC561570}",
+    "Hash": "{6EF32BFC-58CE-0F4D-7C70-10293F169CA0}",
     "ObjectPath": "Play_Main_Music_Switch",
     "ShortName": "Play_Main_Music_Switch",
     "Path": "Event/13/Play_Main_Music_Switch.bnk",
+    "Media": [
+     {
+      "Id": "40400148",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_Temple.wav",
+      "Path": "Media/40/40400148.wem",
+      "CachePath": "41/{41BB8506-F69A-E5A7-6737-DAED860FF2A6}.wem"
+     },
+     {
+      "Id": "622130365",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Music_Exploration.wav",
+      "Path": "Media/62/622130365.wem",
+      "CachePath": "96/{96D716F7-DEEE-62D4-88F8-6C8F1F938763}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "1378767680",
@@ -21,7 +41,36 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_Music_Switch",
       "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
       "DurationType": "Infinite",
-      "SwitchContainers": []
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "2582085496",
+         "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
+         "Color": "12"
+        },
+        "MediaRefs": [
+         {
+          "Id": "622130365"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "2323193050",
+         "GUID": "{791E3DFA-B917-4A23-BA27-09DA2A45E68C}",
+         "Color": "12"
+        },
+        "MediaRefs": [
+         {
+          "Id": "40400148"
+         }
+        ]
+       }
+      ]
      }
     ],
     "StateGroups": [
@@ -40,13 +89,6 @@
         "Color": "12"
        },
        {
-        "Id": "2147352708",
-        "Name": "FinalBoss",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\FinalBoss",
-        "GUID": "{F1357C94-33B9-40C8-A519-FA2309A3E9BC}",
-        "Color": "12"
-       },
-       {
         "Id": "2323193050",
         "Name": "Temple",
         "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Temple",
@@ -59,19 +101,12 @@
         "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Exploration",
         "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
         "Color": "12"
-       },
-       {
-        "Id": "3041563226",
-        "Name": "Silence",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Silence",
-        "GUID": "{B8DFB4D3-E289-47E4-91A3-44E60761A507}",
-        "Color": "12"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{4D749805-4670-9D14-4EE6-98EAFEA4F15E}"
+  "FileHash": "{5E01E3E2-30AC-6FE0-8977-DEEB2AB22FE5}"
  }
 }

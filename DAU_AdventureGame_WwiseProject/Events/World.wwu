@@ -77,6 +77,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Teleporter" ID="{34740B8D-4768-4DCD-B4DD-39F77A04FBE7}">
+					<ChildrenList>
+						<Action Name="" ID="{B1B2ECBE-C60E-45BA-8547-8A4AF049A4FC}" ShortID="851125002">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TeleporterArea" ID="{D99FDE83-F7D8-4B97-B356-B7CED8927125}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Eeldog" ID="{2AC001AE-D6CF-4F76-ABAD-8CA6D2DFE06A}">
+					<ChildrenList>
+						<Action Name="" ID="{45B6902D-AFED-4FBF-AEBB-3ADE8E6D82F0}" ShortID="883639766">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="60"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Eeldog_Jump" ID="{13F2AE11-4E8D-41A6-977E-D0661729B21F}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

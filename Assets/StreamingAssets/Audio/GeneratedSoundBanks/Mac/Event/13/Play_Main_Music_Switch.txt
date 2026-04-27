@@ -6,8 +6,6 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	748895195	None	MusicState			
-	2147352708	FinalBoss	MusicState			
 	2323193050	Temple	MusicState			
 	2582085496	Exploration	MusicState			
-	3041563226	Silence	MusicState			
 

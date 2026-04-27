@@ -370,6 +370,153 @@
 										<ActiveSource Name="SFX_Chest_Swell" ID="{2A3D848D-F38F-4790-8028-69EF90749737}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="TeleporterArea" ID="{D99FDE83-F7D8-4B97-B356-B7CED8927125}" ShortID="222888258">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.5"/>
+										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{6CBCAB3A-9344-48FF-991B-FA1232701F4B}" ShortID="921276699">
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{22E1CA47-69CD-4DD2-9A8C-776452C957C2}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>100</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="World_Bus" ID="{D2EE225A-FADF-43E8-BF84-CCB55DE740D9}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Teleporter" ID="{48C1B3BD-A89A-4436-8CC8-1DA2B21EE50D}">
+											<Language>SFX</Language>
+											<AudioFile>Teleporter.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="175268632"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="AMB_Region" ID="{4AF18F8B-5A2A-4740-9E8A-6FF1C8E35516}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="StartingArea" ID="{0DA34214-807F-41CF-857F-6D58D3547A8A}"/>
+												<CustomState Name="" ID="{BC22EFB8-4D9D-494C-B1C3-4169964C66FD}" ShortID="932137452">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="TeleporterArea" ID="{9B5912B0-8F19-4901-8044-B23309C3C555}"/>
+												<CustomState Name="" ID="{B579C034-7728-4C26-A17B-949E1BAF6BF8}" ShortID="989599660"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"/>
+												<CustomState Name="" ID="{C88C01C4-3B77-4545-93E6-EF4ACB84441F}" ShortID="611780516"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="SwitchesArea" ID="{98C8DD4B-9996-4EEE-B97A-145176A60240}"/>
+												<CustomState Name="" ID="{E834D633-B243-44B3-9D22-DE239F74DB52}" ShortID="1006099308">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-30"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Teleporter" ID="{48C1B3BD-A89A-4436-8CC8-1DA2B21EE50D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Mechanisms" ID="{2ACFBA08-52E3-494F-8DFA-70508FB5A566}" ShortID="1038621320">
@@ -435,6 +582,104 @@
 										<ActiveSource Name="SFX_Door_Opens" ID="{9A76E008-135C-4BFE-B4F3-358D012D09D4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Eeldog_Jump" ID="{13F2AE11-4E8D-41A6-977E-D0661729B21F}" ShortID="515272821">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FD5CF0F8-2318-4886-96B9-10F1BAAB2B45}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="400"/>
+															<Property Name="Min" Type="Real64" Value="-400"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Eeldog_Jump_01" ID="{D9995EDD-25C6-4F21-8968-50A690817E95}" ShortID="255069588">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Eeldog_Jump_01" ID="{F7F4DAF7-8EF3-4593-945D-0BF505CF5EA3}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Eeldog_Jump_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="168740610"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Eeldog_Jump_01" ID="{F7F4DAF7-8EF3-4593-945D-0BF505CF5EA3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Eeldog_Jump_02" ID="{68E3CD2D-01E3-474E-AF3C-BDDAB99E9E78}" ShortID="667145725">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Eeldog_Jump_02" ID="{9961A03B-6C6C-4DE5-AA38-4F02F0214E32}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Eeldog_Jump_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1073195844"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Eeldog_Jump_02" ID="{9961A03B-6C6C-4DE5-AA38-4F02F0214E32}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Eeldog_Jump_03" ID="{CE93D0C8-C334-4FCF-A99A-9DD44658695B}" ShortID="578127855">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Eeldog_Jump_03" ID="{F8E219F7-C3B2-4864-A2D0-FD2B0893F32B}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Eeldog_Jump_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="451686296"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Eeldog_Jump_03" ID="{F8E219F7-C3B2-4864-A2D0-FD2B0893F32B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Interactions" ID="{5212708E-2B7F-4B76-9988-46245A20182C}" ShortID="471917696">
@@ -476,7 +721,8 @@
 													<Modifier Name="" ID="{27881CAE-31EE-4F4A-A331-54289245F942}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="800"/>
+															<Property Name="Max" Type="Real64" Value="1200"/>
+															<Property Name="Min" Type="Real64" Value="-1000"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -490,7 +736,6 @@
 												<ModifierInfo>
 													<Modifier Name="" ID="{51418182-646B-4AE4-83F5-3B8A75080BB1}">
 														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Min" Type="Real64" Value="-5"/>
 														</PropertyList>
 													</Modifier>
@@ -564,9 +809,9 @@
 										<ActiveSource Name="SFX_Chest_Opens" ID="{07AAA557-9767-4FCB-B770-4C0ADB2A1C47}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Folder Name="Crystal 1" ID="{1D8CD0B4-568F-4EF3-B74C-91A3FDC7663A}" ShortID="873675732">
+								<Folder Name="Crystals" ID="{1D8CD0B4-568F-4EF3-B74C-91A3FDC7663A}" ShortID="873675732">
 									<ChildrenList>
-										<Sound Name="Crystal 1 Activated" ID="{B3774EC7-2431-49F0-9C16-A146E80D4342}" ShortID="704179329">
+										<Sound Name="Crystal Activated" ID="{B3774EC7-2431-49F0-9C16-A146E80D4342}" ShortID="704179329">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
@@ -575,10 +820,19 @@
 													<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Crystal_Collect" ID="{2526E722-36D7-4BBA-BE69-EBBBEFBCC783}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Crystal_Collect.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1038723832"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
 											<StateInfo>
 												<StateGroupList>
 													<StateGroupInfo>
-														<StateGroupRef Name="Crystal_Field_01" ID="{2851B444-32D1-4AF1-A7A9-DEE79B7FD043}"/>
+														<StateGroupRef Name="Crystal_Field" ID="{2851B444-32D1-4AF1-A7A9-DEE79B7FD043}"/>
 													</StateGroupInfo>
 												</StateGroupList>
 												<CustomStateList>
@@ -600,8 +854,14 @@
 													</CustomState>
 												</CustomStateList>
 											</StateInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Crystal_Collect" ID="{2526E722-36D7-4BBA-BE69-EBBBEFBCC783}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Crystal 1 Not Activated" ID="{B0CA3E25-DE2A-41B7-BCC8-271B9F9FB196}" ShortID="341347321">
+										<Sound Name="Crystal Not Activated" ID="{B0CA3E25-DE2A-41B7-BCC8-271B9F9FB196}" ShortID="341347321">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
@@ -610,10 +870,19 @@
 													<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Crystal_Swell" ID="{E146B11B-8528-42FA-9339-91B757F6B094}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Crystal_Swell.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="543721172"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
 											<StateInfo>
 												<StateGroupList>
 													<StateGroupInfo>
-														<StateGroupRef Name="Crystal_Field_01" ID="{2851B444-32D1-4AF1-A7A9-DEE79B7FD043}"/>
+														<StateGroupRef Name="Crystal_Field" ID="{2851B444-32D1-4AF1-A7A9-DEE79B7FD043}"/>
 													</StateGroupInfo>
 												</StateGroupList>
 												<CustomStateList>
@@ -635,172 +904,14 @@
 													</CustomState>
 												</CustomStateList>
 											</StateInfo>
-										</Sound>
-									</ChildrenList>
-								</Folder>
-								<Folder Name="Crystal 2" ID="{3D337BBE-E1ED-4F56-87E9-FFFCB40B5140}" ShortID="215159546">
-									<ChildrenList>
-										<Sound Name="Crystal 2 Activated" ID="{D9EA9B02-46D9-4FDE-92C1-3D0E13B0EDAC}" ShortID="229951274">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-												</Reference>
-											</ReferenceList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="Crystal_Field_02" ID="{BDC0E2CE-69F2-4469-AD0D-E2FD8A038CC0}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="None" ID="{B86E4A5C-67C3-4115-B3AF-A45EAFF84FF4}"/>
-														<CustomState Name="" ID="{946A65EA-B90F-4A28-8589-7A7C37D1750D}" ShortID="831074552"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Active" ID="{DE4CBE78-14DD-4AB4-91EB-D52F354EECCC}"/>
-														<CustomState Name="" ID="{BAAE4BA7-BD6F-48FA-A6F7-4D31D6E44D87}" ShortID="1027735736"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Not_Active" ID="{A16E37A9-1859-4C58-89C3-1A75387CF969}"/>
-														<CustomState Name="" ID="{887DB79D-1F05-41C7-96CD-815453B6D607}" ShortID="77551547">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
-										</Sound>
-										<Sound Name="Crystal 2 Not Activated" ID="{6D646298-2FE5-4FD8-99A1-DCAE036D126B}" ShortID="834359924">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-												</Reference>
-											</ReferenceList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="Crystal_Field_02" ID="{BDC0E2CE-69F2-4469-AD0D-E2FD8A038CC0}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="None" ID="{B86E4A5C-67C3-4115-B3AF-A45EAFF84FF4}"/>
-														<CustomState Name="" ID="{A525BEBC-64C5-487E-A771-0B1D7DB2363D}" ShortID="425785172"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Active" ID="{DE4CBE78-14DD-4AB4-91EB-D52F354EECCC}"/>
-														<CustomState Name="" ID="{260E26BF-77BB-4DFF-9DFA-9ADACE85EAC3}" ShortID="667425442">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Not_Active" ID="{A16E37A9-1859-4C58-89C3-1A75387CF969}"/>
-														<CustomState Name="" ID="{8F3DE9BF-1EFC-42FE-B116-88781B6DDA3F}" ShortID="591127895"/>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
-										</Sound>
-									</ChildrenList>
-								</Folder>
-								<Folder Name="Crystal 3" ID="{C005F8F5-D96C-4913-9537-0BFD2D00224C}" ShortID="379126430">
-									<ChildrenList>
-										<Sound Name="Crystal 3 Activated" ID="{CB9F504B-CD6A-4FA9-9E34-86279A9BA195}" ShortID="1072175512">
-											<PropertyList>
-												<Property Name="IsVoice" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-												</Reference>
-											</ReferenceList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="Crystal_Field_03" ID="{A53876A2-0083-435C-B445-CEEBA89C4871}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="Active" ID="{41FDFD23-9078-49E4-B9DE-1F006DF8DF57}"/>
-														<CustomState Name="" ID="{E8E27777-B177-43F0-A3F7-BDBC3A6181D5}" ShortID="526043551"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Not_Active" ID="{B77A6A3C-9613-4BA4-98CC-EFFE43CACFB3}"/>
-														<CustomState Name="" ID="{09289D15-7E0E-4D9B-9296-8FD5CDB3188D}" ShortID="183831004">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="None" ID="{6CD3E1AE-C77B-4BCD-84B4-8A5C9D61675A}"/>
-														<CustomState Name="" ID="{3179B787-0B64-43F2-BF0C-DBB84FD1B329}" ShortID="416659923"/>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
-										</Sound>
-										<Sound Name="Crystal 3 Not Activated" ID="{2BDA97DB-BBFB-4412-9306-FA41D18A0B51}" ShortID="1027706212">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-												</Reference>
-											</ReferenceList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="Crystal_Field_03" ID="{A53876A2-0083-435C-B445-CEEBA89C4871}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="Active" ID="{41FDFD23-9078-49E4-B9DE-1F006DF8DF57}"/>
-														<CustomState Name="" ID="{D8612D8A-3A69-4653-A95D-D49915F68102}" ShortID="587701769">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Not_Active" ID="{B77A6A3C-9613-4BA4-98CC-EFFE43CACFB3}"/>
-														<CustomState Name="" ID="{1E83FFFC-24B6-4119-8ED5-AD23F88FC328}" ShortID="301165952"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="None" ID="{6CD3E1AE-C77B-4BCD-84B4-8A5C9D61675A}"/>
-														<CustomState Name="" ID="{FDD0884A-F2D6-4A54-ABB6-C185654724A1}" ShortID="156254061"/>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Crystal_Swell" ID="{E146B11B-8528-42FA-9339-91B757F6B094}" Platform="Linked"/>
+											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
 						</ActorMixer>
-						<Sound Name="Eeldog_Jump" ID="{5CB694F1-6F0F-4EFD-A260-C547C26AF154}" ShortID="753859616">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-								</Reference>
-							</ReferenceList>
-						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

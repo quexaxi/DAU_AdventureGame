@@ -1,7 +1,5 @@
 State Group	ID	Name			Wwise Object Path	Notes
-	136446852	Crystal_Field_03			\Default Work Unit\Crystal_Field_03	
-	136446853	Crystal_Field_02			\Default Work Unit\Crystal_Field_02	
-	136446854	Crystal_Field_01			\Default Work Unit\Crystal_Field_01	
+	23840208	Crystal_Field			\Default Work Unit\Crystal_Field	
 	206648942	AMB_Region			\Default Work Unit\AMB_Region	
 	1021618141	MusicState			\Default Work Unit\MusicState	
 	1045871717	GameStatus			\Default Work Unit\GameStatus	
@@ -9,24 +7,16 @@ State Group	ID	Name			Wwise Object Path	Notes
 	3285234865	PlayerState			\Default Work Unit\PlayerState	
 
 State	ID	Name	State Group			Notes
-	58138747	Active	Crystal_Field_03			
-	748895195	None	Crystal_Field_03			
-	885280877	Not_Active	Crystal_Field_03			
-	58138747	Active	Crystal_Field_02			
-	748895195	None	Crystal_Field_02			
-	885280877	Not_Active	Crystal_Field_02			
-	58138747	Active	Crystal_Field_01			
-	748895195	None	Crystal_Field_01			
-	885280877	Not_Active	Crystal_Field_01			
+	58138747	Active	Crystal_Field			
+	748895195	None	Crystal_Field			
+	885280877	Not_Active	Crystal_Field			
 	167300246	TeleporterArea	AMB_Region			
 	748895195	None	AMB_Region			
 	773685982	SwitchesArea	AMB_Region			
 	1178768754	StartingArea	AMB_Region			
 	748895195	None	MusicState			
-	2147352708	FinalBoss	MusicState			
 	2323193050	Temple	MusicState			
 	2582085496	Exploration	MusicState			
-	3041563226	Silence	MusicState			
 	748895195	None	GameStatus			
 	984691642	InGame	GameStatus			
 	3374585465	InMenu	GameStatus			

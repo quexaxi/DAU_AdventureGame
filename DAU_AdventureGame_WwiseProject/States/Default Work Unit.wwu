@@ -13,6 +13,14 @@
 						<State Name="Alive" ID="{27E908DC-B8D4-42D0-9726-41496AA97AA7}"/>
 						<State Name="Dead" ID="{FD228A97-BF21-4284-96D9-83D53979C81F}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Alive" ID="{27E908DC-B8D4-42D0-9726-41496AA97AA7}"/>
+							<EndState Name="Dead" ID="{FD228A97-BF21-4284-96D9-83D53979C81F}"/>
+							<Time>0.5</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="GameStatus" ID="{830E284B-0B92-4381-B91F-204F58465E63}">
 					<PropertyList>
@@ -24,6 +32,14 @@
 						<State Name="InGame" ID="{46EF84C3-6F12-4636-9C61-4FC5ACCD7A79}"/>
 						<State Name="InMenu" ID="{D4FA3304-E065-40D3-AB6F-41B25D58C068}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="InGame" ID="{46EF84C3-6F12-4636-9C61-4FC5ACCD7A79}"/>
+							<EndState Name="InMenu" ID="{D4FA3304-E065-40D3-AB6F-41B25D58C068}"/>
+							<Time>0.2</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="AreaState" ID="{86D1661F-D151-441E-B989-812D5FCC9BC6}">
 					<PropertyList>
@@ -35,21 +51,40 @@
 						<State Name="Default" ID="{5AADF98D-76BE-4672-A66C-7A5E198B77BA}"/>
 						<State Name="Temple" ID="{D7970516-A72F-461F-A6D7-5191CE8C21E4}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Default" ID="{5AADF98D-76BE-4672-A66C-7A5E198B77BA}"/>
+							<EndState Name="Temple" ID="{D7970516-A72F-461F-A6D7-5191CE8C21E4}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="MusicState" ID="{F714286F-C4F3-4B41-BED2-DDC496A95F31}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="12"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{4025E397-C4C3-4587-A10E-3AB9AA03E94A}"/>
 						<State Name="Exploration" ID="{0180C728-A311-4821-8CEB-A032B9BF122B}"/>
 						<State Name="Temple" ID="{791E3DFA-B917-4A23-BA27-09DA2A45E68C}"/>
-						<State Name="FinalBoss" ID="{F1357C94-33B9-40C8-A519-FA2309A3E9BC}"/>
-						<State Name="Silence" ID="{B8DFB4D3-E289-47E4-91A3-44E60761A507}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Exploration" ID="{0180C728-A311-4821-8CEB-A032B9BF122B}"/>
+							<EndState Name="Temple" ID="{791E3DFA-B917-4A23-BA27-09DA2A45E68C}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="AMB_Region" ID="{4AF18F8B-5A2A-4740-9E8A-6FF1C8E35516}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="8"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"/>
 						<State Name="StartingArea" ID="{0DA34214-807F-41CF-857F-6D58D3547A8A}"/>
@@ -77,35 +112,25 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
-				<StateGroup Name="Crystal_Field_01" ID="{2851B444-32D1-4AF1-A7A9-DEE79B7FD043}">
+				<StateGroup Name="Crystal_Field" ID="{2851B444-32D1-4AF1-A7A9-DEE79B7FD043}">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{C2644401-0C76-4A92-BE09-0D53A3BAC794}"/>
 						<State Name="Active" ID="{328ABE04-139A-4497-A62E-BFEFA1DA414C}"/>
 						<State Name="Not_Active" ID="{2247E9A8-C7A1-4989-A717-D18C38E04F7A}"/>
 					</ChildrenList>
-				</StateGroup>
-				<StateGroup Name="Crystal_Field_02" ID="{BDC0E2CE-69F2-4469-AD0D-E2FD8A038CC0}">
-					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
-					</PropertyList>
-					<ChildrenList>
-						<State Name="None" ID="{B86E4A5C-67C3-4115-B3AF-A45EAFF84FF4}"/>
-						<State Name="Active" ID="{DE4CBE78-14DD-4AB4-91EB-D52F354EECCC}"/>
-						<State Name="Not_Active" ID="{A16E37A9-1859-4C58-89C3-1A75387CF969}"/>
-					</ChildrenList>
-				</StateGroup>
-				<StateGroup Name="Crystal_Field_03" ID="{A53876A2-0083-435C-B445-CEEBA89C4871}">
-					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
-					</PropertyList>
-					<ChildrenList>
-						<State Name="None" ID="{6CD3E1AE-C77B-4BCD-84B4-8A5C9D61675A}"/>
-						<State Name="Active" ID="{41FDFD23-9078-49E4-B9DE-1F006DF8DF57}"/>
-						<State Name="Not_Active" ID="{B77A6A3C-9613-4BA4-98CC-EFFE43CACFB3}"/>
-					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Not_Active" ID="{2247E9A8-C7A1-4989-A717-D18C38E04F7A}"/>
+							<EndState Name="Active" ID="{328ABE04-139A-4497-A62E-BFEFA1DA414C}"/>
+							<Time>0.3</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>

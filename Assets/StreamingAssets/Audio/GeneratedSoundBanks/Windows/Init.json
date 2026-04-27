@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{C32EBDB9-9472-BC96-E429-3D1AB100F5B2}",
+    "Hash": "{CC9E46E3-9CA3-499D-7D02-EFA5433027DB}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -346,80 +346,32 @@
     ],
     "StateGroups": [
      {
-      "Id": "136446852",
-      "Name": "Crystal_Field_03",
-      "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_03",
-      "GUID": "{A53876A2-0083-435C-B445-CEEBA89C4871}",
-      "States": [
-       {
-        "Id": "58138747",
-        "Name": "Active",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_03\\Active",
-        "GUID": "{41FDFD23-9078-49E4-B9DE-1F006DF8DF57}"
-       },
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_03\\None",
-        "GUID": "{6CD3E1AE-C77B-4BCD-84B4-8A5C9D61675A}"
-       },
-       {
-        "Id": "885280877",
-        "Name": "Not_Active",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_03\\Not_Active",
-        "GUID": "{B77A6A3C-9613-4BA4-98CC-EFFE43CACFB3}"
-       }
-      ]
-     },
-     {
-      "Id": "136446853",
-      "Name": "Crystal_Field_02",
-      "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_02",
-      "GUID": "{BDC0E2CE-69F2-4469-AD0D-E2FD8A038CC0}",
-      "States": [
-       {
-        "Id": "58138747",
-        "Name": "Active",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_02\\Active",
-        "GUID": "{DE4CBE78-14DD-4AB4-91EB-D52F354EECCC}"
-       },
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_02\\None",
-        "GUID": "{B86E4A5C-67C3-4115-B3AF-A45EAFF84FF4}"
-       },
-       {
-        "Id": "885280877",
-        "Name": "Not_Active",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_02\\Not_Active",
-        "GUID": "{A16E37A9-1859-4C58-89C3-1A75387CF969}"
-       }
-      ]
-     },
-     {
-      "Id": "136446854",
-      "Name": "Crystal_Field_01",
-      "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_01",
+      "Id": "23840208",
+      "Name": "Crystal_Field",
+      "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field",
       "GUID": "{2851B444-32D1-4AF1-A7A9-DEE79B7FD043}",
+      "Color": "10",
       "States": [
        {
         "Id": "58138747",
         "Name": "Active",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_01\\Active",
-        "GUID": "{328ABE04-139A-4497-A62E-BFEFA1DA414C}"
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field\\Active",
+        "GUID": "{328ABE04-139A-4497-A62E-BFEFA1DA414C}",
+        "Color": "10"
        },
        {
         "Id": "748895195",
         "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_01\\None",
-        "GUID": "{C2644401-0C76-4A92-BE09-0D53A3BAC794}"
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field\\None",
+        "GUID": "{C2644401-0C76-4A92-BE09-0D53A3BAC794}",
+        "Color": "10"
        },
        {
         "Id": "885280877",
         "Name": "Not_Active",
-        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field_01\\Not_Active",
-        "GUID": "{2247E9A8-C7A1-4989-A717-D18C38E04F7A}"
+        "ObjectPath": "\\States\\Default Work Unit\\Crystal_Field\\Not_Active",
+        "GUID": "{2247E9A8-C7A1-4989-A717-D18C38E04F7A}",
+        "Color": "10"
        }
       ]
      },
@@ -428,30 +380,35 @@
       "Name": "AMB_Region",
       "ObjectPath": "\\States\\Default Work Unit\\AMB_Region",
       "GUID": "{4AF18F8B-5A2A-4740-9E8A-6FF1C8E35516}",
+      "Color": "8",
       "States": [
        {
         "Id": "167300246",
         "Name": "TeleporterArea",
         "ObjectPath": "\\States\\Default Work Unit\\AMB_Region\\TeleporterArea",
-        "GUID": "{9B5912B0-8F19-4901-8044-B23309C3C555}"
+        "GUID": "{9B5912B0-8F19-4901-8044-B23309C3C555}",
+        "Color": "8"
        },
        {
         "Id": "748895195",
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\AMB_Region\\None",
-        "GUID": "{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"
+        "GUID": "{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}",
+        "Color": "8"
        },
        {
         "Id": "773685982",
         "Name": "SwitchesArea",
         "ObjectPath": "\\States\\Default Work Unit\\AMB_Region\\SwitchesArea",
-        "GUID": "{98C8DD4B-9996-4EEE-B97A-145176A60240}"
+        "GUID": "{98C8DD4B-9996-4EEE-B97A-145176A60240}",
+        "Color": "8"
        },
        {
         "Id": "1178768754",
         "Name": "StartingArea",
         "ObjectPath": "\\States\\Default Work Unit\\AMB_Region\\StartingArea",
-        "GUID": "{0DA34214-807F-41CF-857F-6D58D3547A8A}"
+        "GUID": "{0DA34214-807F-41CF-857F-6D58D3547A8A}",
+        "Color": "8"
        }
       ]
      },
@@ -470,13 +427,6 @@
         "Color": "12"
        },
        {
-        "Id": "2147352708",
-        "Name": "FinalBoss",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\FinalBoss",
-        "GUID": "{F1357C94-33B9-40C8-A519-FA2309A3E9BC}",
-        "Color": "12"
-       },
-       {
         "Id": "2323193050",
         "Name": "Temple",
         "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Temple",
@@ -488,13 +438,6 @@
         "Name": "Exploration",
         "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Exploration",
         "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
-        "Color": "12"
-       },
-       {
-        "Id": "3041563226",
-        "Name": "Silence",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Silence",
-        "GUID": "{B8DFB4D3-E289-47E4-91A3-44E60761A507}",
         "Color": "12"
        }
       ]
@@ -737,6 +680,6 @@
     ]
    }
   ],
-  "FileHash": "{07A873BF-565E-A151-AA50-BAB8C5E47BF1}"
+  "FileHash": "{3263A6AC-5442-A2E7-2F71-60C27E284F8E}"
  }
 }
