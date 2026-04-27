@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{70F6E85A-6F43-76AF-FF7D-E7A487E67308}",
+    "Hash": "{EB500A3B-7BEB-A09E-9335-F92C22FD7002}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -946,7 +946,7 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Spaceship",
       "GUID": "{DCD288B3-C4F3-456E-8390-8F414D604867}",
       "Color": "4",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "30",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -960,7 +960,7 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Temple",
       "GUID": "{478B4E24-EC1B-4504-A799-8ABDA113E6DE}",
       "Color": "4",
-      "MaxAttenuation": "5",
+      "MaxAttenuation": "40",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -974,7 +974,7 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Temple_Wind",
       "GUID": "{2C900E3D-DDB5-46D8-97D8-0EE1F3C3F2AE}",
       "Color": "4",
-      "MaxAttenuation": "5",
+      "MaxAttenuation": "40",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1015,9 +1015,9 @@
       ]
      },
      {
-      "Id": "3163471222",
-      "Name": "Play_Chest_Swell_Lp",
-      "ObjectPath": "\\Events\\World\\Play_Chest_Swell_Lp",
+      "Id": "3241301159",
+      "Name": "Play_Chest_Swell",
+      "ObjectPath": "\\Events\\World\\Play_Chest_Swell",
       "GUID": "{69A23D73-B1FA-4042-A345-B17205A00F94}",
       "Color": "11",
       "MaxAttenuation": "20",
@@ -1193,7 +1193,7 @@
       "Color": "11",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "1.0861832",
+      "DurationMax": "3.086183",
       "MediaRefs": [
        {
         "Id": "168740610"
@@ -1720,13 +1720,24 @@
       "ObjectPath": "\\Events\\World\\Play_WeaponPedestal_Swell",
       "GUID": "{42EF8B9A-CE27-42D2-8B51-4BAE7B38E29E}",
       "Color": "11",
-      "MaxAttenuation": "30.000002",
+      "MaxAttenuation": "15.000001",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "593107319"
        }
       ]
+     },
+     {
+      "Id": "3235850781",
+      "Name": "Stop_Chest_Swell",
+      "ObjectPath": "\\Events\\World\\Stop_Chest_Swell",
+      "GUID": "{582C6494-2374-429E-B1B8-23B86BD6E3A2}",
+      "Color": "11",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2610202148",
@@ -1971,6 +1982,6 @@
     ]
    }
   ],
-  "FileHash": "{65E5F99A-C1BD-86D4-8BF6-FAB2F977193B}"
+  "FileHash": "{F01126F3-FFBD-242A-CD6D-42A12C208935}"
  }
 }

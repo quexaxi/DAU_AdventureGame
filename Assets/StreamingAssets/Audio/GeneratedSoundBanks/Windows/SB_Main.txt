@@ -31,9 +31,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	2774129122	UI_Select			\UI\UI_Select	
 	3083016892	UI_Cancel			\UI\UI_Cancel	
 	3136529387	Play_Chomper_Grunt			\NPC\ChomperCombat\Play_Chomper_Grunt	
-	3163471222	Play_Chest_Swell_Lp			\World\Play_Chest_Swell_Lp	
 	3213331111	Play_Amb_Spaceship			\Ambience\Play_Amb_Spaceship	
 	3213519765	UI_ESC			\UI\UI_ESC	
+	3235850781	Stop_Chest_Swell			\World\Stop_Chest_Swell	
+	3241301159	Play_Chest_Swell			\World\Play_Chest_Swell	
 	3333154347	Play_Grenadier_Damage			\NPC\GrenadierCombat\Play_Grenadier_Damage	
 	3337034902	Play_Grenadier_Death			\NPC\GrenadierCombat\Play_Grenadier_Death	
 	3615463328	Play_Chomper_Smell			\NPC\ChomperCombat\Play_Chomper_Smell	
@@ -64,16 +65,12 @@ Switch	ID	Name	Switch Group			Notes
 
 State Group	ID	Name			Wwise Object Path	Notes
 	206648942	AMB_Region			\Default Work Unit\AMB_Region	
-	2064552269	AreaState			\Default Work Unit\AreaState	
 
 State	ID	Name	State Group			Notes
 	167300246	TeleporterArea	AMB_Region			
 	748895195	None	AMB_Region			
 	773685982	SwitchesArea	AMB_Region			
 	1178768754	StartingArea	AMB_Region			
-	748895195	None	AreaState			
-	782826392	Default	AreaState			
-	2323193050	Temple	AreaState			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	262290038	RTPC_Distance			\Default Work Unit\RTPC_Distance	

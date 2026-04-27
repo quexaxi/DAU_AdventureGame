@@ -265,7 +265,8 @@ MonoBehaviour:
   waterSplashEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 37333d4235d0fad4481cdaa23e0dca54,
+      type: 2}
 --- !u!114 &173180716802383064
 MonoBehaviour:
   m_ObjectHideFlags: 0

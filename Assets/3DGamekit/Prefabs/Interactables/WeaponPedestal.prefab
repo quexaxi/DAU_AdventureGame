@@ -237,7 +237,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1071817424171728}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 16592a474aee2455abf0b4722bc2d328, type: 3}
@@ -10582,6 +10582,11 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 481b1d52ff1970c4bb217636547b5ae1,
+      type: 2}
+  pickupStaffEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f661bc91e5ff5cb4399db0cd8651f397,
       type: 2}
 --- !u!1 &1836200310420960
 GameObject:

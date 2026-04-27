@@ -172,17 +172,17 @@
 																			<Effect Name="Room_Small (Custom)" ID="{CBC36301-73CA-4769-9328-D66612F07F9F}" ShortID="190406084" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 																				<PropertyList>
 																					<Property Name="DecayTime" Type="Real32" Value="1.7"/>
-																					<Property Name="Density" Type="Real32" Value="55"/>
+																					<Property Name="Density" Type="Real32" Value="45"/>
 																					<Property Name="Diffusion" Type="Real32" Value="70"/>
 																					<Property Name="DryLevel" Type="Real32" Value="0"/>
-																					<Property Name="ERLevel" Type="Real32" Value="-12"/>
+																					<Property Name="ERLevel" Type="Real32" Value="-10"/>
 																					<Property Name="ERPattern" Type="int32" Value="22"/>
 																					<Property Name="Filter1Freq" Type="Real32" Value="590"/>
 																					<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
 																					<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
 																					<Property Name="HFDamping" Type="Real32" Value="2.5"/>
 																					<Property Name="PreDelay" Type="Real32" Value="12"/>
-																					<Property Name="ReverbLevel" Type="Real32" Value="-15"/>
+																					<Property Name="ReverbLevel" Type="Real32" Value="-10"/>
 																					<Property Name="RoomShape" Type="Real32" Value="55"/>
 																					<Property Name="RoomSize" Type="Real32" Value="10"/>
 																					<Property Name="StereoWidth" Type="Real32" Value="75"/>
@@ -272,6 +272,45 @@
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{58CE4A49-0555-4754-8D35-92DC8D6A66B0}" ShortID="120834118">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SFX_Volume" ID="{5928E642-2CC0-4B77-A974-B83CCB9E6B0C}" WorkUnitID="{9509A0B2-2221-4530-98BB-38D927BFEA99}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{A94A36AD-6218-4381-ABF1-A127CDA07574}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</Bus>
 						<Bus Name="Music_Bus" ID="{0E86956F-7235-4FA4-A5C8-01B3F8C7D1D0}">
 							<PropertyList>

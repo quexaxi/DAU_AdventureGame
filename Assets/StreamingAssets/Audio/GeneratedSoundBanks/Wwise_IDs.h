@@ -19,7 +19,7 @@ namespace AK
         static const AkUniqueID PLAY_AMB_TEMPLE_WIND = 620059043U;
         static const AkUniqueID PLAY_AMB_WATER = 2049148582U;
         static const AkUniqueID PLAY_CHEST_OPENS = 901880995U;
-        static const AkUniqueID PLAY_CHEST_SWELL_LP = 3163471222U;
+        static const AkUniqueID PLAY_CHEST_SWELL = 3241301159U;
         static const AkUniqueID PLAY_CHOMPER_BREATH = 4104589597U;
         static const AkUniqueID PLAY_CHOMPER_DEATH = 2761388991U;
         static const AkUniqueID PLAY_CHOMPER_FOOTSTEPS = 3742480528U;
@@ -51,6 +51,7 @@ namespace AK
         static const AkUniqueID PLAY_STAFF_SWING = 3707491759U;
         static const AkUniqueID PLAY_TELEPORTER = 1186994630U;
         static const AkUniqueID PLAY_WEAPONPEDESTAL_SWELL = 969098578U;
+        static const AkUniqueID STOP_CHEST_SWELL = 3235850781U;
         static const AkUniqueID STOP_WEAPONPEDESTAL_SWELL = 2610202148U;
         static const AkUniqueID UI_BACK = 2024222415U;
         static const AkUniqueID UI_CANCEL = 3083016892U;

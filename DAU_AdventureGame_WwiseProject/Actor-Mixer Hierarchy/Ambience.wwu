@@ -15,7 +15,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Amb_Ext_Generic" ID="{3CED2E42-9A9A-4FDA-B4BB-7D9FD41EA1C4}" WorkUnitID="{3527C007-9CD2-4C70-B30F-0E55AD7BC424}"/>
+							<ObjectRef Name="Amb_World_Generic" ID="{906BFCB9-A370-4BDA-943E-46161D0019A7}" WorkUnitID="{3527C007-9CD2-4C70-B30F-0E55AD7BC424}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
@@ -96,7 +96,90 @@
 								</Sound>
 							</ChildrenList>
 							<PositioningInfo>
-								<Position Name="" ID="{B6C65F66-347F-49A5-A23E-420A903A2E5C}"/>
+								<Position Name="" ID="{B6C65F66-347F-49A5-A23E-420A903A2E5C}">
+									<ChildrenList>
+										<Path2D Name="Swamp_Animals_Path" ID="{2BBA1024-0113-414B-8328-6D3DFFFF1773}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Swamp_Animals_Path_01" ID="{CB59B5AE-B880-496C-9100-070776D4DF7A}">
+											<PointList>
+												<Point>
+													<XPos>66.66667</XPos>
+													<YPos>-0.08757</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Swamp_Animals_Path_02" ID="{A85B5825-235F-4E35-9352-CD1E4598B2AA}">
+											<PointList>
+												<Point>
+													<XPos>0.35088</XPos>
+													<YPos>-54.72855</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Swamp_Animals_Path_03" ID="{3E708C46-D435-4FC9-87B8-E9F84A60A737}">
+											<PointList>
+												<Point>
+													<XPos>-40</XPos>
+													<YPos>-0.08757</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Swamp_Animals_Path_04" ID="{301B2AC2-3753-4547-92FE-5B335F6B5FBD}">
+											<PointList>
+												<Point>
+													<XPos>56.49123</XPos>
+													<YPos>45.09632</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Swamp_Animals_Path_05" ID="{5A0C2815-24BD-458C-BBD1-3AC050FF9AD8}">
+											<PointList>
+												<Point>
+													<XPos>59.29825</XPos>
+													<YPos>-57.18039</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Swamp_Animals_Path_06" ID="{1C619D66-34AE-4853-9971-B50637155631}">
+											<PointList>
+												<Point>
+													<XPos>-43.15789</XPos>
+													<YPos>-44.57093</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Swamp_Animals_Path_07" ID="{C3DFA4D7-A2EB-42CC-B61E-1D62DE495011}">
+											<PointList>
+												<Point>
+													<XPos>-48.77193</XPos>
+													<YPos>45.44658</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
 							</PositioningInfo>
 							<StateInfo>
 								<StateGroupList>
@@ -156,7 +239,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-35</Value>
+										<Value>-25</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -274,26 +357,120 @@
 										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
 									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Frogs_Path" ID="{3394A7B1-DF2F-4100-9B96-DC9DCF645BB3}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>50</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Frogs_Path_01" ID="{5BDCBBB7-EB7B-4FB0-8792-1A12C322B3E2}">
+											<PointList>
+												<Point>
+													<XPos>52.63158</XPos>
+													<YPos>1.31349</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Frogs_Path_02" ID="{2555E724-4AF3-49C2-98B6-6C6F42DAF212}">
+											<PointList>
+												<Point>
+													<XPos>-0.70175</XPos>
+													<YPos>-51.57618</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Frogs_Path_03" ID="{DFBD85B3-CA6C-430A-894D-563763255F05}">
+											<PointList>
+												<Point>
+													<XPos>-56.84211</XPos>
+													<YPos>0.2627</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Frogs_Path_04" ID="{36463EBC-EF76-4BBF-857F-B96DBA9E33E5}">
+											<PointList>
+												<Point>
+													<XPos>34.03509</XPos>
+													<YPos>21.97898</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Frogs_Path_05" ID="{C90BAD90-E720-4943-BA7E-7B6C65E5AA97}">
+											<PointList>
+												<Point>
+													<XPos>-35.08772</XPos>
+													<YPos>29.68476</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Frogs_Path_06" ID="{6F04A765-2F4C-4C93-B761-1A45E2492F69}">
+											<PointList>
+												<Point>
+													<XPos>49.82456</XPos>
+													<YPos>-40.36778</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Frogs_Path_07" ID="{4A102A15-A4AE-4C55-BE20-2F79E21D1376}">
+											<PointList>
+												<Point>
+													<XPos>-47.36842</XPos>
+													<YPos>-50.17513</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
 								</Position>
 							</PositioningInfo>
 							<StateInfo>
 								<StateGroupList>
 									<StateGroupInfo>
-										<StateGroupRef Name="AreaState" ID="{86D1661F-D151-441E-B989-812D5FCC9BC6}"/>
+										<StateGroupRef Name="AMB_Region" ID="{4AF18F8B-5A2A-4740-9E8A-6FF1C8E35516}"/>
 									</StateGroupInfo>
 								</StateGroupList>
 								<CustomStateList>
 									<CustomState>
-										<StateRef Name="Temple" ID="{D7970516-A72F-461F-A6D7-5191CE8C21E4}"/>
-										<CustomState Name="" ID="{F12A40C4-32D2-4F28-875B-DBBFC31D968D}" ShortID="328559128"/>
+										<StateRef Name="StartingArea" ID="{0DA34214-807F-41CF-857F-6D58D3547A8A}"/>
+										<CustomState Name="" ID="{A54792D4-D295-49BF-A863-87944DB63DA9}" ShortID="796401753"/>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Default" ID="{5AADF98D-76BE-4672-A66C-7A5E198B77BA}"/>
-										<CustomState Name="" ID="{3487E615-C3D7-4DFC-B30D-E4A90AA10DC4}" ShortID="544907097"/>
+										<StateRef Name="TeleporterArea" ID="{9B5912B0-8F19-4901-8044-B23309C3C555}"/>
+										<CustomState Name="" ID="{19B2EA79-26A9-4FC6-8E07-A95EC8E248B7}" ShortID="547683456">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="None" ID="{0549C7AB-CD66-4753-A7BB-9C79EF6BFDA0}"/>
-										<CustomState Name="" ID="{69E7DF0C-348F-43F5-BC61-E2CA202DB7B4}" ShortID="786895951"/>
+										<StateRef Name="None" ID="{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"/>
+										<CustomState Name="" ID="{C1F8BA7E-A061-4952-9953-570101FDF527}" ShortID="104053215"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="SwitchesArea" ID="{98C8DD4B-9996-4EEE-B97A-145176A60240}"/>
+										<CustomState Name="" ID="{BF434863-62F0-4AD1-BCB4-A7FD8A830A7D}" ShortID="763831137">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-10"/>
+											</PropertyList>
+										</CustomState>
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
@@ -302,7 +479,6 @@
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="2"/>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 								<Property Name="InitialDelay" Type="Real64">
 									<ModifierList>
@@ -1121,7 +1297,9 @@
 								</RandomSequenceContainer>
 								<BlendContainer Name="AMB_Water_Layer" ID="{82199253-1E15-42F4-BD8C-9745C5A430B8}" ShortID="430641753">
 									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
 										<Property Name="OverrideConversion" Type="bool" Value="True"/>
@@ -1269,6 +1447,8 @@
 											</ValueList>
 										</Property>
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-15</Value>
@@ -1301,107 +1481,14 @@
 						<ActorMixer Name="Spaceship" ID="{F0F3A79E-E0F0-4DE1-9A88-03B6A59F15F7}" ShortID="726011106">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{4BEF74EB-2866-4EC0-B22D-3FEB7383C178}" ShortID="1001537094">
-											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="60"/>
-											</PropertyList>
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{D0A66D10-BA70-45DB-85BF-0A1DCCBFFC21}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																	<SegmentShape>Log1</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>20</XPos>
-																	<YPos>-6</YPos>
-																	<Flags>0</Flags>
-																	<SegmentShape>Log1</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>50</XPos>
-																	<YPos>-24</YPos>
-																	<Flags>0</Flags>
-																	<SegmentShape>Log1</SegmentShape>
-																</Point>
-																<Point>
-																	<XPos>60</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-												<ObstructionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</ObstructionVolumeUsage>
-												<ObstructionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</ObstructionLPFUsage>
-												<ObstructionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</ObstructionHPFUsage>
-												<OcclusionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</OcclusionVolumeUsage>
-												<OcclusionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</OcclusionLPFUsage>
-												<OcclusionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</OcclusionHPFUsage>
-												<DiffractionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</DiffractionVolumeUsage>
-												<DiffractionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</DiffractionLPFUsage>
-												<DiffractionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</DiffractionHPFUsage>
-												<TransmissionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</TransmissionVolumeUsage>
-												<TransmissionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</TransmissionLPFUsage>
-												<TransmissionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</TransmissionHPFUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
+									<ObjectRef Name="AMB_Emit_Small" ID="{75AC7CB6-FFB9-465A-983E-BB4A4BC118E4}" WorkUnitID="{3527C007-9CD2-4C70-B30F-0E55AD7BC424}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
@@ -1414,100 +1501,18 @@
 								<Sound Name="AMB_Spaceship" ID="{174E691F-7D6A-4DF6-B874-4C5369BEC0E7}" ShortID="162917816">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
-										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-15</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
-										<Reference Name="Attenuation">
-											<Custom>
-												<Attenuation Name="Attenuation (Custom)" ID="{4D765BC3-9E7B-4360-AD07-B2B241F8DDC1}" ShortID="481639513">
-													<CurveUsageInfoList>
-														<VolumeDryUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-																<Curve Name="VolumeDry" ID="{219A500B-6FCB-4C69-BE37-2D0F0B92B0BA}">
-																	<PropertyList>
-																		<Property Name="Flags" Type="int32" Value="3"/>
-																	</PropertyList>
-																	<PointList>
-																		<Point>
-																			<XPos>0</XPos>
-																			<YPos>0</YPos>
-																			<Flags>5</Flags>
-																		</Point>
-																		<Point>
-																			<XPos>100</XPos>
-																			<YPos>-200</YPos>
-																			<Flags>37</Flags>
-																		</Point>
-																	</PointList>
-																</Curve>
-															</CurveUsageInfo>
-														</VolumeDryUsage>
-														<VolumeWetGameUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-														</VolumeWetGameUsage>
-														<VolumeWetUserUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-														</VolumeWetUserUsage>
-														<LowPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</LowPassFilterUsage>
-														<HighPassFilterUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</HighPassFilterUsage>
-														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</SpreadUsage>
-														<FocusUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-														</FocusUsage>
-														<ObstructionVolumeUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</ObstructionVolumeUsage>
-														<ObstructionLPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</ObstructionLPFUsage>
-														<ObstructionHPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</ObstructionHPFUsage>
-														<OcclusionVolumeUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</OcclusionVolumeUsage>
-														<OcclusionLPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</OcclusionLPFUsage>
-														<OcclusionHPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</OcclusionHPFUsage>
-														<DiffractionVolumeUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</DiffractionVolumeUsage>
-														<DiffractionLPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</DiffractionLPFUsage>
-														<DiffractionHPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</DiffractionHPFUsage>
-														<TransmissionVolumeUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</TransmissionVolumeUsage>
-														<TransmissionLPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</TransmissionLPFUsage>
-														<TransmissionHPFUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-														</TransmissionHPFUsage>
-													</CurveUsageInfoList>
-												</Attenuation>
-											</Custom>
-										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
 										</Reference>

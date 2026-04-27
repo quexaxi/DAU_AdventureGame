@@ -4,6 +4,7 @@ public class WeaponPedestalSoundController : MonoBehaviour
 {
     public AK.Wwise.Event playSwellEvent;
     public AK.Wwise.Event stopSwellEvent;
+    public AK.Wwise.Event pickupStaffEvent;
 
     private bool hasStopped = false;
 
@@ -19,6 +20,11 @@ public class WeaponPedestalSoundController : MonoBehaviour
 
         hasStopped = true;
 
+      
+        if (pickupStaffEvent != null)
+            pickupStaffEvent.Post(gameObject);
+
+      
         if (stopSwellEvent != null)
             stopSwellEvent.Post(gameObject);
     }
