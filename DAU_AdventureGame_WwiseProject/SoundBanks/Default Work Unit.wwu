@@ -10,6 +10,7 @@
 						<ObjectRef Name="UI" ID="{9B91F9E8-15A1-4939-B8D8-92AF6F995375}" WorkUnitID="{9B91F9E8-15A1-4939-B8D8-92AF6F995375}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player" ID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}" WorkUnitID="{DFCC8A7D-84F3-4BD5-BD88-7C609369DC6D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="World" ID="{4BEFC0C3-A18E-4D12-931B-AEA8E2D4584D}" WorkUnitID="{4BEFC0C3-A18E-4D12-931B-AEA8E2D4584D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{40263977-C3F6-4EDE-BA36-80B493E671C6}" WorkUnitID="{40263977-C3F6-4EDE-BA36-80B493E671C6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

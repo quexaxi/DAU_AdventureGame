@@ -10,7 +10,6 @@
 				<ActorMixer Name="AMB_GLOBAL" ID="{9F3126F9-2716-4A04-A6BC-9C81EFD4BEFD}" ShortID="877629069">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
@@ -207,266 +206,6 @@
 									<CustomState>
 										<StateRef Name="SwitchesArea" ID="{98C8DD4B-9996-4EEE-B97A-145176A60240}"/>
 										<CustomState Name="" ID="{E69DE6B3-2988-4812-A3C2-9D646A826A77}" ShortID="139128270">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-10"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Frogs" ID="{939A37CB-201C-4174-AB42-474CCE15185C}" ShortID="118006227">
-							<PropertyList>
-								<Property Name="3DPosition" Type="int16" Value="2"/>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
-								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{AC29F171-A814-4E18-800A-B13ED43B75CB}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Min" Type="Real64" Value="-80"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-25</Value>
-									</ValueList>
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{C05D0CB2-F591-4897-B597-A6ECC7F15727}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Min" Type="Real64" Value="-1.5"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="SFX_Frog_01" ID="{D6AD9F5B-B751-4C7B-B8B4-3F02C8BF1CDE}" ShortID="117942584">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Frog_01" ID="{647FCB54-9DEF-4239-9962-FB64D8524E56}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_Frog_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="430129272"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Frog_01" ID="{647FCB54-9DEF-4239-9962-FB64D8524E56}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_Frog_02" ID="{CE7AFE51-8E1E-4080-807A-0B79C5F7858F}" ShortID="142074724">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Frog_02" ID="{441F131F-6347-4C9B-A20F-6D4262224D16}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_Frog_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="487890085"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Frog_02" ID="{441F131F-6347-4C9B-A20F-6D4262224D16}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_Frog_03" ID="{0A1F64B7-14AF-4297-8327-4912BD18774F}" ShortID="74698730">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Frog_03" ID="{C3147CFD-99CC-4FA1-8918-349379337473}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_Frog_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="369221159"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Frog_03" ID="{C3147CFD-99CC-4FA1-8918-349379337473}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="SFX_Frog_04" ID="{F6DE5714-0936-48CB-A73D-D5CCECD46DEB}" ShortID="12417692">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Frog_04" ID="{447A25EB-5B3E-4CBA-8ED4-B3CD8377AA8C}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_Frog_04.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="899803020"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Frog_04" ID="{447A25EB-5B3E-4CBA-8ED4-B3CD8377AA8C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<PositioningInfo>
-								<Position Name="" ID="{35C88887-7E48-47BC-A4D9-A66EC0D76B6D}">
-									<PropertyList>
-										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
-									</PropertyList>
-									<ChildrenList>
-										<Path2D Name="Frogs_Path" ID="{3394A7B1-DF2F-4100-9B96-DC9DCF645BB3}">
-											<PointList>
-												<Point>
-													<XPos>0</XPos>
-													<YPos>50</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-										<Path2D Name="Frogs_Path_01" ID="{5BDCBBB7-EB7B-4FB0-8792-1A12C322B3E2}">
-											<PointList>
-												<Point>
-													<XPos>52.63158</XPos>
-													<YPos>1.31349</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-										<Path2D Name="Frogs_Path_02" ID="{2555E724-4AF3-49C2-98B6-6C6F42DAF212}">
-											<PointList>
-												<Point>
-													<XPos>-0.70175</XPos>
-													<YPos>-51.57618</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-										<Path2D Name="Frogs_Path_03" ID="{DFBD85B3-CA6C-430A-894D-563763255F05}">
-											<PointList>
-												<Point>
-													<XPos>-56.84211</XPos>
-													<YPos>0.2627</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-										<Path2D Name="Frogs_Path_04" ID="{36463EBC-EF76-4BBF-857F-B96DBA9E33E5}">
-											<PointList>
-												<Point>
-													<XPos>34.03509</XPos>
-													<YPos>21.97898</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-										<Path2D Name="Frogs_Path_05" ID="{C90BAD90-E720-4943-BA7E-7B6C65E5AA97}">
-											<PointList>
-												<Point>
-													<XPos>-35.08772</XPos>
-													<YPos>29.68476</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-										<Path2D Name="Frogs_Path_06" ID="{6F04A765-2F4C-4C93-B761-1A45E2492F69}">
-											<PointList>
-												<Point>
-													<XPos>49.82456</XPos>
-													<YPos>-40.36778</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-										<Path2D Name="Frogs_Path_07" ID="{4A102A15-A4AE-4C55-BE20-2F79E21D1376}">
-											<PointList>
-												<Point>
-													<XPos>-47.36842</XPos>
-													<YPos>-50.17513</YPos>
-													<Flags>12</Flags>
-													<Time>0</Time>
-												</Point>
-											</PointList>
-										</Path2D>
-									</ChildrenList>
-								</Position>
-							</PositioningInfo>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="AMB_Region" ID="{4AF18F8B-5A2A-4740-9E8A-6FF1C8E35516}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="StartingArea" ID="{0DA34214-807F-41CF-857F-6D58D3547A8A}"/>
-										<CustomState Name="" ID="{A54792D4-D295-49BF-A863-87944DB63DA9}" ShortID="796401753"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="TeleporterArea" ID="{9B5912B0-8F19-4901-8044-B23309C3C555}"/>
-										<CustomState Name="" ID="{19B2EA79-26A9-4FC6-8E07-A95EC8E248B7}" ShortID="547683456">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-108"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="None" ID="{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"/>
-										<CustomState Name="" ID="{C1F8BA7E-A061-4952-9953-570101FDF527}" ShortID="104053215"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="SwitchesArea" ID="{98C8DD4B-9996-4EEE-B97A-145176A60240}"/>
-										<CustomState Name="" ID="{BF434863-62F0-4AD1-BCB4-A7FD8A830A7D}" ShortID="763831137">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-10"/>
 											</PropertyList>
@@ -1013,10 +752,14 @@
 						</RandomSequenceContainer>
 						<ActorMixer Name="AMB Loops" ID="{8CBDDE67-465F-46CF-B911-AB7BE9D0EA7E}" ShortID="418067370">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Amb_World_Generic" ID="{906BFCB9-A370-4BDA-943E-46161D0019A7}" WorkUnitID="{3527C007-9CD2-4C70-B30F-0E55AD7BC424}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
 								</Reference>
@@ -1304,12 +1047,8 @@
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
 										<Property Name="OverrideConversion" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-15</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1327,6 +1066,11 @@
 											<PropertyList>
 												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -1435,7 +1179,351 @@
 												<ActiveSource Name="AMB_Water" ID="{1E5382FB-8869-4D39-A9C6-B3AD7B6628D5}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<RandomSequenceContainer Name="Frogs" ID="{939A37CB-201C-4174-AB42-474CCE15185C}" ShortID="118006227">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AC29F171-A814-4E18-800A-B13ED43B75CB}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-80"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-25</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C05D0CB2-F591-4897-B597-A6ECC7F15727}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-1.5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB_Bus" ID="{7DCBDAC6-5CAD-44AC-B54F-63D6860C775E}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Frog_01" ID="{D6AD9F5B-B751-4C7B-B8B4-3F02C8BF1CDE}" ShortID="117942584">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Frog_01" ID="{647FCB54-9DEF-4239-9962-FB64D8524E56}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Frog_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="430129272"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Frog_01" ID="{647FCB54-9DEF-4239-9962-FB64D8524E56}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Frog_02" ID="{CE7AFE51-8E1E-4080-807A-0B79C5F7858F}" ShortID="142074724">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Frog_02" ID="{441F131F-6347-4C9B-A20F-6D4262224D16}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Frog_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="487890085"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Frog_02" ID="{441F131F-6347-4C9B-A20F-6D4262224D16}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Frog_03" ID="{0A1F64B7-14AF-4297-8327-4912BD18774F}" ShortID="74698730">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Frog_03" ID="{C3147CFD-99CC-4FA1-8918-349379337473}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Frog_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="369221159"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Frog_03" ID="{C3147CFD-99CC-4FA1-8918-349379337473}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Frog_04" ID="{F6DE5714-0936-48CB-A73D-D5CCECD46DEB}" ShortID="12417692">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Frog_04" ID="{447A25EB-5B3E-4CBA-8ED4-B3CD8377AA8C}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Frog_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="899803020"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Frog_04" ID="{447A25EB-5B3E-4CBA-8ED4-B3CD8377AA8C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{35C88887-7E48-47BC-A4D9-A66EC0D76B6D}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Frogs_Path" ID="{3394A7B1-DF2F-4100-9B96-DC9DCF645BB3}">
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_01" ID="{5BDCBBB7-EB7B-4FB0-8792-1A12C322B3E2}">
+															<PointList>
+																<Point>
+																	<XPos>52.63158</XPos>
+																	<YPos>1.31349</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_02" ID="{2555E724-4AF3-49C2-98B6-6C6F42DAF212}">
+															<PointList>
+																<Point>
+																	<XPos>-0.70175</XPos>
+																	<YPos>-51.57618</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_03" ID="{DFBD85B3-CA6C-430A-894D-563763255F05}">
+															<PointList>
+																<Point>
+																	<XPos>-56.84211</XPos>
+																	<YPos>0.2627</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_04" ID="{36463EBC-EF76-4BBF-857F-B96DBA9E33E5}">
+															<PointList>
+																<Point>
+																	<XPos>34.03509</XPos>
+																	<YPos>21.97898</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_05" ID="{C90BAD90-E720-4943-BA7E-7B6C65E5AA97}">
+															<PointList>
+																<Point>
+																	<XPos>-35.08772</XPos>
+																	<YPos>29.68476</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_06" ID="{6F04A765-2F4C-4C93-B761-1A45E2492F69}">
+															<PointList>
+																<Point>
+																	<XPos>49.82456</XPos>
+																	<YPos>-40.36778</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_07" ID="{4A102A15-A4AE-4C55-BE20-2F79E21D1376}">
+															<PointList>
+																<Point>
+																	<XPos>-47.36842</XPos>
+																	<YPos>-50.17513</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_08" ID="{CCCBDD9C-A508-4213-8F0B-649C5087313A}">
+															<PointList>
+																<Point>
+																	<XPos>-63.50877</XPos>
+																	<YPos>62.95972</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_09" ID="{33701B37-F8C4-4FDF-AE3B-6861675EDE2D}">
+															<PointList>
+																<Point>
+																	<XPos>77.54386</XPos>
+																	<YPos>48.59895</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_10" ID="{37ED6688-20C0-46CA-B4AF-804ABED2FF73}">
+															<PointList>
+																<Point>
+																	<XPos>-52.63158</XPos>
+																	<YPos>-46.6725</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_11" ID="{63C27121-5629-4A33-8CEC-24670DD18730}">
+															<PointList>
+																<Point>
+																	<XPos>66.31579</XPos>
+																	<YPos>-60.33275</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_12" ID="{89B8B191-3209-420B-B081-8E0034B6054F}">
+															<PointList>
+																<Point>
+																	<XPos>-22.10526</XPos>
+																	<YPos>21.62872</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_13" ID="{11B09F47-960D-45E0-AAA3-6F53E30EA173}">
+															<PointList>
+																<Point>
+																	<XPos>40.70175</XPos>
+																	<YPos>19.87741</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_14" ID="{876FA2C8-5965-461B-86C4-943654A75C0E}">
+															<PointList>
+																<Point>
+																	<XPos>-21.40351</XPos>
+																	<YPos>-34.06305</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Frogs_Path_15" ID="{037E8ABB-CD87-4C84-B326-37C84228D6C2}">
+															<PointList>
+																<Point>
+																	<XPos>56.84211</XPos>
+																	<YPos>-27.40806</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="AMB_Region" ID="{4AF18F8B-5A2A-4740-9E8A-6FF1C8E35516}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="StartingArea" ID="{0DA34214-807F-41CF-857F-6D58D3547A8A}"/>
+														<CustomState Name="" ID="{A54792D4-D295-49BF-A863-87944DB63DA9}" ShortID="796401753"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="TeleporterArea" ID="{9B5912B0-8F19-4901-8044-B23309C3C555}"/>
+														<CustomState Name="" ID="{19B2EA79-26A9-4FC6-8E07-A95EC8E248B7}" ShortID="547683456">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="None" ID="{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"/>
+														<CustomState Name="" ID="{C1F8BA7E-A061-4952-9953-570101FDF527}" ShortID="104053215"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="SwitchesArea" ID="{98C8DD4B-9996-4EEE-B97A-145176A60240}"/>
+														<CustomState Name="" ID="{BF434863-62F0-4AD1-BCB4-A7FD8A830A7D}" ShortID="763831137">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-10"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+										</RandomSequenceContainer>
 									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{55A44939-B8A1-4074-922F-FDA19A4C9395}"/>
+									</PositioningInfo>
 								</BlendContainer>
 								<Sound Name="Wind" ID="{442D01EC-6204-41D2-9398-9B989D99469A}" ShortID="85236991">
 									<PropertyList>
@@ -1443,7 +1531,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>15</Value>
+												<Value>20</Value>
 											</ValueList>
 										</Property>
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
@@ -1451,7 +1539,7 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-20</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1484,6 +1572,7 @@
 								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1567,6 +1656,9 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{B069D1DF-F005-46A3-868F-117BD5EDB189}"/>
+							</PositioningInfo>
 						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>

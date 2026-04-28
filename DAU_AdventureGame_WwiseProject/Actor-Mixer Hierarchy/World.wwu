@@ -62,7 +62,7 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{0351FF0A-10AF-4452-A3FC-3FDECCF99F2C}" ShortID="94685688">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="50"/>
+														<Property Name="RadiusMax" Type="Real64" Value="40"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -79,7 +79,7 @@
 																			<SegmentShape>Log1</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>50</XPos>
+																			<XPos>40</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -156,7 +156,7 @@
 										<AudioFileSource Name="SFX_Staff_Swell" ID="{A2FE4169-22F0-4D09-9458-AF7DEF218B45}">
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="2198.817"/>
-												<Property Name="LoopBegin" Type="Real64" Value="1.62562922314481"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.58765948678322"/>
 												<Property Name="LoopEnd" Type="Real64" Value="12.0848666920018"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 											</PropertyList>
@@ -228,7 +228,7 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{7F818EBD-5858-4D68-99EE-C0BCE6BEAB39}" ShortID="270891938">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="50"/>
+														<Property Name="RadiusMax" Type="Real64" Value="40"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -245,7 +245,7 @@
 																			<SegmentShape>Log1</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>50</XPos>
+																			<XPos>40</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -272,12 +272,12 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>10.2329450915141</XPos>
+																			<XPos>8.18635607321128</XPos>
 																			<YPos>20</YPos>
 																			<Flags>0</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>50</XPos>
+																			<XPos>40</XPos>
 																			<YPos>20</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -301,7 +301,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>50</XPos>
+																			<XPos>40</XPos>
 																			<YPos>0</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -377,18 +377,37 @@
 								</Sound>
 								<Sound Name="TeleporterArea" ID="{D99FDE83-F7D8-4B97-B356-B7CED8927125}" ShortID="222888258">
 									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.5"/>
 										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>40</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>24</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-600</Value>
+											</ValueList>
+										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{6CBCAB3A-9344-48FF-991B-FA1232701F4B}" ShortID="921276699">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="20"/>
+													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -403,7 +422,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>100</XPos>
+																			<XPos>20</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -518,6 +537,55 @@
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{4EE3152F-D6F2-4A8A-8744-613FC5D5EFC5}" ShortID="740504326">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="RTPC_Teleporter" ID="{E08B85EA-D18D-4FA6-8F68-A08287C36F79}" WorkUnitID="{9509A0B2-2221-4530-98BB-38D927BFEA99}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{CCE04A01-9E33-4ED4-B781-0FE1100A858D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-96</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>40</XPos>
+																				<YPos>-30</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>75</XPos>
+																				<YPos>-12</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-6</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 									<ActiveSourceList>
 										<ActiveSource Name="Teleporter" ID="{48C1B3BD-A89A-4436-8CC8-1DA2B21EE50D}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -875,9 +943,18 @@
 										</Sound>
 										<Sound Name="Crystal Not Activated" ID="{B0CA3E25-DE2A-41B7-BCC8-271B9F9FB196}" ShortID="341347321">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+												<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="50"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Amb_World_Generic" ID="{906BFCB9-A370-4BDA-943E-46161D0019A7}" WorkUnitID="{3527C007-9CD2-4C70-B30F-0E55AD7BC424}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
 												</Reference>
@@ -887,6 +964,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Crystal_Swell" ID="{E146B11B-8528-42FA-9339-91B757F6B094}">
+													<PropertyList>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Crystal_Swell.wav</AudioFile>
 													<MediaIDList>

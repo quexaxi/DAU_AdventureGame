@@ -12,7 +12,6 @@ public class ChomperSoundController : MonoBehaviour
     public AK.Wwise.Event breathEvent;
     public AK.Wwise.Event smellEvent;
     public AK.Wwise.Event gruntEvent;
-    public AK.Wwise.Event itchingEvent;
     public AK.Wwise.Event chomperHit01Event;
     public AK.Wwise.Event chomperHit02Event;
     public AK.Wwise.Event chomperHit03Event;
@@ -52,11 +51,6 @@ public class ChomperSoundController : MonoBehaviour
     public void AnimGrunt()
     {
         gruntEvent.Post(gameObject);
-    }
-
-    public void AnimItching()
-    {
-        itchingEvent.Post(gameObject);
     }
 
     public void ChomperHit01()

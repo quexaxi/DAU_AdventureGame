@@ -117,6 +117,72 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Teleporter" ID="{C21ABC17-B147-4A69-8EBD-B8C857A52845}">
+					<ChildrenList>
+						<Action Name="" ID="{FB83584E-4B61-4918-BE5A-E3B8F79E17CD}" ShortID="631165037">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TeleporterArea" ID="{D99FDE83-F7D8-4B97-B356-B7CED8927125}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crystal_Swell" ID="{D0FA78C8-0B8A-4931-85BF-E2CE2F498200}">
+					<ChildrenList>
+						<Action Name="" ID="{66344F62-76F6-493D-BE1A-33DFB9904998}" ShortID="785702779">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crystal Not Activated" ID="{B0CA3E25-DE2A-41B7-BCC8-271B9F9FB196}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Crystal_Swell" ID="{2E1E6436-5B60-42A0-92FA-2B1777606E06}">
+					<ChildrenList>
+						<Action Name="" ID="{1980DD03-4094-4CF5-BF62-49045745144D}" ShortID="343868996">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crystal Not Activated" ID="{B0CA3E25-DE2A-41B7-BCC8-271B9F9FB196}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crystal_Collect" ID="{9096A9AC-D09C-499D-8614-FF5E71A329E6}">
+					<ChildrenList>
+						<Action Name="" ID="{F6A0C6B3-CCB5-4CED-9B36-CCDBE7389BB3}" ShortID="1054254931">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crystal Activated" ID="{B3774EC7-2431-49F0-9C16-A146E80D4342}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fireflies" ID="{661D5EDC-3AC8-4EF5-AB46-658A00A20703}">
+					<ChildrenList>
+						<Action Name="" ID="{C20A5A75-0D20-4F85-8AE7-D3D2542445C8}" ShortID="363629794">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="70"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fireflies" ID="{5CDDB0C9-AAB7-4C54-A409-D8C6D0A88860}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

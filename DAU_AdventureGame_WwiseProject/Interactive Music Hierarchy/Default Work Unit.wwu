@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="Main_Music_Switch" ID="{632866C2-CB61-47CB-AF1E-361B88D857D1}" ShortID="795567712">
 					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
@@ -31,6 +32,8 @@
 										<MusicTransition Name="Transition" ID="{C436DC11-E6DF-4645-A1B7-74ED4C45BB62}">
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 												<Property Name="SourceContextType" Type="int16" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
@@ -54,6 +57,8 @@
 										<MusicTransition Name="Transition" ID="{01B83D6D-9999-4BAE-83C6-B5E801D051D6}">
 											<PropertyList>
 												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 												<Property Name="SourceContextType" Type="int16" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
@@ -109,7 +114,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Music_Exploration" ID="{FFCF50AB-4F2C-407A-ABD7-2C9000E399AC}" ShortID="246353995">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="38767.1666666667"/>
+										<Property Name="EndPosition" Type="Real64" Value="38801.6036873501"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -169,6 +174,65 @@
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Music_Exploration" ID="{8F7D416E-FA8E-466B-9580-ECCA0980F0FD}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{B1B7207C-B5E2-4ACE-9868-2CC7D3650876}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>38.7671666666667</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{D75C9F64-6AEB-4F1D-BF82-616D53FDFB18}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>38.7671666666667</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{711FA3AA-4F93-4251-AF3C-BAEE8D9FDED8}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>38.7671666666667</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -181,6 +245,31 @@
 											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="MusicState" ID="{F714286F-C4F3-4B41-BED2-DDC496A95F31}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="None" ID="{4025E397-C4C3-4587-A10E-3AB9AA03E94A}"/>
+												<CustomState Name="" ID="{19A40C79-05D7-4E5C-95B7-3908CD6A969B}" ShortID="775102723"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Exploration" ID="{0180C728-A311-4821-8CEB-A032B9BF122B}"/>
+												<CustomState Name="" ID="{6DB5DACF-11CE-4C61-8FED-05CA394D47F8}" ShortID="798635182"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Temple" ID="{791E3DFA-B917-4A23-BA27-09DA2A45E68C}"/>
+												<CustomState Name="" ID="{E43BC92A-3185-4AA1-ADA8-C4276CA52D92}" ShortID="573446336">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists>
 										<ObjectList Name="Cues">
 											<Reference>
@@ -193,7 +282,7 @@
 													<MusicCue Name="Exit Cue" ID="{49D45537-E2F8-4FEF-BB4E-F7FD6987E2C1}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+															<Property Name="TimeMs" Type="Real64" Value="38713.3138969874"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -311,6 +400,31 @@
 											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="MusicState" ID="{F714286F-C4F3-4B41-BED2-DDC496A95F31}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="None" ID="{4025E397-C4C3-4587-A10E-3AB9AA03E94A}"/>
+												<CustomState Name="" ID="{1C984F21-EC65-432A-AA46-2987CFD2F649}" ShortID="511153370"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Exploration" ID="{0180C728-A311-4821-8CEB-A032B9BF122B}"/>
+												<CustomState Name="" ID="{8C69D6FF-813E-4339-9F95-C8BC42B3CEDD}" ShortID="944366507">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Temple" ID="{791E3DFA-B917-4A23-BA27-09DA2A45E68C}"/>
+												<CustomState Name="" ID="{99755B44-2B30-4745-AD20-E20CDF8E7CDE}" ShortID="512814195"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists>
 										<ObjectList Name="Cues">
 											<Reference>
@@ -323,7 +437,7 @@
 													<MusicCue Name="Exit Cue" ID="{EF3E0AB4-94A6-4374-997E-8AC77DEAD45E}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+															<Property Name="TimeMs" Type="Real64" Value="40251.5"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>

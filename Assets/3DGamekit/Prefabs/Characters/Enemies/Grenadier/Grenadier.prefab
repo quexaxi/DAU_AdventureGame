@@ -60322,6 +60322,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4485494240124192}
+  - component: {fileID: 9188415425160059575}
   m_Layer: 23
   m_Name: SoundPlayers
   m_TagString: Untagged
@@ -60350,6 +60351,43 @@ Transform:
   - {fileID: 4228193326558766}
   m_Father: {fileID: 4633962212164876}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9188415425160059575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602385274941608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be29fd27c61ae4047aa4e8eceaf1d46b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4438b3dc1ccda3a4bb0ff34b2e1c47f7,
+      type: 2}
+  damageEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8e84a32042dd45f40bfe4f0fd40311a3,
+      type: 2}
+  footstepEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bbc0be10c35b6fb48941b341b1ca80ca,
+      type: 2}
+  throwEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ebc2d94243e019b45a289ad39a0f19e9,
+      type: 2}
+  punchEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1f804e22dcd0e4d478527caa5476d9a9,
+      type: 2}
 --- !u!1 &1637688901460628
 GameObject:
   m_ObjectHideFlags: 0
@@ -90448,7 +90486,7 @@ GameObject:
   - component: {fileID: 114496492670308562}
   - component: {fileID: 65008121670526208}
   - component: {fileID: 114896318850066810}
-  m_Layer: 0
+  m_Layer: 23
   m_Name: DamageablePart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90550,6 +90588,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   onDamageMessageReceivers: []
+  Box_Breaks_Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!65 &65008121670526208
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -90565,7 +90607,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -95508,7 +95550,7 @@ GameObject:
   - component: {fileID: 195657170040882262}
   - component: {fileID: 114161401988340100}
   - component: {fileID: 114516983396116286}
-  - component: {fileID: 5563639880571674427}
+  - component: {fileID: 7656054883430548785}
   m_Layer: 23
   m_Name: Grenadier
   m_TagString: Untagged
@@ -95655,7 +95697,7 @@ MonoBehaviour:
     - gameObject: {fileID: 1776379760232538}
       state: 1
       particlesystem: {fileID: 0}
---- !u!114 &5563639880571674427
+--- !u!114 &7656054883430548785
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100840,7 +100882,7 @@ GameObject:
   - component: {fileID: 742341848519746786}
   - component: {fileID: 4352538659448847272}
   - component: {fileID: 8874406437790275601}
-  m_Layer: 0
+  m_Layer: 23
   m_Name: FootstepSoundSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100927,7 +100969,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -101012,7 +101054,7 @@ GameObject:
   - component: {fileID: 2774959086883250095}
   - component: {fileID: 6436619845578189785}
   - component: {fileID: 8305587962332312253}
-  m_Layer: 0
+  m_Layer: 23
   m_Name: HeadSoundSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}

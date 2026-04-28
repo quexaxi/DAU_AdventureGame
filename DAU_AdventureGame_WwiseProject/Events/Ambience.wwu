@@ -24,34 +24,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
-								<Property Name="Probability" Type="Real64" Value="60"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Fireflies" ID="{5CDDB0C9-AAB7-4C54-A409-D8C6D0A88860}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{6CCD61F2-51D5-47CE-AB9B-FAD54C4FDEEE}" ShortID="532185091">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="5">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{FA9E79A1-6507-4A3F-89EB-5ADE45975DD5}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="10"/>
-													<Property Name="Min" Type="Real64" Value="-10"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
 								<Property Name="Probability" Type="Real64" Value="50"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Frogs" ID="{939A37CB-201C-4174-AB42-474CCE15185C}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+									<ObjectRef Name="Fireflies" ID="{5CDDB0C9-AAB7-4C54-A409-D8C6D0A88860}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -123,6 +100,9 @@
 				<Event Name="Play_Amb_Temple_Wind" ID="{2C900E3D-DDB5-46D8-97D8-0EE1F3C3F2AE}">
 					<ChildrenList>
 						<Action Name="" ID="{9E4AAE78-2442-475D-BFC3-5162C964BB93}" ShortID="70979992">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Wind" ID="{442D01EC-6204-41D2-9398-9B989D99469A}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>

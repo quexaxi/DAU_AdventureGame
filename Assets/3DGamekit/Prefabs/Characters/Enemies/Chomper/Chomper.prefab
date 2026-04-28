@@ -3754,18 +3754,16 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 48c8ebab47a21ec43b14e8ca4ac9bea5,
       type: 2}
-  itchingEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
   chomperHit01Event:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2107b2a2f07a36c4ba2d7aff4327d466,
+      type: 2}
   chomperHit02Event:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2107b2a2f07a36c4ba2d7aff4327d466,
+      type: 2}
   chomperHit03Event:
     idInternal: 0
     valueGuidInternal: 

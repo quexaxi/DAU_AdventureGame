@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{EB500A3B-7BEB-A09E-9335-F92C22FD7002}",
+    "Hash": "{8E347297-075D-4BD6-22A8-F5F2CC97C8D3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -54,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Footstep_Grass_02.wav",
       "CachePath": "A0/{A0D37CBC-F6C1-292E-6E33-E6C7842C30C3}.wem"
+     },
+     {
+      "Id": "40400148",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music_Temple.wav",
+      "CachePath": "41/{41BB8506-F69A-E5A7-6737-DAED860FF2A6}.wem"
      },
      {
       "Id": "44101102",
@@ -472,6 +480,14 @@
       "CachePath": "64/{640C28BD-8F1F-FDFC-B229-8EB0F374AACB}.wem"
      },
      {
+      "Id": "543721172",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Crystal_Swell.wav",
+      "CachePath": "92/{92AC4B5A-E019-8E35-DB8B-CC6E79C8D545}.wem"
+     },
+     {
       "Id": "551571241",
       "Language": "SFX",
       "Streaming": "false",
@@ -493,7 +509,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Staff_Swell.wav",
-      "CachePath": "F5/{F5667C55-E28D-2168-D04F-A756C778E184}.wem"
+      "CachePath": "28/{28BEF107-9C0E-BCFC-A1A8-5368E8AC5C9A}.wem"
      },
      {
       "Id": "599865767",
@@ -526,6 +542,14 @@
       "Location": "Memory",
       "ShortName": "Ellen_Land_Dirt.wav",
       "CachePath": "B6/{B693B947-CFDC-8A2D-44C2-F3BF81AA9913}.wem"
+     },
+     {
+      "Id": "622130365",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Music_Exploration.wav",
+      "CachePath": "96/{96D716F7-DEEE-62D4-88F8-6C8F1F938763}.wem"
      },
      {
       "Id": "638728891",
@@ -856,6 +880,14 @@
       "CachePath": "67/{6726AFD3-E795-7F6F-D12B-1AE511398A3F}.wem"
      },
      {
+      "Id": "1038723832",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Crystal_Collect.wav",
+      "CachePath": "29/{29B589E6-DD86-0B9A-C79C-A798A0E96820}.wem"
+     },
+     {
       "Id": "1041792918",
       "Language": "SFX",
       "Streaming": "false",
@@ -920,28 +952,16 @@
         "Id": "232616254"
        },
        {
-        "Id": "369221159"
-       },
-       {
         "Id": "372718200"
        },
        {
-        "Id": "430129272"
-       },
-       {
         "Id": "457487603"
-       },
-       {
-        "Id": "487890085"
        },
        {
         "Id": "599865767"
        },
        {
         "Id": "727113440"
-       },
-       {
-        "Id": "899803020"
        },
        {
         "Id": "980405893"
@@ -1003,7 +1023,19 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+        "Id": "369221159"
+       },
+       {
+        "Id": "430129272"
+       },
+       {
+        "Id": "487890085"
+       },
+       {
         "Id": "765393161"
+       },
+       {
+        "Id": "899803020"
        }
       ]
      },
@@ -1028,7 +1060,7 @@
       "ObjectPath": "\\Events\\World\\Play_Chest_Swell",
       "GUID": "{69A23D73-B1FA-4042-A345-B17205A00F94}",
       "Color": "11",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "16",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1179,6 +1211,36 @@
       ]
      },
      {
+      "Id": "3494925803",
+      "Name": "Play_Crystal_Collect",
+      "ObjectPath": "\\Events\\World\\Play_Crystal_Collect",
+      "GUID": "{9096A9AC-D09C-499D-8614-FF5E71A329E6}",
+      "Color": "11",
+      "MaxAttenuation": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "2.652125",
+      "DurationMax": "2.652125",
+      "MediaRefs": [
+       {
+        "Id": "1038723832"
+       }
+      ]
+     },
+     {
+      "Id": "2107017466",
+      "Name": "Play_Crystal_Swell",
+      "ObjectPath": "\\Events\\World\\Play_Crystal_Swell",
+      "GUID": "{D0FA78C8-0B8A-4931-85BF-E2CE2F498200}",
+      "Color": "11",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "543721172"
+       }
+      ]
+     },
+     {
       "Id": "2743573824",
       "Name": "Play_Door_Opens",
       "ObjectPath": "\\Events\\World\\Play_Door_Opens",
@@ -1211,6 +1273,31 @@
        },
        {
         "Id": "1073195844"
+       }
+      ]
+     },
+     {
+      "Id": "4161070465",
+      "Name": "Play_Fireflies",
+      "ObjectPath": "\\Events\\World\\Play_Fireflies",
+      "GUID": "{661D5EDC-3AC8-4EF5-AB46-658A00A20703}",
+      "Color": "11",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "151546490"
+       },
+       {
+        "Id": "372718200"
+       },
+       {
+        "Id": "457487603"
+       },
+       {
+        "Id": "599865767"
+       },
+       {
+        "Id": "727113440"
        }
       ]
      },
@@ -1358,6 +1445,24 @@
       "MediaRefs": [
        {
         "Id": "969100254"
+       }
+      ]
+     },
+     {
+      "Id": "1614763749",
+      "Name": "Play_Music_Main",
+      "ObjectPath": "\\Events\\Music\\Play_Music_Main",
+      "GUID": "{C172C8BE-A0DB-47A9-A368-CBE49CE23DCE}",
+      "Color": "18",
+      "DurationType": "OneShot",
+      "DurationMin": "44",
+      "DurationMax": "44",
+      "MediaRefs": [
+       {
+        "Id": "40400148"
+       },
+       {
+        "Id": "622130365"
        }
       ]
      },
@@ -1714,7 +1819,7 @@
       "ObjectPath": "\\Events\\World\\Play_Teleporter",
       "GUID": "{34740B8D-4768-4DCD-B4DD-39F77A04FBE7}",
       "Color": "11",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "10",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1728,7 +1833,7 @@
       "ObjectPath": "\\Events\\World\\Play_WeaponPedestal_Swell",
       "GUID": "{42EF8B9A-CE27-42D2-8B51-4BAE7B38E29E}",
       "Color": "11",
-      "MaxAttenuation": "15.000001",
+      "MaxAttenuation": "12",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1741,6 +1846,28 @@
       "Name": "Stop_Chest_Swell",
       "ObjectPath": "\\Events\\World\\Stop_Chest_Swell",
       "GUID": "{582C6494-2374-429E-B1B8-23B86BD6E3A2}",
+      "Color": "11",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "833621684",
+      "Name": "Stop_Crystal_Swell",
+      "ObjectPath": "\\Events\\World\\Stop_Crystal_Swell",
+      "GUID": "{2E1E6436-5B60-42A0-92FA-2B1777606E06}",
+      "Color": "11",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1209420976",
+      "Name": "Stop_Teleporter",
+      "ObjectPath": "\\Events\\World\\Stop_Teleporter",
+      "GUID": "{C21ABC17-B147-4A69-8EBD-B8C857A52845}",
       "Color": "11",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -1900,6 +2027,12 @@
       "Name": "RTPC_Distance",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_Distance",
       "GUID": "{30AB1DC2-EE39-4297-A37E-E6A50049A7D6}"
+     },
+     {
+      "Id": "1290387411",
+      "Name": "RTPC_Teleporter",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_Teleporter",
+      "GUID": "{E08B85EA-D18D-4FA6-8F68-A08287C36F79}"
      }
     ],
     "SwitchGroups": [
@@ -2022,7 +2155,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{DE0C0C1B-6337-57A4-630D-41C421625542}",
+    "Hash": "{441BC05B-6D67-4751-DACC-18A26C8DF0CC}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -2324,6 +2457,12 @@
       "Name": "RTPC_Amb_Fantasy",
       "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_Fantasy",
       "GUID": "{8CFA9586-2605-4C02-8E8C-9E89009C52AE}"
+     },
+     {
+      "Id": "1290387411",
+      "Name": "RTPC_Teleporter",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_Teleporter",
+      "GUID": "{E08B85EA-D18D-4FA6-8F68-A08287C36F79}"
      },
      {
       "Id": "1564184899",
@@ -2696,7 +2835,7 @@
     "Type": "Event",
     "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
     "Language": "SFX",
-    "Hash": "{E4A0E2CE-3EFA-EC3F-E8DA-DD1FE6F4A9B4}",
+    "Hash": "{7CE56087-68E2-BFBB-45C6-9352AE97A454}",
     "ObjectPath": "Play_Main_Music_Switch",
     "ShortName": "Play_Main_Music_Switch",
     "Path": "Event/13/Play_Main_Music_Switch.bnk",
@@ -2887,56 +3026,6 @@
     ]
    },
    {
-    "Id": "1614763749",
-    "Type": "Event",
-    "GUID": "{C172C8BE-A0DB-47A9-A368-CBE49CE23DCE}",
-    "Language": "SFX",
-    "Hash": "{83C42ED8-5992-5174-169D-3E65C4ADEE3D}",
-    "ObjectPath": "Play_Music_Main",
-    "ShortName": "Play_Music_Main",
-    "Path": "Event/16/Play_Music_Main.bnk",
-    "Media": [
-     {
-      "Id": "40400148",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Music_Temple.wav",
-      "Path": "Media/40/40400148.wem",
-      "CachePath": "41/{41BB8506-F69A-E5A7-6737-DAED860FF2A6}.wem"
-     },
-     {
-      "Id": "622130365",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Music_Exploration.wav",
-      "Path": "Media/62/622130365.wem",
-      "CachePath": "96/{96D716F7-DEEE-62D4-88F8-6C8F1F938763}.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "1614763749",
-      "Name": "Play_Music_Main",
-      "ObjectPath": "\\Events\\Music\\Play_Music_Main",
-      "GUID": "{C172C8BE-A0DB-47A9-A368-CBE49CE23DCE}",
-      "Color": "18",
-      "DurationType": "OneShot",
-      "DurationMin": "40.2515",
-      "DurationMax": "40.2515",
-      "MediaRefs": [
-       {
-        "Id": "40400148"
-       },
-       {
-        "Id": "622130365"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "Id": "1676981132",
     "Type": "Bus",
     "GUID": "{0A19BD35-A89B-4686-8214-AF0FE99A0B25}",
@@ -3097,6 +3186,6 @@
     ]
    }
   ],
-  "FileHash": "{B65A9CAD-D8C3-C172-23D9-11A30E3CDB64}"
+  "FileHash": "{A4F5137A-E52E-0A00-B562-753FFFC9E397}"
  }
 }

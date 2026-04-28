@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{E70700A9-315D-5AFE-85E4-E9E9A25D425D}",
+    "Hash": "{D64C89C9-0F74-CF43-DA8C-49B3F0A268EC}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -312,6 +312,12 @@
       "Name": "RTPC_Amb_Fantasy",
       "ObjectPath": "\\Game Parameters\\RTPC_Ambience\\RTPC_Amb_Fantasy",
       "GUID": "{8CFA9586-2605-4C02-8E8C-9E89009C52AE}"
+     },
+     {
+      "Id": "1290387411",
+      "Name": "RTPC_Teleporter",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_Teleporter",
+      "GUID": "{E08B85EA-D18D-4FA6-8F68-A08287C36F79}"
      },
      {
       "Id": "1564184899",
@@ -680,6 +686,6 @@
     ]
    }
   ],
-  "FileHash": "{EB8BA5F7-C1C0-DE7E-8F84-2EE742AF3247}"
+  "FileHash": "{43B722B1-C539-FD04-20CE-26B6D3B3BE88}"
  }
 }

@@ -27,8 +27,11 @@ namespace AK
         static const AkUniqueID PLAY_CHOMPER_SLURP = 2329507261U;
         static const AkUniqueID PLAY_CHOMPER_SMELL = 3615463328U;
         static const AkUniqueID PLAY_CHOMPER_SPOTTED = 253791182U;
+        static const AkUniqueID PLAY_CRYSTAL_COLLECT = 3494925803U;
+        static const AkUniqueID PLAY_CRYSTAL_SWELL = 2107017466U;
         static const AkUniqueID PLAY_DOOR_OPENS = 2743573824U;
         static const AkUniqueID PLAY_EELDOG = 376636326U;
+        static const AkUniqueID PLAY_FIREFLIES = 4161070465U;
         static const AkUniqueID PLAY_GRENADIER_BALL_EXPLODES = 152431872U;
         static const AkUniqueID PLAY_GRENADIER_BALL_JUMP = 2635705170U;
         static const AkUniqueID PLAY_GRENADIER_DAMAGE = 3333154347U;
@@ -52,6 +55,8 @@ namespace AK
         static const AkUniqueID PLAY_TELEPORTER = 1186994630U;
         static const AkUniqueID PLAY_WEAPONPEDESTAL_SWELL = 969098578U;
         static const AkUniqueID STOP_CHEST_SWELL = 3235850781U;
+        static const AkUniqueID STOP_CRYSTAL_SWELL = 833621684U;
+        static const AkUniqueID STOP_TELEPORTER = 1209420976U;
         static const AkUniqueID STOP_WEAPONPEDESTAL_SWELL = 2610202148U;
         static const AkUniqueID UI_BACK = 2024222415U;
         static const AkUniqueID UI_CANCEL = 3083016892U;
@@ -233,6 +238,7 @@ namespace AK
         static const AkUniqueID RTPC_DISTANCE = 262290038U;
         static const AkUniqueID RTPC_INMENU_LPF = 3408349920U;
         static const AkUniqueID RTPC_PLAYERSPEED = 2653406601U;
+        static const AkUniqueID RTPC_TELEPORTER = 1290387411U;
         static const AkUniqueID SFX_VOLUME = 1564184899U;
     } // namespace GAME_PARAMETERS
 

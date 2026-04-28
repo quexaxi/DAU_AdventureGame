@@ -9549,7 +9549,7 @@
 				<PhysicalFolder Path="Interactive Music Hierarchy">
 					<WorkUnit Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" PersistMode="Standalone">
 						<PropertyList>
-							<Property Name="Color" Type="int16" Value="4" />
+							<Property Name="Color" Type="int16" Value="8" />
 							<Property Name="OverrideColor" Type="bool" Value="True" />
 						</PropertyList>
 					</WorkUnit>
