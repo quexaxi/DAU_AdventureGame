@@ -92,6 +92,18 @@
 											<PropertyList>
 												<Property Name="LoopCount" Type="int16" Value="0"/>
 											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{6D4DEC3A-F3D5-476A-B4A3-8F7574BFC838}" ShortID="883707358">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Music_Exploration" ID="{FFCF50AB-4F2C-407A-ABD7-2C9000E399AC}" WorkUnitID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
 										</MusicPlaylistItem>
 									</Custom>
 								</Reference>
@@ -170,7 +182,6 @@
 																				<MusicClip Name="Music_Exploration" ID="{136334ED-F09E-4D29-BC3A-C9D65C91F361}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="38767.1666666667"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Music_Exploration" ID="{8F7D416E-FA8E-466B-9580-ECCA0980F0FD}"/>
@@ -306,6 +317,18 @@
 											<PropertyList>
 												<Property Name="LoopCount" Type="int16" Value="0"/>
 											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{4A828C32-B6C3-4694-B43D-EAD1A106E24E}" ShortID="397853224">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Music_Temple" ID="{91309422-0EC7-4E0E-9EC0-8AF553D4508B}" WorkUnitID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
 										</MusicPlaylistItem>
 									</Custom>
 								</Reference>

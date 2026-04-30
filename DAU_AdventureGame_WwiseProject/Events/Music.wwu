@@ -9,17 +9,10 @@
 			<ChildrenList>
 				<Event Name="Play_Music_Main" ID="{C172C8BE-A0DB-47A9-A368-CBE49CE23DCE}">
 					<ChildrenList>
-						<Action Name="" ID="{889B4514-7CBD-4DDB-86BA-B7AC4B76F0BB}" ShortID="212607086">
+						<Action Name="" ID="{02C7CC9E-2EE1-4DB7-B033-5BB882A384E9}" ShortID="488142122">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Music_Exploration" ID="{FFCF50AB-4F2C-407A-ABD7-2C9000E399AC}" WorkUnitID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{14DAF1CE-2AB2-4815-8DD6-23A97CE4B35A}" ShortID="1071824432">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music_Temple" ID="{91309422-0EC7-4E0E-9EC0-8AF553D4508B}" WorkUnitID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}"/>
+									<ObjectRef Name="Main_Music_Switch" ID="{632866C2-CB61-47CB-AF1E-361B88D857D1}" WorkUnitID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
