@@ -16,6 +16,34 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{199107BA-22E3-46F0-B9B6-768A17BB6798}" ShortID="386383882">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Exploration" ID="{FFCF50AB-4F2C-407A-ABD7-2C9000E399AC}" WorkUnitID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F353DF44-898E-4F43-89AC-E26D0D772593}" ShortID="1005999342">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Temple" ID="{91309422-0EC7-4E0E-9EC0-8AF553D4508B}" WorkUnitID="{09E991EB-D3C9-4E92-A9A7-093612A678EB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

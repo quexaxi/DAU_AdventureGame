@@ -33,10 +33,10 @@
 				</Event>
 				<Event Name="Play_Chomper_Death" ID="{C3C5C866-8B0A-43C3-A9D4-9EF60EDCB0D1}">
 					<ChildrenList>
-						<Action Name="" ID="{D4F85706-D0B7-4035-8DC1-7D34DB66D5C0}" ShortID="444052658">
+						<Action Name="" ID="{75178742-FF34-45CA-9765-B70868A74075}" ShortID="806716480">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Chomper_Death" ID="{6786AB51-6DE7-4AEE-A59E-F485497DB60B}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+									<ObjectRef Name="Chomper_Death" ID="{2DC50FEB-11DA-4085-88D1-10DB93B6CF7D}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

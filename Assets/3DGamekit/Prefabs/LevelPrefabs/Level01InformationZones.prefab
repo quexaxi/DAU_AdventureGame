@@ -260,7 +260,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1451845871572962628}
         m_TargetAssemblyTypeName: DialogueCanvasSoundController, Assembly-CSharp
-        m_MethodName: PlayTextPopUp
+        m_MethodName: PlayTextPopOut
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

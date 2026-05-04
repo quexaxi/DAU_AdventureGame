@@ -161,6 +161,9 @@
 				<Event Name="Play_Crystal_Collect" ID="{9096A9AC-D09C-499D-8614-FF5E71A329E6}">
 					<ChildrenList>
 						<Action Name="" ID="{F6A0C6B3-CCB5-4CED-9B36-CCDBE7389BB3}" ShortID="1054254931">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Crystal Activated" ID="{B3774EC7-2431-49F0-9C16-A146E80D4342}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>

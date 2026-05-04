@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
     "Language": "SFX",
-    "Hash": "{7CE56087-68E2-BFBB-45C6-9352AE97A454}",
+    "Hash": "{BCB78F4A-361B-D336-3EBE-2BE725C80019}",
     "ObjectPath": "Play_Main_Music_Switch",
     "ShortName": "Play_Main_Music_Switch",
     "Path": "Event/13/Play_Main_Music_Switch.bnk",
@@ -107,6 +107,6 @@
     ]
    }
   ],
-  "FileHash": "{03A8D040-1B15-D8FC-C434-F5739F5E27E6}"
+  "FileHash": "{34DDCAD7-79A4-1ED0-D53E-7CBDC593AC49}"
  }
 }

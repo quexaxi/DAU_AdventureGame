@@ -8,6 +8,11 @@
 						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -95,6 +100,7 @@
 											<ChildrenList>
 												<MusicPlaylistItem Name="" ID="{6D4DEC3A-F3D5-476A-B4A3-8F7574BFC838}" ShortID="883707358">
 													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
@@ -320,6 +326,7 @@
 											<ChildrenList>
 												<MusicPlaylistItem Name="" ID="{4A828C32-B6C3-4694-B43D-EAD1A106E24E}" ShortID="397853224">
 													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
 														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 													</PropertyList>
 													<ReferenceList>
@@ -529,6 +536,19 @@
 											<ObjectList Name="EntryPath">
 												<Reference>
 													<ObjectRef Name="Temple" ID="{791E3DFA-B917-4A23-BA27-09DA2A45E68C}" WorkUnitID="{0AF0D525-9F35-4515-A320-723C8569887E}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{42AD06A7-A942-4EE5-8E1C-B9D64856690F}">
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="MusicState" ID="{F714286F-C4F3-4B41-BED2-DDC496A95F31}" WorkUnitID="{0AF0D525-9F35-4515-A320-723C8569887E}"/>
 												</Reference>
 											</ObjectList>
 										</ObjectLists>

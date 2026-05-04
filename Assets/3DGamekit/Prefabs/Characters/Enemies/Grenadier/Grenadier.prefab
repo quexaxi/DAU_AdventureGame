@@ -60388,6 +60388,31 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 1f804e22dcd0e4d478527caa5476d9a9,
       type: 2}
+  activateShieldEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9d685dbcc295a3741b72f0f6774edd4d,
+      type: 2}
+  shootEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ebc2d94243e019b45a289ad39a0f19e9,
+      type: 2}
+  attackEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1f804e22dcd0e4d478527caa5476d9a9,
+      type: 2}
+  endAttackEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1f804e22dcd0e4d478527caa5476d9a9,
+      type: 2}
+  hitEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9d685dbcc295a3741b72f0f6774edd4d,
+      type: 2}
 --- !u!1 &1637688901460628
 GameObject:
   m_ObjectHideFlags: 0
@@ -95557,7 +95582,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4633962212164876
 Transform:
   m_ObjectHideFlags: 0
@@ -95733,6 +95758,31 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 1f804e22dcd0e4d478527caa5476d9a9,
+      type: 2}
+  activateShieldEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8e84a32042dd45f40bfe4f0fd40311a3,
+      type: 2}
+  shootEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ebc2d94243e019b45a289ad39a0f19e9,
+      type: 2}
+  attackEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1f804e22dcd0e4d478527caa5476d9a9,
+      type: 2}
+  endAttackEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1f804e22dcd0e4d478527caa5476d9a9,
+      type: 2}
+  hitEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 23cbe13db196a5b4bb39f00fe025e97c,
       type: 2}
 --- !u!1 &1878574748180302
 GameObject:

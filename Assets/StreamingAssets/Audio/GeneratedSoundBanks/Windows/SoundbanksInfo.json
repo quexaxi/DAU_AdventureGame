@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{8E347297-075D-4BD6-22A8-F5F2CC97C8D3}",
+    "Hash": "{5E058F96-EA4C-D267-AF15-B89CD45CE189}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -56,6 +56,14 @@
       "CachePath": "A0/{A0D37CBC-F6C1-292E-6E33-E6C7842C30C3}.wem"
      },
      {
+      "Id": "37870247",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_Fantasy_Final.wav",
+      "CachePath": "52/{5229EC7A-0FB4-17A7-1733-195CF6C13004}.wem"
+     },
+     {
       "Id": "40400148",
       "Language": "SFX",
       "Streaming": "false",
@@ -78,6 +86,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Staff_Swing_01.wav",
       "CachePath": "60/{6073F2F2-223B-00C7-6527-178A1AB729C4}.wem"
+     },
+     {
+      "Id": "84591386",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Death_03.wav",
+      "CachePath": "7D/{7D438FB5-84E3-9ED7-77A3-E8A6C70864AF}.wem"
      },
      {
       "Id": "86784534",
@@ -157,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Teleporter.wav",
-      "CachePath": "4E/{4EBEC0D3-04A7-3633-924E-43525634FAA2}.wem"
+      "CachePath": "FD/{FDBE5EF7-84D2-EA2A-7252-23D10E8E8E1C}.wem"
      },
      {
       "Id": "228008484",
@@ -216,20 +232,12 @@
       "CachePath": "8E/{8E6ECBFE-E46C-41C5-B3E5-1D8EA7844CF0}.wem"
      },
      {
-      "Id": "303239524",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "AMB_Main_Fantasy_01.wav",
-      "CachePath": "F6/{F64B2E68-2AF9-9D38-D164-086966957409}.wem"
-     },
-     {
       "Id": "304280999",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Chomper_Death_01.wav",
-      "CachePath": "62/{622304D1-A1B0-5523-3474-D9CA1E904D20}.wem"
+      "CachePath": "5E/{5E8E530C-68DF-F036-AC9D-38443CCC15F8}.wem"
      },
      {
       "Id": "313247670",
@@ -485,7 +493,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Crystal_Swell.wav",
-      "CachePath": "92/{92AC4B5A-E019-8E35-DB8B-CC6E79C8D545}.wem"
+      "CachePath": "66/{66674FA7-ECDC-607C-4054-F0FE691C06FC}.wem"
      },
      {
       "Id": "551571241",
@@ -509,7 +517,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Staff_Swell.wav",
-      "CachePath": "28/{28BEF107-9C0E-BCFC-A1A8-5368E8AC5C9A}.wem"
+      "CachePath": "FB/{FBD6ACD6-472C-9A26-FE81-7CC6F6CE7132}.wem"
      },
      {
       "Id": "599865767",
@@ -864,6 +872,14 @@
       "CachePath": "91/{913843C7-BE48-ED84-4386-D6C9104C196D}.wem"
      },
      {
+      "Id": "1032384779",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Death_02.wav",
+      "CachePath": "0A/{0ACF60B6-448C-DC64-9C78-000022795899}.wem"
+     },
+     {
       "Id": "1032667905",
       "Language": "SFX",
       "Streaming": "false",
@@ -885,7 +901,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Crystal_Collect.wav",
-      "CachePath": "29/{29B589E6-DD86-0B9A-C79C-A798A0E96820}.wem"
+      "CachePath": "3A/{3A7C89A6-B5A0-72CE-CB27-6556A8A11CAC}.wem"
      },
      {
       "Id": "1041792918",
@@ -992,7 +1008,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "303239524"
+        "Id": "37870247"
        }
       ]
      },
@@ -1006,7 +1022,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "303239524"
+        "Id": "37870247"
        },
        {
         "Id": "992886622"
@@ -1092,11 +1108,17 @@
       "Color": "1",
       "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0.9299382",
-      "DurationMax": "0.9852352",
+      "DurationMin": "0.51110786",
+      "DurationMax": "1.0141048",
       "MediaRefs": [
        {
+        "Id": "84591386"
+       },
+       {
         "Id": "304280999"
+       },
+       {
+        "Id": "1032384779"
        }
       ]
      },
@@ -1218,8 +1240,8 @@
       "Color": "11",
       "MaxAttenuation": "12",
       "DurationType": "OneShot",
-      "DurationMin": "2.652125",
-      "DurationMax": "2.652125",
+      "DurationMin": "2.6032722",
+      "DurationMax": "2.7521248",
       "MediaRefs": [
        {
         "Id": "1038723832"
@@ -1232,7 +1254,7 @@
       "ObjectPath": "\\Events\\World\\Play_Crystal_Swell",
       "GUID": "{D0FA78C8-0B8A-4931-85BF-E2CE2F498200}",
       "Color": "11",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "24",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1454,15 +1476,35 @@
       "ObjectPath": "\\Events\\Music\\Play_Music_Main",
       "GUID": "{C172C8BE-A0DB-47A9-A368-CBE49CE23DCE}",
       "Color": "18",
-      "DurationType": "OneShot",
-      "DurationMin": "44",
-      "DurationMax": "44",
-      "MediaRefs": [
+      "DurationType": "Infinite",
+      "SwitchContainers": [
        {
-        "Id": "40400148"
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "2582085496",
+         "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
+         "Color": "12"
+        },
+        "MediaRefs": [
+         {
+          "Id": "622130365"
+         }
+        ]
        },
        {
-        "Id": "622130365"
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "2323193050",
+         "GUID": "{791E3DFA-B917-4A23-BA27-09DA2A45E68C}",
+         "Color": "12"
+        },
+        "MediaRefs": [
+         {
+          "Id": "40400148"
+         }
+        ]
        }
       ]
      },
@@ -2033,6 +2075,38 @@
       "Name": "RTPC_Teleporter",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_Teleporter",
       "GUID": "{E08B85EA-D18D-4FA6-8F68-A08287C36F79}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1021618141",
+      "Name": "MusicState",
+      "ObjectPath": "\\States\\Default Work Unit\\MusicState",
+      "GUID": "{F714286F-C4F3-4B41-BED2-DDC496A95F31}",
+      "Color": "12",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\None",
+        "GUID": "{4025E397-C4C3-4587-A10E-3AB9AA03E94A}",
+        "Color": "12"
+       },
+       {
+        "Id": "2323193050",
+        "Name": "Temple",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Temple",
+        "GUID": "{791E3DFA-B917-4A23-BA27-09DA2A45E68C}",
+        "Color": "12"
+       },
+       {
+        "Id": "2582085496",
+        "Name": "Exploration",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Exploration",
+        "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
+        "Color": "12"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -2835,7 +2909,7 @@
     "Type": "Event",
     "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
     "Language": "SFX",
-    "Hash": "{7CE56087-68E2-BFBB-45C6-9352AE97A454}",
+    "Hash": "{BCB78F4A-361B-D336-3EBE-2BE725C80019}",
     "ObjectPath": "Play_Main_Music_Switch",
     "ShortName": "Play_Main_Music_Switch",
     "Path": "Event/13/Play_Main_Music_Switch.bnk",
@@ -3186,6 +3260,6 @@
     ]
    }
   ],
-  "FileHash": "{A4F5137A-E52E-0A00-B562-753FFFC9E397}"
+  "FileHash": "{CF6AD942-9911-8C47-6A30-81C30352BD2E}"
  }
 }

@@ -89,9 +89,23 @@
 				<Event Name="Play_Amb_Temple" ID="{478B4E24-EC1B-4504-A799-8ABDA113E6DE}">
 					<ChildrenList>
 						<Action Name="" ID="{4283C9E4-DAB8-4A21-8496-226D3B7FE32C}" ShortID="585512401">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AMB_Temple" ID="{748243FD-261D-407B-B54A-42CE733B9AAE}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FA07B4E1-33F2-4B07-920E-826849AB6385}" ShortID="747660457">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Fantasy_Final" ID="{7A28320B-AA8D-4B3B-8234-2F33D409F91C}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -101,7 +115,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{9E4AAE78-2442-475D-BFC3-5162C964BB93}" ShortID="70979992">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1.5"/>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -110,9 +124,23 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{A8F89F15-5F55-4248-8F81-3A719EFAD317}" ShortID="181264001">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AMB_Temple" ID="{748243FD-261D-407B-B54A-42CE733B9AAE}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{06259D0F-F6C4-4B90-9A4D-B250A4AD6997}" ShortID="945516488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Fantasy_Final" ID="{7A28320B-AA8D-4B3B-8234-2F33D409F91C}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
