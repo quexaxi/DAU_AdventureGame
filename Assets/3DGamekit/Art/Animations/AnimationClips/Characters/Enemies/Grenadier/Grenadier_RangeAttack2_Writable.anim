@@ -51411,6 +51411,13 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 1.1792444
+    functionName: Shoot
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.1833333
     functionName: AnimShoot
     data: 
     objectReferenceParameter: {fileID: 0}
