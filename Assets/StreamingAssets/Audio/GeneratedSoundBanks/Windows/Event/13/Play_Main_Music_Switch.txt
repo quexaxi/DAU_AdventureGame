@@ -9,3 +9,7 @@ State	ID	Name	State Group			Notes
 	2323193050	Temple	MusicState			
 	2582085496	Exploration	MusicState			
 
+Effect plug-ins	ID	Name	Type				Notes
+	1706684651	Plate_Medium	Wwise RoomVerb			
+	2513915904	Hall_Large	Wwise RoomVerb			
+

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{5E058F96-EA4C-D267-AF15-B89CD45CE189}",
+    "Hash": "{3F4426F8-5E67-789E-26F1-FAE4E81A329A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -85,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Chomper_Death_03.wav",
-      "CachePath": "7D/{7D438FB5-84E3-9ED7-77A3-E8A6C70864AF}.wem"
+      "CachePath": "87/{87C46718-296A-949F-0D66-BFEC6C6AF3A3}.wem"
      },
      {
       "Id": "86784534",
@@ -229,7 +229,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Chomper_Death_01.wav",
-      "CachePath": "5E/{5E8E530C-68DF-F036-AC9D-38443CCC15F8}.wem"
+      "CachePath": "C8/{C8E6D58B-0182-85B2-2373-19682FCB5C3B}.wem"
      },
      {
       "Id": "313247670",
@@ -869,7 +869,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Chomper_Death_02.wav",
-      "CachePath": "0A/{0ACF60B6-448C-DC64-9C78-000022795899}.wem"
+      "CachePath": "24/{24AE0A69-249A-2DD9-E80F-3F672F00FD15}.wem"
      },
      {
       "Id": "1032667905",
@@ -893,7 +893,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Crystal_Collect.wav",
-      "CachePath": "3A/{3A7C89A6-B5A0-72CE-CB27-6556A8A11CAC}.wem"
+      "CachePath": "63/{6376E005-3782-A707-96F1-486F005FEB39}.wem"
      },
      {
       "Id": "1041792918",
@@ -944,6 +944,36 @@
       "CachePath": "D2/{D2497DEE-49DC-1CBE-BD84-43A36BC57CE0}.wem"
      }
     ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "911585237",
+       "Name": "Flanger (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\World\\WORLD\\Magic\\TeleporterArea\\[Effect Slot [0]: (Flanger)]\\Flanger (Custom)",
+       "GUID": "{6BEA8731-2EE2-4AF9-B244-802E12AA0E45}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "1706684651",
+       "Name": "Plate_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Plates\\Plate_Medium",
+       "GUID": "{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2513915904",
+       "Name": "Hall_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
+       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "2676390936",
@@ -1321,7 +1351,7 @@
       "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Ball_Explodes",
       "GUID": "{2966D884-CC7F-47C4-844D-5984FB5EA95E}",
       "Color": "1",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "75",
       "DurationType": "OneShot",
       "DurationMin": "1.9163958",
       "DurationMax": "1.9163958",
@@ -1337,7 +1367,7 @@
       "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Ball_Jump",
       "GUID": "{7D0B4682-9792-4B30-957B-9965CA5CD31F}",
       "Color": "1",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "75",
       "DurationType": "OneShot",
       "DurationMin": "1.3917425",
       "DurationMax": "1.5621784",
@@ -1353,7 +1383,7 @@
       "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Damage",
       "GUID": "{BF519991-EAA2-4BE2-B050-D7792C448A72}",
       "Color": "1",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "75",
       "DurationType": "OneShot",
       "DurationMin": "1.302026",
       "DurationMax": "1.4280946",
@@ -1369,7 +1399,7 @@
       "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Death",
       "GUID": "{2114BE96-2C69-42F2-A016-74D1A7AB7A2F}",
       "Color": "1",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "75",
       "DurationType": "OneShot",
       "DurationMin": "6.673269",
       "DurationMax": "7.319408",
@@ -1404,7 +1434,7 @@
       "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Punch",
       "GUID": "{72D835A4-7FB0-48BA-8336-D4B46DE5205B}",
       "Color": "1",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "75",
       "DurationType": "OneShot",
       "DurationMin": "2.6868846",
       "DurationMax": "2.9470422",
@@ -1420,7 +1450,7 @@
       "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Recharge_Ball",
       "GUID": "{D8DE5B08-1E07-4738-8C2D-0EBD574FC487}",
       "Color": "1",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "75",
       "DurationType": "OneShot",
       "DurationMin": "1.4031608",
       "DurationMax": "1.4526432",
@@ -1436,7 +1466,7 @@
       "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Recharge_Damage",
       "GUID": "{2EF3F4B5-F986-45C0-8198-AD075F214204}",
       "Color": "1",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "75",
       "DurationType": "OneShot",
       "DurationMin": "4.655104",
       "DurationMax": "4.655104",
@@ -1452,7 +1482,7 @@
       "ObjectPath": "\\Events\\NPC\\GrenadierCombat\\Play_Grenadier_Throw",
       "GUID": "{638EBEF0-F39C-44C2-A7BE-1CCC27EA1030}",
       "Color": "1",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "75",
       "DurationType": "OneShot",
       "DurationMin": "2.1073754",
       "DurationMax": "2.3114219",
@@ -1482,7 +1512,14 @@
          {
           "Id": "622130365"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1706684651"
+          }
+         ]
+        }
        },
        {
         "SwitchValue": {
@@ -1496,7 +1533,14 @@
          {
           "Id": "40400148"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "2513915904"
+          }
+         ]
+        }
        }
       ]
      },
@@ -1853,13 +1897,20 @@
       "ObjectPath": "\\Events\\World\\Play_Teleporter",
       "GUID": "{34740B8D-4768-4DCD-B4DD-39F77A04FBE7}",
       "Color": "11",
-      "MaxAttenuation": "10",
+      "MaxAttenuation": "37.5",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "175268632"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "911585237"
+        }
+       ]
+      }
      },
      {
       "Id": "969098578",
@@ -2189,6 +2240,6 @@
     ]
    }
   ],
-  "FileHash": "{F1A8EE35-075B-2EC8-D38F-DA597EC10B6A}"
+  "FileHash": "{16BBED0C-6C63-7FF1-9928-B176BA8E0A54}"
  }
 }

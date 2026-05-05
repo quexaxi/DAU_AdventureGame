@@ -90,6 +90,11 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	262290038	RTPC_Distance			\Default Work Unit\RTPC_Distance	
 	1290387411	RTPC_Teleporter			\Default Work Unit\RTPC_Teleporter	
 
+Effect plug-ins	ID	Name	Type				Notes
+	911585237	Flanger (Custom)	Wwise Flanger			
+	1706684651	Plate_Medium	Wwise RoomVerb			
+	2513915904	Hall_Large	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	4291479	SFX_Chomper_Footstep_02	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\FF\{FF80336D-4DA2-5A94-71AE-E86031F36545}.wem		\Actor-Mixer Hierarchy\NPC\NPC\NPC_Movement\Chomper_Footstep\Chomper_Footstep\SFX_Chomper_Footstep_02		33652
 	8757324	SFX_Chomper_Grunt_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\55\{550A6E5D-FC68-EA74-0189-667784FD9E32}.wem		\Actor-Mixer Hierarchy\NPC\NPC\Chomper_Combat\Chomper_Grunt\SFX_Chomper_Grunt_01		361936
@@ -99,7 +104,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	40400148	Music_Temple	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\41\{41BB8506-F69A-E5A7-6737-DAED860FF2A6}.wem		\Interactive Music Hierarchy\Default Work Unit\Main_Music_Switch\Music_Temple_Playlist\Music_Temple\Music_Temple		7728400
 	44101102	Player_Fall_Water	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\63\{635DD79F-9694-3500-C82B-FF6E20B11943}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Combat\Player_Fall_Water		414448
 	61862981	SFX_Staff_Swing_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\60\{6073F2F2-223B-00C7-6527-178A1AB729C4}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Combat\Player_Staff_Swing\SFX_Staff_Swing_01		92460
-	84591386	Chomper_Death_03	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\7D\{7D438FB5-84E3-9ED7-77A3-E8A6C70864AF}.wem		\Actor-Mixer Hierarchy\NPC\NPC\Chomper_Combat\Chomper_Death\Chomper_Death_03		159636
+	84591386	Chomper_Death_03	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\87\{87C46718-296A-949F-0D66-BFEC6C6AF3A3}.wem		\Actor-Mixer Hierarchy\NPC\NPC\Chomper_Combat\Chomper_Death\Chomper_Death_03		159636
 	86784534	SFX_Ellen_Footstep_Stone_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\D7\{D7080846-551C-6E95-7DA2-80A00517888A}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_01		67888
 	109044943	SFX_Ellen_Land_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\BB\{BBA5C2DD-7748-08C0-ABDB-E28371AF9689}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Movement\Player_Land_Voice\SFX_Ellen_Land_01		66728
 	113731952	SFX_Chomper_Footstep_Breath_03	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\D6\{D6E6B35E-79BE-571F-99BC-6109B019C717}.wem		\Actor-Mixer Hierarchy\NPC\NPC\NPC_Movement\Chomper_Footstep\Chomper_Footstep_Layer\SFX_Chomper_Footstep_Breath_03		53440
@@ -117,7 +122,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	272667487	SFX_Ellen_Footstep_Stone_02	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\4B\{4B351DEF-7CA9-2369-34F3-DB346FDCF86C}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_02		78056
 	272817585	SFX_Ellen_Cloth_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\21\{21A2D4B3-E007-5DF8-CC2F-B4C8C8F2A8BE}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Cloth\SFX_Ellen_Cloth_01		89844
 	291244082	SFX_Ellen_Footstep_Dirt_06	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\8E\{8E6ECBFE-E46C-41C5-B3E5-1D8EA7844CF0}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Movement\Player_Footsteps\Player_Footstep_Dirt\SFX_Ellen_Footstep_Dirt_06		92168
-	304280999	Chomper_Death_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\5E\{5E8E530C-68DF-F036-AC9D-38443CCC15F8}.wem		\Actor-Mixer Hierarchy\NPC\NPC\Chomper_Combat\Chomper_Death\Chomper_Death_01		183876
+	304280999	Chomper_Death_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\C8\{C8E6D58B-0182-85B2-2373-19682FCB5C3B}.wem		\Actor-Mixer Hierarchy\NPC\NPC\Chomper_Combat\Chomper_Death\Chomper_Death_01		183876
 	313247670	UI_Menu_Click	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\C3\{C39999D0-EC6D-623A-E931-7DFC2D08849A}.wem		\Actor-Mixer Hierarchy\UI\UI_Global\UI_Menu_Click		42940
 	321299970	SFX_Ellen_Footstep_Grass_03	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\39\{398F7D17-98A3-78D5-99D9-FDF93A06C229}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Movement\Player_Footsteps\Player_Footstep_Grass\SFX_Ellen_Footstep_Grass_03		97884
 	324719264	SFX_Staff_PickUp	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\E8\{E82D6974-13AA-87B0-C3E1-3A23EEDC64DA}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Combat\SFX_Staff_PickUp		224268
@@ -197,10 +202,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	992886622	Wind	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\E8\{E825FE29-1E48-4A25-BDF4-563C919F9A8C}.wem		\Actor-Mixer Hierarchy\Ambience\AMB_GLOBAL\AMB Loops\Wind		8514956
 	995122761	SFX_Ellen_Footstep_Stone_04	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\1D\{1DAEA103-DB0B-1836-2679-648B6DFCDACF}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Movement\Player_Footsteps\Player_Footstep_Stone\SFX_Ellen_Footstep_Stone_04		76540
 	1019763854	Ellen_Footstep_Metal_03	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\91\{913843C7-BE48-ED84-4386-D6C9104C196D}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Movement\Player_Footsteps\Player_Footstep_Metal\Ellen_Footstep_Metal_03		44988
-	1032384779	Chomper_Death_02	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\0A\{0ACF60B6-448C-DC64-9C78-000022795899}.wem		\Actor-Mixer Hierarchy\NPC\NPC\Chomper_Combat\Chomper_Death\Chomper_Death_02		104064
+	1032384779	Chomper_Death_02	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\24\{24AE0A69-249A-2DD9-E80F-3F672F00FD15}.wem		\Actor-Mixer Hierarchy\NPC\NPC\Chomper_Combat\Chomper_Death\Chomper_Death_02		104064
 	1032667905	UI_Menu_Select	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\2A\{2A98A6AE-4D9C-652E-9643-0496DF1F6A31}.wem		\Actor-Mixer Hierarchy\UI\UI_Global\UI_Menu_Select		47760
 	1037984318	Ellen_Footstep_Metal_01	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\67\{6726AFD3-E795-7F6F-D12B-1AE511398A3F}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Movement\Player_Footsteps\Player_Footstep_Metal\Ellen_Footstep_Metal_01		46072
-	1038723832	Crystal Activated	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\3A\{3A7C89A6-B5A0-72CE-CB27-6556A8A11CAC}.wem		\Actor-Mixer Hierarchy\World\WORLD\Interactions\Crystals\Crystal Activated		509304
+	1038723832	Crystal Activated	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\63\{6376E005-3782-A707-96F1-486F005FEB39}.wem		\Actor-Mixer Hierarchy\World\WORLD\Interactions\Crystals\Crystal Activated		509304
 	1041792918	SFX_Staff_Swing_04	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\E5\{E5FF92F0-DFFE-385B-08B8-73E97E8AA08E}.wem		\Actor-Mixer Hierarchy\Player\PLAYER\Player_Combat\Player_Staff_Swing\SFX_Staff_Swing_04		78952
 	1042640024	SFX_Grenadier_Damaged	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\CA\{CA12BF7D-EBAB-AFD5-C8B5-4C0C3081B0A0}.wem		\Actor-Mixer Hierarchy\NPC\NPC\Grenadier_Combat\Grenadier_Damage\SFX_Grenadier_Damaged		261908
 	1042833976	UI_Menu_Back	C:\Users\edaba\Documents\GitHub\DAU_AdventureGame\DAU_AdventureGame_WwiseProject\.cache\55\{55A03F81-F836-8EBA-349E-CAA7B6D9F2BA}.wem		\Actor-Mixer Hierarchy\UI\UI_Global\UI_Menu_Back		25300

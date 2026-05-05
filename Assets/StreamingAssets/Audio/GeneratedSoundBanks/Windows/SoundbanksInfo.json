@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{E51DA1F8-A77E-12F0-5F73-08EE2E55413C}",
+    "Hash": "{3F4426F8-5E67-789E-26F1-FAE4E81A329A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -962,6 +962,24 @@
        "LibName": "Wwise Flanger",
        "LibId": "8192003"
       }
+     ],
+     "ShareSets": [
+      {
+       "Id": "1706684651",
+       "Name": "Plate_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Plates\\Plate_Medium",
+       "GUID": "{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2513915904",
+       "Name": "Hall_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
+       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
      ]
     },
     "Events": [
@@ -1502,7 +1520,14 @@
          {
           "Id": "622130365"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1706684651"
+          }
+         ]
+        }
        },
        {
         "SwitchValue": {
@@ -1516,7 +1541,14 @@
          {
           "Id": "40400148"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "2513915904"
+          }
+         ]
+        }
        }
       ]
      },
@@ -2928,7 +2960,7 @@
     "Type": "Event",
     "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
     "Language": "SFX",
-    "Hash": "{BCB78F4A-361B-D336-3EBE-2BE725C80019}",
+    "Hash": "{73544A72-3A9B-7BEE-B68B-89E8212207C8}",
     "ObjectPath": "Play_Main_Music_Switch",
     "ShortName": "Play_Main_Music_Switch",
     "Path": "Event/13/Play_Main_Music_Switch.bnk",
@@ -2952,6 +2984,26 @@
       "CachePath": "96/{96D716F7-DEEE-62D4-88F8-6C8F1F938763}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1706684651",
+       "Name": "Plate_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Plates\\Plate_Medium",
+       "GUID": "{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2513915904",
+       "Name": "Hall_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
+       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1378767680",
@@ -2972,7 +3024,14 @@
          {
           "Id": "622130365"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1706684651"
+          }
+         ]
+        }
        },
        {
         "SwitchValue": {
@@ -2986,7 +3045,14 @@
          {
           "Id": "40400148"
          }
-        ]
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "2513915904"
+          }
+         ]
+        }
        }
       ]
      }
@@ -3279,6 +3345,6 @@
     ]
    }
   ],
-  "FileHash": "{87B274EE-D4EC-8126-E7A7-9027BC3D5BD8}"
+  "FileHash": "{4E6CC1D6-64AD-C826-F130-247F7D906C60}"
  }
 }

@@ -133,6 +133,7 @@
 								<MusicSegment Name="Music_Exploration" ID="{FFCF50AB-4F2C-407A-ABD7-2C9000E399AC}" ShortID="246353995">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="38801.6036873501"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -305,6 +306,35 @@
 												</Local>
 											</Reference>
 										</ObjectList>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{27D0BC11-0731-49F3-A91E-B60D67240869}" ShortID="622799648">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+														<StateInfo>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="None" ID="{4025E397-C4C3-4587-A10E-3AB9AA03E94A}"/>
+																	<CustomState Name="" ID="{0847776C-99C2-4207-BF8A-6DEC6CFD1C66}" ShortID="94728425"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="Exploration" ID="{0180C728-A311-4821-8CEB-A032B9BF122B}"/>
+																	<CustomState Name="" ID="{65B751E9-F84D-4AF8-8B06-C355C2F4F22F}" ShortID="110988532"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="Temple" ID="{791E3DFA-B917-4A23-BA27-09DA2A45E68C}"/>
+																	<CustomState Name="" ID="{9271DB94-0525-4998-9808-2685705E72A5}" ShortID="12497001"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
 							</ChildrenList>
@@ -359,6 +389,7 @@
 								<MusicSegment Name="Music_Temple" ID="{91309422-0EC7-4E0E-9EC0-8AF553D4508B}" ShortID="59998842">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="40251.5"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -470,6 +501,35 @@
 															<Property Name="TimeMs" Type="Real64" Value="40251.5"/>
 														</PropertyList>
 													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{26F07257-AA81-4C1F-A561-603EE6820ECA}" ShortID="374852079">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+														<StateInfo>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="None" ID="{4025E397-C4C3-4587-A10E-3AB9AA03E94A}"/>
+																	<CustomState Name="" ID="{B6BC34EE-C259-4AAA-92B0-35CAF5191BC8}" ShortID="458168301"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="Exploration" ID="{0180C728-A311-4821-8CEB-A032B9BF122B}"/>
+																	<CustomState Name="" ID="{FC773A19-384B-45EF-A291-9301A42200D3}" ShortID="618989751"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="Temple" ID="{791E3DFA-B917-4A23-BA27-09DA2A45E68C}"/>
+																	<CustomState Name="" ID="{95F051F3-72F6-47DF-8A88-826398F7793B}" ShortID="556070009"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</EffectSlot>
 												</Local>
 											</Reference>
 										</ObjectList>
