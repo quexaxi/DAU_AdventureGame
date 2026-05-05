@@ -60413,6 +60413,10 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 9d685dbcc295a3741b72f0f6774edd4d,
       type: 2}
+  rechargeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1637688901460628
 GameObject:
   m_ObjectHideFlags: 0
@@ -95783,6 +95787,11 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 23cbe13db196a5b4bb39f00fe025e97c,
+      type: 2}
+  rechargeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9d685dbcc295a3741b72f0f6774edd4d,
       type: 2}
 --- !u!1 &1878574748180302
 GameObject:

@@ -15,6 +15,7 @@ public class GrenadierSoundController : MonoBehaviour
     public AK.Wwise.Event attackEvent;
     public AK.Wwise.Event endAttackEvent;
     public AK.Wwise.Event hitEvent;
+    public AK.Wwise.Event rechargeEvent;
 
 
 
@@ -66,6 +67,11 @@ public class GrenadierSoundController : MonoBehaviour
     public void AnimHit04()
     {
         hitEvent.Post(gameObject);
+    }
+
+    public void RechargeGrenade()
+    {
+        rechargeEvent.Post(gameObject);
     }
 
 }

@@ -402,6 +402,7 @@
 											</ValueList>
 										</Property>
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
@@ -416,7 +417,7 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{6CBCAB3A-9344-48FF-991B-FA1232701F4B}" ShortID="921276699">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="20"/>
+														<Property Name="RadiusMax" Type="Real64" Value="75"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -432,7 +433,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>20</XPos>
+																			<XPos>75</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -465,7 +466,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>20</XPos>
+																			<XPos>75</XPos>
 																			<YPos>0</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -572,50 +573,83 @@
 										</CustomStateList>
 									</StateInfo>
 									<ObjectLists>
-										<ObjectList Name="RTPC">
+										<ObjectList Name="Effects">
 											<Reference>
 												<Local>
-													<RTPC Name="" ID="{4EE3152F-D6F2-4A8A-8744-613FC5D5EFC5}" ShortID="740504326">
-														<PropertyList>
-															<Property Name="PropertyName" Type="string" Value="Volume"/>
-														</PropertyList>
+													<EffectSlot Name="" ID="{721D2407-7FFB-4F74-8465-CBA27E19EB70}" ShortID="1007670358">
 														<ReferenceList>
-															<Reference Name="ControlInput">
-																<ObjectRef Name="RTPC_Teleporter" ID="{E08B85EA-D18D-4FA6-8F68-A08287C36F79}" WorkUnitID="{9509A0B2-2221-4530-98BB-38D927BFEA99}"/>
-															</Reference>
-															<Reference Name="Curve">
+															<Reference Name="Effect">
 																<Custom>
-																	<Curve Name="" ID="{CCE04A01-9E33-4ED4-B781-0FE1100A858D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-96</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>25.1145</XPos>
-																				<YPos>-30</YPos>
-																				<Flags>0</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>75</XPos>
-																				<YPos>-12</YPos>
-																				<Flags>0</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>100</XPos>
-																				<YPos>-6</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
+																	<Effect Name="Flanger (Custom)" ID="{6BEA8731-2EE2-4AF9-B244-802E12AA0E45}" ShortID="911585237" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+																		<ObjectLists>
+																			<ObjectList Name="RTPC">
+																				<Reference>
+																					<Local>
+																						<RTPC Name="" ID="{A76E0425-9124-4BBE-9332-ED2921A60727}" ShortID="21268207">
+																							<PropertyList>
+																								<Property Name="PropertyName" Type="string" Value="WetDryMix"/>
+																							</PropertyList>
+																							<ReferenceList>
+																								<Reference Name="ControlInput">
+																									<ObjectRef Name="RTPC_Teleporter" ID="{E08B85EA-D18D-4FA6-8F68-A08287C36F79}" WorkUnitID="{9509A0B2-2221-4530-98BB-38D927BFEA99}"/>
+																								</Reference>
+																								<Reference Name="Curve">
+																									<Custom>
+																										<Curve Name="" ID="{2C27FE03-F885-46B9-AA8C-182899BC078F}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="1"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>-100</YPos>
+																													<Flags>5</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>29.91395</XPos>
+																													<YPos>-100</YPos>
+																													<Flags>0</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>100</XPos>
+																													<YPos>0</YPos>
+																													<Flags>37</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</Custom>
+																								</Reference>
+																							</ReferenceList>
+																						</RTPC>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</Effect>
 																</Custom>
 															</Reference>
 														</ReferenceList>
-													</RTPC>
+														<StateInfo>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="StartingArea" ID="{0DA34214-807F-41CF-857F-6D58D3547A8A}"/>
+																	<CustomState Name="" ID="{317050CF-ED93-47D6-AE8B-4F5C31F7ADCF}" ShortID="307353322"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="TeleporterArea" ID="{9B5912B0-8F19-4901-8044-B23309C3C555}"/>
+																	<CustomState Name="" ID="{D3B2CA8E-F968-498B-96E9-20BBCB54314D}" ShortID="572383975"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="None" ID="{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"/>
+																	<CustomState Name="" ID="{57C7A4F5-41C6-42FC-922B-76ECB33AAB24}" ShortID="780774300"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="SwitchesArea" ID="{98C8DD4B-9996-4EEE-B97A-145176A60240}"/>
+																	<CustomState Name="" ID="{0207B04A-AA06-4AB4-8EDA-FB5509DC0C56}" ShortID="110371698"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</EffectSlot>
 												</Local>
 											</Reference>
 										</ObjectList>

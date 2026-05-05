@@ -35,6 +35,9 @@ namespace Gamekit3D
         
         protected static Collider[] m_ExplosionHitCache = new Collider[32];
 
+        public AK.Wwise.Event bounceEvent;
+        public AK.Wwise.Event explodeEvent;
+
         private void Awake()
         {
             m_EnvironmentLayer = 1 << LayerMask.NameToLayer("Environment");
@@ -89,7 +92,8 @@ namespace Gamekit3D
             if (explosionPlayer)
             {
                 explosionPlayer.transform.SetParent(null);
-                explosionPlayer.PlayRandomClip();
+                //explosionPlayer.PlayRandomClip();
+                explodeEvent.Post(gameObject);
             }
 
             int count = Physics.OverlapSphereNonAlloc(transform.position, explosionRadius, m_ExplosionHitCache,
@@ -137,7 +141,8 @@ namespace Gamekit3D
         protected virtual void OnCollisionEnter(Collision other)
         {
             if (bouncePlayer != null)
-                bouncePlayer.PlayRandomClip();
+                //bouncePlayer.PlayRandomClip();
+                bounceEvent.Post(gameObject);
         }
 
         private Vector3 GetVelocity(Vector3 target)
