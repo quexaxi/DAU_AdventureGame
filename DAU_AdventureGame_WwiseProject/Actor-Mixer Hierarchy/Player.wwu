@@ -37,7 +37,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -208,7 +208,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>-2</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -1176,9 +1176,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{A1D6F940-B2DC-4DE4-8F6D-4F4F35A09AFE}"/>
@@ -1196,6 +1193,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="SFX_Ellen_Jump_01" ID="{1552F276-9C85-4BDB-94D4-99860E998244}" ShortID="366586440">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
@@ -1218,6 +1222,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Ellen_Jump_02" ID="{31FEDC3C-7405-4083-AA2E-9E035A20C5FB}" ShortID="340178178">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
@@ -1268,7 +1279,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-5</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -1411,7 +1422,7 @@
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1746,48 +1757,6 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<Sound Name="SFX_Staff_PickUp" ID="{39D3E83E-5E7B-4DDC-A566-6BB3A57BA81D}" ShortID="357280733">
-									<PropertyList>
-										<Property Name="MakeUpGain" Type="Real64">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{E603AA24-3BA4-446A-B695-F74EE4384656}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="40"/>
-															<Property Name="Min" Type="Real64" Value="-40"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SFX_Staff_PickUp" ID="{4F888595-6D50-4009-B8CC-418458811988}">
-											<Language>SFX</Language>
-											<AudioFile>SFX_Staff_PickUp.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="324719264"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="SFX_Staff_PickUp" ID="{4F888595-6D50-4009-B8CC-418458811988}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Player_Fall_Water" ID="{CB89E4A7-AEF4-42C0-881E-60AA7D82650A}" ShortID="145976340">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">

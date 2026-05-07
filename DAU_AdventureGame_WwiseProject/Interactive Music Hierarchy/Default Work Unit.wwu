@@ -132,7 +132,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Music_Exploration" ID="{FFCF50AB-4F2C-407A-ABD7-2C9000E399AC}" ShortID="246353995">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="38801.6036873501"/>
+										<Property Name="EndPosition" Type="Real64" Value="38785.9785006849"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
@@ -189,7 +189,6 @@
 																				<MusicClip Name="Music_Exploration" ID="{136334ED-F09E-4D29-BC3A-C9D65C91F361}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="38767.1666666667"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Music_Exploration" ID="{8F7D416E-FA8E-466B-9580-ECCA0980F0FD}"/>
 																					<PropertyCurveList>
@@ -300,7 +299,7 @@
 													<MusicCue Name="Exit Cue" ID="{49D45537-E2F8-4FEF-BB4E-F7FD6987E2C1}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="38713.3138969874"/>
+															<Property Name="TimeMs" Type="Real64" Value="38767.1666666667"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>

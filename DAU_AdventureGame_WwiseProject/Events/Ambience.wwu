@@ -51,7 +51,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Swamp_Animals" ID="{B9A0314B-3BFC-4088-8E18-5482B51CB636}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+									<ObjectRef Name="Swamp Animals" ID="{B9A0314B-3BFC-4088-8E18-5482B51CB636}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -80,7 +80,7 @@
 						<Action Name="" ID="{EEAD8132-FEF4-4CA3-B04A-E7947D50AAFC}" ShortID="296827927">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Water_Layer" ID="{82199253-1E15-42F4-BD8C-9745C5A430B8}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+									<ObjectRef Name="AMB_Water" ID="{82199253-1E15-42F4-BD8C-9745C5A430B8}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -105,7 +105,7 @@
 						<Action Name="" ID="{FA07B4E1-33F2-4B07-920E-826849AB6385}" ShortID="747660457">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Fantasy_Final" ID="{7A28320B-AA8D-4B3B-8234-2F33D409F91C}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+									<ObjectRef Name="AMB_Temple" ID="{7A28320B-AA8D-4B3B-8234-2F33D409F91C}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -119,7 +119,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wind" ID="{442D01EC-6204-41D2-9398-9B989D99469A}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+									<ObjectRef Name="Wind_Layer" ID="{442D01EC-6204-41D2-9398-9B989D99469A}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -140,7 +140,7 @@
 						<Action Name="" ID="{06259D0F-F6C4-4B90-9A4D-B250A4AD6997}" ShortID="945516488">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AMB_Fantasy_Final" ID="{7A28320B-AA8D-4B3B-8234-2F33D409F91C}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
+									<ObjectRef Name="AMB_Temple" ID="{7A28320B-AA8D-4B3B-8234-2F33D409F91C}" WorkUnitID="{07B72137-A9CB-410A-A86B-38AAC1AC40BA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

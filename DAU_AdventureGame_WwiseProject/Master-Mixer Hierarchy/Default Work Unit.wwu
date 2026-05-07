@@ -201,6 +201,21 @@
 											<PropertyList>
 												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{6585A313-4347-4AA6-9047-BC0B14136AB5}" ShortID="332461219">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="Space_Dreaming" ID="{4FF7C4B2-37B0-4DFF-8E8A-1420102AE2DD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</AuxBus>
 										<AuxBus Name="Rev_SwitchesArea" ID="{0A19BD35-A89B-4686-8214-AF0FE99A0B25}">
 											<PropertyList>

@@ -1,3 +1,6 @@
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	273255480	Rev_TeleporterArea			\Default Work Unit\Master_Audio_Bus\Reverbs_AUX\Rev_TeleporterArea	
+	273255480	Rev_TeleporterArea			\Default Work Unit\Master_Audio_Bus\SFX_Bus\Reverbs_AUX\Rev_TeleporterArea	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3216246379	Space_Dreaming	Wwise RoomVerb			
 

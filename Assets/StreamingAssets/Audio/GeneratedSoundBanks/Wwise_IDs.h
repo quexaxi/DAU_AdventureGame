@@ -43,6 +43,7 @@ namespace AK
         static const AkUniqueID PLAY_GRENADIER_THROW = 4143606696U;
         static const AkUniqueID PLAY_MAIN_MUSIC_SWITCH = 1378767680U;
         static const AkUniqueID PLAY_MUSIC_MAIN = 1614763749U;
+        static const AkUniqueID PLAY_MUSIC_TEMPLE = 2920492637U;
         static const AkUniqueID PLAY_PLAYER_DAMAGE = 3638125099U;
         static const AkUniqueID PLAY_PLAYER_FALL_WATER = 3772621023U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
@@ -56,7 +57,6 @@ namespace AK
         static const AkUniqueID PLAY_WEAPONPEDESTAL_SWELL = 969098578U;
         static const AkUniqueID STOP_CHEST_SWELL = 3235850781U;
         static const AkUniqueID STOP_CRYSTAL_SWELL = 833621684U;
-        static const AkUniqueID STOP_TELEPORTER = 1209420976U;
         static const AkUniqueID STOP_WEAPONPEDESTAL_SWELL = 2610202148U;
         static const AkUniqueID UI_BACK = 2024222415U;
         static const AkUniqueID UI_CANCEL = 3083016892U;

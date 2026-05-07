@@ -1248,7 +1248,6 @@
 										<Property Name="HFDamping" Type="Real32" Value="2.7"/>
 										<Property Name="PreDelay" Type="Real32" Value="35"/>
 										<Property Name="Quality" Type="int32" Value="12"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-23"/>
 										<Property Name="RoomShape" Type="Real32" Value="55"/>
 										<Property Name="RoomSize" Type="Real32" Value="15"/>
 										<Property Name="StereoWidth" Type="Real32" Value="140"/>
@@ -1608,11 +1607,9 @@
 						</Effect>
 						<Effect Name="Special_Effect_1" ID="{83317D8A-9D4C-438E-BE8C-BC7D27CAD1B0}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 							<PropertyList>
-								<Property Name="DelayTime" Type="Real32" Value="10"/>
-								<Property Name="DryLevel" Type="Real32" Value="0"/>
-								<Property Name="ModDepth" Type="Real32" Value="80"/>
-								<Property Name="ModFrequency" Type="Real32" Value="2"/>
-								<Property Name="ModPWM" Type="Real32" Value="0"/>
+								<Property Name="ModDepth" Type="Real32" Value="77.6"/>
+								<Property Name="ModPWM" Type="Real32" Value="14"/>
+								<Property Name="WetDryMix" Type="Real32" Value="25"/>
 							</PropertyList>
 						</Effect>
 						<Folder Name="Static Comb Filtering" ID="{6044FF31-2237-4EC5-B94F-9C0C25CFAC44}" ShortID="504290141">

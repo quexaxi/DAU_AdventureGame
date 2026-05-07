@@ -43,6 +43,9 @@
 				<Event Name="Play_Chest_Opens" ID="{E96ACCE8-EEC7-4A55-83A8-936526C3338F}">
 					<ChildrenList>
 						<Action Name="" ID="{8FDF6788-9D38-4662-B53F-5B899115AD70}" ShortID="55232941">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Chest_Opens" ID="{F6B1C154-BDA4-4863-B50E-A585FBACE1E8}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
@@ -67,7 +70,7 @@
 						<Action Name="" ID="{5E9939DB-9C42-477F-A75E-607967BF0B35}" ShortID="20858568">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -92,7 +95,8 @@
 					<ChildrenList>
 						<Action Name="" ID="{45B6902D-AFED-4FBF-AEBB-3ADE8E6D82F0}" ShortID="883639766">
 							<PropertyList>
-								<Property Name="Probability" Type="Real64" Value="75"/>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+								<Property Name="Probability" Type="Real64" Value="50"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -107,26 +111,11 @@
 						<Action Name="" ID="{A09CD279-6B9D-4253-994D-2DC64A55BCE0}" ShortID="761497631">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Chest Swell" ID="{5D1582B8-5A01-4DDE-BE74-C02D5D40DFE1}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Teleporter" ID="{C21ABC17-B147-4A69-8EBD-B8C857A52845}">
-					<ChildrenList>
-						<Action Name="" ID="{FB83584E-4B61-4918-BE5A-E3B8F79E17CD}" ShortID="631165037">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TeleporterArea" ID="{D99FDE83-F7D8-4B97-B356-B7CED8927125}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -148,7 +137,7 @@
 						<Action Name="" ID="{1980DD03-4094-4CF5-BF62-49045745144D}" ShortID="343868996">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -176,6 +165,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{C20A5A75-0D20-4F85-8AE7-D3D2542445C8}" ShortID="363629794">
 							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="5"/>
 								<Property Name="Probability" Type="Real64" Value="70"/>
 							</PropertyList>
 							<ReferenceList>

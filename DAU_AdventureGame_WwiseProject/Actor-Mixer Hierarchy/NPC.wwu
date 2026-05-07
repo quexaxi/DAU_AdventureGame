@@ -400,7 +400,7 @@
 												</Property>
 												<Property Name="MakeUpGain" Type="Real64">
 													<ValueList>
-														<Value>2</Value>
+														<Value>10</Value>
 													</ValueList>
 												</Property>
 												<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
@@ -531,7 +531,7 @@
 										</Property>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>6</Value>
+												<Value>10</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Pitch" Type="int32">
@@ -698,7 +698,7 @@
 										</Property>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>6</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Pitch" Type="int32">
@@ -783,7 +783,7 @@
 										</Property>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>6</Value>
+												<Value>12</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Pitch" Type="int32">
@@ -927,7 +927,7 @@
 									<PropertyList>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -956,7 +956,7 @@
 									<PropertyList>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>6</Value>
+												<Value>10</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Pitch" Type="int32">

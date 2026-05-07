@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{7CECE4B2-AFDA-57A3-DE41-71AC5B5F8BDD}",
+    "Hash": "{503256D5-FD88-45DE-9058-72108B3D26E4}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -47,6 +47,14 @@
        "Name": "Room_Medium",
        "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
        "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3216246379",
+       "Name": "Space_Dreaming",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Space_Dreaming",
+       "GUID": "{4FF7C4B2-37B0-4DFF-8E8A-1420102AE2DD}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -149,6 +157,13 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_TeleporterArea",
       "GUID": "{72354B84-DA22-4A28-A05E-6152082E4A18}",
       "Color": "2",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3216246379"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "4148005607",
@@ -686,6 +701,6 @@
     ]
    }
   ],
-  "FileHash": "{72A779BD-56A1-1299-267A-C09EE7FEC414}"
+  "FileHash": "{E42C1AF2-5E54-22E7-5CF8-B61EFE67B819}"
  }
 }

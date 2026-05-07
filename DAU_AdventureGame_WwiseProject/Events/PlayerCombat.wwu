@@ -8,7 +8,7 @@
 						<Action Name="" ID="{E4F2661E-5A83-408A-9772-C2216C26F35B}" ShortID="139035370">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Staff_PickUp" ID="{39D3E83E-5E7B-4DDC-A566-6BB3A57BA81D}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
+									<ObjectRef Name="SFX_Staff_PickUp" ID="{39D3E83E-5E7B-4DDC-A566-6BB3A57BA81D}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

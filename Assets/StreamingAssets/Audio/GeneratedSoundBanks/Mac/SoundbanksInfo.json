@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{3F4426F8-5E67-789E-26F1-FAE4E81A329A}",
+    "Hash": "{B7D732A5-B4BB-1D13-6712-D4782BF68ACD}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -979,6 +979,14 @@
        "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
+      },
+      {
+       "Id": "2805769450",
+       "Name": "Special_Effect_1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Special_Effect_1",
+       "GUID": "{83317D8A-9D4C-438E-BE8C-BC7D27CAD1B0}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
       }
      ]
     },
@@ -1026,7 +1034,14 @@
        {
         "Id": "420773595"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2805769450"
+        }
+       ]
+      }
      },
      {
       "Id": "1234490318",
@@ -1092,8 +1107,8 @@
       "GUID": "{E96ACCE8-EEC7-4A55-83A8-936526C3338F}",
       "Color": "11",
       "DurationType": "OneShot",
-      "DurationMin": "1.0233282",
-      "DurationMax": "1.3659792",
+      "DurationMin": "1.1233282",
+      "DurationMax": "1.4659792",
       "MediaRefs": [
        {
         "Id": "15768759"
@@ -1111,6 +1126,15 @@
       "MediaRefs": [
        {
         "Id": "729393014"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1676981132",
+        "Name": "Rev_SwitchesArea",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_SwitchesArea",
+        "GUID": "{0A19BD35-A89B-4686-8214-AF0FE99A0B25}",
+        "Color": "2"
        }
       ]
      },
@@ -1203,7 +1227,7 @@
       "Color": "1",
       "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0",
+      "DurationMin": "0.70813453",
       "DurationMax": "2.1153734",
       "MediaRefs": [
        {
@@ -1254,7 +1278,7 @@
       "Color": "1",
       "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0",
+      "DurationMin": "0.875758",
       "DurationMax": "0.9830052",
       "MediaRefs": [
        {
@@ -1276,6 +1300,15 @@
        {
         "Id": "1038723832"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1676981132",
+        "Name": "Rev_SwitchesArea",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_SwitchesArea",
+        "GUID": "{0A19BD35-A89B-4686-8214-AF0FE99A0B25}",
+        "Color": "2"
+       }
       ]
      },
      {
@@ -1289,6 +1322,15 @@
       "MediaRefs": [
        {
         "Id": "543721172"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1676981132",
+        "Name": "Rev_SwitchesArea",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_SwitchesArea",
+        "GUID": "{0A19BD35-A89B-4686-8214-AF0FE99A0B25}",
+        "Color": "2"
        }
       ]
      },
@@ -1315,7 +1357,7 @@
       "Color": "11",
       "DurationType": "OneShot",
       "DurationMin": "0",
-      "DurationMax": "3.086183",
+      "DurationMax": "8.086184",
       "MediaRefs": [
        {
         "Id": "168740610"
@@ -1551,6 +1593,28 @@
         }
        }
       ]
+     },
+     {
+      "Id": "2920492637",
+      "Name": "Play_Music_Temple",
+      "ObjectPath": "\\Events\\Music\\Play_Music_Temple",
+      "GUID": "{A71F4C6F-A14B-4758-807B-9155CAE0A557}",
+      "Color": "18",
+      "DurationType": "OneShot",
+      "DurationMin": "40.2515",
+      "DurationMax": "40.2515",
+      "MediaRefs": [
+       {
+        "Id": "40400148"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2513915904"
+        }
+       ]
+      }
      },
      {
       "Id": "3638125099",
@@ -1860,6 +1924,7 @@
       "ObjectPath": "\\Events\\Player\\PlayerCombat\\Play_Staff_Pickup",
       "GUID": "{D9C42927-278B-4770-A495-D6317374579E}",
       "Color": "10",
+      "MaxAttenuation": "12",
       "DurationType": "OneShot",
       "DurationMin": "1.1408954",
       "DurationMax": "1.194853",
@@ -1918,7 +1983,16 @@
          "Id": "911585237"
         }
        ]
-      }
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "273255480",
+        "Name": "Rev_TeleporterArea",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_TeleporterArea",
+        "GUID": "{72354B84-DA22-4A28-A05E-6152082E4A18}",
+        "Color": "2"
+       }
+      ]
      },
      {
       "Id": "969098578",
@@ -1931,6 +2005,15 @@
       "MediaRefs": [
        {
         "Id": "593107319"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1676981132",
+        "Name": "Rev_SwitchesArea",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_SwitchesArea",
+        "GUID": "{0A19BD35-A89B-4686-8214-AF0FE99A0B25}",
+        "Color": "2"
        }
       ]
      },
@@ -1950,17 +2033,6 @@
       "Name": "Stop_Crystal_Swell",
       "ObjectPath": "\\Events\\World\\Stop_Crystal_Swell",
       "GUID": "{2E1E6436-5B60-42A0-92FA-2B1777606E06}",
-      "Color": "11",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "1209420976",
-      "Name": "Stop_Teleporter",
-      "ObjectPath": "\\Events\\World\\Stop_Teleporter",
-      "GUID": "{C21ABC17-B147-4A69-8EBD-B8C857A52845}",
       "Color": "11",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -2252,10 +2324,22 @@
     "Type": "Bus",
     "GUID": "{72354B84-DA22-4A28-A05E-6152082E4A18}",
     "Language": "SFX",
-    "Hash": "{9BA66A0B-7C19-7D4C-4C8D-E70FB400DBA1}",
+    "Hash": "{9F7A117E-65C2-EC45-9E96-403F9C2DC755}",
     "ObjectPath": "Rev_TeleporterArea",
     "ShortName": "Rev_TeleporterArea",
     "Path": "Bus/27/Rev_TeleporterArea.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3216246379",
+       "Name": "Space_Dreaming",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Space_Dreaming",
+       "GUID": "{4FF7C4B2-37B0-4DFF-8E8A-1420102AE2DD}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "AuxBusses": [
      {
       "Id": "273255480",
@@ -2263,6 +2347,13 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_TeleporterArea",
       "GUID": "{72354B84-DA22-4A28-A05E-6152082E4A18}",
       "Color": "2",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3216246379"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "4148005607",
@@ -2280,7 +2371,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{C66B1613-7B0D-4318-CFB2-4E443E4EBC54}",
+    "Hash": "{E1FB6276-961D-C861-9A96-D940C02C0D59}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -2317,6 +2408,14 @@
        "Name": "Room_Medium",
        "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
        "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3216246379",
+       "Name": "Space_Dreaming",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Space_Dreaming",
+       "GUID": "{4FF7C4B2-37B0-4DFF-8E8A-1420102AE2DD}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -2419,6 +2518,13 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_TeleporterArea",
       "GUID": "{72354B84-DA22-4A28-A05E-6152082E4A18}",
       "Color": "2",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3216246379"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "4148005607",
@@ -2960,7 +3066,7 @@
     "Type": "Event",
     "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
     "Language": "SFX",
-    "Hash": "{73544A72-3A9B-7BEE-B68B-89E8212207C8}",
+    "Hash": "{100406ED-1047-7402-3701-64F6A45367F4}",
     "ObjectPath": "Play_Main_Music_Switch",
     "ShortName": "Play_Main_Music_Switch",
     "Path": "Event/13/Play_Main_Music_Switch.bnk",
@@ -3283,7 +3389,7 @@
     "Type": "Bus",
     "GUID": "{7776EEBB-DDB9-4184-AEF5-FDB6A6BF8487}",
     "Language": "SFX",
-    "Hash": "{2FF44B6D-D9F7-E716-3842-BB4729F40920}",
+    "Hash": "{A3D8BB0A-6929-7A23-D4A1-885F39EAED92}",
     "ObjectPath": "Rev_Temple_Large",
     "ShortName": "Rev_Temple_Large",
     "Path": "Bus/40/Rev_Temple_Large.bnk",
@@ -3345,6 +3451,6 @@
     ]
    }
   ],
-  "FileHash": "{65C4B1C8-BF56-3D23-D7FF-375813411971}"
+  "FileHash": "{E9779529-D746-7318-B70D-DC218721669E}"
  }
 }

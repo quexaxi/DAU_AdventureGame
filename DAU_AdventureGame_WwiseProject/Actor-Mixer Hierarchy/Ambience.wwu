@@ -24,7 +24,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="Swamp_Animals" ID="{B9A0314B-3BFC-4088-8E18-5482B51CB636}" ShortID="691816581">
+						<RandomSequenceContainer Name="Swamp Animals" ID="{B9A0314B-3BFC-4088-8E18-5482B51CB636}" ShortID="691816581">
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="2"/>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -48,7 +48,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-30</Value>
+										<Value>-32</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -250,7 +250,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-23</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -750,7 +750,7 @@
 								</CustomStateList>
 							</StateInfo>
 						</RandomSequenceContainer>
-						<ActorMixer Name="AMB Loops" ID="{8CBDDE67-465F-46CF-B911-AB7BE9D0EA7E}" ShortID="418067370">
+						<ActorMixer Name="AMB_Loops" ID="{8CBDDE67-465F-46CF-B911-AB7BE9D0EA7E}" ShortID="418067370">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
@@ -768,203 +768,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="AMB_Temple" ID="{748243FD-261D-407B-B54A-42CE733B9AAE}" ShortID="603296428">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Main_Fantasy_01" ID="{1A76FF00-F74D-475A-9800-E28E497A5A91}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Main_Fantasy_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="303239524"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<StateInfo>
-										<StateGroupList>
-											<StateGroupInfo>
-												<StateGroupRef Name="AMB_Region" ID="{4AF18F8B-5A2A-4740-9E8A-6FF1C8E35516}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="StartingArea" ID="{0DA34214-807F-41CF-857F-6D58D3547A8A}"/>
-												<CustomState Name="" ID="{570CD697-F977-42C4-9EE7-657D2AEF00E2}" ShortID="418001617"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="TeleporterArea" ID="{9B5912B0-8F19-4901-8044-B23309C3C555}"/>
-												<CustomState Name="" ID="{DFA9FF65-90C5-483A-83DF-2F3E32ED918C}" ShortID="336642730">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-12"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="None" ID="{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"/>
-												<CustomState Name="" ID="{C6C0A2E2-D384-4588-A984-F00F7090B3BA}" ShortID="738251559"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="SwitchesArea" ID="{98C8DD4B-9996-4EEE-B97A-145176A60240}"/>
-												<CustomState Name="" ID="{279800C7-A2DD-4821-8348-7BE285ED06F5}" ShortID="91751165">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-6"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Main_Fantasy_01" ID="{1A76FF00-F74D-475A-9800-E28E497A5A91}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="AMB_Water_Jungle" ID="{77EDE3F6-498A-4454-A2AC-9E315D6FE09C}" ShortID="732829502">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Amb_Ext_Generic" ID="{3CED2E42-9A9A-4FDA-B4BB-7D9FD41EA1C4}" WorkUnitID="{3527C007-9CD2-4C70-B30F-0E55AD7BC424}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="AMB_Main_NearWater_01" ID="{46620111-DAF6-4B24-87D0-9B0588C66A37}">
-											<Language>SFX</Language>
-											<AudioFile>AMB_Main_NearWater_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1044922980"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<StateInfo>
-										<StateGroupList>
-											<StateGroupInfo>
-												<StateGroupRef Name="AMB_Region" ID="{4AF18F8B-5A2A-4740-9E8A-6FF1C8E35516}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="StartingArea" ID="{0DA34214-807F-41CF-857F-6D58D3547A8A}"/>
-												<CustomState Name="" ID="{A1D7AE57-31EC-4A0F-A4D4-8B37E96227CD}" ShortID="117286613"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="TeleporterArea" ID="{9B5912B0-8F19-4901-8044-B23309C3C555}"/>
-												<CustomState Name="" ID="{E0FDDA44-CA32-4CDF-B7B8-DA506787BAC8}" ShortID="843604152">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="None" ID="{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"/>
-												<CustomState Name="" ID="{F5F5BDFA-2A85-419C-9D4F-A63DA17890BD}" ShortID="60156934"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="SwitchesArea" ID="{98C8DD4B-9996-4EEE-B97A-145176A60240}"/>
-												<CustomState Name="" ID="{5F145C7B-3F23-4542-AC24-957D36FDA798}" ShortID="198695716">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-20"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
-									<ObjectLists>
-										<ObjectList Name="RTPC">
-											<Reference>
-												<Local>
-													<RTPC Name="" ID="{FBB5C726-C088-4B02-B9A6-E02DF898E0CB}" ShortID="202475400">
-														<PropertyList>
-															<Property Name="PropertyName" Type="string" Value="Volume"/>
-														</PropertyList>
-														<ReferenceList>
-															<Reference Name="ControlInput">
-																<ObjectRef Name="RTPC_Amb_WaterProximity" ID="{8321E8E4-3B3B-4020-B194-2C1A14CFE45E}" WorkUnitID="{F8F4F169-0B09-4224-9712-EBF38669B923}"/>
-															</Reference>
-															<Reference Name="Curve">
-																<Custom>
-																	<Curve Name="" ID="{E361A8CC-F8E2-4D00-93A8-16868DB6DF88}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-96</YPos>
-																				<Flags>5</Flags>
-																				<SegmentShape>Log1</SegmentShape>
-																			</Point>
-																			<Point>
-																				<XPos>3.678886</XPos>
-																				<YPos>-40.12932</YPos>
-																				<Flags>0</Flags>
-																				<SegmentShape>Exp1</SegmentShape>
-																			</Point>
-																			<Point>
-																				<XPos>10.265488</XPos>
-																				<YPos>-20.34923</YPos>
-																				<Flags>0</Flags>
-																				<SegmentShape>Exp1</SegmentShape>
-																			</Point>
-																			<Point>
-																				<XPos>20</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</Custom>
-															</Reference>
-														</ReferenceList>
-													</RTPC>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-									<ActiveSourceList>
-										<ActiveSource Name="AMB_Main_NearWater_01" ID="{46620111-DAF6-4B24-87D0-9B0588C66A37}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<RandomSequenceContainer Name="AMB_Base" ID="{C9CA1BFC-EE33-49F4-8992-CDB7B916205E}" ShortID="17920109">
 									<PropertyList>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
 												<Value>6</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -983,9 +791,10 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
 												<Property Name="OverrideConversion" Type="bool" Value="True"/>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-23</Value>
+														<Value>-30</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -1050,7 +859,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<BlendContainer Name="AMB_Water_Layer" ID="{82199253-1E15-42F4-BD8C-9745C5A430B8}" ShortID="430641753">
+								<BlendContainer Name="AMB_Water" ID="{82199253-1E15-42F4-BD8C-9745C5A430B8}" ShortID="430641753">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="BlendBehavior" Type="int16" Value="1"/>
@@ -1548,7 +1357,7 @@
 										<Panner Name="" ID="{55A44939-B8A1-4074-922F-FDA19A4C9395}"/>
 									</PositioningInfo>
 								</BlendContainer>
-								<Sound Name="Wind" ID="{442D01EC-6204-41D2-9398-9B989D99469A}" ShortID="85236991">
+								<Sound Name="Wind_Layer" ID="{442D01EC-6204-41D2-9398-9B989D99469A}" ShortID="85236991">
 									<PropertyList>
 										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -1562,7 +1371,7 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-25</Value>
+												<Value>-35</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1587,15 +1396,16 @@
 										<ActiveSource Name="AMB_Wind" ID="{11062C36-F5C7-49A8-BEAA-DE10E66CA2BE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="AMB_Fantasy_Final" ID="{7A28320B-AA8D-4B3B-8234-2F33D409F91C}" ShortID="415779702">
+								<Sound Name="AMB_Temple" ID="{7A28320B-AA8D-4B3B-8234-2F33D409F91C}" ShortID="415779702">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-20</Value>
+												<Value>-23</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1654,9 +1464,10 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-18</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1710,6 +1521,41 @@
 											</CustomState>
 										</CustomStateList>
 									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{164541A7-C2F6-4397-A940-F4170D02398F}" ShortID="67395083">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+																<ObjectRef Name="Special_Effect_1" ID="{83317D8A-9D4C-438E-BE8C-BC7D27CAD1B0}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+														<StateInfo>
+															<CustomStateList>
+																<CustomState>
+																	<StateRef Name="StartingArea" ID="{0DA34214-807F-41CF-857F-6D58D3547A8A}"/>
+																	<CustomState Name="" ID="{39DDF67B-6031-4F21-9B89-FF680FD27E42}" ShortID="888878102"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="TeleporterArea" ID="{9B5912B0-8F19-4901-8044-B23309C3C555}"/>
+																	<CustomState Name="" ID="{A4D99CEE-55B0-4E24-8FBB-AA0697614642}" ShortID="91082873"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="None" ID="{20CFC56D-D1D9-4BB8-B1E2-22E8F74CC401}"/>
+																	<CustomState Name="" ID="{DFED7FB0-57EF-4F5F-9099-0658A2E82B80}" ShortID="208298563"/>
+																</CustomState>
+																<CustomState>
+																	<StateRef Name="SwitchesArea" ID="{98C8DD4B-9996-4EEE-B97A-145176A60240}"/>
+																	<CustomState Name="" ID="{CAA75041-0C46-4F08-9F28-CC1093190FFA}" ShortID="635005922"/>
+																</CustomState>
+															</CustomStateList>
+														</StateInfo>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 									<ActiveSourceList>
 										<ActiveSource Name="AMB_Spaceship" ID="{B78539F5-CCD4-4BB5-8F53-FB50B96DA7EC}" Platform="Linked"/>
 									</ActiveSourceList>
