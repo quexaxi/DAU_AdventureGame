@@ -227,7 +227,6 @@
 								<Sound Name="Chest Swell" ID="{5D1582B8-5A01-4DDE-BE74-C02D5D40DFE1}" ShortID="338658597">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-										<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.4"/>
 										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="MakeUpGain" Type="Real64">
@@ -238,13 +237,18 @@
 										<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{7F818EBD-5858-4D68-99EE-C0BCE6BEAB39}" ShortID="270891938">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="40"/>
+														<Property Name="RadiusMax" Type="Real64" Value="25"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -261,7 +265,7 @@
 																			<SegmentShape>Log1</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>40</XPos>
+																			<XPos>25</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -288,12 +292,12 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>8.18635607321128</XPos>
+																			<XPos>5.11647254575705</XPos>
 																			<YPos>20</YPos>
 																			<Flags>0</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>40</XPos>
+																			<XPos>25</XPos>
 																			<YPos>20</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -317,7 +321,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>40</XPos>
+																			<XPos>25</XPos>
 																			<YPos>0</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -721,6 +725,9 @@
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="AMB_Emit_Small" ID="{75AC7CB6-FFB9-465A-983E-BB4A4BC118E4}" WorkUnitID="{3527C007-9CD2-4C70-B30F-0E55AD7BC424}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
 								</Reference>
@@ -731,6 +738,7 @@
 							<ChildrenList>
 								<Sound Name="Door_Opens" ID="{5293F5AA-5553-42D4-B003-D419FB0733FE}" ShortID="410777228">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="Highpass" Type="int16">
 											<ModifierList>
 												<ModifierInfo>
@@ -749,6 +757,7 @@
 											</ValueList>
 										</Property>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -788,9 +797,9 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
-										<Property Name="InitialDelay" Type="Real64">
+										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>2</Value>
+												<Value>3</Value>
 											</ValueList>
 										</Property>
 										<Property Name="MaxSoundPerInstance" Type="int16">
@@ -820,13 +829,11 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-20</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Amb_World_Generic" ID="{906BFCB9-A370-4BDA-943E-46161D0019A7}" WorkUnitID="{3527C007-9CD2-4C70-B30F-0E55AD7BC424}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
 										</Reference>

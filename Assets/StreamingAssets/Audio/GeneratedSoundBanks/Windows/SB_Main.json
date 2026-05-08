@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{B7D732A5-B4BB-1D13-6712-D4782BF68ACD}",
+    "Hash": "{9D42B84F-A9A0-B326-14CD-4F888683D8AA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -1072,7 +1072,7 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Water",
       "GUID": "{60E34E90-1772-4B41-B83B-22BD46F5858D}",
       "Color": "4",
-      "MaxAttenuation": "15",
+      "MaxAttenuation": "30",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1113,7 +1113,7 @@
       "ObjectPath": "\\Events\\World\\Play_Chest_Swell",
       "GUID": "{69A23D73-B1FA-4042-A345-B17205A00F94}",
       "Color": "11",
-      "MaxAttenuation": "16",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1347,9 +1347,10 @@
       "ObjectPath": "\\Events\\World\\Play_Eeldog",
       "GUID": "{2AC001AE-D6CF-4F76-ABAD-8CA6D2DFE06A}",
       "Color": "11",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "8.086184",
+      "DurationMin": "0.33724004",
+      "DurationMax": "1.0861832",
       "MediaRefs": [
        {
         "Id": "168740610"
@@ -2312,6 +2313,6 @@
     ]
    }
   ],
-  "FileHash": "{5315CA91-C700-1EA6-621B-083D68459B1E}"
+  "FileHash": "{363346F2-B884-BAB5-9018-D12962ACFA69}"
  }
 }

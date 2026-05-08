@@ -132,7 +132,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Music_Exploration" ID="{FFCF50AB-4F2C-407A-ABD7-2C9000E399AC}" ShortID="246353995">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="38785.9785006849"/>
+										<Property Name="EndPosition" Type="Real64" Value="44000"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
@@ -309,6 +309,9 @@
 											<Reference>
 												<Local>
 													<EffectSlot Name="" ID="{27D0BC11-0731-49F3-A91E-B60D67240869}" ShortID="622799648">
+														<PropertyList>
+															<Property Name="Bypass" Type="bool" Value="True"/>
+														</PropertyList>
 														<ReferenceList>
 															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 																<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
@@ -507,6 +510,9 @@
 											<Reference>
 												<Local>
 													<EffectSlot Name="" ID="{26F07257-AA81-4C1F-A561-603EE6820ECA}" ShortID="374852079">
+														<PropertyList>
+															<Property Name="Bypass" Type="bool" Value="True"/>
+														</PropertyList>
 														<ReferenceList>
 															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 																<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>

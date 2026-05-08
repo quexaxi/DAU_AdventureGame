@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{B7D732A5-B4BB-1D13-6712-D4782BF68ACD}",
+    "Hash": "{9D42B84F-A9A0-B326-14CD-4F888683D8AA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -1080,7 +1080,7 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Water",
       "GUID": "{60E34E90-1772-4B41-B83B-22BD46F5858D}",
       "Color": "4",
-      "MaxAttenuation": "15",
+      "MaxAttenuation": "30",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1121,7 +1121,7 @@
       "ObjectPath": "\\Events\\World\\Play_Chest_Swell",
       "GUID": "{69A23D73-B1FA-4042-A345-B17205A00F94}",
       "Color": "11",
-      "MaxAttenuation": "16",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1355,9 +1355,10 @@
       "ObjectPath": "\\Events\\World\\Play_Eeldog",
       "GUID": "{2AC001AE-D6CF-4F76-ABAD-8CA6D2DFE06A}",
       "Color": "11",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "8.086184",
+      "DurationMin": "0.33724004",
+      "DurationMax": "1.0861832",
       "MediaRefs": [
        {
         "Id": "168740610"
@@ -2371,7 +2372,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{503256D5-FD88-45DE-9058-72108B3D26E4}",
+    "Hash": "{CBE86747-4A19-166B-FC6D-6BA67057CBBC}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -3066,7 +3067,7 @@
     "Type": "Event",
     "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
     "Language": "SFX",
-    "Hash": "{100406ED-1047-7402-3701-64F6A45367F4}",
+    "Hash": "{5B8A8864-D021-239F-2F7D-73A0888984A8}",
     "ObjectPath": "Play_Main_Music_Switch",
     "ShortName": "Play_Main_Music_Switch",
     "Path": "Event/13/Play_Main_Music_Switch.bnk",
@@ -3248,7 +3249,7 @@
     "Type": "Bus",
     "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
     "Language": "SFX",
-    "Hash": "{995B6D39-276F-9CAC-073A-D72F5DA53E19}",
+    "Hash": "{0E7F773C-D3A3-9D1A-59FD-1D06A9ED1079}",
     "ObjectPath": "Rev_Small_Room",
     "ShortName": "Rev_Small_Room",
     "Path": "Bus/15/Rev_Small_Room.bnk",
@@ -3451,6 +3452,6 @@
     ]
    }
   ],
-  "FileHash": "{4B456C49-DB82-A8AC-C803-D9F79B3D03F6}"
+  "FileHash": "{9971C296-528F-998B-00F2-2EE1D4F27832}"
  }
 }
