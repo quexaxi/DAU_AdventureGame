@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{A91B7386-9107-442F-8F2F-0600D3D7C9A3}",
     "Language": "SFX",
-    "Hash": "{995B6D39-276F-9CAC-073A-D72F5DA53E19}",
+    "Hash": "{0E7F773C-D3A3-9D1A-59FD-1D06A9ED1079}",
     "ObjectPath": "Rev_Small_Room",
     "ShortName": "Rev_Small_Room",
     "Path": "Bus/15/Rev_Small_Room.bnk",
@@ -53,6 +53,6 @@
     ]
    }
   ],
-  "FileHash": "{643AFB7E-ED83-E3FF-2C65-4819DDDC864E}"
+  "FileHash": "{8E731CC5-79F1-B0A1-F769-63528DD8D1CF}"
  }
 }

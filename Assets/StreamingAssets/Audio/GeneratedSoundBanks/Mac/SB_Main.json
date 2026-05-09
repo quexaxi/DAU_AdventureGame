@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{B7D732A5-B4BB-1D13-6712-D4782BF68ACD}",
+    "Hash": "{C2FFAB10-2A0E-9E7A-3340-E355E816947B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -224,6 +224,14 @@
       "CachePath": "8E/{8E6ECBFE-E46C-41C5-B3E5-1D8EA7844CF0}.wem"
      },
      {
+      "Id": "302240059",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_PressurePad_Pressed.wav",
+      "CachePath": "21/{21E97489-E65E-586B-EA6C-311D5B7A7D50}.wem"
+     },
+     {
       "Id": "304280999",
       "Language": "SFX",
       "Streaming": "false",
@@ -254,14 +262,6 @@
       "Location": "Memory",
       "ShortName": "SFX_Staff_PickUp.wav",
       "CachePath": "E8/{E82D6974-13AA-87B0-C3E1-3A23EEDC64DA}.wem"
-     },
-     {
-      "Id": "330622173",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_Grenadier_Prepare_Punch.wav",
-      "CachePath": "39/{39F7E8ED-63AD-6E31-69D0-D4E386A9A012}.wem"
      },
      {
       "Id": "348037534",
@@ -310,6 +310,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Footstep_Grass_07.wav",
       "CachePath": "B2/{B2B1FB80-3E99-E751-0F4F-710D3836C7E1}.wem"
+     },
+     {
+      "Id": "413158603",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Smash_04.wav",
+      "CachePath": "CC/{CC0F4A36-1ADC-6D69-7953-367F074A9B3E}.wem"
      },
      {
       "Id": "420773595",
@@ -496,6 +504,14 @@
       "CachePath": "4F/{4F85B860-67C9-145F-9B6B-C5F98B09296B}.wem"
      },
      {
+      "Id": "562929661",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Smash_03.wav",
+      "CachePath": "A8/{A8925A1B-B2E0-988F-E7B7-67AFB77BA59A}.wem"
+     },
+     {
       "Id": "584238416",
       "Language": "SFX",
       "Streaming": "false",
@@ -608,6 +624,14 @@
       "CachePath": "9F/{9F0EEF1F-3866-C982-DC02-5C00940ABC78}.wem"
      },
      {
+      "Id": "694414308",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Smash_01.wav",
+      "CachePath": "EA/{EA94A069-7991-F427-D23B-32DF166675D8}.wem"
+     },
+     {
       "Id": "695809018",
       "Language": "SFX",
       "Streaming": "false",
@@ -672,6 +696,14 @@
       "CachePath": "C4/{C42D8C35-6F32-E4AD-0356-D916EA5DCA65}.wem"
      },
      {
+      "Id": "750717155",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Smash_02.wav",
+      "CachePath": "8D/{8D0026CD-E633-E915-F3A0-78BEEFAEC81F}.wem"
+     },
+     {
       "Id": "754620863",
       "Language": "SFX",
       "Streaming": "false",
@@ -694,6 +726,14 @@
       "Location": "Memory",
       "ShortName": "AMB_Water.wav",
       "CachePath": "B9/{B9E062A6-6456-1B9F-37F2-2535E9477AFF}.wem"
+     },
+     {
+      "Id": "774297337",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_PressurePad_Swell.wav",
+      "CachePath": "66/{66EF50CA-CCE1-34E1-FD3F-F8BC7D2D881A}.wem"
      },
      {
       "Id": "786744393",
@@ -728,12 +768,28 @@
       "CachePath": "C8/{C8297BA8-6A4E-A621-B0BF-075386ACB83B}.wem"
      },
      {
+      "Id": "827775449",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Grenadier_Punch.wav",
+      "CachePath": "C3/{C38F8F2A-EDC9-47FA-3665-1FD18DC0E4EE}.wem"
+     },
+     {
       "Id": "828575570",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ellen_Footstep_Metal_04.wav",
       "CachePath": "75/{7555FD42-814F-F5FA-09F9-5312A19D7DB1}.wem"
+     },
+     {
+      "Id": "833132998",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Chomper_Bite.wav",
+      "CachePath": "68/{68657FCC-D1CE-E283-463F-855EB5C42F09}.wem"
      },
      {
       "Id": "864634417",
@@ -1072,7 +1128,7 @@
       "ObjectPath": "\\Events\\Ambience\\Play_Amb_Water",
       "GUID": "{60E34E90-1772-4B41-B83B-22BD46F5858D}",
       "Color": "4",
-      "MaxAttenuation": "15",
+      "MaxAttenuation": "30",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1113,20 +1169,27 @@
       "ObjectPath": "\\Events\\World\\Play_Chest_Swell",
       "GUID": "{69A23D73-B1FA-4042-A345-B17205A00F94}",
       "Color": "11",
-      "MaxAttenuation": "16",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "729393014"
        }
-      ],
-      "AuxBusRefs": [
+      ]
+     },
+     {
+      "Id": "2565711093",
+      "Name": "Play_Chomper_Bite",
+      "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Bite",
+      "GUID": "{4CFB4F7A-B5CC-4B32-9687-8234A0F97EBB}",
+      "Color": "1",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.29710418",
+      "DurationMax": "0.29710418",
+      "MediaRefs": [
        {
-        "Id": "1676981132",
-        "Name": "Rev_SwitchesArea",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master_Audio_Bus\\SFX_Bus\\Reverbs_AUX\\Rev_SwitchesArea",
-        "GUID": "{0A19BD35-A89B-4686-8214-AF0FE99A0B25}",
-        "Color": "2"
+        "Id": "833132998"
        }
       ]
      },
@@ -1152,16 +1215,27 @@
       "ObjectPath": "\\Events\\NPC\\ChomperCombat\\Play_Chomper_Death",
       "GUID": "{C3C5C866-8B0A-43C3-A9D4-9EF60EDCB0D1}",
       "Color": "1",
-      "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0.51110786",
-      "DurationMax": "1.0141048",
+      "DurationMin": "0.785253",
+      "DurationMax": "1.2641048",
       "MediaRefs": [
        {
         "Id": "84591386"
        },
        {
         "Id": "304280999"
+       },
+       {
+        "Id": "413158603"
+       },
+       {
+        "Id": "562929661"
+       },
+       {
+        "Id": "694414308"
+       },
+       {
+        "Id": "750717155"
        },
        {
         "Id": "1032384779"
@@ -1347,9 +1421,10 @@
       "ObjectPath": "\\Events\\World\\Play_Eeldog",
       "GUID": "{2AC001AE-D6CF-4F76-ABAD-8CA6D2DFE06A}",
       "Color": "11",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "8.086184",
+      "DurationMin": "0.33724004",
+      "DurationMax": "1.0861832",
       "MediaRefs": [
        {
         "Id": "168740610"
@@ -1478,11 +1553,11 @@
       "Color": "1",
       "MaxAttenuation": "75",
       "DurationType": "OneShot",
-      "DurationMin": "2.6868846",
-      "DurationMax": "2.9470422",
+      "DurationMin": "2.3003726",
+      "DurationMax": "2.523106",
       "MediaRefs": [
        {
-        "Id": "330622173"
+        "Id": "827775449"
        }
       ]
      },
@@ -1896,6 +1971,38 @@
       ]
      },
      {
+      "Id": "1919511673",
+      "Name": "Play_PressurePad_Pressed",
+      "ObjectPath": "\\Events\\World\\Play_PressurePad_Pressed",
+      "GUID": "{15238EA1-676D-45CF-AAD4-FE75E71949A3}",
+      "Color": "11",
+      "MaxAttenuation": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9650834",
+      "DurationMax": "1.9650834",
+      "MediaRefs": [
+       {
+        "Id": "302240059"
+       }
+      ]
+     },
+     {
+      "Id": "2766841784",
+      "Name": "Play_PressurePad_Swell",
+      "ObjectPath": "\\Events\\World\\Play_PressurePad_Swell",
+      "GUID": "{6E148E36-F73A-41D0-B344-2AED157B4DCF}",
+      "Color": "11",
+      "MaxAttenuation": "25",
+      "DurationType": "OneShot",
+      "DurationMin": "15.684167",
+      "DurationMax": "15.684167",
+      "MediaRefs": [
+       {
+        "Id": "774297337"
+       }
+      ]
+     },
+     {
       "Id": "651543525",
       "Name": "Play_Rock_Break",
       "ObjectPath": "\\Events\\World\\Play_Rock_Break",
@@ -1992,7 +2099,7 @@
       "ObjectPath": "\\Events\\World\\Play_WeaponPedestal_Swell",
       "GUID": "{42EF8B9A-CE27-42D2-8B51-4BAE7B38E29E}",
       "Color": "11",
-      "MaxAttenuation": "12",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -2025,6 +2132,17 @@
       "Name": "Stop_Crystal_Swell",
       "ObjectPath": "\\Events\\World\\Stop_Crystal_Swell",
       "GUID": "{2E1E6436-5B60-42A0-92FA-2B1777606E06}",
+      "Color": "11",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3871738262",
+      "Name": "Stop_PressurePad_Swell",
+      "ObjectPath": "\\Events\\World\\Stop_PressurePad_Swell",
+      "GUID": "{22D7542D-0804-429E-899C-E4312E1B3032}",
       "Color": "11",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -2312,6 +2430,6 @@
     ]
    }
   ],
-  "FileHash": "{FB097B5E-693A-CFD3-63EF-98B00F0B5AAA}"
+  "FileHash": "{2CA8D1DD-BE76-55B9-179F-0A857FEB75D3}"
  }
 }

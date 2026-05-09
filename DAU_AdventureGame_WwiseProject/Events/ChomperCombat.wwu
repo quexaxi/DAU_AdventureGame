@@ -22,7 +22,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Chomper_Smell_01" ID="{DFB0C5ED-57A5-4565-A252-F977617923BE}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+									<ObjectRef Name="Chomper_Smell" ID="{DFB0C5ED-57A5-4565-A252-F977617923BE}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -31,9 +31,19 @@
 				<Event Name="Play_Chomper_Death" ID="{C3C5C866-8B0A-43C3-A9D4-9EF60EDCB0D1}">
 					<ChildrenList>
 						<Action Name="" ID="{75178742-FF34-45CA-9765-B70868A74075}" ShortID="806716480">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Chomper_Death" ID="{2DC50FEB-11DA-4085-88D1-10DB93B6CF7D}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{47EC6DF1-7995-466B-A09C-61A790A9C32E}" ShortID="113336115">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Smash_Enemy" ID="{027E9E8F-28CD-4B64-82F6-62AFDEAB7486}" WorkUnitID="{E58704DA-4B44-4314-88F7-6306A242EB30}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -47,7 +57,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Chomper_Breath_01" ID="{55B510AE-8A35-4BB8-827E-4AEC587AFA50}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+									<ObjectRef Name="Chomper_Breath" ID="{55B510AE-8A35-4BB8-827E-4AEC587AFA50}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -61,7 +71,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Chomper_Slurp_01" ID="{1326214C-2FF4-4E7F-85AF-CF8F44FD4790}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+									<ObjectRef Name="Chomper_Slurp" ID="{1326214C-2FF4-4E7F-85AF-CF8F44FD4790}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -72,7 +82,18 @@
 						<Action Name="" ID="{990CCC69-0139-49A8-A78F-8FBBFE1C25FD}" ShortID="368729232">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Chomper_Spotted_01" ID="{4AF26F3E-F496-4DEB-BA41-CCFC8712824E}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+									<ObjectRef Name="Chomper_Spotted" ID="{4AF26F3E-F496-4DEB-BA41-CCFC8712824E}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chomper_Bite" ID="{4CFB4F7A-B5CC-4B32-9687-8234A0F97EBB}">
+					<ChildrenList>
+						<Action Name="" ID="{C8C5F7DF-56C7-4733-A938-8CC5885D4623}" ShortID="620379058">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chomper_Bite" ID="{ABAA843B-0D32-4882-B222-BC1E9D5C285E}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

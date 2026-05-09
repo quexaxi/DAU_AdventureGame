@@ -808,7 +808,7 @@
 										</Property>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
-												<Value>12</Value>
+												<Value>10</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Pitch" Type="int32">
@@ -884,6 +884,28 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="SFX_Grenadier_Prepare_Punch" ID="{FBEF0899-E026-47BA-BB93-029CC2BB83AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Grenadier_Punch" ID="{A784B6A5-8576-44BE-B97D-CBFB4C609EC1}" ShortID="572685491">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Grenadier_Punch" ID="{03E4C4B7-09E2-4537-B983-662E75712510}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Grenadier_Punch.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="827775449"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Grenadier_Punch" ID="{03E4C4B7-09E2-4537-B983-662E75712510}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1243,7 +1265,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<Sound Name="SFX_Chomper_Spotted_01" ID="{4AF26F3E-F496-4DEB-BA41-CCFC8712824E}" ShortID="693902759">
+								<Sound Name="Chomper_Spotted" ID="{4AF26F3E-F496-4DEB-BA41-CCFC8712824E}" ShortID="693902759">
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
 											<ModifierList>
@@ -1308,7 +1330,7 @@
 										<ActiveSource Name="SFX_Chomper_Spotted_01" ID="{00466744-8451-4849-B185-73C4B3335F9F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Chomper_Slurp_01" ID="{1326214C-2FF4-4E7F-85AF-CF8F44FD4790}" ShortID="415747570">
+								<Sound Name="Chomper_Slurp" ID="{1326214C-2FF4-4E7F-85AF-CF8F44FD4790}" ShortID="415747570">
 									<PropertyList>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
@@ -1360,7 +1382,7 @@
 										<ActiveSource Name="SFX_Chomper_Slurp_01" ID="{E5750A3C-A988-4FD6-915A-97A77C86A004}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Chomper_Breath_01" ID="{55B510AE-8A35-4BB8-827E-4AEC587AFA50}" ShortID="472862995">
+								<Sound Name="Chomper_Breath" ID="{55B510AE-8A35-4BB8-827E-4AEC587AFA50}" ShortID="472862995">
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
 											<ModifierList>
@@ -1433,7 +1455,7 @@
 										<ActiveSource Name="SFX_Chomper_Breath_01" ID="{B42CF92F-0723-4C25-B3E0-0736B233428E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="SFX_Chomper_Smell_01" ID="{DFB0C5ED-57A5-4565-A252-F977617923BE}" ShortID="638921379">
+								<Sound Name="Chomper_Smell" ID="{DFB0C5ED-57A5-4565-A252-F977617923BE}" ShortID="638921379">
 									<PropertyList>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
@@ -1725,6 +1747,45 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="Chomper_Bite" ID="{ABAA843B-0D32-4882-B222-BC1E9D5C285E}" ShortID="674914625">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master_Audio_Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CFF99A16-7534-4E7A-9F59-B682EA0ED5B7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Chomper_Bite" ID="{BEC1705F-BD05-4BF8-B5CA-F7A864EB55D7}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Chomper_Bite.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="833132998"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Chomper_Bite" ID="{BEC1705F-BD05-4BF8-B5CA-F7A864EB55D7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<PositioningInfo>
 								<Position Name="" ID="{B7D1957B-1E81-407B-BF64-C25A4F419AC8}"/>

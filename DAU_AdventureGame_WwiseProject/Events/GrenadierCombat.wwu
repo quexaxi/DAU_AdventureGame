@@ -38,10 +38,10 @@
 				</Event>
 				<Event Name="Play_Grenadier_Punch" ID="{72D835A4-7FB0-48BA-8336-D4B46DE5205B}">
 					<ChildrenList>
-						<Action Name="" ID="{E2F28B4F-B4BF-4299-967A-8CA28151B832}" ShortID="755201494">
+						<Action Name="" ID="{00341015-0C2D-449B-9625-24D18B781C15}" ShortID="1064619374">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Grenadier_Punch" ID="{A7020EA9-D42F-4E90-8608-18E82F35271E}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
+									<ObjectRef Name="SFX_Grenadier_Punch" ID="{A784B6A5-8576-44BE-B97D-CBFB4C609EC1}" WorkUnitID="{126FAAC0-B189-4A1A-B91E-48E11E461549}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

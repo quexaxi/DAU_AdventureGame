@@ -172,6 +172,43 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PressurePad_Swell" ID="{6E148E36-F73A-41D0-B344-2AED157B4DCF}">
+					<ChildrenList>
+						<Action Name="" ID="{314F647C-C89E-4B6E-BC7F-0CD4475011E4}" ShortID="537146136">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PressurePad_Swell" ID="{7154EFFC-1FD0-4C90-A8F1-8B627AAE3B71}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_PressurePad_Swell" ID="{22D7542D-0804-429E-899C-E4312E1B3032}">
+					<ChildrenList>
+						<Action Name="" ID="{E69E6843-74BE-47DA-AA4D-8F37475E736B}" ShortID="848481749">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PressurePad_Swell" ID="{7154EFFC-1FD0-4C90-A8F1-8B627AAE3B71}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PressurePad_Pressed" ID="{15238EA1-676D-45CF-AAD4-FE75E71949A3}">
+					<ChildrenList>
+						<Action Name="" ID="{EAFDBD12-3620-4E35-9020-40A797A8C560}" ShortID="167338181">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PressurePad_Pressed" ID="{61104CD5-F252-4687-9E1D-596097AB182C}" WorkUnitID="{331F39D4-6C9E-4ADC-99B9-C88A459312D4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
