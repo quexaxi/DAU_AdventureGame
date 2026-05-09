@@ -95776,13 +95776,11 @@ MonoBehaviour:
   attackEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 1f804e22dcd0e4d478527caa5476d9a9,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   endAttackEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 1f804e22dcd0e4d478527caa5476d9a9,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   hitEvent:
     idInternal: 0
     valueGuidInternal: 

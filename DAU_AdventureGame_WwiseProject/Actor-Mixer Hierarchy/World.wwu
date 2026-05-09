@@ -548,9 +548,6 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Swell" ID="{13573EE4-C8EC-4C9D-84F5-A0856C3425D4}" WorkUnitID="{3527C007-9CD2-4C70-B30F-0E55AD7BC424}"/>
-										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{57E34A6B-930B-4C68-A2FF-2D70F9D11C92}"/>
 										</Reference>

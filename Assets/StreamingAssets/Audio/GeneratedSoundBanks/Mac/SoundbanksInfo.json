@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E2002279-5ED8-4767-BD14-FAC2C1015F05}",
     "Language": "SFX",
-    "Hash": "{C2FFAB10-2A0E-9E7A-3340-E355E816947B}",
+    "Hash": "{65EBCEB4-7F33-AAF7-CFE6-CC85DC6D98BF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Main",
     "ShortName": "SB_Main",
     "Path": "SB_Main.bnk",
@@ -230,14 +230,6 @@
       "Location": "Memory",
       "ShortName": "SFX_Ellen_Footstep_Dirt_06.wav",
       "CachePath": "8E/{8E6ECBFE-E46C-41C5-B3E5-1D8EA7844CF0}.wem"
-     },
-     {
-      "Id": "302240059",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_PressurePad_Pressed.wav",
-      "CachePath": "21/{21E97489-E65E-586B-EA6C-311D5B7A7D50}.wem"
      },
      {
       "Id": "304280999",
@@ -734,14 +726,6 @@
       "Location": "Memory",
       "ShortName": "AMB_Water.wav",
       "CachePath": "B9/{B9E062A6-6456-1B9F-37F2-2535E9477AFF}.wem"
-     },
-     {
-      "Id": "774297337",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_PressurePad_Swell.wav",
-      "CachePath": "66/{66EF50CA-CCE1-34E1-FD3F-F8BC7D2D881A}.wem"
      },
      {
       "Id": "786744393",
@@ -1618,6 +1602,58 @@
       ]
      },
      {
+      "Id": "1378767680",
+      "Name": "Play_Main_Music_Switch",
+      "ObjectPath": "\\Events\\Music\\Play_Main_Music_Switch",
+      "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
+      "Color": "18",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "2582085496",
+         "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
+         "Color": "12"
+        },
+        "MediaRefs": [
+         {
+          "Id": "622130365"
+         }
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1706684651"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "2323193050",
+         "GUID": "{791E3DFA-B917-4A23-BA27-09DA2A45E68C}",
+         "Color": "12"
+        },
+        "MediaRefs": [
+         {
+          "Id": "40400148"
+         }
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "2513915904"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
       "Id": "1614763749",
       "Name": "Play_Music_Main",
       "ObjectPath": "\\Events\\Music\\Play_Music_Main",
@@ -1979,38 +2015,6 @@
       ]
      },
      {
-      "Id": "1919511673",
-      "Name": "Play_PressurePad_Pressed",
-      "ObjectPath": "\\Events\\World\\Play_PressurePad_Pressed",
-      "GUID": "{15238EA1-676D-45CF-AAD4-FE75E71949A3}",
-      "Color": "11",
-      "MaxAttenuation": "12",
-      "DurationType": "OneShot",
-      "DurationMin": "1.9650834",
-      "DurationMax": "1.9650834",
-      "MediaRefs": [
-       {
-        "Id": "302240059"
-       }
-      ]
-     },
-     {
-      "Id": "2766841784",
-      "Name": "Play_PressurePad_Swell",
-      "ObjectPath": "\\Events\\World\\Play_PressurePad_Swell",
-      "GUID": "{6E148E36-F73A-41D0-B344-2AED157B4DCF}",
-      "Color": "11",
-      "MaxAttenuation": "25",
-      "DurationType": "OneShot",
-      "DurationMin": "15.684167",
-      "DurationMax": "15.684167",
-      "MediaRefs": [
-       {
-        "Id": "774297337"
-       }
-      ]
-     },
-     {
       "Id": "651543525",
       "Name": "Play_Rock_Break",
       "ObjectPath": "\\Events\\World\\Play_Rock_Break",
@@ -2140,17 +2144,6 @@
       "Name": "Stop_Crystal_Swell",
       "ObjectPath": "\\Events\\World\\Stop_Crystal_Swell",
       "GUID": "{2E1E6436-5B60-42A0-92FA-2B1777606E06}",
-      "Color": "11",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "3871738262",
-      "Name": "Stop_PressurePad_Swell",
-      "ObjectPath": "\\Events\\World\\Stop_PressurePad_Swell",
-      "GUID": "{22D7542D-0804-429E-899C-E4312E1B3032}",
       "Color": "11",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -3180,141 +3173,6 @@
     ]
    },
    {
-    "Id": "1378767680",
-    "Type": "Event",
-    "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
-    "Language": "SFX",
-    "Hash": "{87357153-B0A0-6AB4-C581-C176A838E2E2}",
-    "ObjectPath": "Play_Main_Music_Switch",
-    "ShortName": "Play_Main_Music_Switch",
-    "Path": "Event/13/Play_Main_Music_Switch.bnk",
-    "Media": [
-     {
-      "Id": "40400148",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Music_Temple.wav",
-      "Path": "Media/40/40400148.wem",
-      "CachePath": "41/{41BB8506-F69A-E5A7-6737-DAED860FF2A6}.wem"
-     },
-     {
-      "Id": "622130365",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Music_Exploration.wav",
-      "Path": "Media/62/622130365.wem",
-      "CachePath": "96/{96D716F7-DEEE-62D4-88F8-6C8F1F938763}.wem"
-     }
-    ],
-    "Plugins": {
-     "ShareSets": [
-      {
-       "Id": "1706684651",
-       "Name": "Plate_Medium",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Plates\\Plate_Medium",
-       "GUID": "{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
-      },
-      {
-       "Id": "2513915904",
-       "Name": "Hall_Large",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
-       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
-      }
-     ]
-    },
-    "Events": [
-     {
-      "Id": "1378767680",
-      "Name": "Play_Main_Music_Switch",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_Music_Switch",
-      "GUID": "{01A1A9FB-7994-4949-B3F8-2B6010F098B4}",
-      "DurationType": "Infinite",
-      "SwitchContainers": [
-       {
-        "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "1021618141",
-         "Id": "2582085496",
-         "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
-         "Color": "12"
-        },
-        "MediaRefs": [
-         {
-          "Id": "622130365"
-         }
-        ],
-        "PluginRefs": {
-         "ShareSets": [
-          {
-           "Id": "1706684651"
-          }
-         ]
-        }
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "1021618141",
-         "Id": "2323193050",
-         "GUID": "{791E3DFA-B917-4A23-BA27-09DA2A45E68C}",
-         "Color": "12"
-        },
-        "MediaRefs": [
-         {
-          "Id": "40400148"
-         }
-        ],
-        "PluginRefs": {
-         "ShareSets": [
-          {
-           "Id": "2513915904"
-          }
-         ]
-        }
-       }
-      ]
-     }
-    ],
-    "StateGroups": [
-     {
-      "Id": "1021618141",
-      "Name": "MusicState",
-      "ObjectPath": "\\States\\Default Work Unit\\MusicState",
-      "GUID": "{F714286F-C4F3-4B41-BED2-DDC496A95F31}",
-      "Color": "12",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\None",
-        "GUID": "{4025E397-C4C3-4587-A10E-3AB9AA03E94A}",
-        "Color": "12"
-       },
-       {
-        "Id": "2323193050",
-        "Name": "Temple",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Temple",
-        "GUID": "{791E3DFA-B917-4A23-BA27-09DA2A45E68C}",
-        "Color": "12"
-       },
-       {
-        "Id": "2582085496",
-        "Name": "Exploration",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Exploration",
-        "GUID": "{0180C728-A311-4821-8CEB-A032B9BF122B}",
-        "Color": "12"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "Id": "1495343048",
     "Type": "Bus",
     "GUID": "{1F870487-926E-4BD5-9B1F-3F0CE683C813}",
@@ -3569,6 +3427,6 @@
     ]
    }
   ],
-  "FileHash": "{0F54697D-7A5D-70FE-F58A-AE5A77D3D015}"
+  "FileHash": "{18C08F35-D909-3EBE-B458-3AD9E648D513}"
  }
 }

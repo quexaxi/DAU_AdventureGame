@@ -28,3 +28,4 @@ public class LifeCrateAudioLogic : MonoBehaviour
             stopSwellEvent.Post(gameObject);
     }
 }
+

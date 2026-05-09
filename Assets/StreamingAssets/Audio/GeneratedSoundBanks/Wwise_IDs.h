@@ -51,8 +51,6 @@ namespace AK
         static const AkUniqueID PLAY_PLAYER_JUMPUP = 2528119339U;
         static const AkUniqueID PLAY_PLAYER_LAND = 4249207015U;
         static const AkUniqueID PLAY_PLAYER_ROLL = 2370959289U;
-        static const AkUniqueID PLAY_PRESSUREPAD_PRESSED = 1919511673U;
-        static const AkUniqueID PLAY_PRESSUREPAD_SWELL = 2766841784U;
         static const AkUniqueID PLAY_ROCK_BREAK = 651543525U;
         static const AkUniqueID PLAY_STAFF_PICKUP = 877612971U;
         static const AkUniqueID PLAY_STAFF_SWING = 3707491759U;
@@ -60,7 +58,6 @@ namespace AK
         static const AkUniqueID PLAY_WEAPONPEDESTAL_SWELL = 969098578U;
         static const AkUniqueID STOP_CHEST_SWELL = 3235850781U;
         static const AkUniqueID STOP_CRYSTAL_SWELL = 833621684U;
-        static const AkUniqueID STOP_PRESSUREPAD_SWELL = 3871738262U;
         static const AkUniqueID STOP_WEAPONPEDESTAL_SWELL = 2610202148U;
         static const AkUniqueID UI_BACK = 2024222415U;
         static const AkUniqueID UI_CANCEL = 3083016892U;

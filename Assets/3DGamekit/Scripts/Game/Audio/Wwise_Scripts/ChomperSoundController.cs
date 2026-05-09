@@ -17,6 +17,7 @@ public class ChomperSoundController : MonoBehaviour
     public AK.Wwise.Event chomperHit03Event;
     public AK.Wwise.Event chomperHit04Event;
     public AK.Wwise.Event chomperDeathEvent;
+    public AK.Wwise.Event chomperBiteEvent;
 
 
     public void AnimSlurp()
@@ -77,6 +78,11 @@ public class ChomperSoundController : MonoBehaviour
     public void ChomperDeath()
     {
         chomperDeathEvent.Post(gameObject);
+    }
+
+    public void ChomperBite()
+    {
+        chomperBiteEvent.Post(gameObject);
     }
 
 }
